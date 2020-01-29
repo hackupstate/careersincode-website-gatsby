@@ -9,7 +9,13 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 import Header from "./header"
+import Navbar from "./navbar"
+import Jumbotron from "./jumbotron"
+import Footer from "./footer"
+
 import "./layout.css"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -37,12 +43,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
+      <Footer />
+
+
     </>
   )
 }
