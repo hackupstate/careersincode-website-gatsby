@@ -19,7 +19,6 @@ const Footer = (props) => {
         <Container fluid={true}>
             <div className={footerStyles}>
                 <footer>
-
                     <div className={footerStyles.footerBackground}>
                         <Row xs="3">
                             <Col>
@@ -64,7 +63,6 @@ const Footer = (props) => {
                             </Col>
                         </Row>
                     </div>
-
                 </footer>
             </div>
         </Container >
