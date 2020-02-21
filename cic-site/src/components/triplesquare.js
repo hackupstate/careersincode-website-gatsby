@@ -138,3 +138,7 @@ const TripleSquare = (props) => {
 }
 
 export default TripleSquare;
+
+// to do: fix hover on buttons so it actually works
+// move styling to module or css sheet from inline
+// add media breakpoints for mobile/tablet so it looks less garbage when it collapses

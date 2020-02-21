@@ -73,3 +73,6 @@ export default Footer;
 
 //© Careers in Code {new Date().getFullYear()}
 
+// to do: figure out gaps on left/right side of footer so it takes up 100% of the space
+// add media breakpoints for mobile/tablet so it looks less garbage when it collapse
+
