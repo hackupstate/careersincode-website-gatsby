@@ -2,8 +2,9 @@ import React from "react"
 import { Link } from 'gatsby'
 import { Container, Row, Col, Button } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import content from '../content/content.json'
 
-const TripleSquare = (props) => {
+const BottomRowContainer = (props) => {
     return (
         <Container fluid={true}>
             <div>
@@ -23,15 +24,14 @@ const TripleSquare = (props) => {
                             }
                         }}
                         md="4">
-                        <h1> Students </h1>
+                        <h1> {content.ui.index_main_content_bottom_row_container_one.title} </h1>
                         <p style={{
                             fontSize: '24px'
                         }}>
-                            Transform your career. The average salary for coding bootcamp graduates according
-      to the Council on Integrity in Results Reporting is $53,273.
-                            </p>
+                            {content.ui.index_main_content_bottom_row_container_one.copy}
+                        </p>
 
-                        <Link to='/students/'>
+                        <Link to={content.ui.index_main_content_bottom_row_container_one.link}>
                             <Button size="lg" style={{
                                 background: 'white',
                                 width: 'auto',
@@ -45,7 +45,7 @@ const TripleSquare = (props) => {
                                 marginTop: '5%'
                             }}>
 
-                                Apply Today
+                                {content.ui.index_main_content_bottom_row_container_one.button}
                             </Button>
                         </Link>
 
@@ -66,14 +66,14 @@ const TripleSquare = (props) => {
                         }}
                         md="4"
                     >
-                        <h1> Instructors </h1>
+                        <h1> {content.ui.index_main_content_bottom_row_container_two.title} </h1>
                         <p style={{
                             fontSize: '24px'
                         }}>
-                            Calling all Central NY software developers. We want to hire you! Join us in our
-                        mission to combat poverty and train our region's next crop of software developers.</p>
+                            {content.ui.index_main_content_bottom_row_container_two.copy}
+                        </p>
 
-                        <Link to='/instructors/' style={{ fontSize: '18px', color: "white" }}>
+                        <Link to={content.ui.index_main_content_bottom_row_container_two.link} style={{ fontSize: '18px', color: "white" }}>
                             <Button size="lg" style={{
                                 background: '#2de187',
                                 width: 'auto',
@@ -86,8 +86,8 @@ const TripleSquare = (props) => {
                                 },
                                 marginTop: '5%'
                             }}>
-                                Become an Instructor
-                        </Button>
+                                {content.ui.index_main_content_bottom_row_container_two.button}
+                            </Button>
                         </Link>
                     </Col>
                     <Col
@@ -105,15 +105,13 @@ const TripleSquare = (props) => {
                             }
                         }}
                         md="4">
-                        <h1> Partners </h1>
+                        <h1> {content.ui.index_main_content_bottom_row_container_three.title} </h1>
                         <p style={{
                             fontSize: '24px'
                         }}>
-                            Now more than ever software developers are critical to the growth and
-              sustainability
-              of your company and our local economy. We want to help you grow locally!
+                            {content.ui.index_main_content_bottom_row_container_three.copy}
                         </p>
-                        <Link to='/partner/'>
+                        <Link to={content.ui.index_main_content_bottom_row_container_three.link}>
                             <Button size="lg" style={{
                                 background: 'white',
                                 width: 'auto',
@@ -127,7 +125,7 @@ const TripleSquare = (props) => {
                                 marginTop: '5%'
                             }}>
 
-                                Hire Our Developers
+                                {content.ui.index_main_content_bottom_row_container_three.button}
                             </Button>
                         </Link>
                     </Col>
@@ -137,7 +135,7 @@ const TripleSquare = (props) => {
     )
 }
 
-export default TripleSquare;
+export default BottomRowContainer;
 
 // to do: fix hover on buttons so it actually works
 // move styling to module or css sheet from inline

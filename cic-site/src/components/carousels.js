@@ -1,5 +1,7 @@
 import React, { useState } from "react"
+import { Link } from 'gatsby'
 import {
+    Button,
     Carousel,
     CarouselItem,
     CarouselControl,
@@ -11,6 +13,7 @@ import Joey from '../images/instructors/joeybuczek.jpg';
 import Kelly from '../images/students/kellycorey.jpg';
 import Doug from '../images/team/dougcrescenzi.png';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import content from '../content/content.json'
 
 // code for testimonial carousel taken from https://reactstrap.github.io/components/carousel/
 
@@ -35,7 +38,7 @@ const items = [
     }
 ];
 
-const Testimonials = (props) => {
+const Carousels = (props) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
 
@@ -71,6 +74,7 @@ const Testimonials = (props) => {
                 }}
             >
                 <img
+                    className="d-block w-100"
                     style={{
                         width: '50%',
                         height: '50%',
@@ -102,7 +106,7 @@ const Testimonials = (props) => {
                         textAlign: 'center'
                     }}
                 >
-                    <h3> Testimonials </h3>
+                    <h3> {content.ui.index_main_content_testimonials.copy} </h3>
                 </Col>
             </div>
             <Carousel
@@ -119,13 +123,33 @@ const Testimonials = (props) => {
                 <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
                 <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
             </Carousel>
+            <Col md="12"
+                style={{
+                    textAlign: 'center'
+                }}>
+                <Link to={content.ui.index_main_content_testimonials_button.link}>
+                    <Button size="lg" style={{
+                        background: '#2299dd',
+                        width: 'auto',
+                        borderRadius: '0px',
+                        color: 'white',
+                        margin: '5%',
+                        "&:hover": {
+                            background: '#ffffff',
+                            opacity: '0.8'
+                        },
+                        marginTop: '5%'
+                    }}>
+                        {content.ui.index_main_content_testimonials_button.copy}
+                    </Button>
+                </Link>
+            </Col>
         </div>
     );
 }
 
-export default Testimonials;
+export default Carousels;
 
 // to do: continue moving/adjusting CSS styles from main.css in cic current website code
-// add button to testimonial page using Link
 // figure out how to move text below image -> this is different from default reactstrap carousel!
 // add media breakpoints for mobile/tablet so it looks less garbage when it collapses
