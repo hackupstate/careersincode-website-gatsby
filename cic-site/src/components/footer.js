@@ -12,6 +12,7 @@ import Med from '../images/social/med.png'
 import Slack from '../images/social/slack-green.png'
 import TW from '../images/social/tw.png'
 import YT from '../images/social/yt-blue.png'
+import content from '../content/content.json'
 
 
 const Footer = (props) => {
@@ -23,24 +24,24 @@ const Footer = (props) => {
                         <Row xs="3">
                             <Col>
                                 <div className={footerStyles.footerText}>
-                                    <h4 className={footerStyles.footerTextBold}>Contact</h4>
-                                    {/*  */}
+                                    <h4 className={footerStyles.footerTextBold}> {content.ui.footer_main_content_contact.title}</h4>
+
                                     <div className="mb-4">
-                                        <p className="mb-0">Doug Crescenzi</p>
-                                        <p className="mb-0"><a className={footerStyles.footerLink} href="mailto:doug@hackupstate.com">doug@hackupstate.com</a></p>
-                                        <p className="mb-0"><a className={footerStyles.footerLink} href="tel:315-436-8655">(315) 436-8655</a></p>
+                                        <p className="mb-0"> {content.ui.footer_main_content_contact_one.name} </p>
+                                        <p className="mb-0"><a className={footerStyles.footerLink} href="mailto:doug@hackupstate.com"> {content.ui.footer_main_content_contact_one.email_text} </a></p>
+                                        <p className="mb-0"><a className={footerStyles.footerLink} href="tel:315-436-8655"> {content.ui.footer_main_content_contact_one.phone_text} </a></p>
                                     </div>
                                     <div className="mb-4">
-                                        <p className="mb-0">Jesse Peplinski</p>
-                                        <p className="mb-0"><a className={footerStyles.footerLink} href="mailto:jesse@hackupstate.com">jesse@hackupstate.com</a></p>
-                                        <p className="mb-0"><a className={footerStyles.footerLink} href="tel:315-409-3514">(315) 409-3514</a></p>
+                                        <p className="mb-0"> {content.ui.footer_main_content_contact_two.name} </p>
+                                        <p className="mb-0"><a className={footerStyles.footerLink} href="mailto:jesse@hackupstate.com"> {content.ui.footer_main_content_contact_two.email_text} </a></p>
+                                        <p className="mb-0"><a className={footerStyles.footerLink} href="tel:315-409-3514"> {content.ui.footer_main_content_contact_two.phone_text} </a></p>
                                     </div>
                                 </div>
                             </Col>
 
                             <Col>
                                 <div className={footerStyles.footerText}>
-                                    <h4 className={footerStyles.footerTextBold}>Connect</h4>
+                                    <h4 className={footerStyles.footerTextBold}> {content.ui.footer_main_content_connect.title} </h4>
                                     <a href="https://www.facebook.com/hackupstate" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={FB} alt="Facebook logo" /> </a>
                                     <a href="https://www.twitter.com/hackupstate" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={TW} alt="Twitter logo" /> </a>
                                     <a href="https://www.medium.com/@hackupstate" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={Med} alt="Medium logo" /> </a>
@@ -54,9 +55,9 @@ const Footer = (props) => {
 
                             <Col>
                                 <div className={footerStyles.footerText}>
-                                    <h4 className={footerStyles.footerTextBold}>More Links</h4>
-                                    <p className="mb-0"><a className={footerStyles.footerLink} href="http://hackupstate.com/conduct.html">Code of Conduct</a></p>
-                                    <p className="mb-0"><a className={footerStyles.footerLink} href="http://hackupstate.com/privacy.html">Privacy Policy</a></p>
+                                    <h4 className={footerStyles.footerTextBold}> {content.ui.footer_main_content_more_links.title} </h4>
+                                    <p className="mb-0"><a className={footerStyles.footerLink} href="http://hackupstate.com/conduct.html"> {content.ui.footer_main_content_more_links_one.title} </a></p>
+                                    <p className="mb-0"><a className={footerStyles.footerLink} href="http://hackupstate.com/privacy.html">{content.ui.footer_main_content_more_links_two.title}</a></p>
                                     <br /><br /><br />
                                     <p className="mb-0">© Careers in Code {new Date().getFullYear()}</p>
                                 </div>
