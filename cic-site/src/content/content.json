@@ -1,126 +1,138 @@
 {
-    "ui": {
-        "index_main_content_top_text": {
-            "copy": "Poverty throughout Central NY is rising at an accelerated rate and stifling our region's economic potential.",
-            "description": "There are few opportunities for women and minorities to advance in concentrated areas of extreme poverty.",
-            "link": "https://medium.com/@hackupstate/announcing-hack-upstates-careers-in-code-a8ff0bfeddbf",
-            "button": "Learn More"
-        },
-        "index_main_content_bottom_text": {
-            "copy": "Many Central NY employers struggle to find local software developers.",
-            "link": "/partner",
-            "button": "We Can Help"
-        },
-        "index_main_content_testimonials": {
-            "copy": "Testimonials"
-        },
-        "index_main_content_testimonials_one": {
-            "image": "../images/team/dougcrescenzi.png",
-            "copy": "The rise of coding bootcamps throughout the country reflects the shortage of adequately trained software developers graduating from universities and the relative demand for them from the technology sector. The reason coding bootcamps have proven effective over the years is because they provide vocational training at a fraction of the cost of a college degree.",
-            "name": "DOUG CRESCENZI, Founder"
-        },
-        "index_main_content_testimonials_two": {
-            "image": "../images/students/kellycorey.jpg",
-            "copy": "Applying for Careers in Code was one of the best decisions I've made in my entire life! Over the course of 6 months, I went from a little knowledge of HTML and CSS to a full-stack JavaScript web developer. The instructors and TAs were always willing to go out of their way to help with anything we needed throughout the duration of class. I'm thrilled I got the opportunity to train in a field that I'm passionate about and I look forward to contributing to the Syracuse tech community.",
-            "name": "KELLY COREY, Cohort I Graduate"
-        },
-        "index_main_content_testimonials_three": {
-            "image": "../images/instructors/joeybuczek.jpg",
-            "copy": "Being a part of this first cohort was definitely a rewarding experience! Not only did we help a group of wonderful people learn new skills to be able to advance their careers in a growing field, but we also learned a lot about how each of us could grow and contribute in more meaningful ways in the future of this program as well. There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general. I am so grateful to be a part of this endeavor, and am looking forward to seeing if this program will continue.",
-            "name": "JOEY BUCZEK, Cohort I Instructor"
-        },
-        "index_main_content_testimonials_button": {
-            "copy": "View More Testimonials",
-            "link": "/testimonials"
-        },
-        "index_main_content_bottom_row_container_one": {
-            "title": "Students",
-            "copy": "Transform your career. The average salary for coding bootcamp graduates according to the Council on Integrity in Results Reporting is $53,273.",
-            "button": "Apply Today",
-            "link": "/students"
-        },
-        "index_main_content_bottom_row_container_two": {
-            "title": "Instructors",
-            "copy": "Calling all Central NY software developers. We want to hire you! Join us in our mission to combat poverty and train our region's next crop of software developers.",
-            "button": "Become an Instructor",
-            "link": "/instructors"
-        },
-        "index_main_content_bottom_row_container_three": {
-            "title": "Partners",
-            "copy": "Now more than ever software developers are critical to the growth and sustainability of your company and our local economy. We want to help you grow locally!",
-            "button": "Hire Our Developers",
-            "link": "/partner"
-        },
-        "footer_main_content_contact": {
-            "title": "Contact"
-        },
-        "footer_main_content_contact_one": {
-            "name": "Doug Crescenzi",
-            "email": "mailto:doug@hackupstate.com",
-            "email_text": "doug@hackupstate.com",
-            "phone": "tel:315-436-8655",
-            "phone_text": "(315) 436-8655"
-        },
-        "footer_main_content_contact_two": {
-            "name": "Jesse Peplinski",
-            "email": "mailto:jesse@hackupstate.com",
-            "email_text": "jesse@hackupstate.com",
-            "phone": "tel:315-409-3514",
-            "phone_text": "(315) 409-3514"
-        },
-        "footer_main_content_connect": {
-            "title": "Connect"
-        },
-        "footer_main_content_connect_one": {
-            "link": "https://www.facebook.com/hackupstate",
-            "img": "../images/social/fb.png",
-            "alt_text": "Facebook logo"
-        },
-        "footer_main_content_connect_two": {
-            "link": "https://twitter.com/hackupstate",
-            "img": "../images/social/tw.png",
-            "alt_text": "Twitter logo"
-        },
-        "footer_main_content_connect_three": {
-            "link": "https://medium.com/@hackupstate",
-            "img": "../images/social/med.png",
-            "alt_text": "Medium logo"
-        },
-        "footer_main_content_connect_four": {
-            "link": "https://www.instagram.com/hackupstate",
-            "img": "../images/social/inst-green.png",
-            "alt_text": "Instagram logo"
-        },
-        "footer_main_content_connect_five": {
-            "link": "https://github.com/hackupstate",
-            "img": "../images/social/git-blue.png",
-            "alt_text": "Github logo"
-        },
-        "footer_main_content_connect_six": {
-            "link": "https://www.linkedin.com/company/hack-upstate/",
-            "img": "../images/social/linked-in-green.png",
-            "alt_text": "LinkedIn logo"
-        },
-        "footer_main_content_connect_seven": {
-            "link": "https://www.youtube.com/user/hackupstate",
-            "img": "../images/social/yt-blue.png",
-            "alt_text": "YouTube logo"
-        },
-        "footer_main_content_connect_eight": {
-            "link": "https://join.slack.com/t/hack-upstate/shared_invite/enQtNzI3NDQ2NjA5MjE5LThkOWEzZGY1YzgzZjRmNzg4OTQ2ODkxZmIyOTI2NWM0ZDRjYWNkYzU4YzgzMjQ5ZTc3MzFhOWZlZTdhYjhkZDA",
-            "img": "../images/social/slack-green.png",
-            "alt_text": "Slack logo"
-        },
-        "footer_main_content_more_links": {
-            "title": "More Links"
-        },
-        "footer_main_content_more_links_one": {
-            "link": "http://hackupstate.com/conduct.html",
-            "title": "Code of Conduct"
-        },
-        "footer_main_content_more_links_two": {
-            "link": "http://hackupstate.com/privacy.html",
-            "title": "Privacy Policy"
-        }
+  "ui": {
+    "index_jumbotron": {
+      "heading": "Transform your career with Hack Upstate.",
+      "subHeading": "Careers in Code is a coding bootcamp that teaches computer programming to women and minorities to help combat poverty in Central NY. We provide students with the technical skills they need to obtain internships and entry level software development jobs with local employers after 24 weeks of instruction.",
+      "button1": {
+        "text": "Join the Waitlist for Cohort 2",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScpE0bpIn_E8CnKyO0AXvkHbliLPa0kKnFbhjBryTNKWDxFFg/viewform"
+      },
+      "button2": {
+        "text": "Join the Mailing List",
+        "link": "https://www.getdrip.com/forms/67102980/submissions/new"
+      }
+    },
+    "index_main_content_top_text": {
+      "copy": "Poverty throughout Central NY is rising at an accelerated rate and stifling our region's economic potential.",
+      "description": "There are few opportunities for women and minorities to advance in concentrated areas of extreme poverty.",
+      "link": "https://medium.com/@hackupstate/announcing-hack-upstates-careers-in-code-a8ff0bfeddbf",
+      "button": "Learn More"
+    },
+    "index_main_content_bottom_text": {
+      "copy": "Many Central NY employers struggle to find local software developers.",
+      "link": "/partner",
+      "button": "We Can Help"
+    },
+    "index_main_content_testimonials": {
+      "copy": "Testimonials"
+    },
+    "index_main_content_testimonials_one": {
+      "image": "../images/team/dougcrescenzi.png",
+      "copy": "The rise of coding bootcamps throughout the country reflects the shortage of adequately trained software developers graduating from universities and the relative demand for them from the technology sector. The reason coding bootcamps have proven effective over the years is because they provide vocational training at a fraction of the cost of a college degree.",
+      "name": "DOUG CRESCENZI, Founder"
+    },
+    "index_main_content_testimonials_two": {
+      "image": "../images/students/kellycorey.jpg",
+      "copy": "Applying for Careers in Code was one of the best decisions I've made in my entire life! Over the course of 6 months, I went from a little knowledge of HTML and CSS to a full-stack JavaScript web developer. The instructors and TAs were always willing to go out of their way to help with anything we needed throughout the duration of class. I'm thrilled I got the opportunity to train in a field that I'm passionate about and I look forward to contributing to the Syracuse tech community.",
+      "name": "KELLY COREY, Cohort I Graduate"
+    },
+    "index_main_content_testimonials_three": {
+      "image": "../images/instructors/joeybuczek.jpg",
+      "copy": "Being a part of this first cohort was definitely a rewarding experience! Not only did we help a group of wonderful people learn new skills to be able to advance their careers in a growing field, but we also learned a lot about how each of us could grow and contribute in more meaningful ways in the future of this program as well. There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general. I am so grateful to be a part of this endeavor, and am looking forward to seeing if this program will continue.",
+      "name": "JOEY BUCZEK, Cohort I Instructor"
+    },
+    "index_main_content_testimonials_button": {
+      "copy": "View More Testimonials",
+      "link": "/testimonials"
+    },
+    "index_main_content_bottom_row_container_one": {
+      "title": "Students",
+      "copy": "Transform your career. The average salary for coding bootcamp graduates according to the Council on Integrity in Results Reporting is $53,273.",
+      "button": "Apply Today",
+      "link": "/students"
+    },
+    "index_main_content_bottom_row_container_two": {
+      "title": "Instructors",
+      "copy": "Calling all Central NY software developers. We want to hire you! Join us in our mission to combat poverty and train our region's next crop of software developers.",
+      "button": "Become an Instructor",
+      "link": "/instructors"
+    },
+    "index_main_content_bottom_row_container_three": {
+      "title": "Partners",
+      "copy": "Now more than ever software developers are critical to the growth and sustainability of your company and our local economy. We want to help you grow locally!",
+      "button": "Hire Our Developers",
+      "link": "/partner"
+    },
+    "footer_main_content_contact": {
+      "title": "Contact"
+    },
+    "footer_main_content_contact_one": {
+      "name": "Doug Crescenzi",
+      "email": "mailto:doug@hackupstate.com",
+      "email_text": "doug@hackupstate.com",
+      "phone": "tel:315-436-8655",
+      "phone_text": "(315) 436-8655"
+    },
+    "footer_main_content_contact_two": {
+      "name": "Jesse Peplinski",
+      "email": "mailto:jesse@hackupstate.com",
+      "email_text": "jesse@hackupstate.com",
+      "phone": "tel:315-409-3514",
+      "phone_text": "(315) 409-3514"
+    },
+    "footer_main_content_connect": {
+      "title": "Connect"
+    },
+    "footer_main_content_connect_one": {
+      "link": "https://www.facebook.com/hackupstate",
+      "img": "../images/social/fb.png",
+      "alt_text": "Facebook logo"
+    },
+    "footer_main_content_connect_two": {
+      "link": "https://twitter.com/hackupstate",
+      "img": "../images/social/tw.png",
+      "alt_text": "Twitter logo"
+    },
+    "footer_main_content_connect_three": {
+      "link": "https://medium.com/@hackupstate",
+      "img": "../images/social/med.png",
+      "alt_text": "Medium logo"
+    },
+    "footer_main_content_connect_four": {
+      "link": "https://www.instagram.com/hackupstate",
+      "img": "../images/social/inst-green.png",
+      "alt_text": "Instagram logo"
+    },
+    "footer_main_content_connect_five": {
+      "link": "https://github.com/hackupstate",
+      "img": "../images/social/git-blue.png",
+      "alt_text": "Github logo"
+    },
+    "footer_main_content_connect_six": {
+      "link": "https://www.linkedin.com/company/hack-upstate/",
+      "img": "../images/social/linked-in-green.png",
+      "alt_text": "LinkedIn logo"
+    },
+    "footer_main_content_connect_seven": {
+      "link": "https://www.youtube.com/user/hackupstate",
+      "img": "../images/social/yt-blue.png",
+      "alt_text": "YouTube logo"
+    },
+    "footer_main_content_connect_eight": {
+      "link": "https://join.slack.com/t/hack-upstate/shared_invite/enQtNzI3NDQ2NjA5MjE5LThkOWEzZGY1YzgzZjRmNzg4OTQ2ODkxZmIyOTI2NWM0ZDRjYWNkYzU4YzgzMjQ5ZTc3MzFhOWZlZTdhYjhkZDA",
+      "img": "../images/social/slack-green.png",
+      "alt_text": "Slack logo"
+    },
+    "footer_main_content_more_links": {
+      "title": "More Links"
+    },
+    "footer_main_content_more_links_one": {
+      "link": "http://hackupstate.com/conduct.html",
+      "title": "Code of Conduct"
+    },
+    "footer_main_content_more_links_two": {
+      "link": "http://hackupstate.com/privacy.html",
+      "title": "Privacy Policy"
     }
+  }
 }
