@@ -2,43 +2,34 @@ import React from "react"
 import { Container, Jumbotron, Button, Row } from "reactstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import content from "../content/content.json"
+import jumbotronStyles from "./jumbotron.module.css"
 
-const JumbotronComponent = () => {
+const JumbotronComponent = props => {
   return (
     <div>
-      <Jumbotron
-        fluid
-        justified
-        style={{ background: "transparent", color: "white" }}
-      >
-        <Container fluid>
-          <Row
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              textAlign: "center",
-            }}
-          >
-            <h2>{content.ui.index_jumbotron.heading}</h2>
+      <Jumbotron fluid justified className={jumbotronStyles.jumboContainer}>
+        <Container>
+          <Row className={jumbotronStyles.jumbotronHeadings}>
+            <h2>{props.heading}</h2>
             <p>{content.ui.index_jumbotron.subHeading}</p>
           </Row>
-          <Row style={{ display: "flex", justifyContent: "center" }}>
-            <Button color="info" style={{ margin: 10 }}>
+          <Row className={jumbotronStyles.jumboButtonContainer}>
+            <Button className={jumbotronStyles.jumboButtons} color="info">
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLScpE0bpIn_E8CnKyO0AXvkHbliLPa0kKnFbhjBryTNKWDxFFg/viewform"
+                href={content.ui.index_jumbotron.button1.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "white", textDecoration: "none" }}
+                className={jumbotronStyles.btnLink}
               >
                 {content.ui.index_jumbotron.button1.text}
               </a>
             </Button>
-            <Button color="info" style={{ margin: 10 }}>
+            <Button className={jumbotronStyles.jumboButtons} color="info">
               <a
                 href="https://www.getdrip.com/forms/67102980/submissions/new"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "white", textDecoration: "none" }}
+                className={jumbotronStyles.btnLink}
               >
                 {content.ui.index_jumbotron.button2.text}
               </a>
