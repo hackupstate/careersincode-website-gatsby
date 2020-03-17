@@ -4,6 +4,7 @@ import React from "react"
 import NavComponent from "./nav"
 // import TechGarden from "../images/light-hero-1.jpg"
 import JumbotronComponent from "./jumbotron"
+import content from "../content/content.json"
 
 const Header = ({ siteTitle }) => (
   <div
@@ -13,7 +14,7 @@ const Header = ({ siteTitle }) => (
     }}
   >
     <NavComponent />
-    <JumbotronComponent />
+    <JumbotronComponent heading={content.ui.index_jumbotron.heading} />
   </div>
 )
 

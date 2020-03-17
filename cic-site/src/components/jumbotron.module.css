@@ -1,0 +1,24 @@
+.jumboContainer {
+  background: transparent;
+  color: white;
+}
+
+.jumbotronHeadings {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.jumboButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.jumboButtons {
+  margin: 10px;
+}
+
+a.btnLink {
+  color: white;
+  text-decoration: none;
+}
