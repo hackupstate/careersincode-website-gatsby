@@ -4,6 +4,7 @@ import { Container, Row, Col, Button } from 'reactstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import content from '../content/content.json'
 
+
 const BottomRowContainer = (props) => {
     return (
         <Container fluid={true}>
