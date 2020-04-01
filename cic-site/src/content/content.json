@@ -63,6 +63,34 @@
       "button": "Hire Our Developers",
       "link": "/partner"
     },
+    "mission_jumbotron": {
+      "header": "Our mission to combat poverty in central New York."
+    },
+    "mission_main_content": {
+      "header1": {
+        "title": "The Problem",
+        "text1": "Poverty throughout Central New York is rising at an accelerated rate and stifling our region’s economic potential. In 2018, Syracuse, NY was named one of the top ten most impoverished cities across all of U.S. To put that into perspective, roughly 1 in every 3 people in Syracuse live in poverty. In particular, there are few opportunities for women and minorities to advance in concentrated areas of extreme poverty. Equal access to educational and employment opportunities are simply not available to them.",
+        "text2": "At the same time, many Central New York employers are struggling to hire local software developers. Software developers are critical to their growth, but at this time our regional talent pool isn’t large enough to support their needs. Consequently, employers that want to hire locally are often left with no choice but to outsource their work to 3rd party consultants and contractors that operate outside of Central New York."
+      },
+      "header2": {
+        "title": "Our Solution",
+        "text": "Careers in Code is Hack Upstate’s new initiative to help advance Central New York’s tech community by offering computer programming education to help fight poverty. It is a 24-week program aimed at women and minorities from distressed areas of central New York — poverty in these neighborhoods means residents don’t have equal opportunities to access education and employment opportunities, and our bootcamp was created to help close this gap and increase our region’s economic potential."
+      },
+      "header3": "Thank you to Onondaga County for the opportunity to make this possible!",
+      "header4": {
+        "title": "What Careers in Code Offers",
+        "subheader1": "Vocational Training at a Fraction of the Cost",
+        "text": "Coding bootcamps have popped up all over the country. They are widely needed and are proven effective, but they’re not always affordable. The average tuition for these opportunities is upwards of $12,000, and that cost can go up depending on what devices or services fees aren’t included with tuition. While you get a great education, it’s hardly accessible or inclusive to all. We are committed to making opportunities as equal as possible for our students. Careers in Code offers that same vocational training for free via a scholarship, and we will cover the cost of student laptops as well as additional third-party expenses like web services, API hosting, data storage, etc. This will allow our students to develop the technical skills they need to move on to internships and entry-level positions in software development without financial worries impeding their learning progress.",
+        "subheader2": {
+          "title": "Relevant Curriculum Makes Graduates In-Demand",
+          "text": "Our curriculum is dictated by the current market demands and software-development trends, which makes graduates of Careers in Code appealing to employers thanks to their relevant knowledge of the present development landscape. These skills are in high demand and directly translate to higher employment rates and salary increases. In fact, according to the Course Report’s Coding Bootcamp Alumni Outcomes and Demographics Study, 3 out of 4 program graduates were hired into full-time positions in which they used the skills learned in their bootcamp. Graduates also enjoyed significant salary increases, especially low-income students from distressed communities, who saw an average increase of nearly $40,000 compared to their previous salary."
+        },
+        "subheader3": {
+          "title": "Access to Our Partners Looking for People Like YOU",
+          "text": "One thing we can discern from the increase in coding bootcamps around the US is that there is a strong need for adequately trained software developers. Employers in Central New York, especially, are having a difficult time finding local talent that are essential for their growth, and end up outsourcing their needs to third-party consultants and contractors that are outside of the region. Our aim with Careers in Code is to broaden the pool of applicants, connect employers seeking trained developers with talented program graduates, thus helping them contribute to the growth of our local economy. Coding bootcamps are just as valuable to these employers as a computer science degree. A report from Indeed noted that 80% of hiring managers and recruiters in the US tech sector have filled positions with bootcamp graduates, and nearly all of them said they would do it again. Almost all of coding bootcamp graduates also find employment with six months of finishing the program."
+        }
+      }
+    },
     "footer_main_content_contact": {
       "title": "Contact"
     },
