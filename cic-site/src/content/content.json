@@ -91,6 +91,24 @@
         }
       }
     },
+    "team_jumbotron": {
+      "title": "Meet the Team Behind Careers in Code"
+    },
+    "team_main_content": {
+      "text": "Our team of experienced technology and community professionals are passionate and committed to uplifting the Central New York community. If you are interested in helping out, send us an email!",
+      "email": "mailto:team@hackupstate.com",
+      "members": {
+        "jesse": "Jesse Peplinski",
+        "doug": "Doug Crescenzi",
+        "will": "Will Guisbond",
+        "jason": "Jason Scharf",
+        "partner": "Partner",
+        "intern": "Intern",
+        "ssr": "Student Success Representative"
+      },
+      "button": "Meet Our Team",
+      "link": "https://medium.com/@hackupstate/meet-the-careers-in-code-team-66aa6a9d2c"
+    },
     "footer_main_content_contact": {
       "title": "Contact"
     },

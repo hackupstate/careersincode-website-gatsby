@@ -4,29 +4,30 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import content from "../content/content.json"
 import { Container, Row, Col } from "reactstrap"
+import pageStyles from './pages.module.css'
 
 const MissionPage = () => (
   <Layout>
     <SEO title="Mission" />
     <Container>
-      <Row>
-        <Col className="text-center">
+      <Row className={pageStyles.pageHeadings}>
+        <Col>
           <h3> {content.ui.mission_main_content.header1.title} </h3>
           <p> {content.ui.mission_main_content.header1.text1} </p>
           <p> {content.ui.mission_main_content.header1.text2} </p>
         </Col>
       </Row>
       <hr />
-      <Row>
-        <Col className="text-center">
+      <Row className={pageStyles.pageHeadings}>
+        <Col>
           <h3> {content.ui.mission_main_content.header2.title} </h3>
           <p> {content.ui.mission_main_content.header2.text} </p>
           <h3> {content.ui.mission_main_content.header3} </h3>
         </Col>
       </Row>
       <hr />
-      <Row>
-        <Col className="text-center">
+      <Row className={pageStyles.pageHeadings}>
+        <Col>
           <h3> {content.ui.mission_main_content.header4.title} </h3>
           <h4> {content.ui.mission_main_content.header4.subheader1} </h4>
           <p> {content.ui.mission_main_content.header4.text} </p>
@@ -37,8 +38,8 @@ const MissionPage = () => (
         </Col>
       </Row>
       <hr />
-      <Row>
-        <Col className="text-center">
+      <Row className={pageStyles.pageHeadings}>
+        <Col>
           <Link to="/">Go Home</Link>
         </Col>
       </Row>
