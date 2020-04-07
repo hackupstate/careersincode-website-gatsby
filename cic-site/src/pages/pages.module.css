@@ -4,19 +4,19 @@
     text-align: center;
   }
 
-  .pageTeamImageContainer {
+  .pageContentContainer {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
     padding: 10px;
+    text-align: center;
   }
 
   .imgCircle {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    margin-left: 110px;
 }
   
   .pageButtonContainer {

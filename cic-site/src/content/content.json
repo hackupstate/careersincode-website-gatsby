@@ -109,6 +109,94 @@
       "button": "Meet Our Team",
       "link": "https://medium.com/@hackupstate/meet-the-careers-in-code-team-66aa6a9d2c"
     },
+    "press_jumbotron": {
+      "heading": "Press & Media"
+    },
+    "press_main_content": {
+      "kickoff": {
+        "header": "Kickoff Photos",
+        "text": "Check out our Facebook page for photos from our Careers in Code Kickoff Event! This event marked the commencement of our first cohort.",
+        "button": "Photo Album",
+        "link": "https://www.facebook.com/pg/hackupstate/photos/?tab=album&album_id=1689976654468695"
+      },
+      "graduation": {
+        "header": "Graduation Photos",
+        "text": "Check out our Facebook page for photos from our first Careers in Code Capstone Presentations & Graduation Ceremony! This event marked the end of our first cohort.",
+        "button": "Photo Album",
+        "link": "https://www.facebook.com/pg/hackupstate/photos/?tab=album&album_id=1850104071789285&ref=page_internal"
+      },
+      "logos": {
+        "header": "Logos & Marketing",
+        "text": "Use the button below to download our press media kit in a zip-file format. This contains relevant Careers in Code logos & brand materials for news / media outlets to use.",
+        "button": "Download",
+        "action": "../assets/CareersinCodePressKit.zip"
+      },
+      "presentation": {
+        "header": "Presentation",
+        "text": "Our intern Will Guisbond presented a talk at GDG CR DevFest2019 called \"Lessons Learned from Organizing a Coding Bootcamp\". Listen to his experience and how Careers in Code plans to move forward!",
+        "text_link": "https://sites.google.com/view/devfest-gdg-capitalregion/home",
+        "button": "Watch",
+        "link": "https://www.youtube.com/watch?v=dvtZdFQGaL4"
+      },
+      "news": {
+        "header": "In the News",
+        "south_side": {
+          "text": "The South Side Stand | ",
+          "link": "Hack Upstate launches coding bootcamp for Syracuse women and minorities",
+          "address": "https://mysouthsidestand.com/more-news/careers-in-code/"
+        },
+        "waer": {
+          "text": "WAER | ",
+          "link_cic": "Careers In Code Prepares 11 Students For Jobs In CNY Growing Tech Sector",
+          "address_cic": "https://www.waer.org/post/careers-code-prepares-11-students-jobs-cny-growing-tech-sector",
+          "link_bootcamp": "Coding Bootcamp Brings Syracuse's Tech Employers And Its Students Together",
+          "address_bootcamp": "https://www.waer.org/post/coding-bootcamp-brings-syracuses-tech-employers-and-its-students-together",
+          "link_coding": "Syracuse Coding Camp Aims To Advance Tech Careers In Distressed Communities",
+          "address_coding": "https://www.waer.org/post/syracuse-coding-camp-aims-advance-tech-careers-distressed-communities"
+        },
+        "spectrum": {
+          "text": "Spectrum Local | ",
+          "link": "Hack Upstate launches coding bootcamp for Syracuse women and minorities",
+          "address": "https://spectrumlocalnews.com/nys/central-ny/news/2019/03/08/coding-bootcamp-to-fight-syracuse-poverty-?fbclid=IwAR2kIL7wcG-GN6lJfTQf0d9omy152cGpjMjvWfqcrWUzQziK1ncRM7VeqGM"
+        },
+        "syracuse": {
+          "text": "Syracuse.com | ",
+          "link": "Hack Upstate: Combat Syracuse poverty through code (Your letters)",
+          "address": "https://www.syracuse.com/opinion/2018/09/hack_upstate_combat_syracuse_poverty_through_code_your_letters.html"
+        }
+      },
+      "medium": {
+        "header": "Hack Upstate on Medium",
+        "testimonials": {
+          "text": "Careers in Code: Student Testimonials",
+          "link": "https://medium.com/@hackupstate/careers-in-code-student-testimonials-16584bfa7e51"
+        },
+        "capstone": {
+          "text": "Careers in Code Capstone Projects: Final Presentations",
+          "link": "https://medium.com/@hackupstate/careers-in-code-capstone-projects-final-presentations-3804e1a9555a"
+        },
+        "classroom": {
+          "text": "Careers in Code Students Take Their Knowledge Outside of the Classroom",
+          "link": "https://medium.com/@hackupstate/careers-in-code-students-take-their-knowledge-outside-of-the-classroom-d8137bdedfee"
+        },
+        "team": {
+          "text": "Meet Our Careers in Code Team!",
+          "link": "https://medium.com/@hackupstate/meet-the-careers-in-code-team-66aa6a9d2c"
+        },
+        "tas": {
+          "text": "Meet Our Careers in Code Teaching Assistants!",
+          "link": "https://medium.com/@hackupstate/meet-our-careers-in-code-teaching-assistants-6a881bb75210"
+        },
+        "instructors": {
+          "text": "Meet Our Careers in Code Instructors!",
+          "link": "https://medium.com/@hackupstate/meet-our-careers-in-code-instructors-99d0b7292875"
+        },
+        "students": {
+          "text": "Introducing the First Careers in Code Students!",
+          "link": "https://medium.com/@hackupstate/introducing-the-first-careers-in-code-students-8ebf56408489"
+        }
+      }
+    },
     "footer_main_content_contact": {
       "title": "Contact"
     },

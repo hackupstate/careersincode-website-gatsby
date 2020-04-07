@@ -20,22 +20,22 @@ const TeamPage = () => (
           <a href={content.ui.team_main_content.email} target="_blank" rel="noopener noreferrer"> team@hackupstate.com </a>
         </Col>
       </Row>
-      <Row className={pageStyles.pageTeamImageContainer}>
+      <Row className={pageStyles.pageContentContainer}>
         <Col>
         <img className={pageStyles.imgCircle} src={Jesse} alt="Jesse Peplinski"/>
-          <h4 className={pageStyles.pageHeadings}> {content.ui.team_main_content.members.jesse} </h4>
-          <p className={pageStyles.pageHeadings}> {content.ui.team_main_content.members.partner} </p>
+          <h4> {content.ui.team_main_content.members.jesse} </h4>
+          <p> {content.ui.team_main_content.members.partner} </p>
         <img className={pageStyles.imgCircle} src={Will} alt="Will Guisbond"/>
-        <h4 className={pageStyles.pageHeadings}> {content.ui.team_main_content.members.will} </h4>
-          <p className={pageStyles.pageHeadings}> {content.ui.team_main_content.members.intern} </p>
+        <h4> {content.ui.team_main_content.members.will} </h4>
+          <p> {content.ui.team_main_content.members.intern} </p>
         </Col>
         <Col>
         <img className={pageStyles.imgCircle} src={Doug} alt="Doug Crescenzi"/>
-        <h4 className={pageStyles.pageHeadings}> {content.ui.team_main_content.members.doug} </h4>
-          <p className={pageStyles.pageHeadings}> {content.ui.team_main_content.members.partner} </p>
+        <h4> {content.ui.team_main_content.members.doug} </h4>
+          <p> {content.ui.team_main_content.members.partner} </p>
         <img className={pageStyles.imgCircle} src={Jason} alt="Jason Scharf"/>
-        <h4 className={pageStyles.pageHeadings}> {content.ui.team_main_content.members.jason} </h4>
-          <p className={pageStyles.pageHeadings}> {content.ui.team_main_content.members.ssr} </p>
+        <h4> {content.ui.team_main_content.members.jason} </h4>
+          <p> {content.ui.team_main_content.members.ssr} </p>
         </Col>
       </Row>
       <Row className={pageStyles.pageButtonContainer}>
