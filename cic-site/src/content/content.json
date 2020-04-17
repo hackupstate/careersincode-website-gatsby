@@ -380,6 +380,162 @@
         }
       }
     },
+    "faq_jumbotron": {
+      "header": "You have questions. We have answers."
+    },
+    "faq_main_content": {
+      "general": {
+        "header": "General Questions",
+        "cohort2": {
+          "question": "Is there going to be a Cohort 2?",
+          "answer": "We're in the process of ironing out the details for a possible second cohort of Careers in Code. Check back soon for details! In the meantime, if you're interested in updates, ",
+          "link_text": "join our waitlist.",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLScpE0bpIn_E8CnKyO0AXvkHbliLPa0kKnFbhjBryTNKWDxFFg/viewform"
+        },
+        "schedule": {
+          "question": "What is the schedule of classes?",
+          "answer": "Classes will be from 5:30pm to 8:30pm Monday to Thursday."
+        },
+        "length": {
+          "question": "How long does the program last for?",
+          "answer": "The program lasts for 24 weeks."
+        },
+        "location": {
+          "question": "Where will classes be held?",
+          "answer": "Classes will be held at The Tech Garden."
+        },
+        "community": {
+          "question": "What is considered a distressed community? What type of documentation is needed to show this?",
+          "answer": "Communities that are living at or underneath the ",
+          "link": "https://aspe.hhs.gov/poverty-guidelines",
+          "link_text": "poverty line.",
+          "text": "We will require a tax return before being accepted into the program."
+        },
+        "syllabus": {
+          "question": "Where can I find the syllabus?",
+          "answer": "You can find our ",
+          "link_text": "Cohort I syllabus here.",
+          "link": "https://docs.google.com/document/d/1uBlca51T_DGnpfGnPiBtXfmuOz1iNzPZtYNzPbXFL3g/edit#heading=h.s4c7za2iwxvo"
+        },
+        "program": {
+          "question": "How many programs have been run?",
+          "answer": "Our first Cohort of students graduated in August 2019 with 11 students successfully completing the program. We are looking forward to the possibility of future cohorts!"
+        }
+      },
+      "student": {
+        "header": "Student Questions",
+        "guidelines": {
+          "question": "What are the guidelines for applying?",
+          "answer": "Students must meet the following criteria:",
+          "ul1": "18 and older",
+          "ul2": "A woman and/or minority",
+          "ul3": "Currently from a distressed community",
+          "ul4": "Residing in Cayuga, Cortland, Madison, Oswego or Onondaga County"
+        },
+        "deadline": {
+          "question": "What is the deadline for applying?",
+          "answer": "We are not currently accepting applications from prospective students. If you are interested in being the first to know when we are, ",
+          "link_text": "join our waitlist.",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLScpE0bpIn_E8CnKyO0AXvkHbliLPa0kKnFbhjBryTNKWDxFFg/viewform"
+        },
+        "cost": {
+          "question": "What does this program cost?",
+          "answer": "100% FREE with laptop included! If you complete the program, you get to keep the laptop."
+        },
+        "skills": {
+          "question": "What skills are required for this bootcamp? Do I need prior coding experience?",
+          "answer": "No coding experience required! We’re seeking folks with a passion for technology looking to transform their careers. During our screening process, we'll make sure that you have the ability to solve challenging problems and learn quickly."
+        },
+        "stipend": {
+          "question": "Is there a stipend for students?",
+          "answer": "Yes - each student will have a stipend to aquire whatever services they need to complete the program (transportation, babysitting, web services, etc)."
+        },
+        "work": {
+          "question": "Where can I work on projects outside of classtime if I don't have reliable WiFi?",
+          "answer": "Part of your experience includes a membership to the ",
+          "link_text": "Syracuse Coworks (a coworking spot in the heart of downtown).",
+          "link": "https://syracusecoworks.com/",
+          "text": "CoWorks has reliable WiFi and is a safe facility where students can connect with developers, technologists, and entrepreneurs in the CNY tech community."
+        }
+      },
+      "instructor": {
+        "header": "Instructor Questions",
+        "process": {
+          "question": "What is the process for applying as an instructor?",
+          "answer": {
+            "part1": "Part 1: Written Application",
+            "text1": "You'll submit a written application when our window has opened for prospective instructors.",
+            "part2": " Part 2: Syllabus Review",
+            "text2": "Part of being an instructor includes giving feedback on our curriculum and syllabus. We are currently beginning the process of revising our material for possible future cohorts. In the meantime, you can see our Cohort 1 syllabus here. We’d really appreciate any thoughts, comments, questions, concerns, and general feedback! We like all our instructors to be informed of the curriculum to ensure smooth transitions from instructor to instructor.",
+            "part3": "Part 3: Phone Call with Us",
+            "text3": "We’ll schedule an informal conversation to discuss your availability, topics you’d like to teach, compensation, and some responsibilities and expectations for the class. By the end of this call, we’ll have a good idea of where you’ll fit into the schedule. You can view the week over week breakdown here that we’ll be populating. When you’re able, set up some time to chat with us.",
+            "part4": "Part 4: Decision / Offer",
+            "text4": "If you made it through all of the steps above, we’ll ultimately come to a final decision on your acceptance and a proposed hourly rate.",
+            "part5": "Part 5: First Day of Class",
+            "text5": "After a decision is made, we’ll expect your assigned weeks on the curriculum to be populated with lesson plans, projects, homework, and any other relevant prep work before the classes begin (ideally 2-3 weeks before the first day of class)."
+          }
+        },
+        "time": {
+          "question": "What is the time commitment for instructors? Are they full time or part time?",
+          "answer": "Most instructors will need to devote time both in class while they are teaching, as well as outside of class as they prepare for lessons, grade work, and so on. Depending on how many weeks / modules you teach, this can vary."
+        },
+        "responsibilities": {
+          "question": "What are the responsibilites and expectations for instructors?",
+          "answer": "You can ",
+          "link_text": "take a look here.",
+          "link": "https://docs.google.com/document/d/13Z4C-y_5BV9dEKFFJwi6--_J-htZiJ0Zl_0YeGYf3YQ/edit"
+        },
+        "paid": {
+          "question": "Are instructors paid?",
+          "answer": "Yes!"
+        }
+      },
+      "ta": {
+        "header": "Teaching Assistant (TA) Questions",
+        "why": {
+          "question": "Why does Careers in Code need TAs?",
+          "answer": "We’re looking for motivated individuals with some teaching experience, preferably in the coding / computer science field, to assist in the general flow of our Careers in Code bootcamp. These people will help our instructors run classes, assist in developing our program, and be a valuable member of the mentor team."
+        },
+        "duties": {
+          "question": "What would I be doing as a Teaching Assistant?",
+          "answer": "Acting as a key member of the in-classroom team, you would be working alongside our instructors and mentors to help run class and assist students. More specificially, you will:",
+          "ul1": "Assist instructors and mentors in the classroom on a daily basis (teaching, helping students, working out technology issues when they arise, etc.)",
+          "ul2": "Occasionally help with curriculum development, refining classroom modules and providing feedback to the HU/CiC team where neccesary.",
+          "ul3": "Interact with students and, where appropriate, help them with projects, assignments, etc.",
+          "ul4": "Help to maintain a safe, efficient and fun classroom environment.",
+          "ul5": "Act as a key member to our team by providing thoughful feedback."
+        },
+        "credit": {
+          "question": "Can I get college / university credit as a Teaching Assistant?",
+          "answer": "Unfortunately, we are generally unable to offer any sort of internship, co-op, CTP or school-related credit to our TAs due to the low hour commitment that they hold. That being said, we love having students of higher education as TAs, and we think that your positions as students offer unique and valuable experience to our program. Just know that your time as a TA at Careers in Code will not count for school credit."
+        },
+        "apply": {
+          "question": "What do I need to apply?",
+          "answer": "Apply if...",
+          "ul1": "You are passionate about our mission and want to help elevate your local community.",
+          "ul2": "You have some sort of experience working with students (computer science or not).",
+          "ul3": "You are patient, persistent and thoughtful in everything you do.",
+          "ul4": "You have a passion for technology, coding and geeking out.",
+          "ul5": "You are constantly thinking about ways to improve things and are efficient in your workflow.",
+          "ul6": "You understand the difficulties associated with learning something new and strive to help others overcome those same difficulties."
+        },
+        "become": {
+          "question": "How can I become a Teaching Assistant?",
+          "answer": "We are not currently in an active search for TAs. Check back here and on our social media for more details about the application window as they are released!"
+        }
+      },
+      "partner": {
+        "header": "Partner Questions",
+        "hire": {
+          "question": "How do I hire students from this program?",
+          "answer": "Send us an email at team@hackupstate.com!"
+        }
+      },
+      "questions": {
+        "header": "For More Questions",
+        "text": "Don't hesitate to reach out to us at team@hackupstate.com if you have one that isn't listed here."
+      }
+    },
     "footer_main_content": {
       "contact": {
         "header": "Contact",
