@@ -1,35 +1,44 @@
 .pageHeadings {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .pageContentContainer {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .imgCircle {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-  
-  .pageButtonContainer {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .pageButtons {
-    margin: 10px;
-  }
-  
-  a.btnLink {
-    color: white;
-    text-decoration: none;
-  }
-  
+
+.pageContentContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.imgCircle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.imgCircleTestimonials {
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  width: 300px;
+  max-width: 100%;
+  border-radius: 50% !important;
+}
+
+.pageButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pageButtons {
+  margin: 10px;
+}
+
+a.btnLink {
+  color: white;
+  text-decoration: none;
+}
