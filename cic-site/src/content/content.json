@@ -315,6 +315,71 @@
         }
       }
     },
+    "testimonials_jumbotron": {
+      "header": "Hear what our graduates, instructors, and teaching assistants are saying about Careers in Code.",
+      "button": {
+        "text": "Write a Testimonial",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLScQBKfDme7X52fQC-ud5jDwPGDb8Sk89-CyNXlcWlH1_Svruw/viewform"
+      }
+    },
+    "testimonials_main_content": {
+      "students": {
+        "header": "Student Testimonials",
+        "kelly": {
+          "alt_text": "Kelly Corey",
+          "header": "Kelly Corey, Cohort I Graduate",
+          "text": " \"Applying for Careers in Code was one of the best decisions I've made in my entire life! Over the course of 6 months, I went from a little knowledge of HTML and CSS to a full-stack JavaScript web developer. The instructors and TAs were always willing to go out of their way to help with anything we needed throughout the duration of class. I'm thrilled I got the opportunity to train in a field that I'm passionate about and I look forward to contributing to the Syracuse tech community!\" "
+        },
+        "karin": {
+          "alt_text": "Karin Thorne",
+          "header": "Karin Thorne, Cohort I Graduate",
+          "text": " \"I started the program knowing nothing about code, not even most of the terminology. After completing the 24 weeks, I can talk comfortably with seasoned developers because now I am a Full Stack Developer!\" "
+        },
+        "ana": {
+          "alt_text": "Ana Aombe",
+          "header": "Ana Aombe, Cohort I Graduate",
+          "text": " \"The program was amazing! I learned so much about coding and a lot about myself. I went from having zero experience in web development to having so much knowledge about the field and the expectations required to thrive in the industry. I was so insecure going in the program, but over time I learned to take risks and allow myself to explore different areas and different ways of doing things. And the people, the teachers, TAs and fellow students made the experience even better.\" "
+        },
+        "dana": {
+          "alt_text": "Dana McMullen",
+          "header": "Dana McMullen, Cohort I Graduate",
+          "text": " \"Because of Careers In Code, I have a more realistic view of what it takes to become a coder/programmer. The skills that I have now were not given to me when I was studying in college and I feel like I'm so much further ahead in my journey to becoming employed in the tech field. My dedication to my studies is much more consistent and thorough. I know that my destiny as a mover and shaker in the tech world is at my doorstep. Thank you so much CIC.\" "
+        },
+        "kaitlyn": {
+          "alt_text": "Kaitlyn Warboy",
+          "header": "Kaitlyn Warboy, Cohort I Graduate",
+          "text": " \"Careers in Code has been a game changer for my career, and has opened up so many amazing opportunities. I feel prepared and ready to grow my presence and career in the tech community in Syracuse.\" "
+        },
+        "dakir": {
+          "alt_text": "Dakir Thompson",
+          "header": "Dakir Thompson, Cohort I Graduate",
+          "text": " \"I had taken some computer science classes in college but none of them prepared me for the industry, I spent 8 months looking for a job and finally got one through networking. But still I was ill prepared at my position as a software engineer. I can honestly say if it was not for this bootcamp I would not have a job, and I would not be as advanced as I am. What we learned in Careers in Code directly applied to my day to day work. I learned so much about web development that my employer split my time with the web development team. If you have a love for coding or never wrote a line of code and are just interested you have to give Careers in Code a try.\" "
+        },
+        "tim": {
+          "alt_text": "Tim Liles",
+          "header": "Tim Liles, Cohort I Graduate",
+          "text": " \"I think that the Careers in Code boot camp was an amazing experience. Not only did I learn a lot about writing code, I met a lot of great people with even greater stories about how they got to where they are now in their careers. Applying was one of the best decisions I made and I'm excited to see where it takes me in life.\" "
+        },
+        "linda": {
+          "alt_text": "Linda Kovacs",
+          "header": "Linda Kovacs, Honorary Cohort I Graduate",
+          "text": " \"I was given the opportunity to follow the class online and even though I knew things by learning on my own or working in the field prior to Careers in Code bootcamp, I learned a lot from the instructors and from helping the students with their projects. It was an amazing experience that made me grow as a developer overall by helping others to go over the bumps I went on my own years ago. I wish I had all this help myself at that time.\" "
+        }
+      },
+      "instructors": {
+        "header": "Instructor and Teaching Assistant Testimonials",
+        "joey": {
+          "alt_text": "Joey Buczek",
+          "header": "Joey Buczek, Cohort I Instructor",
+          "text": " \"Being a part of this first cohort was definitely a rewarding experience! Not only did we help a group of wonderful people learn new skills to be able to advance their careers in a growing field, but we also learned a lot about how each of us could grow and contribute in more meaningful ways in the future of this program as well. There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general. I am so grateful to be a part of this endeavor, and am looking forward to seeing if this program will continue.\" "
+        },
+        "gus": {
+          "alt_text": "Gus Cost",
+          "header": "Gus Cost, Cohort I Instructor",
+          "text": " \"The Careers in Code program is a great project, and it's been a privilege to have participated in teaching the first cohort. The students selected to attend are motivated, kind, and a joy to work with. Most if not all are in situations where an education in computer programming has a chance to make a big positive impact on their careers and lives. While the first cohort was a small number of students, it's exciting to think that it could be an early step in a larger arc of change that results in a more prosperous CNY community. And despite the small class size it's exciting to think that even a few more people now have a chance to make an impact as successful working software developers.\" "
+        }
+      }
+    },
     "footer_main_content": {
       "contact": {
         "header": "Contact",
