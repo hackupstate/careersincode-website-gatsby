@@ -23,40 +23,39 @@ const Footer = (props) => {
                 <Row xs="3">
                     <Col>
                         <div className={footerStyles.footerText}>
-                            <h4 className={footerStyles.footerTextBold}> {content.ui.footer_main_content_contact.title}</h4>
-
+                            <h4 className={footerStyles.footerTextBold}> {content.ui.footer_main_content.contact.header}</h4>
                             <div className="mb-4">
-                                <p className="mb-0"> {content.ui.footer_main_content_contact_one.name} </p>
-                                <p className="mb-0"><a className={footerStyles.footerLink} href="mailto:doug@hackupstate.com"> {content.ui.footer_main_content_contact_one.email_text} </a></p>
-                                <p className="mb-0"><a className={footerStyles.footerLink} href="tel:315-436-8655"> {content.ui.footer_main_content_contact_one.phone_text} </a></p>
+                                <p className="mb-0"> {content.ui.footer_main_content.contact.doug.name} </p>
+                                <p className="mb-0"><a className={footerStyles.footerLink} href={content.ui.footer_main_content.contact.doug.email}> {content.ui.footer_main_content.contact.doug.email_text} </a></p>
+                                <p className="mb-0"><a className={footerStyles.footerLink} href={content.ui.footer_main_content.contact.doug.phone}> {content.ui.footer_main_content.contact.doug.phone_text} </a></p>
                             </div>
                             <div className="mb-4">
-                                <p className="mb-0"> {content.ui.footer_main_content_contact_two.name} </p>
-                                <p className="mb-0"><a className={footerStyles.footerLink} href="mailto:jesse@hackupstate.com"> {content.ui.footer_main_content_contact_two.email_text} </a></p>
-                                <p className="mb-0"><a className={footerStyles.footerLink} href="tel:315-409-3514"> {content.ui.footer_main_content_contact_two.phone_text} </a></p>
+                                <p className="mb-0"> {content.ui.footer_main_content.contact.jesse.name} </p>
+                                <p className="mb-0"><a className={footerStyles.footerLink} href={content.ui.footer_main_content.contact.jesse.email}> {content.ui.footer_main_content.contact.jesse.email_text} </a></p>
+                                <p className="mb-0"><a className={footerStyles.footerLink} href={content.ui.footer_main_content.contact.jesse.phone}> </a> {content.ui.footer_main_content.contact.jesse.phone_text} </p>
                             </div>
                         </div>
                     </Col>
 
                     <Col>
                         <div className={footerStyles.footerText}>
-                            <h4 className={footerStyles.footerTextBold}> {content.ui.footer_main_content_connect.title} </h4>
-                            <a href="https://www.facebook.com/hackupstate" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={FB} alt="Facebook logo" /> </a>
-                            <a href="https://www.twitter.com/hackupstate" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={TW} alt="Twitter logo" /> </a>
-                            <a href="https://www.medium.com/@hackupstate" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={Med} alt="Medium logo" /> </a>
-                            <a href="https://www.instagram.com/hackupstate" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={Insta} alt="Instagram logo" /> </a>
-                            <a href="https://www.github.com/hackupstate" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={Git} alt="Github logo" /> </a>
-                            <a href="https://www.linkedin.com/company/hack-upstate" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={LinkedIn} alt="LinkedIn logo" /> </a>
-                            <a href="https://www.youtube.com/hackupstate" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={YT} alt="YouTube logo" /> </a>
-                            <a href="https://join.slack.com/t/hack-upstate/shared_invite/enQtNzI3NDQ2NjA5MjE5LThkOWEzZGY1YzgzZjRmNzg4OTQ2ODkxZmIyOTI2NWM0ZDRjYWNkYzU4YzgzMjQ5ZTc3MzFhOWZlZTdhYjhkZDA" target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={Slack} alt="Slack logo" /> </a>
+                            <h4 className={footerStyles.footerTextBold}> {content.ui.footer_main_content.connect.header}  </h4>
+                            <a href={content.ui.footer_main_content.connect.facebook.link} target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={FB} alt={content.ui.footer_main_content.connect.facebook.alt_text} /> </a>
+                            <a href={content.ui.footer_main_content.connect.twitter.link} target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={TW} alt={content.ui.footer_main_content.connect.twitter.alt_text} /> </a>
+                            <a href={content.ui.footer_main_content.connect.medium.link} target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={Med} alt={content.ui.footer_main_content.connect.medium.alt_text} /> </a>
+                            <a href={content.ui.footer_main_content.connect.instagram.link} target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={Insta} alt={content.ui.footer_main_content.connect.instagram.alt_text} /> </a>
+                            <a href={content.ui.footer_main_content.connect.github.link} target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={Git} alt={content.ui.footer_main_content.connect.github.alt_text} /> </a>
+                            <a href={content.ui.footer_main_content.connect.linkedin.link} target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={LinkedIn} alt={content.ui.footer_main_content.connect.linkedin.alt_text} /> </a>
+                            <a href={content.ui.footer_main_content.connect.youtube.link} target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={YT} alt={content.ui.footer_main_content.connect.youtube.alt_text} /> </a>
+                            <a href={content.ui.footer_main_content.connect.slack.link} target="_blank" rel="noopener noreferrer" className={footerStyles.logo}> <img src={Slack} alt={content.ui.footer_main_content.connect.slack.alt_text} /> </a>
                         </div>
                     </Col>
 
                     <Col>
                         <div className={footerStyles.footerText}>
-                            <h4 className={footerStyles.footerTextBold}> {content.ui.footer_main_content_more_links.title} </h4>
-                            <p className="mb-0"><a className={footerStyles.footerLink} href="http://hackupstate.com/conduct.html"> {content.ui.footer_main_content_more_links_one.title} </a></p>
-                            <p className="mb-0"><a className={footerStyles.footerLink} href="http://hackupstate.com/privacy.html">{content.ui.footer_main_content_more_links_two.title}</a></p>
+                            <h4 className={footerStyles.footerTextBold}> {content.ui.footer_main_content.more_links.header} </h4>
+                            <p className="mb-0"><a className={footerStyles.footerLink} href={content.ui.footer_main_content.more_links.conduct.link}> {content.ui.footer_main_content.more_links.conduct.text} </a></p>
+                            <p className="mb-0"><a className={footerStyles.footerLink} href={content.ui.footer_main_content.more_links.privacy.link}>{content.ui.footer_main_content.more_links.privacy.text}</a></p>
                             <br /><br /><br />
                             <p className="mb-0">© Careers in Code {new Date().getFullYear()}</p>
                         </div>
