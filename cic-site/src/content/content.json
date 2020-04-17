@@ -197,6 +197,124 @@
         }
       }
     },
+    "newsletter_jumbotron": {
+      "header": "Monthly Newsletters",
+      "subheader": "You can find our previous newsletters here. Interested in receiving monthly updates about Hack Upstate, Careers in Code, events in the community, and job opportunities? Sign up today!",
+      "button": {
+        "text": "Join Our Mailing List",
+        "link": "https://www.getdrip.com/forms/67102980/submissions/new"
+      }
+    },
+    "newsletter_main_content": {
+      "table": {
+        "headers": {
+          "newsletter": "Previous Newsletters",
+          "people": "People",
+          "open_rate": "Open Rate",
+          "click_rate": "Click-Through Rate"
+        },
+        "rows": {
+          "feb20": "Feb 2020",
+          "feb20data": {
+            "link": "https://www.getdrip.com/broadcasts/754558476/2cd89966c14736f0f9669",
+            "people": "958",
+            "open_rate": "41.51%",
+            "click_rate": "5.10%"
+          },
+          "jan20": "Jan 2020",
+          "jan20data": {
+            "link": "https://www.getdrip.com/broadcasts/962925287/32de76c149727cb8fce9d",
+            "people": "962",
+            "open_rate": "43.74%",
+            "click_rate": "5.15%"
+          },
+          "dec19": "Dec 2019",
+          "dec19data": {
+            "link": "https://www.getdrip.com/broadcasts/360497992/2547a5a224dddb54bc288",
+            "people": "964",
+            "open_rate": "43.98%",
+            "click_rate": "4.82%"
+          },
+          "nov19": "Nov 2019",
+          "nov19data": {
+            "link": "https://www.getdrip.com/broadcasts/206872789/2a5f20907a1b39a52bd61",
+            "people": "941",
+            "open_rate": "39.79%",
+            "click_rate": "0%"
+          },
+          "oct19": "Oct 2019",
+          "oct19data": {
+            "link": "https://www.getdrip.com/broadcasts/28434821/06549a475704ab9659e3f",
+            "people": "948",
+            "open_rate": "40.74%",
+            "click_rate": "4.87%"
+          },
+          "sep19": "Sep 2019",
+          "sep19data": {
+            "link": "https://www.getdrip.com/broadcasts/82281435/a96e6e918177bfa4f17bf",
+            "people": "965",
+            "open_rate": "50.11%",
+            "click_rate": "6.03%"
+          },
+          "aug19": "Aug 2019",
+          "aug19data": {
+            "link": "https://www.getdrip.com/broadcasts/196706885/c77317b21e81b86ffd420",
+            "people": "2,398",
+            "open_rate": "29.65%",
+            "click_rate": "2.11%"
+          },
+          "july19": "July 2019",
+          "july19data": {
+            "link": "https://www.getdrip.com/broadcasts/644458598/8952944581820e2ccf8e3",
+            "people": "586",
+            "open_rate": "53.50%",
+            "click_rate": "4.27%"
+          },
+          "june19": "June 2019",
+          "june19data": {
+            "link": "https://www.getdrip.com/broadcasts/519180360/6fef5872431da82dbfacf",
+            "people": "595",
+            "open_rate": "56.83%",
+            "click_rate": "2.56%"
+          },
+          "may19": "May 2019",
+          "may19data": {
+            "link": "https://www.getdrip.com/broadcasts/908381625/d2c5ef116a8602f8c041f",
+            "people": "584",
+            "open_rate": "52.49%",
+            "click_rate": "3.60%"
+          },
+          "apr19": "Apr 2019",
+          "apr19data": {
+            "link": "https://www.getdrip.com/broadcasts/868454308/db1308b09acb83b88e55b",
+            "people": "583",
+            "open_rate": "56.95%",
+            "click_rate": "4.29%"
+          },
+          "mar19": "Mar 2019",
+          "mar19data": {
+            "link": "https://www.getdrip.com/broadcasts/959030288/ee0bdf3678f74ffd1d064",
+            "people": "585",
+            "open_rate": "62.11%",
+            "click_rate": "4.5%"
+          },
+          "feb19": "Feb 2019",
+          "feb19data": {
+            "link": "https://www.getdrip.com/broadcasts/184422263/7d7593b269d08f37c0b8f",
+            "people": "582",
+            "open_rate": "64.26%",
+            "click_rate": "4.98%"
+          },
+          "jan19": "Jan 2019",
+          "jan19data": {
+            "link": "https://www.getdrip.com/broadcasts/689260561/77ad5e0a893c37645dcb3",
+            "people": "2,272",
+            "open_rate": "26.58%",
+            "click_rate": "2.46%"
+          }
+        }
+      }
+    },
     "footer_main_content_contact": {
       "title": "Contact"
     },
