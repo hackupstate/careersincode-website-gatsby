@@ -12,29 +12,29 @@ const MissionPage = () => (
     <Container>
       <Row className={pageStyles.pageHeadings}>
         <Col>
-          <h3> {content.ui.mission_main_content.header1.title} </h3>
-          <p> {content.ui.mission_main_content.header1.text1} </p>
-          <p> {content.ui.mission_main_content.header1.text2} </p>
+          <h3> {content.ui.about.mission_main_content.header1.title} </h3>
+          <p> {content.ui.about.mission_main_content.header1.text1} </p>
+          <p> {content.ui.about.mission_main_content.header1.text2} </p>
         </Col>
       </Row>
       <hr />
       <Row className={pageStyles.pageHeadings}>
         <Col>
-          <h3> {content.ui.mission_main_content.header2.title} </h3>
-          <p> {content.ui.mission_main_content.header2.text} </p>
-          <h3> {content.ui.mission_main_content.header3} </h3>
+          <h3> {content.ui.about.mission_main_content.header2.title} </h3>
+          <p> {content.ui.about.mission_main_content.header2.text} </p>
+          <h3> {content.ui.about.mission_main_content.header3} </h3>
         </Col>
       </Row>
       <hr />
       <Row className={pageStyles.pageHeadings}>
         <Col>
-          <h3> {content.ui.mission_main_content.header4.title} </h3>
-          <h4> {content.ui.mission_main_content.header4.subheader1} </h4>
-          <p> {content.ui.mission_main_content.header4.text} </p>
-          <h4> {content.ui.mission_main_content.header4.subheader2.title} </h4>
-          <p> {content.ui.mission_main_content.header4.subheader2.text} </p>
-          <h4> {content.ui.mission_main_content.header4.subheader3.title} </h4>
-          <p> {content.ui.mission_main_content.header4.subheader3.text} </p>
+          <h3> {content.ui.about.mission_main_content.header4.title} </h3>
+          <h4> {content.ui.about.mission_main_content.header4.subheader1} </h4>
+          <p> {content.ui.about.mission_main_content.header4.text} </p>
+          <h4> {content.ui.about.mission_main_content.header4.subheader2.title} </h4>
+          <p> {content.ui.about.mission_main_content.header4.subheader2.text} </p>
+          <h4> {content.ui.about.mission_main_content.header4.subheader3.title} </h4>
+          <p> {content.ui.about.mission_main_content.header4.subheader3.text} </p>
         </Col>
       </Row>
       <hr />

@@ -16,42 +16,42 @@ const TeamPage = () => (
     <Container>
       <Row className={pageStyles.pageHeadings}>
         <Col>
-          <p> {content.ui.team_main_content.text} </p>
-          <a href={content.ui.team_main_content.email} target="_blank" rel="noopener noreferrer"> team@hackupstate.com </a>
+          <p> {content.ui.about.team_main_content.text} </p>
+          <a href={content.ui.about.team_main_content.email} target="_blank" rel="noopener noreferrer"> team@hackupstate.com </a>
         </Col>
       </Row>
       <Row className={pageStyles.pageContentContainer}>
         <Col>
-        <img className={pageStyles.imgCircle} src={Jesse} alt="Jesse Peplinski"/>
-          <h4> {content.ui.team_main_content.members.jesse} </h4>
-          <p> {content.ui.team_main_content.members.partner} </p>
-        <img className={pageStyles.imgCircle} src={Will} alt="Will Guisbond"/>
-        <h4> {content.ui.team_main_content.members.will} </h4>
-          <p> {content.ui.team_main_content.members.intern} </p>
+          <img className={pageStyles.imgCircle} src={Jesse} alt="Jesse Peplinski" />
+          <h4> {content.ui.about.team_main_content.members.jesse} </h4>
+          <p> {content.ui.about.team_main_content.members.partner} </p>
+          <img className={pageStyles.imgCircle} src={Will} alt="Will Guisbond" />
+          <h4> {content.ui.about.team_main_content.members.will} </h4>
+          <p> {content.ui.about.team_main_content.members.intern} </p>
         </Col>
         <Col>
-        <img className={pageStyles.imgCircle} src={Doug} alt="Doug Crescenzi"/>
-        <h4> {content.ui.team_main_content.members.doug} </h4>
-          <p> {content.ui.team_main_content.members.partner} </p>
-        <img className={pageStyles.imgCircle} src={Jason} alt="Jason Scharf"/>
-        <h4> {content.ui.team_main_content.members.jason} </h4>
-          <p> {content.ui.team_main_content.members.ssr} </p>
+          <img className={pageStyles.imgCircle} src={Doug} alt="Doug Crescenzi" />
+          <h4> {content.ui.about.team_main_content.members.doug} </h4>
+          <p> {content.ui.about.team_main_content.members.partner} </p>
+          <img className={pageStyles.imgCircle} src={Jason} alt="Jason Scharf" />
+          <h4> {content.ui.about.team_main_content.members.jason} </h4>
+          <p> {content.ui.about.team_main_content.members.ssr} </p>
         </Col>
       </Row>
       <Row className={pageStyles.pageButtonContainer}>
-      <Button className={pageStyles.pageButtons} color="info">
-              <a
-                href={content.ui.team_main_content.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={pageStyles.btnLink}
-              >
-                {content.ui.team_main_content.button}
-              </a>
-            </Button>
+        <Button className={pageStyles.pageButtons} color="info">
+          <a
+            href={content.ui.about.team_main_content.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={pageStyles.btnLink}
+          >
+            {content.ui.about.team_main_content.button}
+          </a>
+        </Button>
       </Row>
       <Row className={pageStyles.pageHeadings}>
-      <Link to="/">Go Home</Link>
+        <Link to="/">Go Home</Link>
       </Row>
     </Container>
   </Layout>
