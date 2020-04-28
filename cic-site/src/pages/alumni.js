@@ -12,6 +12,7 @@ const AlumniPage = () => (
     <SEO title="Alumni" />
     <h1>Alumni Page Content</h1>
     <h3> Test <FaEnvelope /> </h3>
+    <h3> Test </h3>
     <Link to="/">Go Home</Link>
   </Layout>
 )
