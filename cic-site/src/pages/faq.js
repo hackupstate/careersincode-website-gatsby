@@ -7,6 +7,8 @@ import { Container, Row, Col, Nav, NavItem, NavLink, TabContent, TabPane, Card, 
 import classnames from 'classnames'
 import pageStyles from './pages.module.css'
 
+
+// from reactstrap tab docs
 const FaqPage = (props) => {
   const [activeTab, setActiveTab] = useState('1');
 
