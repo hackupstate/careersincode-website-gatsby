@@ -727,79 +727,79 @@
               }
             }
           }
+        }
+      }
+    },
+    "footer_main_content": {
+      "contact": {
+        "header": "Contact",
+        "doug": {
+          "name": "Doug Crescenzi",
+          "email": "mailto:doug@hackupstate.com",
+          "email_text": "doug@hackupstate.com",
+          "phone": "tel:315-436-8655",
+          "phone_text": "(315) 436-8655"
         },
-        "footer_main_content": {
-          "contact": {
-            "header": "Contact",
-            "doug": {
-              "name": "Doug Crescenzi",
-              "email": "mailto:doug@hackupstate.com",
-              "email_text": "doug@hackupstate.com",
-              "phone": "tel:315-436-8655",
-              "phone_text": "(315) 436-8655"
-            },
-            "jesse": {
-              "name": "Jesse Peplinski",
-              "email": "mailto:jesse@hackupstate.com",
-              "email_text": "jesse@hackupstate.com",
-              "phone": "tel:315-409-3514",
-              "phone_text": "(315) 409-3514"
-            }
-          },
-          "connect": {
-            "header": "Connect",
-            "facebook": {
-              "link": "https://www.facebook.com/hackupstate",
-              "img": "../images/social/fb.png",
-              "alt_text": "Facebook logo"
-            },
-            "twitter": {
-              "link": "https://twitter.com/hackupstate",
-              "img": "../images/social/tw.png",
-              "alt_text": "Twitter logo"
-            },
-            "medium": {
-              "link": "https://medium.com/@hackupstate",
-              "img": "../images/social/med.png",
-              "alt_text": "Medium logo"
-            },
-            "instagram": {
-              "link": "https://www.instagram.com/hackupstate",
-              "img": "../images/social/inst-green.png",
-              "alt_text": "Instagram logo"
-            },
-            "github": {
-              "link": "https://github.com/hackupstate",
-              "img": "../images/social/git-blue.png",
-              "alt_text": "Github logo"
-            },
-            "linkedin": {
-              "link": "https://www.linkedin.com/company/hack-upstate/",
-              "img": "../images/social/linked-in-green.png",
-              "alt_text": "LinkedIn logo"
-            },
-            "youtube": {
-              "link": "https://www.youtube.com/user/hackupstate",
-              "img": "../images/social/yt-blue.png",
-              "alt_text": "YouTube logo"
-            },
-            "slack": {
-              "link": "https://join.slack.com/t/hack-upstate/shared_invite/enQtNzI3NDQ2NjA5MjE5LThkOWEzZGY1YzgzZjRmNzg4OTQ2ODkxZmIyOTI2NWM0ZDRjYWNkYzU4YzgzMjQ5ZTc3MzFhOWZlZTdhYjhkZDA",
-              "img": "../images/social/slack-green.png",
-              "alt_text": "Slack logo"
-            }
-          },
-          "more_links": {
-            "header": "More Links",
-            "conduct": {
-              "link": "http://hackupstate.com/conduct.html",
-              "text": "Code of Conduct"
-            },
-            "privacy": {
-              "link": "http://hackupstate.com/privacy.html",
-              "text": "Privacy Policy"
-            }
-          }
+        "jesse": {
+          "name": "Jesse Peplinski",
+          "email": "mailto:jesse@hackupstate.com",
+          "email_text": "jesse@hackupstate.com",
+          "phone": "tel:315-409-3514",
+          "phone_text": "(315) 409-3514"
+        }
+      },
+      "connect": {
+        "header": "Connect",
+        "facebook": {
+          "link": "https://www.facebook.com/hackupstate",
+          "img": "../images/social/fb.png",
+          "alt_text": "Facebook logo"
+        },
+        "twitter": {
+          "link": "https://twitter.com/hackupstate",
+          "img": "../images/social/tw.png",
+          "alt_text": "Twitter logo"
+        },
+        "medium": {
+          "link": "https://medium.com/@hackupstate",
+          "img": "../images/social/med.png",
+          "alt_text": "Medium logo"
+        },
+        "instagram": {
+          "link": "https://www.instagram.com/hackupstate",
+          "img": "../images/social/inst-green.png",
+          "alt_text": "Instagram logo"
+        },
+        "github": {
+          "link": "https://github.com/hackupstate",
+          "img": "../images/social/git-blue.png",
+          "alt_text": "Github logo"
+        },
+        "linkedin": {
+          "link": "https://www.linkedin.com/company/hack-upstate/",
+          "img": "../images/social/linked-in-green.png",
+          "alt_text": "LinkedIn logo"
+        },
+        "youtube": {
+          "link": "https://www.youtube.com/user/hackupstate",
+          "img": "../images/social/yt-blue.png",
+          "alt_text": "YouTube logo"
+        },
+        "slack": {
+          "link": "https://join.slack.com/t/hack-upstate/shared_invite/enQtNzI3NDQ2NjA5MjE5LThkOWEzZGY1YzgzZjRmNzg4OTQ2ODkxZmIyOTI2NWM0ZDRjYWNkYzU4YzgzMjQ5ZTc3MzFhOWZlZTdhYjhkZDA",
+          "img": "../images/social/slack-green.png",
+          "alt_text": "Slack logo"
+        }
+      },
+      "more_links": {
+        "header": "More Links",
+        "conduct": {
+          "link": "http://hackupstate.com/conduct.html",
+          "text": "Code of Conduct"
+        },
+        "privacy": {
+          "link": "http://hackupstate.com/privacy.html",
+          "text": "Privacy Policy"
         }
       }
     }
