@@ -550,12 +550,14 @@
           "congratulations": {
             "header": "Congratulations to our Cohort I Graduates!",
             "subheader": "Watch their capstone presentations & ceremony below:",
-            "capstone_link": "https://www.youtube.com/watch?v=tBYeEq7cErs&feature=emb_title",
-            "recap_link": "https://www.youtube.com/watch?v=zIdH9WhtAjo&feature=emb_title"
+            "capstone_link": "https://www.youtube.com/embed/tBYeEq7cErs",
+            "capstone_title": "Careers in Code - Cohort 1 Capstone Presentations and Graduation Ceremony",
+            "recap_link": "https://www.youtube.com/embed/zIdH9WhtAjo",
+            "recap_title": "Careers in Code - Cohort 1 Recap Video"
           },
           "cards": {
             "header": "Careers in Code Alumni",
-            "2019": {
+            "twentynineteen": {
               "ana": {
                 "name": "Ana Aombe",
                 "year": "2019",

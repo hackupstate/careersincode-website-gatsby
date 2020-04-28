@@ -13,6 +13,11 @@
   text-align: center;
 }
 
+.imgSquare {
+  width: 200px;
+  height: 200px;
+}
+
 .imgCircle {
   border-radius: 50%;
   width: 200px;

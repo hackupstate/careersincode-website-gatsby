@@ -8,7 +8,7 @@ import pageStyles from './pages.module.css'
 
 import Kelly from '../images/students/kellycorey.jpg'
 import Karin from '../images/students/karin.jpg'
-import Ana from '../images/students/Anna.jpg'
+import Ana from '../images/students/Ana.jpg'
 import Dana from '../images/students/dana.jpg'
 import Kaitlyn from '../images/students/Kaitlyn.jpg'
 import Dakir from '../images/students/dakir.jpg'
