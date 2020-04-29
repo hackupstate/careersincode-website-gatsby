@@ -44,7 +44,7 @@ const AlumniPage = () => (
       <Row className={pageStyles.pageContentContainer}>
         <Col>
           <h2> {content.ui.students.alumni.alumni_main_content.cards.header} </h2>
-          {/* card decks begin */}
+          {/* card deck begins */}
           <CardDeck>
             {/* ana aombe */}
             <Card body className="text-center">
