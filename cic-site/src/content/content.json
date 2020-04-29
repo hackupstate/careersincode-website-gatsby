@@ -612,6 +612,7 @@
                 },
                 "social": {
                   "email": "mailto:tim.devs07@gmail.com",
+                  "website": "https://timothyliles.me/",
                   "github": "https://github.com/lltim"
                 }
               },
@@ -725,6 +726,19 @@
                   "website": "https://www.jacquaywinfield.me/",
                   "github": "https://github.com/Jacquay87",
                   "capstone": "https://ggrd1.csb.app/#/"
+                }
+              },
+              "linda": {
+                "name": "Linda Kovacs",
+                "year": "2019",
+                "capstone": {
+                  "title": "Honorary Cohort I Graduate"
+                },
+                "social": {
+                  "email": "mailto:lindaprovenza@yahoo.com",
+                  "linkedin": "https://www.linkedin.com/in/lindakovacsart/",
+                  "website": "https://linda-kovacs.com/",
+                  "github": "https://github.com/lindakovacs"
                 }
               }
             }
