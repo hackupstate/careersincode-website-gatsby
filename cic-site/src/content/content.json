@@ -538,6 +538,349 @@
         }
       }
     },
+    "instructors": {
+      "instructor_jumbotron": {
+        "header": "Help empower new cohorts of developers from underrepresented CNY communities",
+        "subheader": "First-rate instructors and advisors who are passionate about advancing Central NY’s technology community are instrumental to our program",
+        "button": {
+          "link": "https://docs.google.com/document/d/1uBlca51T_DGnpfGnPiBtXfmuOz1iNzPZtYNzPbXFL3g/edit#",
+          "text": "View the Coursework"
+        }
+      },
+      "instructor_main_content": {
+        "overlay": {
+          "opportunity": {
+            "header": "OPPORTUNITY",
+            "subheader": "IT'S A PROFOUNDLY RICH OPPORTUNITY FOR OUR TECH COMMUNITY TO CREATE LONG-LASTING CAREERS FOR THE REGION'S UNDERPRIVILEGED."
+          },
+          "success": {
+            "header": "SUCCESS",
+            "subheader": "YOU'RE INSTRUMENTAL TO THE SUCCESS OF OUR STUDENTS AND THEIR FAMILIES."
+          },
+          "change": {
+            "header": "CHANGE",
+            "subheader": "YOU CAN USE YOUR TALENTS AND CREATE POSITIVE CHANGE IN PEOPLE'S LIVES."
+          },
+          "measure": {
+            "header": "MEASURE",
+            "subheader": "WE HAVE SYSTEMS IN PLACE TO HELP YOU MEASURE SUCCESS."
+          }
+        },
+        "buttons": {
+          "instructor": {
+            "header": "Instructors",
+            "text": "Software professionals like you have the talent and skills necessary to create professional opportunities for our students that will radically change their lives for the better. We'd love to work with you!",
+            "apply": {
+              "link": "https://airtable.com/shrnmu1tf2QexRScN",
+              "text": "Apply Now"
+            },
+            "responsibilities": {
+              "link": "https://docs.google.com/document/d/13Z4C-y_5BV9dEKFFJwi6--_J-htZiJ0Zl_0YeGYf3YQ/edit#heading=h.qtbtjrv8ds4",
+              "text": "View Responsibilities and Expectations"
+            },
+            "admissions": {
+              "link": "https://docs.google.com/document/d/1xK9I10hEBB1ji_8flWT1zgvKuPcPjdCHGOYVFMwLPCk/edit#heading=h.fz0zr0r0cyqr",
+              "text": "View Admissions Process"
+            }
+          },
+          "ta": {
+            "header": "Teaching Assistants",
+            "text": "Careers in Code is also seeking qualified teaching assistants to join our mentor team alongside new and existing instructors. Learn more about the position in our FAQ or apply below!",
+            "faq_link": "/faq",
+            "apply": {
+              "link": "https://docs.google.com/forms/d/e/1FAIpQLSf2zvVlVAIIIsFfwFUvZ5b7KQUdDjEhVxNU3NQoH0ze5frLqA/viewform",
+              "text": "Apply Now"
+            },
+            "responsibilities": {
+              "link": "https://docs.google.com/document/d/16iRkPiLUIEOFUdOlkfT8n3nm9Yx65bR14n7HZFU-eGs/edit",
+              "text": "View Responsibilities and Expectations"
+            }
+          }
+        },
+        "cohort_one": {
+          "instructor": {
+            "header": "Cohort I Instructors",
+            "cards": {
+              "jeff": {
+                "name": "Jeff Passetti",
+                "modules": {
+                  "text": "Modules",
+                  "one": {
+                    "text": "1",
+                    "link": "https://www.youtube.com/watch?v=pIbFqznFMLY"
+                  },
+                  "two": {
+                    "text": "2",
+                    "link": "https://www.youtube.com/watch?v=OaFvwhhZIEI"
+                  }
+                },
+                "position": {
+                  "text": "Cross-media Designer & Professor @",
+                  "link": "https://www.syracuse.edu/",
+                  "link_text": "Syracuse University"
+                },
+                "social": {
+                  "email": "mailto:mailto:japasset@syr.edu",
+                  "linkedin": "https://www.linkedin.com/in/jeff-passetti-1b07411a1/",
+                  "twitter": "https://twitter.com/jpassetti",
+                  "website": "https://newhouse.syr.edu/faculty-staff/jeff-passetti",
+                  "github": "https://github.com/jpassetti"
+                }
+              },
+              "christy": {
+                "name": "Christy Presler",
+                "modules": {
+                  "text": "Module 2"
+                },
+                "position": {
+                  "text": "Design Technologist @",
+                  "link": "https://upstateinteractive.io/",
+                  "link_text": "Upstate Interactive"
+                },
+                "social": {
+                  "email": "mailto:cnpresler@gmail.com",
+                  "linkedin": "https://www.linkedin.com/in/christy-presler/",
+                  "twitter": "https://twitter.com/cnpresler",
+                  "website": "http://christypresler.com/",
+                  "github": "https://github.com/cpresler"
+                }
+              },
+              "cash": {
+                "name": "Cashley Saintilus",
+                "modules": {
+                  "text": "Module",
+                  "link": "https://www.youtube.com/watch?v=wWu57s2wp-0",
+                  "link_text": "2"
+                },
+                "position": {
+                  "text": "Information Technology Associate @",
+                  "link": "https://equitable.com/",
+                  "link_text": "Equitable"
+                },
+                "social": {
+                  "email": "mailto:cashleysaintilus@gmail.com",
+                  "linkedin": "https://www.linkedin.com/in/cashley-saintilus/",
+                  "website": "https://cashleysaintilus.com/",
+                  "github": "https://github.com/csaintil"
+                }
+              },
+              "zoe": {
+                "name": "Zoe Koulouris Augustinos",
+                "modules": {
+                  "text": "Module",
+                  "link": "https://www.youtube.com/watch?v=2tRLO4iue1s",
+                  "link_text": "3"
+                },
+                "position": {
+                  "text": "Partner @",
+                  "link": "https://upstateinteractive.io/",
+                  "link_text": "Upstate Interactive"
+                },
+                "social": {
+                  "email": "mailto:hello@zck.io",
+                  "linkedin": "https://www.linkedin.com/in/zoe-koulouris-augustinos-662a3a38/",
+                  "twitter": "https://twitter.com/zoitsa430",
+                  "website": "http://zck.io/",
+                  "github": "https://github.com/zoitsa"
+                }
+              },
+              "jeremy": {
+                "name": "Jeremy Conn",
+                "modules": {
+                  "text": "Module",
+                  "link": "https://www.youtube.com/watch?v=EIw41QbvEvg",
+                  "link_text": "3"
+                },
+                "position": {
+                  "text": "Manager - Programmer Analyst @",
+                  "link": "https://equitable.com/",
+                  "link_text": "Equitable"
+                },
+                "social": {
+                  "email": "mailto:Jconn27@gmail.com",
+                  "linkedin": "https://www.linkedin.com/in/jeremymconn/",
+                  "twitter": "https://twitter.com/SkeeterJeter02",
+                  "github": "https://github.com/JeremyConn27"
+                }
+              },
+              "gus": {
+                "name": "Gus Cost",
+                "modules": {
+                  "text": "Modules",
+                  "four": {
+                    "text": "4",
+                    "link": "https://www.youtube.com/watch?v=3VWI_FHxFgA"
+                  },
+                  "six": {
+                    "text": "6",
+                    "link": "https://www.youtube.com/watch?v=8sCC62XfaiA"
+                  },
+                  "seven": {
+                    "text": "7",
+                    "link": "https://www.youtube.com/watch?v=9id5cU49JHw"
+                  },
+                  "eight": {
+                    "text": "8",
+                    "link": "https://www.youtube.com/watch?v=5X1WBT6O6AQ"
+                  }
+                },
+                "position": {
+                  "text": "Software Engineer @",
+                  "link": "https://www.density.io/",
+                  "link_text": "Density"
+                },
+                "social": {
+                  "email": "mailto:guscost@gmail.com",
+                  "linkedin": "https://www.linkedin.com/in/guscost/",
+                  "twitter": "https://twitter.com/guscost",
+                  "website": "https://guscost.com/",
+                  "github": "https://github.com/guscost"
+                },
+                "office_hours": {
+                  "link": "https://calendly.com/guscost",
+                  "text": "Schedule Office Hours"
+                }
+              },
+              "max": {
+                "name": "Max Matthews",
+                "modules": {
+                  "text": "Modules",
+                  "four": {
+                    "text": "4",
+                    "link": "https://www.youtube.com/watch?v=5D_sBO-jxBY"
+                  },
+                  "six": {
+                    "text": "6",
+                    "link": "https://www.youtube.com/watch?v=MSrqpcB2lO4"
+                  },
+                  "seven": {
+                    "text": "7",
+                    "link": "https://www.youtube.com/watch?v=Q_btbWgmSjo"
+                  },
+                  "eight": {
+                    "text": "10",
+                    "link": "https://www.youtube.com/watch?v=75PaF7AKJ-s"
+                  }
+                },
+                "position": {
+                  "text": "Lead Developer @",
+                  "link": "https://wearetuzag.com/",
+                  "link_text": "Tuzag"
+                },
+                "social": {
+                  "email": "mailto:max@zane.tech",
+                  "linkedin": "https://www.linkedin.com/in/maxzmatthews/",
+                  "twitter": "https://twitter.com/teckno101",
+                  "website": "https://maxmatthe.ws/",
+                  "github": "https://github.com/maxmatthews"
+                },
+                "office_hours": {
+                  "link": "https://calendly.com/maxmatthews",
+                  "text": "Schedule Office Hours"
+                }
+              },
+              "jake": {
+                "name": "Jake Beard",
+                "modules": {
+                  "text": "Modules",
+                  "four": {
+                    "text": "4",
+                    "link": "https://www.youtube.com/watch?v=W20nbysfSH4"
+                  },
+                  "nine": {
+                    "text": "9",
+                    "link": "https://www.youtube.com/watch?v=-MVet18jo_I"
+                  }
+                },
+                "position": {
+                  "text": "CEO @",
+                  "link": "http://jacobeanrnd.com/",
+                  "link_text": "Jacobean Research and Development"
+                },
+                "social": {
+                  "email": "mailto:jake@jacobeanrnd.com",
+                  "linkedin": "https://www.linkedin.com/in/jacob-beard/",
+                  "twitter": "https://twitter.com/jbeard4",
+                  "github": "https://github.com/jbeard4"
+                }
+              },
+              "joey": {
+                "name": "Joey Buczek",
+                "modules": {
+                  "text": "Modules",
+                  "four": {
+                    "text": "4",
+                    "link": "https://www.youtube.com/watch?v=yIKE6ezmWrE"
+                  },
+                  "eleven": {
+                    "text": "11",
+                    "link": "https://www.youtube.com/watch?v=hb9AUEP5_OU"
+                  }
+                },
+                "position": {
+                  "text": "Sr. Front End Developer @",
+                  "link": "https://www.raymourflanigan.com/",
+                  "link_text": "Raymour & Flanigan"
+                },
+                "social": {
+                  "email": "mailto:joe.buczek@gmail.com",
+                  "linkedin": "https://www.linkedin.com/in/joey-buczek-b2359b30/",
+                  "twitter": "https://twitter.com/JoeyBuczek",
+                  "github": "https://github.com/joeybuczek"
+                }
+              },
+              "ryan": {
+                "name": "Ryan Gaus",
+                "modules": {
+                  "text": "Module",
+                  "link": "https://www.youtube.com/watch?v=ePIX8luZNLI",
+                  "link_text": "5"
+                },
+                "position": {
+                  "text": "Software Engineer @",
+                  "link": "https://www.density.io/",
+                  "link_text": "Density"
+                },
+                "social": {
+                  "email": "mailto:rsg1egoman@gmail.com",
+                  "linkedin": "https://www.linkedin.com/in/ryan-gaus-08068617b/",
+                  "twitter": "https://twitter.com/rgausnet",
+                  "website": "http://rgaus.net/",
+                  "github": "https://github.com/1egoman"
+                }
+              },
+              "alice": {
+                "name": "Alice Miller",
+                "modules": {
+                  "text": "Module",
+                  "link": "https://www.youtube.com/watch?v=v64mW8D8m3o",
+                  "link_text": "9"
+                },
+                "position": {
+                  "text": "DevOps Engineer @",
+                  "link": "https://www.daily-harvest.com/",
+                  "link_text": "Daily Harvest"
+                },
+                "social": {
+                  "email": "mailto:alice_miller@weakmint.dev",
+                  "linkedin": "https://www.linkedin.com/in/alicemmiller/",
+                  "twitter": "https://twitter.com/weakmint",
+                  "github": "https://github.com/weakmint"
+                },
+                "office_hours": {
+                  "link": "https://calendly.com/weakmint",
+                  "text": "Schedule Office Hours"
+                }
+              }
+            },
+            "button": {
+              "link": "https://medium.com/@hackupstate/meet-our-careers-in-code-instructors-99d0b7292875",
+              "text": "Meet Our Instructors"
+            }
+          }
+        }
+      }
+    },
     "students": {
       "alumni": {
         "alumni_jumbotron": {

@@ -47,3 +47,9 @@ a.btnLink {
   color: white;
   text-decoration: none;
 }
+
+.greyTechGarden {
+  background-image: url(../images/assets/light-hero-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
