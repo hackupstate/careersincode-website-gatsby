@@ -10,7 +10,7 @@ const InstructorsPage = () => (
     <SEO title="Instructors" />
     <h1>Instructors Page Content</h1>
     <div className={pageStyles.greyTechGarden}>
-      <h1> Here is a test </h1>
+      <h1> Here is a new test </h1>
     </div>
     <Link to="/">Go Home</Link>
   </Layout>
