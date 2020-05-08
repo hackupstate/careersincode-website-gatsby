@@ -53,3 +53,30 @@ a.btnLink {
   background-size: cover;
   background-position: center;
 }
+
+.instructorStats {
+  color: #002333;
+  font-size: 64px;
+}
+
+.blueParaStats {
+  color: #2299dd;
+  font-size: x-large;
+}
+
+.greenParaStats {
+  color: #2de187;
+  font-size: x-large;
+}
+
+.blueButton {
+  background-color: #2299dd;
+  color: white;
+  border-radius: 0;
+  margin: 10px;
+}
+
+.blueButton:hover {
+  background-color: #2299dd;
+  opacity: 0.8;
+}
