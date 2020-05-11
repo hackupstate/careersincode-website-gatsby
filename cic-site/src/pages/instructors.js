@@ -83,6 +83,7 @@ const InstructorsPage = () => (
               {content.ui.instructors.instructor_main_content.buttons.ta.apply.text}
             </a>
           </Button>
+          <p> test </p>
         </Col>
       </Row>
 
