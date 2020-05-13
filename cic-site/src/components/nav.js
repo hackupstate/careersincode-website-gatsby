@@ -93,7 +93,7 @@ const NavComponent = () => {
             </DropdownMenu>
           </UncontrolledDropdown>
           <NavItem>
-            <NavLink href="/partners/">Partners</NavLink>
+            <NavLink href="/partner/">Partners</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="/outcomes/">Outcomes</NavLink>
