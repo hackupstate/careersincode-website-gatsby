@@ -1161,6 +1161,17 @@
           "text": "Privacy Policy"
         }
       }
+    },
+    "jobs_main_content": {
+      "jobs_jumbotron": {
+        "header": "Jobs",
+        "subheader": "At Careers in Code, we wouldn't be able to serve the community without the community! We'd love your help in supporting our mission. Below you will find some of the current listings, as well as positions we anticpate in the near future."
+      },
+      "jobs_table": {
+        "header1": "Position",
+        "header2": "Location",
+        "header3": "Description"
+      }
     }
   }
 }
