@@ -71,9 +71,6 @@ const NavComponent = () => {
               <DropdownItem>
                 <NavLink href="/prospective/">Prospective</NavLink>
               </DropdownItem>
-              <DropdownItem>
-                <NavLink href="/alumni/">Alumni</NavLink>
-              </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
           <UncontrolledDropdown nav inNavbar>
