@@ -1,48 +1,53 @@
 .footerBackground {
-    background-color: #002333;
+  background-color: #002333;
 }
 
 .footerButtonPad {
-    margin-top: 5%;
-  }
+  margin-top: 5%;
+}
 
 .footerLink {
-    color: #8d959a;
-  }
-  
+  color: #8d959a;
+}
+
 .footerLink:hover {
-    background-color: transparent;
-  }
+  background-color: transparent;
+}
 
 .footerText {
-    color: #8d959a;
-    font-size: 17px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    text-align: center;
-  }
+  color: #8d959a;
+  font-size: 17px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  text-align: center;
+}
 .footerTextBold {
-    color: #8d959a;
-    font-size: 17px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
-    text-align: center;
-    font-weight: bold;
-  }
+  color: #8d959a;
+  font-size: 17px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  text-align: center;
+  font-weight: bold;
+}
 .logo {
-    height: 45px;
-    width: auto;
-  }
+  height: 45px;
+  width: auto;
+}
 
 .studentFooterLinks {
-    color: #8d959a;
-    font-size: 17px;
-    padding-top: 7%;
-  }
-  
+  color: #8d959a;
+  font-size: 17px;
+  padding-top: 7%;
+}
+
 .extraFooter {
-    background-color: #002333;
-    padding-bottom: 2%;
-  }
+  background-color: #002333;
+  padding-bottom: 2%;
+}
+
+.centerItems {
+  display: flex;
+  justify-content: center;
+}
