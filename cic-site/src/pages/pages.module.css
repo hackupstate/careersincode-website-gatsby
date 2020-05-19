@@ -92,3 +92,14 @@ a.btnLink {
 a {
   text-decoration: none;
 }
+
+.centerItems {
+  display: flex;
+  justify-content: center;
+}
+
+.centerContentColumns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

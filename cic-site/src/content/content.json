@@ -1612,9 +1612,29 @@
         "subheader": "At Careers in Code, we wouldn't be able to serve the community without the community! We'd love your help in supporting our mission. Below you will find some of the current listings, as well as positions we anticpate in the near future."
       },
       "jobs_table": {
-        "header1": "Position",
-        "header2": "Location",
-        "header3": "Description"
+        "header_position": "Position",
+        "header_location": "Location",
+        "header_description": "Description",
+        "positions": {
+          "position_intern": "Intern",
+          "position_success": "Student Success Rep",
+          "position_instructor": "Instructor",
+          "position_ta": "Teaching Assistent",
+          "position_coach": "Career Coach"
+        },
+        "locations": {
+          "location_syr": "Syracuse, NY",
+          "location_remote": "Remote",
+          "location_roc": "Rochester, NY"
+        },
+        "descriptions": {
+          "description_link_text": "Job Description",
+          "description_intern": "https://docs.google.com/document/d/1l-bi2QYwCcrlDYPoNVTkoVGpu9LFczgKBi3K1HK6bRQ/edit",
+          "description_success": "https://docs.google.com/document/d/1JIhgd1x6_vycI2kbYZ_7bqGtj8FofYbVMiBUAr7UEuc/edit",
+          "description_instructor": "https://docs.google.com/document/d/19ilE470-oAOvAG3S6EUxm13Uu8md6J9RgpsllDU3AN8/edit",
+          "description_ta": "https://docs.google.com/document/d/16iRkPiLUIEOFUdOlkfT8n3nm9Yx65bR14n7HZFU-eGs/edit",
+          "description_coach": "https://docs.google.com/document/d/1sRHMY5RQZdsjPNWtJs_VdJyHUmhR1vyGcjC-RN_tIlc/edit"
+        }
       }
     },
     "students_main_content": {
@@ -1625,7 +1645,7 @@
         "button_link": "https://docs.google.com/forms/d/e/1FAIpQLScpE0bpIn_E8CnKyO0AXvkHbliLPa0kKnFbhjBryTNKWDxFFg/viewform"
       },
       "students_stats": {
-        "stats_days": "120 Days",
+        "stats_days": "120 DAYS",
         "stats_days_text": "78% OF CODING BOOTCAMP GRADUATES OBTAIN FULL-TIME JOBS IN THE FIELD WITHIN 120 DAYS",
         "stats_salary": "$64,528",
         "stats_salary_text": "IS THE AVERAGE SALARY FOR CODING BOOTCAMP GRADUATES",
@@ -1640,9 +1660,10 @@
         "footnote_2_link": "https://www.coursereport.com/reports/coding-bootcamp-job-placement-2018#timeframe",
         "footnote_2_super": "2"
       },
-      "students_congrats": "Congrats to our Cohort I Graduates!",
+      "students_congrats": "Congrats to Our Cohort I Graduates!",
       "students_congrats_video": "https://youtu.be/3N0K2ZgpB0s",
       "student_resource_links": {
+        "student_resource_title": "Helpful Links",
         "cohort1_icon": "",
         "cohort1_text": "Cohort 1",
         "cohort1_button_text": "View Alumni Portal",
@@ -1667,6 +1688,24 @@
         "resources_text": "Learning Resources",
         "resources_button_text": "View Learning Resources",
         "resources_button_link": "https://docs.google.com/document/d/1-ElewVAi1fcrXdOTCdwV26Mjwna-aqOvXHHlMDn9VUE/edit"
+      }
+    },
+    "contact_main_content": {
+      "content_jumbotron": {
+        "header": "Contact Us",
+        "subheader": "We would love to hear from you! Please fill out the form below and we will get back to you as soon as we can. We are so excited to share our passion for growing the technology community in Central New York, and look forward to hearing from you!",
+        "thankyou": "Thank you for supporting our mission."
+      }
+    },
+    "currStudents_main_content": {
+      "currStudents_jumbotron": {
+        "header": "Resources for Current Students"
+      },
+      "classroom_info": {
+        "classroom_heading": "Here you can find our Google Classroom",
+        "classroom_subheading": "Need an invite? Send an email to jesse@hackupstate.com",
+        "classroom_button_text": "View the Classroom",
+        "classroom_button_link": "https://classroom.google.com/u/0/c/MzA3Mjc4Mjc2NzZa"
       }
     }
   }

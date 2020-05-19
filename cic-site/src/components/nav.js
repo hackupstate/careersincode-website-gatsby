@@ -65,27 +65,20 @@ const NavComponent = () => {
           </NavItem>
           <UncontrolledDropdown nav inNavbar>
             <DropdownToggle nav caret>
-              Students
-            </DropdownToggle>
-            <DropdownMenu right>
-              <DropdownItem>
-                <NavLink href="/prospective/">Prospective</NavLink>
-              </DropdownItem>
-            </DropdownMenu>
-          </UncontrolledDropdown>
-          <UncontrolledDropdown nav inNavbar>
-            <DropdownToggle nav caret>
               Classroom
             </DropdownToggle>
             <DropdownMenu right>
               <DropdownItem>
-                <NavLink href="/speakers/">Guest Speakers</NavLink>
+                <NavLink href="/prospective/">Prospective Students</NavLink>
+              </DropdownItem>
+              <DropdownItem>
+                <NavLink href="/students/">Current Students</NavLink>
+              </DropdownItem>
+              <DropdownItem>
+                <NavLink href="/speakers/">Speakers</NavLink>
               </DropdownItem>
               <DropdownItem>
                 <NavLink href="/schedule/">Schedule</NavLink>
-              </DropdownItem>
-              <DropdownItem>
-                <NavLink href="/speakers/">Guest Speakers</NavLink>
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
