@@ -258,17 +258,21 @@ const InstructorsPage = () => (
           </Col>
         </Col>
       </Row>
+      <Row className={pageStyles.pageContentContainer}>
+        <Col>
+          <h1>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.cohort_one
+                .instructor.header
+            }{" "}
+          </h1>
+        </Col>
+      </Row>
       <div className="bg-light">
         {/* instructor cards */}
         <Row className={pageStyles.pageContentContainer}>
           <Col>
-            <h1>
-              {" "}
-              {
-                content.ui.instructors.instructor_main_content.cohort_one
-                  .instructor.header
-              }{" "}
-            </h1>
             <CardDeck>
               {/* jeff passetti */}
               <Card body className="shadow-sm">
@@ -1635,16 +1639,20 @@ const InstructorsPage = () => (
         </Row>
       </div>
       {/* ta cards */}
+      <Row className={pageStyles.pageContentContainer}>
+        <Col>
+          <h1>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.cohort_one.ta
+                .header
+            }{" "}
+          </h1>
+        </Col>
+      </Row>
       <div className="bg-light">
         <Row className={pageStyles.pageContentContainer}>
           <Col>
-            <h1>
-              {" "}
-              {
-                content.ui.instructors.instructor_main_content.cohort_one.ta
-                  .header
-              }{" "}
-            </h1>
             <CardDeck>
               {/* jennifer tran */}
               <Card body className="shadow-sm">

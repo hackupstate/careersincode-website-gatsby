@@ -604,7 +604,7 @@
               "jeff": {
                 "name": "Jeff Passetti",
                 "modules": {
-                  "text": "Modules",
+                  "text": "Modules ",
                   "one": {
                     "text": "1",
                     "link": "https://www.youtube.com/watch?v=pIbFqznFMLY"
@@ -648,7 +648,7 @@
               "cash": {
                 "name": "Cashley Saintilus",
                 "modules": {
-                  "text": "Module",
+                  "text": "Module ",
                   "link": "https://www.youtube.com/watch?v=wWu57s2wp-0",
                   "link_text": "2"
                 },
@@ -667,7 +667,7 @@
               "zoe": {
                 "name": "Zoe Koulouris Augustinos",
                 "modules": {
-                  "text": "Module",
+                  "text": "Module ",
                   "link": "https://www.youtube.com/watch?v=2tRLO4iue1s",
                   "link_text": "3"
                 },
@@ -687,7 +687,7 @@
               "jeremy": {
                 "name": "Jeremy Conn",
                 "modules": {
-                  "text": "Module",
+                  "text": "Module ",
                   "link": "https://www.youtube.com/watch?v=EIw41QbvEvg",
                   "link_text": "3"
                 },
@@ -706,21 +706,21 @@
               "gus": {
                 "name": "Gus Cost",
                 "modules": {
-                  "text": "Modules",
+                  "text": "Modules ",
                   "four": {
-                    "text": "4",
+                    "text": "4 ",
                     "link": "https://www.youtube.com/watch?v=3VWI_FHxFgA"
                   },
                   "six": {
-                    "text": "6",
+                    "text": " 6 ",
                     "link": "https://www.youtube.com/watch?v=8sCC62XfaiA"
                   },
                   "seven": {
-                    "text": "7",
+                    "text": " 7 ",
                     "link": "https://www.youtube.com/watch?v=9id5cU49JHw"
                   },
                   "eight": {
-                    "text": "8",
+                    "text": " 8",
                     "link": "https://www.youtube.com/watch?v=5X1WBT6O6AQ"
                   }
                 },
@@ -744,21 +744,21 @@
               "max": {
                 "name": "Max Matthews",
                 "modules": {
-                  "text": "Modules",
+                  "text": "Modules ",
                   "four": {
-                    "text": "4",
+                    "text": "4 ",
                     "link": "https://www.youtube.com/watch?v=5D_sBO-jxBY"
                   },
                   "six": {
-                    "text": "6",
+                    "text": " 6 ",
                     "link": "https://www.youtube.com/watch?v=MSrqpcB2lO4"
                   },
                   "seven": {
-                    "text": "7",
+                    "text": " 7 ",
                     "link": "https://www.youtube.com/watch?v=Q_btbWgmSjo"
                   },
                   "ten": {
-                    "text": "10",
+                    "text": " 10",
                     "link": "https://www.youtube.com/watch?v=75PaF7AKJ-s"
                   }
                 },
@@ -782,13 +782,13 @@
               "jake": {
                 "name": "Jake Beard",
                 "modules": {
-                  "text": "Modules",
+                  "text": "Modules ",
                   "four": {
-                    "text": "4",
+                    "text": "4 ",
                     "link": "https://www.youtube.com/watch?v=W20nbysfSH4"
                   },
                   "nine": {
-                    "text": "9",
+                    "text": " 9",
                     "link": "https://www.youtube.com/watch?v=-MVet18jo_I"
                   }
                 },
@@ -807,13 +807,13 @@
               "joey": {
                 "name": "Joey Buczek",
                 "modules": {
-                  "text": "Modules",
+                  "text": "Modules ",
                   "four": {
-                    "text": "4",
+                    "text": "4 ",
                     "link": "https://www.youtube.com/watch?v=yIKE6ezmWrE"
                   },
                   "eleven": {
-                    "text": "11",
+                    "text": " 11",
                     "link": "https://www.youtube.com/watch?v=hb9AUEP5_OU"
                   }
                 },
@@ -832,7 +832,7 @@
               "ryan": {
                 "name": "Ryan Gaus",
                 "modules": {
-                  "text": "Module",
+                  "text": "Module ",
                   "link": "https://www.youtube.com/watch?v=ePIX8luZNLI",
                   "link_text": "5"
                 },
@@ -852,7 +852,7 @@
               "alice": {
                 "name": "Alice Miller",
                 "modules": {
-                  "text": "Module",
+                  "text": "Module ",
                   "link": "https://www.youtube.com/watch?v=v64mW8D8m3o",
                   "link_text": "9"
                 },
@@ -884,7 +884,7 @@
               "jennifer": {
                 "name": "Jennifer Tran",
                 "position": {
-                  "text": "Hatchery Program Member @",
+                  "text": "Hatchery Program Member @ ",
                   "link": "https://cryptochicks.ca/",
                   "link_text": "CryptoChicks"
                 },
@@ -899,7 +899,7 @@
               "david": {
                 "name": "David Badillo",
                 "position": {
-                  "text": "Front End Web Developer & Designer @",
+                  "text": "Front End Web Developer & Designer @ ",
                   "link": "https://neatify.io/",
                   "link_text": "Neatify"
                 },
@@ -912,7 +912,7 @@
               "katie": {
                 "name": "Katie Watson",
                 "position": {
-                  "text": "Student @",
+                  "text": "Student @ ",
                   "link": "https://www.potsdam.edu/",
                   "link_text": "SUNY Potsdam"
                 },
@@ -923,7 +923,7 @@
               "pankaj": {
                 "name": "Pankaj Chandiramani",
                 "position": {
-                  "text": "Director of Product Management @",
+                  "text": "Director of Product Management @ ",
                   "link": "https://www.oracle.com/index.html",
                   "link_text": "Oracle"
                 },
@@ -935,7 +935,7 @@
               "drew": {
                 "name": "Drew Knab",
                 "position": {
-                  "text": "Full Stack Web Developer @",
+                  "text": "Full Stack Web Developer @ ",
                   "link": "https://www.sidearmsports.com/",
                   "link_text": "Sidearm Sports"
                 },
@@ -949,7 +949,7 @@
               "wesam": {
                 "name": "Wesam Shanaa",
                 "position": {
-                  "text": "Full Stack Developer @",
+                  "text": "Full Stack Developer @ ",
                   "link": "https://equitable.com/",
                   "link_text": "Equitable"
                 },
@@ -961,7 +961,7 @@
               "garnet": {
                 "name": "Garnet Grimm",
                 "position": {
-                  "text": "RIT Supplemental Instructor (Computer Science) @",
+                  "text": "RIT Supplemental Instructor (Computer Science) @ ",
                   "link": "https://www.rit.edu/",
                   "link_text": "RIT"
                 },
@@ -986,7 +986,6 @@
         }
       }
     },
-
     "students": {
       "alumni": {
         "alumni_jumbotron": {
@@ -1594,7 +1593,7 @@
               }
             },
             "doc": {
-              "name": "Andrew Doc Docherty",
+              "name": "Andrew \"Doc\" Docherty",
               "position": {
                 "text": "President & CEO @ ",
                 "link": "https://coveydev.com/",
