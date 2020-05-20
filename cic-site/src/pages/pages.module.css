@@ -17,6 +17,11 @@
   margin-bottom: 60px;
 }
 
+.containerStyles {
+  width: 65%;
+  padding: 30px;
+}
+
 .imgSquare {
   width: 200px;
   height: 200px;

@@ -1,6 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import Header from "../components/header"
+import NavComponent from "../components/nav"
+import JumbotronComponent from "../components/jumbotron"
+import JumboButton from "../components/jumboButton"
 import SEO from "../components/seo"
 import content from "../content/content.json"
 import {
@@ -41,6 +45,18 @@ import Linda from "../images/students/lindakovacs.jpeg"
 
 const AlumniPage = () => (
   <Layout>
+    <Header>
+      <NavComponent />
+      <JumbotronComponent
+        heading={content.ui.students.alumni.alumni_jumbotron.heading}
+        subheading={content.ui.students.alumni.alumni_jumbotron.subheading}
+      >
+        <JumboButton
+          btnLink={content.ui.students.alumni.alumni_jumbotron.button.link}
+          btnText={content.ui.students.alumni.alumni_jumbotron.button.text}
+        />
+      </JumbotronComponent>
+    </Header>
     <SEO title="Alumni" />
     <Container>
       <Row className={pageStyles.pageContentContainer}>

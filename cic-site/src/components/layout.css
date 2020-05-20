@@ -14,7 +14,6 @@ details,
 figcaption,
 figure,
 footer,
-header,
 main,
 menu,
 nav,
@@ -94,7 +93,6 @@ code,
 kbd,
 pre,
 samp {
- 
   font-size: 1em;
 }
 figure {
@@ -185,7 +183,6 @@ textarea {
   font: inherit;
 }
 html {
-  
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -200,7 +197,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
- 
+
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -229,7 +226,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
- 
+
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -245,7 +242,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  
+
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -261,7 +258,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
- 
+
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -277,7 +274,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  
+
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -293,7 +290,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
- 
+
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -585,7 +582,7 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
- 
+
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
