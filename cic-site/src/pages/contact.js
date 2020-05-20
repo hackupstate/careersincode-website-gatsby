@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+
 import { Container, Row, Col, Button } from "reactstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"

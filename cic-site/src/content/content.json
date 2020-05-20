@@ -2,7 +2,7 @@
   "ui": {
     "index_jumbotron": {
       "heading": "Transform your career with Hack Upstate.",
-      "subHeading": "Careers in Code is a coding bootcamp that teaches computer programming to women and minorities to help combat poverty in Central NY. We provide students with the technical skills they need to obtain internships and entry level software development jobs with local employers after 24 weeks of instruction.",
+      "subheading": "Careers in Code is a coding bootcamp that teaches computer programming to women and minorities to help combat poverty in Central NY. We provide students with the technical skills they need to obtain internships and entry level software development jobs with local employers after 24 weeks of instruction.",
       "button1": {
         "text": "Join the Waitlist for Cohort 2",
         "link": "https://docs.google.com/forms/d/e/1FAIpQLScpE0bpIn_E8CnKyO0AXvkHbliLPa0kKnFbhjBryTNKWDxFFg/viewform"
@@ -65,7 +65,7 @@
     },
     "about": {
       "mission_jumbotron": {
-        "header": "Our mission to combat poverty in central New York."
+        "heading": "Our mission is to combat poverty in central New York."
       },
       "mission_main_content": {
         "header1": {
@@ -93,7 +93,7 @@
         }
       },
       "team_jumbotron": {
-        "title": "Meet the Team Behind Careers in Code"
+        "heading": "Meet the Team Behind Careers in Code"
       },
       "team_main_content": {
         "text": "Our team of experienced technology and community professionals are passionate and committed to uplifting the Central New York community. If you are interested in helping out, send us an email!",
@@ -199,8 +199,8 @@
         }
       },
       "newsletter_jumbotron": {
-        "header": "Monthly Newsletters",
-        "subheader": "You can find our previous newsletters here. Interested in receiving monthly updates about Hack Upstate, Careers in Code, events in the community, and job opportunities? Sign up today!",
+        "heading": "Monthly Newsletters",
+        "subheading": "You can find our previous newsletters here. Interested in receiving monthly updates about Hack Upstate, Careers in Code, events in the community, and job opportunities? Sign up today!",
         "button": {
           "text": "Join Our Mailing List",
           "link": "https://www.getdrip.com/forms/67102980/submissions/new"
@@ -317,7 +317,7 @@
         }
       },
       "testimonials_jumbotron": {
-        "header": "Hear what our graduates, instructors, and teaching assistants are saying about Careers in Code.",
+        "heading": "Hear what our graduates, instructors, and teaching assistants are saying about Careers in Code.",
         "button": {
           "text": "Write a Testimonial",
           "link": "https://docs.google.com/forms/d/e/1FAIpQLScQBKfDme7X52fQC-ud5jDwPGDb8Sk89-CyNXlcWlH1_Svruw/viewform"
@@ -382,7 +382,7 @@
         }
       },
       "faq_jumbotron": {
-        "header": "You have questions. We have answers."
+        "heading": "You have questions. We have answers."
       },
       "faq_main_content": {
         "general": {
@@ -540,8 +540,8 @@
     },
     "instructors": {
       "instructor_jumbotron": {
-        "header": "Help empower new cohorts of developers from underrepresented CNY communities",
-        "subheader": "First-rate instructors and advisors who are passionate about advancing Central NY’s technology community are instrumental to our program",
+        "heading": "Help empower new cohorts of developers from underrepresented CNY communities",
+        "subheading": "First-rate instructors and advisors who are passionate about advancing Central NY’s technology community are instrumental to our program",
         "button": {
           "link": "https://docs.google.com/document/d/1uBlca51T_DGnpfGnPiBtXfmuOz1iNzPZtYNzPbXFL3g/edit#",
           "text": "View the Coursework"
@@ -986,352 +986,16 @@
         }
       }
     },
-    "guest_speakers": {
-      "jumbotron": {
-        "text": "Guest Speakers"
-      },
-      "main_content": {
-        "featured": {
-          "header": "About the Guest Speaker Program",
-          "header_text_skills": "Part of the Careers in Code initiative is not only to provide our students with the technical skills they need to become developers but also to teach them the necessary soft skills needed in the professional world. This includes everything from networking to technical and behavorial interview skills. We've found the best way to expose them to such important topics is to bring in industry professionals who are passionate about sharing their wealth of knowledge about their own experiences.",
-          "header_text_program": "Our Guest Speaker Program was developed with this in mind. It not only enhances our student's abilities but introduces them to the thriving tech community in Syracuse.",
-          "button": {
-            "text": "Speak to Our Students",
-            "link": "mailto:jesse@hackupstate.com?cc=will@hackupstate.com"
-          }
-        },
-        "cards": {
-          "header": "Previous Speakers",
-          "ed": {
-            "name": "Ed Forth",
-            "position": {
-              "text": "Customer Success Manager @",
-              "link": "https://www.tcgplayer.com/",
-              "link_text": "TCGPlayer"
-            },
-            "presentation": {
-              "text": "March 25, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=f8InvgSDSIk&feature=youtu.be",
-              "topic": "Networking"
-            },
-            "social": {
-              "email": "mailto:ed@forthplace.com",
-              "linkedin": "https://www.linkedin.com/in/ed-forth-5988754b/",
-              "twitter": "https://twitter.com/edforth",
-              "website": "http://forthplace.com/"
-            }
-          },
-          "flood": {
-            "name": "Matt Flood",
-            "position": {
-              "text": "Product Manager @",
-              "link": "https://www.tcgplayer.com/",
-              "link_text": "TCGPlayer"
-            },
-            "presentation": {
-              "text": "April 8, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=x88qlvbnW-g&feature=youtu.be",
-              "topic": "Project Management & Community Involvement"
-            },
-            "social": {
-              "email": "mailto:matt@tcgplayer.com",
-              "linkedin": "https://www.linkedin.com/in/matthewdflood/",
-              "github": "https://github.com/MattFlood7"
-            }
-          },
-          "shaun": {
-            "name": "Shaun Burdick",
-            "position": {
-              "text": "Engineering Manager @ ",
-              "link": "https://swimlane.com/",
-              "link_text": "Swimlane"
-            },
-            "presentation": {
-              "text": "April 24, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=d-fitnZiO2Q&feature=youtu.be",
-              "topic": "Technical Interview Tips"
-            },
-            "social": {
-              "email": "mailto:careersincode@shaunburdick.com",
-              "linkedin": "https://www.linkedin.com/in/shaunburdick/",
-              "twitter": "https://twitter.com/_shaunburdick",
-              "website": "https://shaunburdick.com/#/",
-              "github": "https://github.com/shaunburdick/"
-            }
-          },
-          "kseniya": {
-            "name": "Kseniya Lifanova",
-            "position": {
-              "text": "Co-Founder @ ",
-              "link": "https://upstateinteractive.io/",
-              "link_text": "Upstate Interactive"
-            },
-            "presentation": {
-              "text": "May 15, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=FltWfHm1HcE&__s=xxxxxxx",
-              "topic": "Blockchain // Her Story & Starting a Company"
-            },
-            "social": {
-              "email": "mailto:kseniya@upstateinteractive.io",
-              "linkedin": "https://www.linkedin.com/in/kseniya-lifanova-aa50b19/",
-              "twitter": "https://twitter.com/devgirlla",
-              "website": "https://kseniya.io/",
-              "github": "https://github.com/kseniya292"
-            }
-          },
-          "checksfield": {
-            "name": "Matt Checksfield",
-            "position": {
-              "text": "Vice President of IT @ ",
-              "link": "https://www.raymourflanigan.com/",
-              "link_text": "Raymour & Flanigan"
-            },
-            "presentation": {
-              "text": "May 16, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=e2FREWMS7uo&feature=youtu.be",
-              "topic": "How to Nail Your Interview"
-            },
-            "social": {
-              "linkedin": "https://www.linkedin.com/in/matthew-checksfield-7b25266/",
-              "twitter": "https://twitter.com/MattChecksfield"
-            }
-          },
-          "yulia": {
-            "name": "Yulia Ovchinnikova",
-            "position": {
-              "text": "Founder @ ",
-              "link": "https://openhubproject.com/",
-              "link_text": "OpenHubProject"
-            },
-            "presentation": {
-              "text": "May 20, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=j2uZD-5hR-g&feature=youtu.be",
-              "topic": "Community Involvement"
-            },
-            "social": {
-              "linkedin": "https://www.linkedin.com/in/yovchinnikova/",
-              "twitter": "https://twitter.com/JOvchinnikova",
-              "website": "https://yulia-o.github.io/",
-              "github": "https://github.com/Yulia-O"
-            }
-          },
-          "linda": {
-            "name": "Linda Kovacs",
-            "position": {
-              "text": "Freelance Web Developer, Web Designer, and Graphic Designer"
-            },
-            "presentation": {
-              "success": {
-                "text": "May 28, 2019 | ",
-                "link": "https://www.youtube.com/watch?v=LjV3n-uF0yM&__s=xxxxxxx",
-                "topic": "A Bootcamp Success Story"
-              },
-              "dream": {
-                "text": "August 15, 2019 | ",
-                "link": "https://www.youtube.com/watch?v=p1RWvy9I3Ko",
-                "topic": "Your Bootcamp Dream Job"
-              }
-            },
-            "social": {
-              "email": "mailto:lindaprovenza@yahoo.com",
-              "linkedin": "https://www.linkedin.com/in/lindakovacsart/",
-              "twitter": "https://twitter.com/lindakovacsart",
-              "website": "https://linda-kovacs.com/",
-              "github": "https://github.com/lindakovacs"
-            }
-          },
-          "pam": {
-            "name": "Pamela Puri",
-            "position": {
-              "text": "CEO @ ",
-              "link": "https://tech4kidz.net/",
-              "link_text": "Tech4Kidz"
-            },
-            "presentation": {
-              "text": "June 10, 2019 |  ",
-              "link": "",
-              "topic": "Her Story & Building A Company"
-            },
-            "social": {
-              "email": "mailto:tech4kidz@hotmail.com",
-              "linkedin": "https://www.linkedin.com/in/pamela-puri-4bb79917a/",
-              "twitter": "https://twitter.com/tech4kidz"
-            }
-          },
-          "charissa": {
-            "name": "Charissa Lawrence",
-            "position": {
-              "text": "Software Engineer @ ",
-              "link": "https://www.density.io/",
-              "link_text": "Density"
-            },
-            "presentation": {
-              "text": "June 18, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=K9HlEs17tUw&feature=youtu.be",
-              "topic": "Data Modeling"
-            },
-            "social": {
-              "linkedin": "https://www.linkedin.com/in/charissa-lawrence-34665619/",
-              "twitter": "https://twitter.com/CharissaSayHey",
-              "github": "https://github.com/charissalaw"
-            }
-          },
-          "doug": {
-            "name": "Doug Crescenzi",
-            "position": {
-              "text": "Partner @ ",
-              "link": "https://upstateinteractive.io/",
-              "link_text": "Upstate Interactive"
-            },
-            "presentation": {
-              "text": "June 20, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=9id5cU49JHw",
-              "topic": "Blockchain"
-            },
-            "social": {
-              "email": "mailto:doug@hackupstate.com",
-              "linkedin": "https://www.linkedin.com/in/douglascrescenzi/",
-              "twitter": "https://twitter.com/dougiebuckets",
-              "github": "https://github.com/dougiebuckets"
-            }
-          },
-          "raj": {
-            "name": "Raj Suchak",
-            "position": {
-              "text": "CEO @ ",
-              "link": "http://www.gritseed.com/",
-              "link_text": "Grit Seed"
-            },
-            "presentation": {
-              "text": "July 16, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=FA281XJGnwk&feature=youtu.be",
-              "topic": "Grit & Success"
-            },
-            "social": {
-              "email": "mailto:hello@gritseed.com",
-              "linkedin": "https://www.linkedin.com/in/rsuchak/",
-              "twitter": "https://twitter.com/grit_seed"
-            }
-          },
-          "doc": {
-            "name": "Andrew Doc Docherty",
-            "position": {
-              "text": "President & CEO @ ",
-              "link": "https://coveydev.com/",
-              "link_text": "Covey"
-            },
-            "presentation": {
-              "text": "July 17, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=-52-XRUTuNs&feature=youtu.be",
-              "topic": "Behavioral Interview Tips"
-            },
-            "social": {
-              "linkedin": "https://www.linkedin.com/in/andrew-doc-docherty-55097865/"
-            }
-          },
-          "josh": {
-            "name": "Josh Creager",
-            "position": {
-              "text": "Accounts Development Rep @ ",
-              "link": "https://www.arrow.com/",
-              "link_text": "Arrow"
-            },
-            "presentation": {
-              "text": "July 29, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=75PaF7AKJ-s&feature=youtu.be",
-              "topic": "The Hardware/Software Crossfade"
-            },
-            "social": {
-              "linkedin": "https://www.linkedin.com/in/joshcreager/",
-              "twitter": "https://twitter.com/JoshCreager"
-            }
-          },
-          "seth": {
-            "name": "Seth Mulligan",
-            "position": {
-              "text": "Managing Director @ ",
-              "link": "https://www.storyslab.com/",
-              "link_text": "Story Slab"
-            },
-            "presentation": {
-              "text": "August 1, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=Aza5Byo1PSs&feature=youtu.be",
-              "topic": "Project Iteration"
-            },
-            "social": {
-              "email": "mailto:sethmulligan@gmail.com",
-              "linkedin": "https://www.linkedin.com/in/sethmulligan/",
-              "twitter": "https://twitter.com/SyracuseSeth",
-              "website": "http://sethmulligan.brandyourself.com/"
-            }
-          },
-          "ben": {
-            "name": "Ben Lannon",
-            "position": {
-              "text": "Software Engineer @ ",
-              "link": "https://www.caci.com/",
-              "link_text": "CACI International"
-            },
-            "presentation": {
-              "text": "August 6, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=GqGkxb-1hN0&feature=youtu.be",
-              "topic": "Open Source Development"
-            },
-            "social": {
-              "email": "mailto:benjamin@lannonbr.com",
-              "linkedin": "https://www.linkedin.com/in/lannonbr/",
-              "twitter": "https://twitter.com/lannonbr",
-              "website": "https://lannonbr.com/",
-              "github": "https://github.com/lannonbr"
-            }
-          },
-          "glenn": {
-            "name": "Glenn Allen",
-            "position": {
-              "text": "Freelance Software Developer"
-            },
-            "presentation": {
-              "text": "August 8, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=cK8Xf-2M6l4",
-              "topic": "The Life of a Freelancer"
-            },
-            "social": {
-              "email": "mailto:glenn.a.allen@gmail.com",
-              "linkedin": "https://www.linkedin.com/in/glennallen/",
-              "twitter": "https://twitter.com/glenn_a_allen",
-              "website": "http://www.glennaallen.com/",
-              "github": "https://github.com/glennaallen"
-            }
-          },
-          "indaria": {
-            "name": "Indaria Jones",
-            "position": {
-              "text": "Founder & CEO @ ",
-              "link": "https://thecreatorslounge.net/",
-              "link_text": "The Creators Lounge"
-            },
-            "presentation": {
-              "text": "August 12, 2019 | ",
-              "link": "https://www.youtube.com/watch?v=g42_U-2DfY0",
-              "topic": "Bridging the Gap Between Technology and Minorities"
-            },
-            "social": {
-              "email": "mailto:hi@thelikeminded.net",
-              "linkedin": "https://www.linkedin.com/in/indariajones/",
-              "twitter": "https://twitter.com/IndariaJ",
-              "website": "https://thecreatorslounge.net/indaria"
-            }
-          }
-        }
-      }
-    },
+
     "students": {
       "alumni": {
         "alumni_jumbotron": {
-          "header": "A career in code can change everything.",
-          "subheader": "Our mission is to create career pathways in software development for women and minorities to help combat poverty in Central NY. We will provide you with the technical skills you need to obtain internships and entry level software development positions with local employers after 24 weeks of instruction.",
-          "button_link": "https://docs.google.com/forms/d/e/1FAIpQLScpE0bpIn_E8CnKyO0AXvkHbliLPa0kKnFbhjBryTNKWDxFFg/viewform",
-          "button_text": "Join the Waitlist for Cohort 2"
+          "heading": "A career in code can change everything.",
+          "subheading": "Our mission is to create career pathways in software development for women and minorities to help combat poverty in Central NY. We will provide you with the technical skills you need to obtain internships and entry level software development positions with local employers after 24 weeks of instruction.",
+          "button": {
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLScpE0bpIn_E8CnKyO0AXvkHbliLPa0kKnFbhjBryTNKWDxFFg/viewform",
+            "text": "Join the Waitlist for Cohort 2"
+          }
         },
         "alumni_main_content": {
           "congratulations": {
@@ -1637,12 +1301,14 @@
         }
       }
     },
-    "students_main_content": {
-      "students_jumbotron": {
-        "header": "A career in code can change everything.",
-        "subheader": "Our mission is to create career pathways in software development for women and minorities to help combat poverty in Central NY. We will provide you with the technical skills you need to obtain internships and entry level software development positions with local employers after 24 weeks of instruction.",
-        "button_text": "Join the Waitlist for Cohort 2",
-        "button_link": "https://docs.google.com/forms/d/e/1FAIpQLScpE0bpIn_E8CnKyO0AXvkHbliLPa0kKnFbhjBryTNKWDxFFg/viewform"
+    "classroom": {
+      "prospective_jumbotron": {
+        "heading": "A career in code can change everything.",
+        "subheading": "Our mission is to create career pathways in software development for women and minorities to help combat poverty in Central NY. We will provide you with the technical skills you need to obtain internships and entry level software development positions with local employers after 24 weeks of instruction.",
+        "button": {
+          "text": "Join the Waitlist for Cohort 2",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLScpE0bpIn_E8CnKyO0AXvkHbliLPa0kKnFbhjBryTNKWDxFFg/viewform"
+        }
       },
       "students_stats": {
         "stats_days": "120 DAYS",
@@ -1688,6 +1354,369 @@
         "resources_text": "Learning Resources",
         "resources_button_text": "View Learning Resources",
         "resources_button_link": "https://docs.google.com/document/d/1-ElewVAi1fcrXdOTCdwV26Mjwna-aqOvXHHlMDn9VUE/edit"
+      },
+      "currStudents_main_content": {
+        "currStudents_jumbotron": {
+          "heading": "Resources for Current Students"
+        },
+        "classroom_info": {
+          "classroom_heading": "Here you can find our Google Classroom",
+          "classroom_subheading": "Need an invite? Send an email to jesse@hackupstate.com",
+          "classroom_button_text": "View the Classroom",
+          "classroom_button_link": "https://classroom.google.com/u/0/c/MzA3Mjc4Mjc2NzZa"
+        }
+      },
+      "guest_speakers": {
+        "jumbotron": {
+          "heading": "Guest Speakers"
+        },
+        "main_content": {
+          "featured": {
+            "header": "About the Guest Speaker Program",
+            "header_text_skills": "Part of the Careers in Code initiative is not only to provide our students with the technical skills they need to become developers but also to teach them the necessary soft skills needed in the professional world. This includes everything from networking to technical and behavorial interview skills. We've found the best way to expose them to such important topics is to bring in industry professionals who are passionate about sharing their wealth of knowledge about their own experiences.",
+            "header_text_program": "Our Guest Speaker Program was developed with this in mind. It not only enhances our student's abilities but introduces them to the thriving tech community in Syracuse.",
+            "button": {
+              "text": "Speak to Our Students",
+              "link": "mailto:jesse@hackupstate.com?cc=will@hackupstate.com"
+            }
+          },
+          "cards": {
+            "header": "Previous Speakers",
+            "ed": {
+              "name": "Ed Forth",
+              "position": {
+                "text": "Customer Success Manager @",
+                "link": "https://www.tcgplayer.com/",
+                "link_text": "TCGPlayer"
+              },
+              "presentation": {
+                "text": "March 25, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=f8InvgSDSIk&feature=youtu.be",
+                "topic": "Networking"
+              },
+              "social": {
+                "email": "mailto:ed@forthplace.com",
+                "linkedin": "https://www.linkedin.com/in/ed-forth-5988754b/",
+                "twitter": "https://twitter.com/edforth",
+                "website": "http://forthplace.com/"
+              }
+            },
+            "flood": {
+              "name": "Matt Flood",
+              "position": {
+                "text": "Product Manager @",
+                "link": "https://www.tcgplayer.com/",
+                "link_text": "TCGPlayer"
+              },
+              "presentation": {
+                "text": "April 8, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=x88qlvbnW-g&feature=youtu.be",
+                "topic": "Project Management & Community Involvement"
+              },
+              "social": {
+                "email": "mailto:matt@tcgplayer.com",
+                "linkedin": "https://www.linkedin.com/in/matthewdflood/",
+                "github": "https://github.com/MattFlood7"
+              }
+            },
+            "shaun": {
+              "name": "Shaun Burdick",
+              "position": {
+                "text": "Engineering Manager @ ",
+                "link": "https://swimlane.com/",
+                "link_text": "Swimlane"
+              },
+              "presentation": {
+                "text": "April 24, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=d-fitnZiO2Q&feature=youtu.be",
+                "topic": "Technical Interview Tips"
+              },
+              "social": {
+                "email": "mailto:careersincode@shaunburdick.com",
+                "linkedin": "https://www.linkedin.com/in/shaunburdick/",
+                "twitter": "https://twitter.com/_shaunburdick",
+                "website": "https://shaunburdick.com/#/",
+                "github": "https://github.com/shaunburdick/"
+              }
+            },
+            "kseniya": {
+              "name": "Kseniya Lifanova",
+              "position": {
+                "text": "Co-Founder @ ",
+                "link": "https://upstateinteractive.io/",
+                "link_text": "Upstate Interactive"
+              },
+              "presentation": {
+                "text": "May 15, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=FltWfHm1HcE&__s=xxxxxxx",
+                "topic": "Blockchain // Her Story & Starting a Company"
+              },
+              "social": {
+                "email": "mailto:kseniya@upstateinteractive.io",
+                "linkedin": "https://www.linkedin.com/in/kseniya-lifanova-aa50b19/",
+                "twitter": "https://twitter.com/devgirlla",
+                "website": "https://kseniya.io/",
+                "github": "https://github.com/kseniya292"
+              }
+            },
+            "checksfield": {
+              "name": "Matt Checksfield",
+              "position": {
+                "text": "Vice President of IT @ ",
+                "link": "https://www.raymourflanigan.com/",
+                "link_text": "Raymour & Flanigan"
+              },
+              "presentation": {
+                "text": "May 16, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=e2FREWMS7uo&feature=youtu.be",
+                "topic": "How to Nail Your Interview"
+              },
+              "social": {
+                "linkedin": "https://www.linkedin.com/in/matthew-checksfield-7b25266/",
+                "twitter": "https://twitter.com/MattChecksfield"
+              }
+            },
+            "yulia": {
+              "name": "Yulia Ovchinnikova",
+              "position": {
+                "text": "Founder @ ",
+                "link": "https://openhubproject.com/",
+                "link_text": "OpenHubProject"
+              },
+              "presentation": {
+                "text": "May 20, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=j2uZD-5hR-g&feature=youtu.be",
+                "topic": "Community Involvement"
+              },
+              "social": {
+                "linkedin": "https://www.linkedin.com/in/yovchinnikova/",
+                "twitter": "https://twitter.com/JOvchinnikova",
+                "website": "https://yulia-o.github.io/",
+                "github": "https://github.com/Yulia-O"
+              }
+            },
+            "linda": {
+              "name": "Linda Kovacs",
+              "position": {
+                "text": "Freelance Web Developer, Web Designer, and Graphic Designer"
+              },
+              "presentation": {
+                "success": {
+                  "text": "May 28, 2019 | ",
+                  "link": "https://www.youtube.com/watch?v=LjV3n-uF0yM&__s=xxxxxxx",
+                  "topic": "A Bootcamp Success Story"
+                },
+                "dream": {
+                  "text": "August 15, 2019 | ",
+                  "link": "https://www.youtube.com/watch?v=p1RWvy9I3Ko",
+                  "topic": "Your Bootcamp Dream Job"
+                }
+              },
+              "social": {
+                "email": "mailto:lindaprovenza@yahoo.com",
+                "linkedin": "https://www.linkedin.com/in/lindakovacsart/",
+                "twitter": "https://twitter.com/lindakovacsart",
+                "website": "https://linda-kovacs.com/",
+                "github": "https://github.com/lindakovacs"
+              }
+            },
+            "pam": {
+              "name": "Pamela Puri",
+              "position": {
+                "text": "CEO @ ",
+                "link": "https://tech4kidz.net/",
+                "link_text": "Tech4Kidz"
+              },
+              "presentation": {
+                "text": "June 10, 2019 |  ",
+                "link": "",
+                "topic": "Her Story & Building A Company"
+              },
+              "social": {
+                "email": "mailto:tech4kidz@hotmail.com",
+                "linkedin": "https://www.linkedin.com/in/pamela-puri-4bb79917a/",
+                "twitter": "https://twitter.com/tech4kidz"
+              }
+            },
+            "charissa": {
+              "name": "Charissa Lawrence",
+              "position": {
+                "text": "Software Engineer @ ",
+                "link": "https://www.density.io/",
+                "link_text": "Density"
+              },
+              "presentation": {
+                "text": "June 18, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=K9HlEs17tUw&feature=youtu.be",
+                "topic": "Data Modeling"
+              },
+              "social": {
+                "linkedin": "https://www.linkedin.com/in/charissa-lawrence-34665619/",
+                "twitter": "https://twitter.com/CharissaSayHey",
+                "github": "https://github.com/charissalaw"
+              }
+            },
+            "doug": {
+              "name": "Doug Crescenzi",
+              "position": {
+                "text": "Partner @ ",
+                "link": "https://upstateinteractive.io/",
+                "link_text": "Upstate Interactive"
+              },
+              "presentation": {
+                "text": "June 20, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=9id5cU49JHw",
+                "topic": "Blockchain"
+              },
+              "social": {
+                "email": "mailto:doug@hackupstate.com",
+                "linkedin": "https://www.linkedin.com/in/douglascrescenzi/",
+                "twitter": "https://twitter.com/dougiebuckets",
+                "github": "https://github.com/dougiebuckets"
+              }
+            },
+            "raj": {
+              "name": "Raj Suchak",
+              "position": {
+                "text": "CEO @ ",
+                "link": "http://www.gritseed.com/",
+                "link_text": "Grit Seed"
+              },
+              "presentation": {
+                "text": "July 16, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=FA281XJGnwk&feature=youtu.be",
+                "topic": "Grit & Success"
+              },
+              "social": {
+                "email": "mailto:hello@gritseed.com",
+                "linkedin": "https://www.linkedin.com/in/rsuchak/",
+                "twitter": "https://twitter.com/grit_seed"
+              }
+            },
+            "doc": {
+              "name": "Andrew Doc Docherty",
+              "position": {
+                "text": "President & CEO @ ",
+                "link": "https://coveydev.com/",
+                "link_text": "Covey"
+              },
+              "presentation": {
+                "text": "July 17, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=-52-XRUTuNs&feature=youtu.be",
+                "topic": "Behavioral Interview Tips"
+              },
+              "social": {
+                "linkedin": "https://www.linkedin.com/in/andrew-doc-docherty-55097865/"
+              }
+            },
+            "josh": {
+              "name": "Josh Creager",
+              "position": {
+                "text": "Accounts Development Rep @ ",
+                "link": "https://www.arrow.com/",
+                "link_text": "Arrow"
+              },
+              "presentation": {
+                "text": "July 29, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=75PaF7AKJ-s&feature=youtu.be",
+                "topic": "The Hardware/Software Crossfade"
+              },
+              "social": {
+                "linkedin": "https://www.linkedin.com/in/joshcreager/",
+                "twitter": "https://twitter.com/JoshCreager"
+              }
+            },
+            "seth": {
+              "name": "Seth Mulligan",
+              "position": {
+                "text": "Managing Director @ ",
+                "link": "https://www.storyslab.com/",
+                "link_text": "Story Slab"
+              },
+              "presentation": {
+                "text": "August 1, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=Aza5Byo1PSs&feature=youtu.be",
+                "topic": "Project Iteration"
+              },
+              "social": {
+                "email": "mailto:sethmulligan@gmail.com",
+                "linkedin": "https://www.linkedin.com/in/sethmulligan/",
+                "twitter": "https://twitter.com/SyracuseSeth",
+                "website": "http://sethmulligan.brandyourself.com/"
+              }
+            },
+            "ben": {
+              "name": "Ben Lannon",
+              "position": {
+                "text": "Software Engineer @ ",
+                "link": "https://www.caci.com/",
+                "link_text": "CACI International"
+              },
+              "presentation": {
+                "text": "August 6, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=GqGkxb-1hN0&feature=youtu.be",
+                "topic": "Open Source Development"
+              },
+              "social": {
+                "email": "mailto:benjamin@lannonbr.com",
+                "linkedin": "https://www.linkedin.com/in/lannonbr/",
+                "twitter": "https://twitter.com/lannonbr",
+                "website": "https://lannonbr.com/",
+                "github": "https://github.com/lannonbr"
+              }
+            },
+            "glenn": {
+              "name": "Glenn Allen",
+              "position": {
+                "text": "Freelance Software Developer"
+              },
+              "presentation": {
+                "text": "August 8, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=cK8Xf-2M6l4",
+                "topic": "The Life of a Freelancer"
+              },
+              "social": {
+                "email": "mailto:glenn.a.allen@gmail.com",
+                "linkedin": "https://www.linkedin.com/in/glennallen/",
+                "twitter": "https://twitter.com/glenn_a_allen",
+                "website": "http://www.glennaallen.com/",
+                "github": "https://github.com/glennaallen"
+              }
+            },
+            "indaria": {
+              "name": "Indaria Jones",
+              "position": {
+                "text": "Founder & CEO @ ",
+                "link": "https://thecreatorslounge.net/",
+                "link_text": "The Creators Lounge"
+              },
+              "presentation": {
+                "text": "August 12, 2019 | ",
+                "link": "https://www.youtube.com/watch?v=g42_U-2DfY0",
+                "topic": "Bridging the Gap Between Technology and Minorities"
+              },
+              "social": {
+                "email": "mailto:hi@thelikeminded.net",
+                "linkedin": "https://www.linkedin.com/in/indariajones/",
+                "twitter": "https://twitter.com/IndariaJ",
+                "website": "https://thecreatorslounge.net/indaria"
+              }
+            }
+          }
+        }
+      },
+      "schedule": {
+        "schedule_jumbotron": {
+          "heading": "Here is our schedule."
+        },
+        "schedule_main_content": {
+          "table": {
+            "table_title": "Important Dates",
+            "header_date": "Date",
+            "header_time": "Time",
+            "header_event": "Event"
+          }
+        }
       }
     },
     "contact_main_content": {
@@ -1695,17 +1724,6 @@
         "header": "Contact Us",
         "subheader": "We would love to hear from you! Please fill out the form below and we will get back to you as soon as we can. We are so excited to share our passion for growing the technology community in Central New York, and look forward to hearing from you!",
         "thankyou": "Thank you for supporting our mission."
-      }
-    },
-    "currStudents_main_content": {
-      "currStudents_jumbotron": {
-        "header": "Resources for Current Students"
-      },
-      "classroom_info": {
-        "classroom_heading": "Here you can find our Google Classroom",
-        "classroom_subheading": "Need an invite? Send an email to jesse@hackupstate.com",
-        "classroom_button_text": "View the Classroom",
-        "classroom_button_link": "https://classroom.google.com/u/0/c/MzA3Mjc4Mjc2NzZa"
       }
     }
   }

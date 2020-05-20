@@ -1,29 +1,14 @@
-// import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
-import NavComponent from "./nav"
-// import TechGarden from "../images/light-hero-1.jpg"
-import JumbotronComponent from "./jumbotron"
-import content from "../content/content.json"
 
-const Header = ({ siteTitle }) => (
-  <div
+const Header = ({ children }) => (
+  <header
     style={{
       background: "black",
-      // marginBottom: `1.45rem`,
+      width: "100%",
     }}
   >
-    <NavComponent />
-    <JumbotronComponent heading={content.ui.index_jumbotron.heading} />
-  </div>
+    {children}
+  </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
