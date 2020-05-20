@@ -1,12 +1,26 @@
 import React from "react"
-
 import { Container, Row, Col, Button } from "reactstrap"
 import Layout from "../components/layout"
+import Header from "../components/header"
+import NavComponent from "../components/nav"
+import JumbotronComponent from "../components/jumbotron"
 import SEO from "../components/seo"
 import contactStyles from "./contact.module.css"
+import content from "../content/content.json"
 
 const ContactPage = () => (
   <Layout>
+    <Header>
+      <NavComponent />
+      <JumbotronComponent
+        heading={content.ui.contact_main_content.contact_jumbotron.heading}
+        subheading={
+          content.ui.contact_main_content.contact_jumbotron.subheading
+        }
+      >
+        <p>{content.ui.contact_main_content.contact_jumbotron.thankyou}</p>
+      </JumbotronComponent>
+    </Header>
     <SEO title="Contact" />
     <Container className={contactStyles.formContainer}>
       <form name="contactForm" method="POST" data-netlify="true">
