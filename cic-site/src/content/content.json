@@ -1269,37 +1269,6 @@
         }
       }
     },
-    "jobs_main_content": {
-      "jobs_jumbotron": {
-        "header": "Jobs",
-        "subheader": "At Careers in Code, we wouldn't be able to serve the community without the community! We'd love your help in supporting our mission. Below you will find some of the current listings, as well as positions we anticpate in the near future."
-      },
-      "jobs_table": {
-        "header_position": "Position",
-        "header_location": "Location",
-        "header_description": "Description",
-        "positions": {
-          "position_intern": "Intern",
-          "position_success": "Student Success Rep",
-          "position_instructor": "Instructor",
-          "position_ta": "Teaching Assistent",
-          "position_coach": "Career Coach"
-        },
-        "locations": {
-          "location_syr": "Syracuse, NY",
-          "location_remote": "Remote",
-          "location_roc": "Rochester, NY"
-        },
-        "descriptions": {
-          "description_link_text": "Job Description",
-          "description_intern": "https://docs.google.com/document/d/1l-bi2QYwCcrlDYPoNVTkoVGpu9LFczgKBi3K1HK6bRQ/edit",
-          "description_success": "https://docs.google.com/document/d/1JIhgd1x6_vycI2kbYZ_7bqGtj8FofYbVMiBUAr7UEuc/edit",
-          "description_instructor": "https://docs.google.com/document/d/19ilE470-oAOvAG3S6EUxm13Uu8md6J9RgpsllDU3AN8/edit",
-          "description_ta": "https://docs.google.com/document/d/16iRkPiLUIEOFUdOlkfT8n3nm9Yx65bR14n7HZFU-eGs/edit",
-          "description_coach": "https://docs.google.com/document/d/1sRHMY5RQZdsjPNWtJs_VdJyHUmhR1vyGcjC-RN_tIlc/edit"
-        }
-      }
-    },
     "classroom": {
       "prospective_jumbotron": {
         "heading": "A career in code can change everything.",
@@ -1718,11 +1687,169 @@
         }
       }
     },
+    "partners": {
+      "partners_jumbotron": {
+        "heading": "We're CNY's tech talent pipeline. We train local developers. You hire them.",
+        "subheading": "The Careers in Code bootcamp addresses the shortage of adequately trained CNY software developers and the demand for them from our local technology sector. The software developers we train are critical to our region's economic growth. They help our local businesses grow. #codelocal",
+        "button": {
+          "text": "Partner With Us",
+          "link": "https://airtable.com/shrqGIfrc0PqFUVXr"
+        }
+      },
+      "partners_stats": {
+        "hiring_stat": "80%",
+        "hiring_text": "OF HIRING MANAGERS AND TECH RECRUITERS IN THE U.S. SAID THEY HAVE HIRED A CODING BOOTCAMP GRADUATE FOR A SOFTWARE ROLE AND 99.8% SAID THEY WOULD DO SO AGAIN.",
+        "bootcamp_stat": "12%",
+        "bootcamp_text": "OF EMPLOYERS SAID THEY THINK BOOTCAMP GRADS ARE MORE PREPARED AND MORE LIKELY TO SUCCEED THAN COLLEGE STUDENTS.",
+        "salary_stat": "64%",
+        "salary_text": "OF GRADUATES REPORT AN AVERAGE SALARY INCREASE OF 64% OR $26,021/YEAR.",
+        "prepared_stat": "72%",
+        "prepared_text": "OF EMPLOYERS SAID THEY CONSIDER BOOTCAMP GRADUATES TO BE JUST AS PREPARED AND AS LIKELY TO PERFORM AT A HIGH LEVEL AS COMPUTER SCIENCE GRADUATES."
+      },
+      "partners_logos": {
+        "title": "We're fortunate to have incredible partners that support our mission"
+      },
+      "parter_info": {
+        "title": "Partner With Us",
+        "paragraph1": "Hiring capable software engineers that are local is really, really hard, but we've got you covered. We're a tech talent pipeline for local organizations just like you. We're here to help you grow.",
+        "paragraph2": "Coding bootcamps are a proven model. We provide software education and training opportunities to women and minorities from Central NY’s distressed communities and help them get hired with companies like yours.",
+        "button": {
+          "text": "View the Coursework",
+          "link": "https://docs.google.com/document/d/1uBlca51T_DGnpfGnPiBtXfmuOz1iNzPZtYNzPbXFL3g/edit#"
+        }
+      }
+    },
+    "outcomes": {
+      "outcomes_jumbotron": {
+        "heading": "Outcomes",
+        "subheading": "Our first cohort of Careers in Code started on March, 11 2019 and ended on August 22, 2019. Classes were held Monday through Thursday, 5:30pm to 8:30pm at the Technology Garden in Syracuse, NY. Learn more about our job placement and student experience after graduation.",
+        "button": {
+          "outcomes_text": "View Outcomes Report",
+          "outcomes_link": "https://careersincode.org/assets/files/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf",
+          "consolidated_text": "View Consolidated Outcomes",
+          "consolidated_link": "https://careersincode.org/assets/files/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf",
+          "transparency_text": "View Transparency Report",
+          "transparency_link": "https://careersincode.org/assets/files/Careers-in-Code-Transparency-Report-Cohort-1.pdf"
+        }
+      },
+      "outcomes_main_content": {
+        "header": "Graduate Success Stories",
+        "cards": {
+          "eva": {
+            "name": "Eva Carafa",
+            "position": "Digital Content Specialist",
+            "company": "Terakeet (Syracuse, NY)",
+            "button": {
+              "text": "Read Eva's Story",
+              "link": "https://medium.com/@hackupstate/careers-in-code-student-success-stories-eva-carafa-4e3e2c8fd692"
+            }
+          },
+          "kelly": {
+            "name": "Kelly Corey",
+            "position": "Web Developer Consultant",
+            "company": "Upstate Interactive (Remote)",
+            "button": {
+              "text": "Read Kelly's Story",
+              "link": "https://medium.com/@hackupstate/careers-in-code-student-success-stories-kelly-corey-622836412fa8"
+            }
+          },
+          "dana": {
+            "name": "Dana McMullen",
+            "position": "Multiple Positions",
+            "company": "Syracuse, NY",
+            "button": {
+              "text": "Read Dana's Story",
+              "link": "https://medium.com/@hackupstate/careers-in-code-student-success-stories-dana-davis-mcmullen-41027c54581a"
+            }
+          },
+          "elizabeth": {
+            "name": "Elizabeth Metcalf",
+            "position": "Web Developer Contractor",
+            "company": "Non-Profit Agency",
+            "button": {
+              "text": "Read Beth's Story",
+              "link": "https://medium.com/@hackupstate/careers-in-code-student-success-stories-elizabeth-metcalf-93887e09f67a"
+            }
+          },
+          "dakir": {
+            "name": "Dakir Thompson",
+            "position": "Full-Stack Web Developer",
+            "company": "Northeast Information Discovery (Canastota, NY)",
+            "button": {
+              "text": "Read Dakir's Story",
+              "link": "https://medium.com/@hackupstate/careers-in-code-student-success-stories-dakir-thompson-f755ab92df28"
+            }
+          },
+          "karin": {
+            "name": "Karin Thorne",
+            "position": "Front-End Developer",
+            "company": "Gypsum Express (Baldwinsville, NY)",
+            "button": {
+              "text": "Read Karin's Story",
+              "link": "https://medium.com/@hackupstate/careers-in-code-student-success-stories-karin-thorne-4ed8603a2c3e"
+            }
+          },
+          "kaitlyn": {
+            "name": "Kaitlyn Warboy",
+            "position": "Junior Software Developer",
+            "company": "Raymour & Flanigan",
+            "button": {
+              "text": "Read Kaitlyn's Story",
+              "link": "https://medium.com/@hackupstate/careers-in-code-student-success-stories-kaitlyn-warboy-6ca5158ccc28"
+            }
+          }
+        },
+        "outcomes_snippets": {
+          "jobs": {
+            "number": "7 OF 11",
+            "text": "Students that have obtained jobs, internships, or consulting arrangements with local employers within 180 days of graduation."
+          },
+          "salary": {
+            "number": "56%",
+            "text": "The average increase in annual salary for students who completed the full 24 week coding bootcamp within 180 days of graduation."
+          }
+        },
+        "company_logos": {
+          "text": "Our Talent Stays Local"
+        }
+      }
+    },
     "contact_main_content": {
-      "content_jumbotron": {
-        "header": "Contact Us",
-        "subheader": "We would love to hear from you! Please fill out the form below and we will get back to you as soon as we can. We are so excited to share our passion for growing the technology community in Central New York, and look forward to hearing from you!",
+      "contact_jumbotron": {
+        "heading": "Contact Us",
+        "subheading": "We would love to hear from you! Please fill out the form below and we will get back to you as soon as we can. We are so excited to share our passion for growing the technology community in Central New York, and look forward to hearing from you!",
         "thankyou": "Thank you for supporting our mission."
+      }
+    },
+    "jobs_main_content": {
+      "jobs_jumbotron": {
+        "heading": "Jobs",
+        "subheading": "At Careers in Code, we wouldn't be able to serve the community without the community! We'd love your help in supporting our mission. Below you will find some of the current listings, as well as positions we anticpate in the near future."
+      },
+      "jobs_table": {
+        "header_position": "Position",
+        "header_location": "Location",
+        "header_description": "Description",
+        "positions": {
+          "position_intern": "Intern",
+          "position_success": "Student Success Rep",
+          "position_instructor": "Instructor",
+          "position_ta": "Teaching Assistent",
+          "position_coach": "Career Coach"
+        },
+        "locations": {
+          "location_syr": "Syracuse, NY",
+          "location_remote": "Remote",
+          "location_roc": "Rochester, NY"
+        },
+        "descriptions": {
+          "description_link_text": "Job Description",
+          "description_intern": "https://docs.google.com/document/d/1l-bi2QYwCcrlDYPoNVTkoVGpu9LFczgKBi3K1HK6bRQ/edit",
+          "description_success": "https://docs.google.com/document/d/1JIhgd1x6_vycI2kbYZ_7bqGtj8FofYbVMiBUAr7UEuc/edit",
+          "description_instructor": "https://docs.google.com/document/d/19ilE470-oAOvAG3S6EUxm13Uu8md6J9RgpsllDU3AN8/edit",
+          "description_ta": "https://docs.google.com/document/d/16iRkPiLUIEOFUdOlkfT8n3nm9Yx65bR14n7HZFU-eGs/edit",
+          "description_coach": "https://docs.google.com/document/d/1sRHMY5RQZdsjPNWtJs_VdJyHUmhR1vyGcjC-RN_tIlc/edit"
+        }
       }
     }
   }
