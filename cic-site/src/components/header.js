@@ -1,12 +1,8 @@
 import React from "react"
+import jumboStyles from "./jumbotron.module.css"
 
 const Header = ({ children }) => (
-  <header
-    style={{
-      background: "black",
-      width: "100%",
-    }}
-  >
+  <header className={(jumboStyles.jumboContainer, jumboStyles.jumboBannerImg)}>
     {children}
   </header>
 )

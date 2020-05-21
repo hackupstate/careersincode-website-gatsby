@@ -13,10 +13,11 @@ import {
 } from "reactstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 import ComboLogo from "../images/combo-logo-white.png"
+import jumboStyles from "./jumbotron.module.css"
 
 const NavComponent = () => {
   return (
-    <Container fluid>
+    <Container fluid className={jumboStyles.jumboContainer}>
       <Navbar>
         <NavbarBrand href="/">
           <img
