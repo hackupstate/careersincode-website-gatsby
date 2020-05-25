@@ -31,3 +31,20 @@ a.btnLink {
   opacity: 90%;
   color: white;
 }
+
+/* .dropdownStyle {
+  opacity: 70%;
+} */
+
+.dropdownLink {
+  color: navy;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+
+.navLink:hover {
+  color: blue;
+}
