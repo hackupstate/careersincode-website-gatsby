@@ -30,17 +30,17 @@ import {
   FaIdCard,
   FaColumns,
 } from "react-icons/fa"
-import Ana from "../images/students/Ana.jpg"
-import Eva from "../images/students/Eva.jpg"
+import Ana from "../images/students/ana.jpg"
+import Eva from "../images/students/eva.jpg"
 import Kelly from "../images/students/kellycorey.jpg"
 import Tim from "../images/students/tim.jpeg"
 import Dana from "../images/students/dana.jpg"
 import Beth from "../images/students/beth.jpg"
 import Dakir from "../images/students/dakir.jpg"
 import Karin from "../images/students/karin.jpg"
-import Kate from "../images/students/Kate.jpg"
-import Kaitlyn from "../images/students/Kaitlyn.jpg"
-import Jacquay from "../images/students/Jacquay.jpg"
+import Kate from "../images/students/kate.jpg"
+import Kaitlyn from "../images/students/kaitlyn.jpg"
+import Jacquay from "../images/students/jacquay.jpg"
 import Linda from "../images/students/lindakovacs.jpeg"
 
 const AlumniPage = () => (
