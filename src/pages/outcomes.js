@@ -1,12 +1,12 @@
-import React from "react"
+import React from "react";
 
-import SEO from "../components/seo"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import JumboButton from "../components/jumboButton"
-import content from "../content/content.json"
+import SEO from "../components/seo";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import JumboButton from "../components/jumbobutton";
+import content from "../content/content.json";
 
 const OutcomesPage = () => (
   <Layout>
@@ -41,6 +41,6 @@ const OutcomesPage = () => (
     <SEO title="Outcomes" />
     <h1>Outcomes Page Content</h1>
   </Layout>
-)
+);
 
-export default OutcomesPage
+export default OutcomesPage;

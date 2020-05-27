@@ -1,18 +1,18 @@
-import React from "react"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import JumboButton from "../components/jumboButton"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import content from "../content/content.json"
-import { Container, Row, Col, Button } from "reactstrap"
-import pageStyles from "./pages.module.css"
-import Centerstate from "../images/partners/cceo.jpg"
-import Onondaga from "../images/partners/onondaga.jpg"
-import Coworks from "../images/partners/coworks.jpg"
-import Metis from "../images/partners/metis.jpg"
-import TechGarden from "../images/partners/ttg.jpg"
+import React from "react";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import JumboButton from "../components/jumbobutton";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import content from "../content/content.json";
+import { Container, Row, Col, Button } from "reactstrap";
+import pageStyles from "./pages.module.css";
+import Centerstate from "../images/partners/cceo.jpg";
+import Onondaga from "../images/partners/onondaga.jpg";
+import Coworks from "../images/partners/coworks.jpg";
+import Metis from "../images/partners/metis.jpg";
+import TechGarden from "../images/partners/ttg.jpg";
 
 const PartnerPage = () => (
   <Layout>
@@ -119,6 +119,6 @@ const PartnerPage = () => (
       </Button>
     </Container>
   </Layout>
-)
+);
 
-export default PartnerPage
+export default PartnerPage;

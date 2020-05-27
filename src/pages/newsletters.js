@@ -1,14 +1,14 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import SEO from "../components/seo"
-import content from "../content/content.json"
-import { Container, Row, Table } from "reactstrap"
-import pageStyles from "./pages.module.css"
-import JumboButton from "../components/jumboButton"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import SEO from "../components/seo";
+import content from "../content/content.json";
+import { Container, Row, Table } from "reactstrap";
+import pageStyles from "./pages.module.css";
+import JumboButton from "../components/jumbobutton";
 
 const NewslettersPage = () => (
   <Layout>
@@ -564,6 +564,6 @@ const NewslettersPage = () => (
       </Row>
     </Container>
   </Layout>
-)
+);
 
-export default NewslettersPage
+export default NewslettersPage;

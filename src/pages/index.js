@@ -1,18 +1,18 @@
-import React from "react"
-import { Link } from "gatsby"
-import { Button, Row, Col } from "reactstrap"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Carousels from "../components/carousels"
-import BottomRowContainer from "../components/bottomrowcontainer"
-import content from "../content/content.json"
-import pageStyles from "./pages.module.css"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import JumboButton from "../components/jumboButton"
+import React from "react";
+import { Link } from "gatsby";
+import { Button, Row, Col } from "reactstrap";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import Carousels from "../components/carousels";
+import BottomRowContainer from "../components/bottomrowcontainer";
+import content from "../content/content.json";
+import pageStyles from "./pages.module.css";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import JumboButton from "../components/jumbobutton";
 
-const IndexPage = props => (
+const IndexPage = (props) => (
   <Layout>
     <Header>
       <NavComponent />
@@ -65,6 +65,6 @@ const IndexPage = props => (
     <BottomRowContainer />
     <br />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

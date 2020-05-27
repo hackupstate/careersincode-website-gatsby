@@ -1,12 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import JumboButton from "../components/jumboButton"
-import SEO from "../components/seo"
-import content from "../content/content.json"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import JumboButton from "../components/jumbobutton";
+import SEO from "../components/seo";
+import content from "../content/content.json";
 import {
   Button,
   Container,
@@ -20,33 +20,33 @@ import {
   CardDeck,
   CardBody,
   CardFooter,
-} from "reactstrap"
-import pageStyles from "./pages.module.css"
+} from "reactstrap";
+import pageStyles from "./pages.module.css";
 import {
   FaEnvelopeSquare,
   FaTwitterSquare,
   FaLinkedin,
   FaGithubSquare,
   FaGlobe,
-} from "react-icons/fa"
-import Jeff from "../images/instructors/jeff-passetti.jpg"
-import Christy from "../images/instructors/christy_presler.jpg"
-import Cash from "../images/tas/cash.jpg"
-import Zoe from "../images/instructors/zoe.jpg"
-import Jeremy from "../images/instructors/jeremyconn.jpg"
-import Gus from "../images/instructors/gus.jpg"
-import Max from "../images/instructors/max.jpg"
-import Jake from "../images/instructors/jakebeard.jpg"
-import Joey from "../images/instructors/joeybuczek.jpg"
-import Ryan from "../images/instructors/ryangaus.png"
-import Alice from "../images/tas/alicemiller.jpeg"
-import Jennifer from "../images/tas/Jennifer-Tran.jpg"
-import David from "../images/tas/davidbadillo.jpeg"
-import Katie from "../images/tas/katiewatson.jpeg"
-import Pankaj from "../images/tas/pankajc.jpeg"
-import Drew from "../images/tas/drewknab.jpeg"
-import Wesam from "../images/tas/wesamshanaa.png"
-import Placeholder from "../images/tas/profile-placeholder.png"
+} from "react-icons/fa";
+import Jeff from "../images/instructors/jeff-passetti.jpg";
+import Christy from "../images/instructors/christy_presler.jpg";
+import Cash from "../images/tas/cash.jpg";
+import Zoe from "../images/instructors/zoe.jpg";
+import Jeremy from "../images/instructors/jeremyconn.jpg";
+import Gus from "../images/instructors/gus.jpg";
+import Max from "../images/instructors/max.jpg";
+import Jake from "../images/instructors/jakebeard.jpg";
+import Joey from "../images/instructors/joeybuczek.jpg";
+import Ryan from "../images/instructors/ryangaus.png";
+import Alice from "../images/tas/alicemiller.jpeg";
+import Jennifer from "../images/tas/Jennifer-Tran.jpg";
+import David from "../images/tas/davidbadillo.jpeg";
+import Katie from "../images/tas/katiewatson.jpeg";
+import Pankaj from "../images/tas/pankajc.jpeg";
+import Drew from "../images/tas/drewknab.jpeg";
+import Wesam from "../images/tas/wesamshanaa.png";
+import Placeholder from "../images/tas/profile-placeholder.png";
 
 const InstructorsPage = () => (
   <Layout>
@@ -2437,6 +2437,6 @@ const InstructorsPage = () => (
       <Link to="/">Go Home</Link>
     </Container>
   </Layout>
-)
+);
 
-export default InstructorsPage
+export default InstructorsPage;

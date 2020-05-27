@@ -1,12 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import JumboButton from "../components/jumboButton"
-import SEO from "../components/seo"
-import content from "../content/content.json"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import JumboButton from "../components/jumbobutton";
+import SEO from "../components/seo";
+import content from "../content/content.json";
 import {
   Container,
   Row,
@@ -19,8 +19,8 @@ import {
   CardDeck,
   CardBody,
   CardFooter,
-} from "reactstrap"
-import pageStyles from "./pages.module.css"
+} from "reactstrap";
+import pageStyles from "./pages.module.css";
 import {
   FaEnvelopeSquare,
   FaTwitterSquare,
@@ -29,19 +29,19 @@ import {
   FaGlobe,
   FaIdCard,
   FaColumns,
-} from "react-icons/fa"
-import Ana from "../images/students/ana.jpg"
-import Eva from "../images/students/eva.jpg"
-import Kelly from "../images/students/kellycorey.jpg"
-import Tim from "../images/students/tim.jpeg"
-import Dana from "../images/students/dana.jpg"
-import Beth from "../images/students/beth.jpg"
-import Dakir from "../images/students/dakir.jpg"
-import Karin from "../images/students/karin.jpg"
-import Kate from "../images/students/kate.jpg"
-import Kaitlyn from "../images/students/kaitlyn.jpg"
-import Jacquay from "../images/students/jacquay.jpg"
-import Linda from "../images/students/lindakovacs.jpeg"
+} from "react-icons/fa";
+import Ana from "../images/students/ana.jpg";
+import Eva from "../images/students/eva.jpg";
+import Kelly from "../images/students/kellycorey.jpg";
+import Tim from "../images/students/tim.jpeg";
+import Dana from "../images/students/dana.jpg";
+import Beth from "../images/students/beth.jpg";
+import Dakir from "../images/students/dakir.jpg";
+import Karin from "../images/students/karin.jpg";
+import Kate from "../images/students/kate.jpg";
+import Kaitlyn from "../images/students/kaitlyn.jpg";
+import Jacquay from "../images/students/jacquay.jpg";
+import Linda from "../images/students/lindakovacs.jpeg";
 
 const AlumniPage = () => (
   <Layout>
@@ -1261,6 +1261,6 @@ const AlumniPage = () => (
       </Row>
     </Container>
   </Layout>
-)
+);
 
-export default AlumniPage
+export default AlumniPage;
