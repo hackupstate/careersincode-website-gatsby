@@ -1,0 +1,11 @@
+.formContainer {
+  margin-top: 40px;
+  max-width: 600px;
+  width: auto;
+  text-align: center;
+}
+
+.submitBtn {
+  width: 100%;
+  margin-top: 20px;
+}

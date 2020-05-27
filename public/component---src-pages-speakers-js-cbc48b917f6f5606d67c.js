@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{"C/vZ":function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),r=n.n(a),l=n("Wbzz"),o=n("Bl7J"),c=n("vrFN");t.default=function(){return r.a.createElement(o.a,null,r.a.createElement(c.a,{title:"Speakers"}),r.a.createElement("h1",null,"Speakers Page Content"),r.a.createElement(l.Link,{to:"/"},"Go Home"))}}}]);
+//# sourceMappingURL=component---src-pages-speakers-js-cbc48b917f6f5606d67c.js.map
