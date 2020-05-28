@@ -1,13 +1,13 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import SEO from "../components/seo"
-import content from "../content/content.json"
-import { Container, Row, Col } from "reactstrap"
-import pageStyles from "./pages.module.css"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import SEO from "../components/seo";
+import { Container, Row, Col } from "reactstrap";
+import content from "../content/content.json";
+import pageStyles from "./pages.module.css";
 
 const MissionPage = () => (
   <Layout>
@@ -70,6 +70,6 @@ const MissionPage = () => (
       </Row>
     </Container>
   </Layout>
-)
+);
 
-export default MissionPage
+export default MissionPage;

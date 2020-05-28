@@ -1,17 +1,16 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import SEO from "../components/seo"
-import content from "../content/content.json"
-import { Button, Container, Row, Col } from "reactstrap"
-import Doug from "../images/team/dougcrescenzi.png"
-import Jesse from "../images/team/jesse.png"
-import Will from "../images/team/will.png"
-import Jason from "../images/team/jason.png"
-import pageStyles from "./pages.module.css"
+import React from "react";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import SEO from "../components/seo";
+import { Button, Container, Row, Col } from "reactstrap";
+import Doug from "../images/team/dougcrescenzi.png";
+import Jesse from "../images/team/jesse.png";
+import Will from "../images/team/will.png";
+import Jason from "../images/team/jason.png";
+import content from "../content/content.json";
+import pageStyles from "./pages.module.css";
 
 const TeamPage = () => (
   <Layout>
@@ -82,11 +81,8 @@ const TeamPage = () => (
           </a>
         </Button>
       </Row>
-      <Row className={pageStyles.pageHeadings}>
-        <Link to="/">Go Home</Link>
-      </Row>
     </Container>
   </Layout>
-)
+);
 
-export default TeamPage
+export default TeamPage;

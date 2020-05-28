@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "gatsby"
 import Layout from "../components/layout";
 import Header from "../components/header";
 import NavComponent from "../components/nav";
@@ -7,14 +6,13 @@ import JumbotronComponent from "../components/jumbotron";
 import JumboButton from "../components/jumbobutton";
 import SEO from "../components/seo";
 import { Button, Container, Row, Col } from "reactstrap";
-import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGraduationCap,
   faUserCheck,
 } from "@fortawesome/free-solid-svg-icons";
-// import { farListAlt } from "@fortawesome/free-regular-svg-icons"
+import content from "../content/content.json";
+import pageStyles from "./pages.module.css";
 
 const ProspectivePage = () => (
   <Layout>

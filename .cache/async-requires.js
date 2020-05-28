@@ -3,7 +3,6 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---cache-dev-404-page-js": () => import("./dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
-  "component---src-pages-404-js": () => import("./../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-alumni-js": () => import("./../src/pages/alumni.js" /* webpackChunkName: "component---src-pages-alumni-js" */),
   "component---src-pages-contact-js": () => import("./../src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
   "component---src-pages-faq-js": () => import("./../src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
@@ -13,7 +12,6 @@ exports.components = {
   "component---src-pages-mission-js": () => import("./../src/pages/mission.js" /* webpackChunkName: "component---src-pages-mission-js" */),
   "component---src-pages-newsletters-js": () => import("./../src/pages/newsletters.js" /* webpackChunkName: "component---src-pages-newsletters-js" */),
   "component---src-pages-outcomes-js": () => import("./../src/pages/outcomes.js" /* webpackChunkName: "component---src-pages-outcomes-js" */),
-  "component---src-pages-page-2-js": () => import("./../src/pages/page-2.js" /* webpackChunkName: "component---src-pages-page-2-js" */),
   "component---src-pages-partner-js": () => import("./../src/pages/partner.js" /* webpackChunkName: "component---src-pages-partner-js" */),
   "component---src-pages-press-js": () => import("./../src/pages/press.js" /* webpackChunkName: "component---src-pages-press-js" */),
   "component---src-pages-prospective-js": () => import("./../src/pages/prospective.js" /* webpackChunkName: "component---src-pages-prospective-js" */),

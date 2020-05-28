@@ -1,21 +1,19 @@
-import React from "react"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import SEO from "../components/seo"
-import content from "../content/content.json"
-import { Container, Row, Col, Button } from "reactstrap"
-import pageStyles from "./pages.module.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import React from "react";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import SEO from "../components/seo";
+import { Container, Row, Col, Button } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  //   faGraduationCap,
   faPencilRuler,
-  //   faUserCheck,
   faMountain,
   faToolbox,
   faListAlt,
-} from "@fortawesome/free-solid-svg-icons"
+} from "@fortawesome/free-solid-svg-icons";
+import content from "../content/content.json";
+import pageStyles from "./pages.module.css";
 
 const Students = () => (
   <Layout>
@@ -174,6 +172,6 @@ const Students = () => (
       </Container>
     </Container>
   </Layout>
-)
+);
 
-export default Students
+export default Students;

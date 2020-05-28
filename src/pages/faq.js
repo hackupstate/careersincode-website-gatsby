@@ -1,11 +1,10 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import SEO from "../components/seo"
-import content from "../content/content.json"
+import React, { useState } from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import SEO from "../components/seo";
 import {
   Container,
   Row,
@@ -19,17 +18,18 @@ import {
   CardText,
   CardHeader,
   CardBody,
-} from "reactstrap"
-import classnames from "classnames"
-import pageStyles from "./pages.module.css"
+} from "reactstrap";
+import classnames from "classnames";
+import content from "../content/content.json";
+import pageStyles from "./pages.module.css";
 
 // from reactstrap tab docs
-const FaqPage = props => {
-  const [activeTab, setActiveTab] = useState("1")
+const FaqPage = (props) => {
+  const [activeTab, setActiveTab] = useState("1");
 
-  const toggle = tab => {
-    if (activeTab !== tab) setActiveTab(tab)
-  }
+  const toggle = (tab) => {
+    if (activeTab !== tab) setActiveTab(tab);
+  };
 
   return (
     <Layout>
@@ -46,7 +46,7 @@ const FaqPage = props => {
                 <NavLink
                   className={classnames({ active: activeTab === "1" })}
                   onClick={() => {
-                    toggle("1")
+                    toggle("1");
                   }}
                   tag="h4"
                 >
@@ -57,7 +57,7 @@ const FaqPage = props => {
                 <NavLink
                   className={classnames({ active: activeTab === "2" })}
                   onClick={() => {
-                    toggle("2")
+                    toggle("2");
                   }}
                   tag="h4"
                 >
@@ -68,7 +68,7 @@ const FaqPage = props => {
                 <NavLink
                   className={classnames({ active: activeTab === "3" })}
                   onClick={() => {
-                    toggle("3")
+                    toggle("3");
                   }}
                   tag="h4"
                 >
@@ -79,7 +79,7 @@ const FaqPage = props => {
                 <NavLink
                   className={classnames({ active: activeTab === "4" })}
                   onClick={() => {
-                    toggle("4")
+                    toggle("4");
                   }}
                   tag="h4"
                 >
@@ -90,7 +90,7 @@ const FaqPage = props => {
                 <NavLink
                   className={classnames({ active: activeTab === "5" })}
                   onClick={() => {
-                    toggle("5")
+                    toggle("5");
                   }}
                   tag="h4"
                 >
@@ -787,7 +787,7 @@ const FaqPage = props => {
         </Row>
       </Container>
     </Layout>
-  )
-}
+  );
+};
 
-export default FaqPage
+export default FaqPage;

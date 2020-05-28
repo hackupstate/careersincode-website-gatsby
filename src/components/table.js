@@ -1,9 +1,9 @@
-import React from "react"
-import { Table } from "reactstrap"
-import "bootstrap/dist/css/bootstrap.min.css"
-import tableStyles from "./table.module.css"
+import React from "react";
+import { Table } from "reactstrap";
+// import "bootstrap/dist/css/bootstrap.min.css"
+import tableStyles from "./table.module.css";
 
-const TableComponent = props => {
+const TableComponent = (props) => {
   return (
     <div>
       <Table>
@@ -83,7 +83,7 @@ const TableComponent = props => {
         </tbody>
       </Table>
     </div>
-  )
-}
+  );
+};
 
-export default TableComponent
+export default TableComponent;

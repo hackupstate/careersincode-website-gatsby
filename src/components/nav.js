@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import {
   Container,
   Navbar,
@@ -10,10 +10,10 @@ import {
   DropdownToggle,
   DropdownItem,
   NavbarBrand,
-} from "reactstrap"
-import "bootstrap/dist/css/bootstrap.min.css"
-import ComboLogo from "../images/combo-logo-white.png"
-import jumboStyles from "./jumbotron.module.css"
+} from "reactstrap";
+// import "bootstrap/dist/css/bootstrap.min.css"
+import ComboLogo from "../images/combo-logo-white.png";
+import jumboStyles from "./jumbotron.module.css";
 
 const NavComponent = () => {
   return (
@@ -139,7 +139,7 @@ const NavComponent = () => {
         </Nav>
       </Navbar>
     </Container>
-  )
-}
+  );
+};
 
-export default NavComponent
+export default NavComponent;

@@ -6,7 +6,6 @@ import NavComponent from "../components/nav";
 import JumbotronComponent from "../components/jumbotron";
 import JumboButton from "../components/jumbobutton";
 import SEO from "../components/seo";
-import content from "../content/content.json";
 import {
   Container,
   Row,
@@ -20,7 +19,6 @@ import {
   CardBody,
   CardFooter,
 } from "reactstrap";
-import pageStyles from "./pages.module.css";
 import {
   FaEnvelopeSquare,
   FaTwitterSquare,
@@ -42,6 +40,8 @@ import Kate from "../images/students/kate.jpg";
 import Kaitlyn from "../images/students/kaitlyn.jpg";
 import Jacquay from "../images/students/jacquay.jpg";
 import Linda from "../images/students/lindakovacs.jpeg";
+import pageStyles from "./pages.module.css";
+import content from "../content/content.json";
 
 const AlumniPage = () => (
   <Layout>

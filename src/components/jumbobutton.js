@@ -1,10 +1,9 @@
-import React from "react"
-import { Button, Row } from "reactstrap"
-import "bootstrap/dist/css/bootstrap.min.css"
-// import content from "../content/content.json"
-import jumbotronStyles from "./jumbotron.module.css"
+import React from "react";
+import { Button, Row } from "reactstrap";
+// import "bootstrap/dist/css/bootstrap.min.css"
+import jumbotronStyles from "./jumbotron.module.css";
 
-const JumboButton = props => {
+const JumboButton = (props) => {
   return (
     <div>
       <Row className={jumbotronStyles.jumboButtonContainer}>
@@ -20,7 +19,7 @@ const JumboButton = props => {
         </Button>
       </Row>
     </div>
-  )
-}
+  );
+};
 
-export default JumboButton
+export default JumboButton;

@@ -1,13 +1,13 @@
-import React from "react"
-import content from "../content/content.json"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import SEO from "../components/seo"
-import TableComponent from "../components/table"
-import pageStyles from "../pages/pages.module.css"
-import { Container } from "reactstrap"
+import React from "react";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import SEO from "../components/seo";
+import { Container } from "reactstrap";
+import TableComponent from "../components/table";
+import content from "../content/content.json";
+import pageStyles from "../pages/pages.module.css";
 
 const JobsPage = () => (
   <Layout>
@@ -81,6 +81,6 @@ const JobsPage = () => (
       />
     </Container>
   </Layout>
-)
+);
 
-export default JobsPage
+export default JobsPage;

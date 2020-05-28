@@ -1,13 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import SEO from "../components/seo"
-import content from "../content/content.json"
-import { Container, Row, Col, Button } from "reactstrap"
-import pageStyles from "./pages.module.css"
+import React from "react";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import SEO from "../components/seo";
+import { Container, Row, Col, Button } from "reactstrap";
+import content from "../content/content.json";
+import pageStyles from "./pages.module.css";
 
 const PressPage = () => (
   <Layout>
@@ -243,11 +242,8 @@ const PressPage = () => (
           {content.ui.about.press_main_content.medium.students.text}{" "}
         </a>
       </Row>
-      <Row className={pageStyles.pageContentContainer}>
-        <Link to="/">Go Home</Link>
-      </Row>
     </Container>
   </Layout>
-)
+);
 
-export default PressPage
+export default PressPage;

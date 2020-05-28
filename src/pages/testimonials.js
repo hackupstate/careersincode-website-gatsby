@@ -1,15 +1,11 @@
 import React from "react";
-import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Header from "../components/header";
 import NavComponent from "../components/nav";
 import JumbotronComponent from "../components/jumbotron";
 import JumboButton from "../components/jumbobutton";
 import SEO from "../components/seo";
-import content from "../content/content.json";
 import { Container, Row, Col } from "reactstrap";
-import pageStyles from "./pages.module.css";
-
 import Kelly from "../images/students/kellycorey.jpg";
 import Karin from "../images/students/karin.jpg";
 import Ana from "../images/students/ana.jpg";
@@ -18,9 +14,10 @@ import Kaitlyn from "../images/students/kaitlyn.jpg";
 import Dakir from "../images/students/dakir.jpg";
 import Tim from "../images/students/tim.jpeg";
 import Linda from "../images/students/lindakovacs.jpeg";
-
 import Joey from "../images/instructors/joeybuczek.jpg";
 import Gus from "../images/instructors/gus.jpg";
+import content from "../content/content.json";
+import pageStyles from "./pages.module.css";
 
 const TestimonialsPage = () => (
   <Layout>
@@ -272,9 +269,6 @@ const TestimonialsPage = () => (
                 content.ui.about.testimonials_main_content.instructors.gus.text
               }{" "}
             </p>
-          </Col>
-          <Col>
-            <Link to="/">Go Home</Link>
           </Col>
         </Col>
       </Row>

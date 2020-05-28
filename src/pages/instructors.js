@@ -6,7 +6,6 @@ import NavComponent from "../components/nav";
 import JumbotronComponent from "../components/jumbotron";
 import JumboButton from "../components/jumbobutton";
 import SEO from "../components/seo";
-import content from "../content/content.json";
 import {
   Button,
   Container,
@@ -21,7 +20,6 @@ import {
   CardBody,
   CardFooter,
 } from "reactstrap";
-import pageStyles from "./pages.module.css";
 import {
   FaEnvelopeSquare,
   FaTwitterSquare,
@@ -47,6 +45,8 @@ import Pankaj from "../images/tas/pankajc.jpeg";
 import Drew from "../images/tas/drewknab.jpeg";
 import Wesam from "../images/tas/wesamshanaa.png";
 import Placeholder from "../images/tas/profile-placeholder.png";
+import content from "../content/content.json";
+import pageStyles from "./pages.module.css";
 
 const InstructorsPage = () => (
   <Layout>

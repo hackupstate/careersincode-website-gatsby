@@ -1,11 +1,10 @@
 import React from "react";
-
-import SEO from "../components/seo";
 import Layout from "../components/layout";
 import Header from "../components/header";
 import NavComponent from "../components/nav";
 import JumbotronComponent from "../components/jumbotron";
 import JumboButton from "../components/jumbobutton";
+import SEO from "../components/seo";
 import content from "../content/content.json";
 
 const OutcomesPage = () => (

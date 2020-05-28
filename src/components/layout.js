@@ -1,12 +1,8 @@
-import React from "react"
-import PropTypes from "prop-types"
-import "bootstrap/dist/css/bootstrap.min.css"
-
-import Footer from "./footer"
-
-import "./layout.css"
-
-import "bootstrap/dist/css/bootstrap.min.css"
+import React from "react";
+import PropTypes from "prop-types";
+import Footer from "./footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./layout.css";
 
 const Layout = ({ children }) => {
   return (
@@ -21,11 +17,11 @@ const Layout = ({ children }) => {
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

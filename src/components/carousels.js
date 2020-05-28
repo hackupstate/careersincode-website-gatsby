@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import { Link } from "gatsby"
+import React, { useState } from "react";
+import { Link } from "gatsby";
 import {
   Button,
   Carousel,
@@ -8,12 +8,12 @@ import {
   CarouselIndicators,
   CarouselCaption,
   Col,
-} from "reactstrap"
-import Joey from "../images/instructors/joeybuczek.jpg"
-import Kelly from "../images/students/kellycorey.jpg"
-import Doug from "../images/team/dougcrescenzi.png"
-import "bootstrap/dist/css/bootstrap.min.css"
-import content from "../content/content.json"
+} from "reactstrap";
+import Joey from "../images/instructors/joeybuczek.jpg";
+import Kelly from "../images/students/kellycorey.jpg";
+import Doug from "../images/team/dougcrescenzi.png";
+// import "bootstrap/dist/css/bootstrap.min.css"
+import content from "../content/content.json";
 
 // code for testimonial carousel taken from https://reactstrap.github.io/components/carousel/
 
@@ -39,30 +39,30 @@ const items = [
       "The rise of coding bootcamps throughout the country reflects the shortage of adequately trained software developers graduating from universities and the relative demand for them from the technology sector. The reason coding bootcamps have proven effective over the years is because they provide vocational training at a fraction of the cost of a college degree.",
     header: "Doug Crescenzi, Founder",
   },
-]
+];
 
-const Carousels = props => {
-  const [activeIndex, setActiveIndex] = useState(0)
-  const [animating, setAnimating] = useState(false)
+const Carousels = (props) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [animating, setAnimating] = useState(false);
 
   const next = () => {
-    if (animating) return
-    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1
-    setActiveIndex(nextIndex)
-  }
+    if (animating) return;
+    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+    setActiveIndex(nextIndex);
+  };
 
   const previous = () => {
-    if (animating) return
-    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1
-    setActiveIndex(nextIndex)
-  }
+    if (animating) return;
+    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+    setActiveIndex(nextIndex);
+  };
 
-  const goToIndex = newIndex => {
-    if (animating) return
-    setActiveIndex(newIndex)
-  }
+  const goToIndex = (newIndex) => {
+    if (animating) return;
+    setActiveIndex(newIndex);
+  };
 
-  const slides = items.map(item => {
+  const slides = items.map((item) => {
     return (
       <CarouselItem
         onExiting={() => setAnimating(true)}
@@ -102,8 +102,8 @@ const Carousels = props => {
           captionHeader={item.header}
         />
       </CarouselItem>
-    )
-  })
+    );
+  });
 
   return (
     <div>
@@ -170,10 +170,10 @@ const Carousels = props => {
         </Link>
       </Col>
     </div>
-  )
-}
+  );
+};
 
-export default Carousels
+export default Carousels;
 
 // to do: continue moving/adjusting CSS styles from main.css in cic current website code
 // figure out how to move text below image -> this is different from default reactstrap carousel!

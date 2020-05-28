@@ -1,10 +1,10 @@
-import React from "react"
-import { Container, Jumbotron, Row } from "reactstrap"
-import "bootstrap/dist/css/bootstrap.min.css"
+import React from "react";
+import { Container, Jumbotron, Row } from "reactstrap";
+// import "bootstrap/dist/css/bootstrap.min.css"
 
-import jumboStyles from "./jumbotron.module.css"
+import jumboStyles from "./jumbotron.module.css";
 
-const JumbotronComponent = props => (
+const JumbotronComponent = (props) => (
   <div>
     <Jumbotron fluid justified className={jumboStyles.jumboContainer}>
       <Container>
@@ -16,6 +16,6 @@ const JumbotronComponent = props => (
       </Container>
     </Jumbotron>
   </div>
-)
+);
 
-export default JumbotronComponent
+export default JumbotronComponent;

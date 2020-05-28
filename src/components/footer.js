@@ -1,20 +1,18 @@
-import React from "react"
-// import './footer.css'
-// import './layout.css'
-import footerStyles from "./footer.module.css"
-import { Container, Row, Col } from "reactstrap"
-import "bootstrap/dist/css/bootstrap.min.css"
-import FB from "../images/social/fb.png"
-import Git from "../images/social/git-blue.png"
-import Insta from "../images/social/inst-green.png"
-import LinkedIn from "../images/social/linked-in-green.png"
-import Med from "../images/social/med.png"
-import Slack from "../images/social/slack-green.png"
-import TW from "../images/social/tw.png"
-import YT from "../images/social/yt-blue.png"
-import content from "../content/content.json"
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+// import "bootstrap/dist/css/bootstrap.min.css"
+import FB from "../images/social/fb.png";
+import Git from "../images/social/git-blue.png";
+import Insta from "../images/social/inst-green.png";
+import LinkedIn from "../images/social/linked-in-green.png";
+import Med from "../images/social/med.png";
+import Slack from "../images/social/slack-green.png";
+import TW from "../images/social/tw.png";
+import YT from "../images/social/yt-blue.png";
+import content from "../content/content.json";
+import footerStyles from "./footer.module.css";
 
-const Footer = props => {
+const Footer = (props) => {
   return (
     <footer className={footerStyles.footerBackground}>
       <Container fluid>
@@ -235,10 +233,10 @@ const Footer = props => {
         </Row>
       </Container>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
 
 //© Careers in Code {new Date().getFullYear()}
 

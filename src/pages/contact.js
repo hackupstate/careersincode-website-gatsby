@@ -1,12 +1,12 @@
-import React from "react"
-import { Container, Row, Col, Button } from "reactstrap"
-import Layout from "../components/layout"
-import Header from "../components/header"
-import NavComponent from "../components/nav"
-import JumbotronComponent from "../components/jumbotron"
-import SEO from "../components/seo"
-import contactStyles from "./contact.module.css"
-import content from "../content/content.json"
+import React from "react";
+import Layout from "../components/layout";
+import Header from "../components/header";
+import NavComponent from "../components/nav";
+import JumbotronComponent from "../components/jumbotron";
+import SEO from "../components/seo";
+import { Container, Row, Col, Button } from "reactstrap";
+import contactStyles from "./contact.module.css";
+import content from "../content/content.json";
 
 const ContactPage = () => (
   <Layout>
@@ -76,6 +76,6 @@ const ContactPage = () => (
       </form>
     </Container>
   </Layout>
-)
+);
 
-export default ContactPage
+export default ContactPage;
