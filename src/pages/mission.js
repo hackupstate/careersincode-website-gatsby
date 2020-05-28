@@ -62,12 +62,6 @@ const MissionPage = () => (
           </p>
         </Col>
       </Row>
-      <hr />
-      <Row className={pageStyles.pageHeadings}>
-        <Col>
-          <Link to="/">Go Home</Link>
-        </Col>
-      </Row>
     </Container>
   </Layout>
 );
