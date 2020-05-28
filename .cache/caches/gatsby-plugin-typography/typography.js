@@ -1,0 +1,1 @@
+module.exports = require("/Users/kaitlynwarboy/Desktop/cicDynamic/careersincode-dynamic/src/utils/typography")

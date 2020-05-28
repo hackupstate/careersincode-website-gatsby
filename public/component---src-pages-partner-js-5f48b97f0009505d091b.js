@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{emUi:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),r=n.n(a),l=n("Wbzz"),o=n("Bl7J"),c=n("vrFN");t.default=function(){return r.a.createElement(o.a,null,r.a.createElement(c.a,{title:"Partner"}),r.a.createElement("h1",null,"Partner Page Content"),r.a.createElement(l.Link,{to:"/"},"Go Home"))}}}]);
+//# sourceMappingURL=component---src-pages-partner-js-5f48b97f0009505d091b.js.map
