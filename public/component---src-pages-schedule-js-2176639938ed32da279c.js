@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{FBU5:function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),l=n.n(t),c=n("Bl7J"),u=n("LbRr"),r=n("QSOs"),o=n("ocAx"),s=n("vrFN"),d=n("Ugz3");a.default=function(){return l.a.createElement(c.a,null,l.a.createElement(u.a,null,l.a.createElement(r.a,null),l.a.createElement(o.a,{heading:d.ui.classroom.schedule.schedule_jumbotron.heading})),l.a.createElement(s.a,{title:"Schedule"}),l.a.createElement("h1",null,"Schedule Page Content"))}}}]);
-//# sourceMappingURL=component---src-pages-schedule-js-2176639938ed32da279c.js.map
