@@ -2,3 +2,9 @@
   font-size: 14px;
   font-weight: "bold";
 }
+
+.imgSize {
+  object-fit: cover;
+  width: auto;
+  height: 300px;
+}

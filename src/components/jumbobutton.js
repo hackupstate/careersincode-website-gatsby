@@ -1,18 +1,18 @@
 import React from "react";
 import { Button, Row } from "reactstrap";
 // import "bootstrap/dist/css/bootstrap.min.css"
-import jumbotronStyles from "./jumbotron.module.css";
+import buttonStyles from "./jumbobutton.module.css";
 
 const JumboButton = (props) => {
   return (
     <div>
-      <Row className={jumbotronStyles.jumboButtonContainer}>
-        <Button className={jumbotronStyles.jumboButtons} color="info">
+      <Row>
+        <Button className={buttonStyles.jumboButtons} color="info">
           <a
             href={props.btnLink}
             target="_blank"
             rel="noopener noreferrer"
-            className={jumbotronStyles.btnLink}
+            className={buttonStyles.btnLink}
           >
             {props.btnText}
           </a>

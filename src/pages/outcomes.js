@@ -72,7 +72,13 @@ const OutcomesPage = () => (
               <CardHeader tag="h3">
                 {content.ui.outcomes.outcomes_main_content.cards.eva.name}
               </CardHeader>
-              <CardImg top width="100%" src={Eva} alt="Eva Carafa" />
+              <CardImg
+                top
+                width="100%"
+                src={Eva}
+                alt="Eva Carafa"
+                className={cardStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   <p className={cardStyles.cardTitle}>
@@ -108,7 +114,13 @@ const OutcomesPage = () => (
               <CardHeader tag="h3">
                 {content.ui.outcomes.outcomes_main_content.cards.kelly.name}
               </CardHeader>
-              <CardImg top width="100%" src={Kelly} alt="Kelly Corey" />
+              <CardImg
+                top
+                width="100%"
+                src={Kelly}
+                alt="Kelly Corey"
+                className={cardStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {
@@ -145,7 +157,13 @@ const OutcomesPage = () => (
               <CardHeader tag="h3">
                 {content.ui.outcomes.outcomes_main_content.cards.dana.name}
               </CardHeader>
-              <CardImg top width="100%" src={Dana} alt="Dana McMullen" />
+              <CardImg
+                top
+                width="100%"
+                src={Dana}
+                alt="Dana McMullen"
+                className={cardStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {
@@ -186,7 +204,13 @@ const OutcomesPage = () => (
               <CardHeader tag="h3">
                 {content.ui.outcomes.outcomes_main_content.cards.elizabeth.name}
               </CardHeader>
-              <CardImg top width="100%" src={Beth} alt="Elizabeth Metcalf" />
+              <CardImg
+                top
+                width="100%"
+                src={Beth}
+                alt="Elizabeth Metcalf"
+                className={cardStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {
@@ -223,7 +247,13 @@ const OutcomesPage = () => (
               <CardHeader tag="h3">
                 {content.ui.outcomes.outcomes_main_content.cards.dakir.name}
               </CardHeader>
-              <CardImg top width="100%" src={Dakir} alt="Dakir Thompson" />
+              <CardImg
+                top
+                width="100%"
+                src={Dakir}
+                alt="Dakir Thompson"
+                className={cardStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {
@@ -260,7 +290,13 @@ const OutcomesPage = () => (
               <CardHeader tag="h3">
                 {content.ui.outcomes.outcomes_main_content.cards.karin.name}
               </CardHeader>
-              <CardImg top width="100%" src={Karin} alt="Karin Thorne" />
+              <CardImg
+                top
+                width="100%"
+                src={Karin}
+                alt="Karin Thorne"
+                className={cardStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {
@@ -304,7 +340,13 @@ const OutcomesPage = () => (
               <CardHeader tag="h3">
                 {content.ui.outcomes.outcomes_main_content.cards.kaitlyn.name}
               </CardHeader>
-              <CardImg top width="100%" src={Kaitlyn} alt="Kaitlyn Warboy" />
+              <CardImg
+                top
+                width="100%"
+                src={Kaitlyn}
+                alt="Kaitlyn Warboy"
+                className={cardStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {

@@ -13,11 +13,11 @@ import {
 } from "reactstrap";
 // import "bootstrap/dist/css/bootstrap.min.css"
 import ComboLogo from "../images/combo-logo-white.png";
-import jumboStyles from "./jumbotron.module.css";
+import navStyles from "./nav.module.css";
 
 const NavComponent = () => {
   return (
-    <Container fluid className={jumboStyles.jumboContainer}>
+    <Container fluid className={navStyles.navContainer}>
       <Navbar>
         <NavbarBrand href="/">
           <img
@@ -34,28 +34,28 @@ const NavComponent = () => {
         </NavbarBrand>
         <Nav>
           <UncontrolledDropdown nav inNavbar>
-            <DropdownToggle nav caret className={jumboStyles.navLink}>
+            <DropdownToggle nav caret className={navStyles.navLink}>
               About
             </DropdownToggle>
             <DropdownMenu right>
               <DropdownItem>
-                <NavLink className={jumboStyles.dropdownLink} href="/mission/">
+                <NavLink className={navStyles.dropdownLink} href="/mission/">
                   Mission
                 </NavLink>
               </DropdownItem>
               <DropdownItem>
-                <NavLink className={jumboStyles.dropdownLink} href="/team/">
+                <NavLink className={navStyles.dropdownLink} href="/team/">
                   Team
                 </NavLink>
               </DropdownItem>
               <DropdownItem>
-                <NavLink className={jumboStyles.dropdownLink} href="/press/">
+                <NavLink className={navStyles.dropdownLink} href="/press/">
                   Press
                 </NavLink>
               </DropdownItem>
               <DropdownItem>
                 <NavLink
-                  className={jumboStyles.dropdownLink}
+                  className={navStyles.dropdownLink}
                   href="/newsletters/"
                 >
                   Newsletters
@@ -63,76 +63,76 @@ const NavComponent = () => {
               </DropdownItem>
               <DropdownItem>
                 <NavLink
-                  className={jumboStyles.dropdownLink}
+                  className={navStyles.dropdownLink}
                   href="/testimonials/"
                 >
                   Testimonials
                 </NavLink>
               </DropdownItem>
               <DropdownItem>
-                <NavLink className={jumboStyles.dropdownLink} href="/faq/">
+                <NavLink className={navStyles.dropdownLink} href="/faq/">
                   FAQ
                 </NavLink>
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
           <NavItem>
-            <NavLink href="/alumni/" className={jumboStyles.navLink}>
+            <NavLink href="/alumni/" className={navStyles.navLink}>
               Alumni
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/instructors/" className={jumboStyles.navLink}>
+            <NavLink href="/instructors/" className={navStyles.navLink}>
               Instructors & TA's
             </NavLink>
           </NavItem>
           <UncontrolledDropdown nav inNavbar>
-            <DropdownToggle nav caret className={jumboStyles.navLink}>
+            <DropdownToggle nav caret className={navStyles.navLink}>
               Classroom
             </DropdownToggle>
             <DropdownMenu right>
               <DropdownItem>
                 <NavLink
-                  className={jumboStyles.dropdownLink}
+                  className={navStyles.dropdownLink}
                   href="/prospective/"
                 >
                   Prospective Students
                 </NavLink>
               </DropdownItem>
               <DropdownItem>
-                <NavLink className={jumboStyles.dropdownLink} href="/students/">
+                <NavLink className={navStyles.dropdownLink} href="/students/">
                   Current Students
                 </NavLink>
               </DropdownItem>
               <DropdownItem>
-                <NavLink className={jumboStyles.dropdownLink} href="/speakers/">
+                <NavLink className={navStyles.dropdownLink} href="/speakers/">
                   Speakers
                 </NavLink>
               </DropdownItem>
               {/* <DropdownItem>
-                <NavLink className={jumboStyles.dropdownLink} href="/schedule/">
+                <NavLink className={navStyles.dropdownLink} href="/schedule/">
                   Schedule
                 </NavLink>
               </DropdownItem> */}
             </DropdownMenu>
           </UncontrolledDropdown>
           <NavItem>
-            <NavLink href="/partner/" className={jumboStyles.navLink}>
+            <NavLink href="/partner/" className={navStyles.navLink}>
               Partners
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/outcomes/" className={jumboStyles.navLink}>
+            <NavLink href="/outcomes/" className={navStyles.navLink}>
               Outcomes
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/contact/" className={jumboStyles.navLink}>
+            <NavLink href="/contact/" className={navStyles.navLink}>
               Contact
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/jobs/" className={jumboStyles.navLink}>
+            <NavLink href="/jobs/" className={navStyles.navLink}>
               Jobs
             </NavLink>
           </NavItem>
