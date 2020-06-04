@@ -1,0 +1,12 @@
+.jumboBannerImg {
+  background: linear-gradient(rgba(0, 77, 145, 0.6), rgba(148, 178, 204, 0.6)),
+    url("../images/jumbo/cic-intro-banner.jpg");
+  background-position: center;
+  z-index: 2;
+  color: white;
+}
+
+.headerContainer {
+  background: transparent;
+  color: white;
+}

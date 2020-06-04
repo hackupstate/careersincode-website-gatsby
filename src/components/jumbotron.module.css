@@ -3,24 +3,15 @@
   color: white;
 }
 
-.jumbotronHeadings {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
 .jumboButtonContainer {
   display: flex;
   justify-content: center;
 }
 
-.jumboButtons {
-  margin: 30px;
-}
-
-a.btnLink {
-  color: white;
-  text-decoration: none;
+.jumbotronHeadings {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .jumboBannerImg {
@@ -30,21 +21,4 @@ a.btnLink {
   z-index: 2;
   opacity: 90%;
   color: white;
-}
-
-/* .dropdownStyle {
-  opacity: 70%;
-} */
-
-.dropdownLink {
-  color: navy;
-}
-
-.navLink {
-  text-decoration: none;
-  color: white;
-}
-
-.navLink:hover {
-  color: blue;
 }

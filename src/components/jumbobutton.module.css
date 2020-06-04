@@ -1,0 +1,13 @@
+.jumboButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.jumboButtons {
+  margin: 30px;
+}
+
+a.btnLink {
+  color: white;
+  text-decoration: none;
+}

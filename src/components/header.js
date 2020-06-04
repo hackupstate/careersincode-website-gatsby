@@ -1,10 +1,12 @@
-import React from "react"
-import jumboStyles from "./jumbotron.module.css"
+import React from "react";
+import headerStyles from "./header.module.css";
 
 const Header = ({ children }) => (
-  <header className={(jumboStyles.jumboContainer, jumboStyles.jumboBannerImg)}>
+  <header
+    className={(headerStyles.headerContainer, headerStyles.jumboBannerImg)}
+  >
     {children}
   </header>
-)
+);
 
-export default Header
+export default Header;
