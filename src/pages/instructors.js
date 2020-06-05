@@ -270,6 +270,7 @@ const InstructorsPage = () => (
         </Col>
       </Row>
       <div className="bg-light">
+        {/* to-do: fix cards so they have the same styling as outcomes page & adjust final card row */}
         {/* instructor cards */}
         <Row className={pageStyles.pageContentContainer}>
           <Col>

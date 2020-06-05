@@ -17,6 +17,8 @@ import content from "../content/content.json";
 
 // code for testimonial carousel taken from https://reactstrap.github.io/components/carousel/
 
+// to-do: fix giant images
+
 const items = [
   {
     src: Joey,
