@@ -269,8 +269,7 @@ const InstructorsPage = () => (
           </h1>
         </Col>
       </Row>
-      <div className="bg-light">
-        {/* to-do: fix cards so they have the same styling as outcomes page & adjust final card row */}
+      <div>
         {/* instructor cards */}
         <Row className={pageStyles.pageContentContainer}>
           <Col>
@@ -1385,7 +1384,7 @@ const InstructorsPage = () => (
           </Col>
         </Row>
 
-        <Row className={pageStyles.pageContentContainer}>
+        <Row md="2" className={pageStyles.pageContentContainer}>
           <Col>
             <CardDeck>
               {/* ryan gaus */}
@@ -1651,7 +1650,7 @@ const InstructorsPage = () => (
           </h1>
         </Col>
       </Row>
-      <div className="bg-light">
+      <div>
         <Row className={pageStyles.pageContentContainer}>
           <Col>
             <CardDeck>
@@ -2310,7 +2309,7 @@ const InstructorsPage = () => (
             </CardDeck>
           </Col>
         </Row>
-        <Row className={pageStyles.pageContentContainer}>
+        <Row md="3" className={pageStyles.pageContentContainer}>
           <Col>
             <CardDeck>
               {/* garnet grimm */}

@@ -17,8 +17,6 @@ import content from "../content/content.json";
 
 // code for testimonial carousel taken from https://reactstrap.github.io/components/carousel/
 
-// to-do: fix giant images
-
 const items = [
   {
     src: Joey,
@@ -78,31 +76,35 @@ const Carousels = (props) => {
           borderRadius: "50%",
         }}
       >
-        <img
-          className="d-block w-100"
-          style={{
-            width: "50%",
-            height: "50%",
-            display: "block",
-            borderRadius: "50%",
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-          src={item.src}
-          alt={item.altText}
-        />
-        <CarouselCaption
-          style={{
-            color: "#0a0a0a",
-            fontSize: "18px",
-            textAlign: "center",
-            overflow: "hidden",
-            minHeight: "290px",
-            padding: "500px",
-          }}
-          captionText={item.caption}
-          captionHeader={item.header}
-        />
+        <div>
+          <img
+            className="d-block"
+            style={{
+              height: "50%",
+              display: "block",
+              borderRadius: "50%",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+            src={item.src}
+            alt={item.altText}
+          />
+        </div>
+        <div>
+          <br />
+          <CarouselCaption
+            style={{
+              color: "#0a0a0a",
+              fontSize: "18px",
+              textAlign: "center",
+              overflow: "hidden",
+              minHeight: "290px",
+              padding: "500px",
+            }}
+            captionText={item.caption}
+            captionHeader={item.header}
+          />
+        </div>
       </CarouselItem>
     );
   });
@@ -177,6 +179,3 @@ const Carousels = (props) => {
 
 export default Carousels;
 
-// to do: continue moving/adjusting CSS styles from main.css in cic current website code
-// figure out how to move text below image -> this is different from default reactstrap carousel!
-// add media breakpoints for mobile/tablet so it looks less garbage when it collapses
