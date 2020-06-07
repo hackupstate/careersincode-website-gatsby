@@ -104,7 +104,7 @@ const Speakers = () => (
         </Col>
       </Row>
       {/* guest speaker cards */}
-      <div className="bg-light">
+      <div>
         <Row className={pageStyles.pageContentContainer}>
           <Col>
             <CardDeck>
@@ -1572,7 +1572,7 @@ const Speakers = () => (
           </Col>
         </Row>
 
-        <Row className={pageStyles.pageContentContainer}>
+        <Row md="2" className={pageStyles.pageContentContainer}>
           <Col>
             <CardDeck>
               {/* glenn allen */}
