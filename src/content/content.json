@@ -1792,7 +1792,7 @@
           "kaitlyn": {
             "name": "Kaitlyn Warboy",
             "position": "Junior Software Developer",
-            "company": "Raymour & Flanigan",
+            "company": "Raymour & Flanigan (Liverpool, NY)",
             "button": {
               "text": "Read Kaitlyn's Story",
               "link": "https://medium.com/@hackupstate/careers-in-code-student-success-stories-kaitlyn-warboy-6ca5158ccc28"
@@ -1800,6 +1800,7 @@
           }
         },
         "outcomes_snippets": {
+          "heading": "Outcomes",
           "jobs": {
             "number": "7 OF 11",
             "text": "Students that have obtained jobs, internships, or consulting arrangements with local employers within 180 days of graduation."
@@ -1811,6 +1812,10 @@
         },
         "company_logos": {
           "text": "Our Talent Stays Local"
+        },
+        "banner": {
+          "text": "What did our students think of Careers in Code? Read the testimonials",
+          "link": "https://careersincode.org/testimonials"
         }
       }
     },

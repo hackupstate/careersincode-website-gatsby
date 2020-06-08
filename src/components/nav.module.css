@@ -7,11 +7,15 @@
   color: navy;
 }
 
+.dropdownLink:hover {
+  color: navy;
+}
+
 .navLink {
   text-decoration: none;
   color: white;
 }
 
 .navLink:hover {
-  color: blue;
+  color: #2299dd;
 }

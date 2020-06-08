@@ -12,8 +12,9 @@ import {
 import Joey from "../images/instructors/joeybuczek.jpg";
 import Kelly from "../images/students/kellycorey.jpg";
 import Doug from "../images/team/dougcrescenzi.png";
-// import "bootstrap/dist/css/bootstrap.min.css"
+
 import content from "../content/content.json";
+import carouselStyles from "./carousel.module.css";
 
 // code for testimonial carousel taken from https://reactstrap.github.io/components/carousel/
 
@@ -94,7 +95,7 @@ const Carousels = (props) => {
           <br />
           <CarouselCaption
             style={{
-              color: "#0a0a0a",
+              color: "#000000",
               fontSize: "18px",
               textAlign: "center",
               overflow: "hidden",
@@ -154,21 +155,7 @@ const Carousels = (props) => {
         }}
       >
         <Link to={content.ui.index_main_content_testimonials_button.link}>
-          <Button
-            size="lg"
-            style={{
-              background: "#2299dd",
-              width: "auto",
-              borderRadius: "0px",
-              color: "white",
-              margin: "5%",
-              "&:hover": {
-                background: "#ffffff",
-                opacity: "0.8",
-              },
-              marginTop: "5%",
-            }}
-          >
+          <Button size="lg" className={carouselStyles.blueButton}>
             {content.ui.index_main_content_testimonials_button.copy}
           </Button>
         </Link>
@@ -178,4 +165,3 @@ const Carousels = (props) => {
 };
 
 export default Carousels;
-

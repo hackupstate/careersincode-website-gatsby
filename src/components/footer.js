@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-// import "bootstrap/dist/css/bootstrap.min.css"
 import FB from "../images/social/fb.png";
 import Git from "../images/social/git-blue.png";
 import Insta from "../images/social/inst-green.png";

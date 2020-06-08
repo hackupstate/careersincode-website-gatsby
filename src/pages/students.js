@@ -29,7 +29,7 @@ const Students = () => (
     <SEO title="Current Students" />
     <Container fluid>
       <Row className={(pageStyles.centerText, pageStyles.centerContentColumns)}>
-        <h3>
+        <h3 className={pageStyles.pageHeadings}>
           {
             content.ui.classroom.currStudents_main_content.classroom_info
               .classroom_heading

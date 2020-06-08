@@ -983,7 +983,7 @@ const InstructorsPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button className={pageStyles.blueButton}>
+                    <Button size="sm" className={pageStyles.blueButton}>
                       {" "}
                       {
                         content.ui.instructors.instructor_main_content
@@ -1151,7 +1151,7 @@ const InstructorsPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button className={pageStyles.blueButton}>
+                    <Button size="sm" className={pageStyles.blueButton}>
                       {" "}
                       {
                         content.ui.instructors.instructor_main_content
@@ -1606,7 +1606,7 @@ const InstructorsPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button className={pageStyles.blueButton}>
+                    <Button size="sm" className={pageStyles.blueButton}>
                       {" "}
                       {
                         content.ui.instructors.instructor_main_content

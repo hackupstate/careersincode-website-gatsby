@@ -64,11 +64,7 @@ const ContactPage = () => (
         </Row>
         <div class="form-row">
           <div class="col-md-12">
-            <Button
-              type="submit"
-              color="info"
-              className={contactStyles.submitBtn}
-            >
+            <Button type="submit" className={contactStyles.submitBtn}>
               Send
             </Button>
           </div>
