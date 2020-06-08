@@ -1,0 +1,60 @@
+.blueBox {
+  background-color: #2299dd;
+  height: 100%;
+  text-align: center;
+  width: 50%;
+  color: white;
+  padding: 15px;
+}
+
+.whiteBox {
+  background-color: #ffffff;
+  height: 100%;
+  text-align: center;
+  width: 50%;
+  color: black;
+  padding: 15px;
+}
+
+.blueButton {
+  margin: 30px;
+  background-color: #2299dd;
+  border: 0px;
+  border-radius: 0.25rem;
+}
+
+.blueButton:hover {
+  background: rgba(34, 153, 221, 0.7);
+}
+
+a.btnLink {
+  color: white;
+  text-decoration: none;
+}
+
+.whiteButton {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 0px;
+  border-radius: 0.25rem;
+}
+
+.whiteButton:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #2299dd;
+}
+
+.greenButton {
+  margin: 30px;
+  background-color: #33d5c3;
+  border: 0px;
+  border-radius: 0.25rem;
+}
+
+.greenButton:hover {
+  background: rgba(83, 254, 153, 0.7);
+}
+
+.btnLinkBlue {
+  color: #2299dd;
+}

@@ -7,7 +7,7 @@ const JumboButton = (props) => {
   return (
     <div>
       <Row>
-        <Button className={buttonStyles.jumboButtons} color="info">
+        <Button className={buttonStyles.jumboButtons}>
           <a
             href={props.btnLink}
             target="_blank"

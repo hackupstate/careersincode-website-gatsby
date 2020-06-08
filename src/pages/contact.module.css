@@ -8,4 +8,11 @@
 .submitBtn {
   width: 100%;
   margin-top: 20px;
+  background-color: #2299dd;
+  border: 0px;
+  border-radius: 0.25rem;
+}
+
+.submitBtn:hover {
+  background: rgba(34, 153, 221, 0.7);
 }

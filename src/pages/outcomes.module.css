@@ -1,10 +1,87 @@
 .cardTitle {
-  font-size: 14px;
-  font-weight: "bold";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cardText {
+  font-size: 16px;
 }
 
 .imgSize {
   object-fit: cover;
   width: auto;
   height: 300px;
+}
+
+.outcomesCardRow {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.outcomesCardContainer {
+  max-width: 90%;
+}
+
+.cardSize {
+  width: 300px;
+  height: auto;
+  padding: 15px;
+}
+
+.outcomesStatImgContainer {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/14691375_10154720614189883_7910128265032499480_o.jpg?_nc_cat=108&_nc_sid=e3f864&_nc_ohc=cuFOgP2VnE0AX-8C3bm&_nc_ht=scontent-lga3-1.xx&oh=917ba7ac60ab209caf02e02a873a3cfa&oe=5F0428AD");
+  background-position: center;
+  z-index: 2;
+  opacity: 90%;
+  min-height: 500px;
+  padding-top: 5%;
+  width: 100%;
+}
+
+.statColumns {
+  width: 50%;
+  margin: 0 10%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.paraTextBlue {
+  text-transform: uppercase;
+  color: #2299dd;
+  font-weight: bold;
+}
+
+.paraTextGreen {
+  text-transform: uppercase;
+  color: #53fe99;
+  font-weight: bold;
+}
+
+.logoContainer {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.centerContentColumns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerLink {
+  color: black;
+  text-decoration: none;
+}
+
+.bannerlink:hover {
+  text-decoration: none;
+  color: white;
 }

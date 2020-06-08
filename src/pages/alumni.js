@@ -1254,11 +1254,6 @@ const AlumniPage = () => (
         </Col>
       </Row>
       {/* card decks end */}
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <Link to="/">Go Home</Link>
-        </Col>
-      </Row>
     </Container>
   </Layout>
 );

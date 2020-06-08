@@ -1,0 +1,15 @@
+.bannerRed {
+  background-color: tomato;
+  color: black;
+  width: 100%;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.bannerGreen {
+  background-color: #33d5c3;
+  color: black;
+  width: 100%;
+  margin: 0;
+  padding: 15px 0;
+}
