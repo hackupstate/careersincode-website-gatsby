@@ -8,6 +8,7 @@ import {
   CarouselIndicators,
   CarouselCaption,
   Col,
+  Container,
 } from "reactstrap";
 import Joey from "../images/instructors/joeybuczek.jpg";
 import Kelly from "../images/students/kellycorey.jpg";
@@ -77,60 +78,26 @@ const Carousels = (props) => {
           borderRadius: "50%",
         }}
       >
-        <div>
-          <img
-            className="d-block"
-            style={{
-              height: "50%",
-              display: "block",
-              borderRadius: "50%",
-              marginLeft: "auto",
-              marginRight: "auto",
-            }}
-            src={item.src}
-            alt={item.altText}
-          />
-        </div>
-        <div>
-          <br />
-          <CarouselCaption
-            style={{
-              color: "#000000",
-              fontSize: "18px",
-              textAlign: "center",
-              overflow: "hidden",
-              minHeight: "290px",
-              padding: "500px",
-            }}
-            captionText={item.caption}
-            captionHeader={item.header}
-          />
-        </div>
+        <img
+          className={carouselStyles.carouselImg}
+          src={item.src}
+          alt={item.altText}
+        />
+        <CarouselCaption
+          className={carouselStyles.carouselCaption}
+          captionText={item.caption}
+          captionHeader={item.header}
+        />
       </CarouselItem>
     );
   });
 
   return (
-    <div>
-      <div>
-        <Col
-          md="12"
-          style={{
-            textAlign: "center",
-          }}
-        >
-          <h3> {content.ui.index_main_content_testimonials.copy} </h3>
-        </Col>
-      </div>
-      <Carousel
-        activeIndex={activeIndex}
-        next={next}
-        previous={previous}
-        style={{
-          margin: "50px auto",
-          padding: "0 70px",
-        }}
-      >
+    <div className={carouselStyles.carouselMain}>
+      <Col md="12">
+        <h3> {content.ui.index_main_content_testimonials.copy} </h3>
+      </Col>
+      <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         <CarouselIndicators
           items={items}
           activeIndex={activeIndex}
@@ -148,12 +115,7 @@ const Carousels = (props) => {
           onClickHandler={next}
         />
       </Carousel>
-      <Col
-        md="12"
-        style={{
-          textAlign: "center",
-        }}
-      >
+      <Col md="12" className={carouselStyles.btnContainer}>
         <Link to={content.ui.index_main_content_testimonials_button.link}>
           <Button size="lg" className={carouselStyles.blueButton}>
             {content.ui.index_main_content_testimonials_button.copy}

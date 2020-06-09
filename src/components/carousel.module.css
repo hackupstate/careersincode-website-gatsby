@@ -1,5 +1,4 @@
 .blueButton {
-  margin: 30px;
   background-color: #2299dd;
   border: 0px;
   border-radius: 0.25rem;
@@ -12,4 +11,35 @@
 a.btnLink {
   color: white;
   text-decoration: none;
+}
+
+.btnContainer {
+  text-align: center;
+  padding: 0;
+}
+
+.carouselImg {
+  display: block;
+  opacity: 0.7;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+
+.carouselCaption {
+  color: black;
+  background-color: transparent;
+  font-size: 18px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 290px;
+}
+
+.carouselMain {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 0;
 }
