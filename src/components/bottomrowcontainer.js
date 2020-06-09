@@ -5,7 +5,7 @@ import bottomRowStyles from "./bottomrow.module.css";
 
 const BottomRowContainer = (props) => {
   return (
-    <Container fluid>
+    <div>
       <Row>
         <Col className={bottomRowStyles.blueBox} md="4">
           <h1>
@@ -76,7 +76,7 @@ const BottomRowContainer = (props) => {
           </Button>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 };
 

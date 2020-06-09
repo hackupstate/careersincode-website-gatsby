@@ -55,7 +55,7 @@ const IndexPage = (props) => (
       <Col md="12">
         <h3> {content.ui.index_main_content_top_text.copy}</h3>
         <p> {content.ui.index_main_content_top_text.description} </p>
-        <Button size="lg" className={pageStyles.blueButton}>
+        <Button className={pageStyles.blueButton}>
           <a
             href="https://medium.com/@hackupstate/announcing-hack-upstates-careers-in-code-a8ff0bfeddbf"
             target="_blank"
@@ -73,7 +73,7 @@ const IndexPage = (props) => (
         <h3> {content.ui.index_main_content_bottom_text.copy} </h3>
         <p> {content.ui.index_main_content_bottom_text.description} </p>
         <Link to={content.ui.index_main_content_bottom_text.link}>
-          <Button size="lg" className={pageStyles.blueButton}>
+          <Button className={pageStyles.blueButton}>
             {content.ui.index_main_content_bottom_text.button}
           </Button>
         </Link>
@@ -83,7 +83,6 @@ const IndexPage = (props) => (
     <Carousels />
     <br />
     <BottomRowContainer />
-    <br />
   </Layout>
 );
 

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: 20px;
 }
 
 .pageContentContainer {
@@ -92,18 +93,6 @@ a:hover {
 .greenParaStats {
   color: #2de187;
   font-size: x-large;
-}
-
-.blueButton {
-  background-color: #2299dd;
-  color: white;
-  border-radius: 0;
-  margin: 10px;
-}
-
-.blueButton:hover {
-  background-color: #2299dd;
-  opacity: 0.8;
 }
 
 .centerText {
