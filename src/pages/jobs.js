@@ -7,7 +7,8 @@ import SEO from "../components/seo";
 import { Container } from "reactstrap";
 import TableComponent from "../components/table";
 import content from "../content/content.json";
-import pageStyles from "../pages/pages.module.css";
+// import pageStyles from "../pages/pages.module.css";
+import jobStyles from "./jobs.module.css";
 
 const JobsPage = () => (
   <Layout>
@@ -20,7 +21,7 @@ const JobsPage = () => (
     </Header>
     <SEO title="Jobs" />
 
-    <Container className={pageStyles.containerStyles}>
+    <Container className={jobStyles.tableContainer}>
       <h2>Job Postings</h2>
       <TableComponent
         header1={content.ui.jobs_main_content.jobs_table.header_position}

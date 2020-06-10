@@ -402,7 +402,7 @@ pre {
   word-wrap: normal;
   padding: 1.45rem;
 }
-table {
+/* table {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -415,7 +415,7 @@ table {
   line-height: 1.45rem;
   border-collapse: collapse;
   width: 100%;
-}
+} */
 fieldset {
   margin-left: 0;
   margin-right: 0;

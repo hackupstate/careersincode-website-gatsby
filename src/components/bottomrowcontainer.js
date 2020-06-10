@@ -5,78 +5,54 @@ import bottomRowStyles from "./bottomrow.module.css";
 
 const BottomRowContainer = (props) => {
   return (
-    <div>
-      <Row>
-        <Col className={bottomRowStyles.blueBox} md="4">
-          <h1>
-            {" "}
-            {content.ui.index_main_content_bottom_row_container_one.title}{" "}
-          </h1>
-          <p
-            style={{
-              fontSize: "24px",
-            }}
+    <Row md="3">
+      <Col className={bottomRowStyles.blueBox}>
+        <h3>
+          {" "}
+          {content.ui.index_main_content_bottom_row_container_one.title}{" "}
+        </h3>
+        <p>{content.ui.index_main_content_bottom_row_container_one.copy}</p>
+        <Button size="md" className={bottomRowStyles.whiteButton}>
+          <a
+            href={content.ui.index_main_content_bottom_row_container_one.link}
+            className={bottomRowStyles.btnLinkBlue}
           >
-            {content.ui.index_main_content_bottom_row_container_one.copy}
-          </p>
-          <Button size="lg" className={bottomRowStyles.whiteButton}>
-            <a
-              href={content.ui.index_main_content_bottom_row_container_one.link}
-              className={bottomRowStyles.btnLinkBlue}
-            >
-              {content.ui.index_main_content_bottom_row_container_one.button}
-            </a>
-          </Button>
-        </Col>
-        <Col className={bottomRowStyles.whiteBox} md="4">
-          <h1>
-            {" "}
-            {content.ui.index_main_content_bottom_row_container_two.title}{" "}
-          </h1>
-          <p
-            style={{
-              fontSize: "24px",
-            }}
-          >
-            {content.ui.index_main_content_bottom_row_container_two.copy}
-          </p>
+            {content.ui.index_main_content_bottom_row_container_one.button}
+          </a>
+        </Button>
+      </Col>
+      <Col className={bottomRowStyles.whiteBox}>
+        <h3>
+          {" "}
+          {content.ui.index_main_content_bottom_row_container_two.title}{" "}
+        </h3>
+        <p>{content.ui.index_main_content_bottom_row_container_two.copy}</p>
 
-          <Button size="lg" className={bottomRowStyles.greenButton}>
-            <a
-              href={content.ui.index_main_content_bottom_row_container_two.link}
-              className={bottomRowStyles.btnLink}
-            >
-              {content.ui.index_main_content_bottom_row_container_two.button}
-            </a>
-          </Button>
-        </Col>
-        <Col className={bottomRowStyles.blueBox} md="4">
-          <h1>
-            {" "}
-            {
-              content.ui.index_main_content_bottom_row_container_three.title
-            }{" "}
-          </h1>
-          <p
-            style={{
-              fontSize: "24px",
-            }}
+        <Button size="md" className={bottomRowStyles.greenButton}>
+          <a
+            href={content.ui.index_main_content_bottom_row_container_two.link}
+            className={bottomRowStyles.btnLink}
           >
-            {content.ui.index_main_content_bottom_row_container_three.copy}
-          </p>
-          <Button size="lg" className={bottomRowStyles.whiteButton}>
-            <a
-              href={
-                content.ui.index_main_content_bottom_row_container_three.link
-              }
-              className={bottomRowStyles.btnLinkBlue}
-            >
-              {content.ui.index_main_content_bottom_row_container_three.button}
-            </a>
-          </Button>
-        </Col>
-      </Row>
-    </div>
+            {content.ui.index_main_content_bottom_row_container_two.button}
+          </a>
+        </Button>
+      </Col>
+      <Col className={bottomRowStyles.blueBox}>
+        <h3>
+          {" "}
+          {content.ui.index_main_content_bottom_row_container_three.title}{" "}
+        </h3>
+        <p>{content.ui.index_main_content_bottom_row_container_three.copy}</p>
+        <Button size="md" className={bottomRowStyles.whiteButton}>
+          <a
+            href={content.ui.index_main_content_bottom_row_container_three.link}
+            className={bottomRowStyles.btnLinkBlue}
+          >
+            {content.ui.index_main_content_bottom_row_container_three.button}
+          </a>
+        </Button>
+      </Col>
+    </Row>
   );
 };
 

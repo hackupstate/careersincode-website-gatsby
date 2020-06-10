@@ -44,6 +44,7 @@ const IndexPage = (props) => (
             href={content.ui.outcomes.outcomes_main_content.banner.link}
             target="_blank"
             rel="noopener noreferrer"
+            className={pageStyles.bannerLink}
           >
             {content.ui.outcomes.outcomes_main_content.banner.text}{" "}
             <FontAwesomeIcon icon={faArrowRight} size="1x" />
