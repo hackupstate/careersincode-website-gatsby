@@ -1,0 +1,18 @@
+.tableContainer {
+  width: 60%;
+  padding: 40px;
+}
+
+.tableHeader {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+/****  THIS PROPERTY IS SET IN PAGES UNDER 'ELEMENT SPECIFIC' ****/
+/* 
+th,
+td,
+tr {
+  font-size: 16px;
+} */

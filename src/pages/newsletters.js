@@ -9,6 +9,7 @@ import SEO from "../components/seo";
 import { Container, Row, Table } from "reactstrap";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
+import newsletterStyles from "./newsletters.module.css";
 
 const NewslettersPage = () => (
   <Layout>
@@ -25,10 +26,10 @@ const NewslettersPage = () => (
       </JumbotronComponent>
     </Header>
     <SEO title="Newsletters" />
-    <Container>
-      <Row className={pageStyles.pageContentContainer}>
-        <Table bordered hover>
-          <thead>
+    <Container fluid className={newsletterStyles.tableContainer}>
+      <Row>
+        <Table borderless hover>
+          <thead className={newsletterStyles.tableHeader}>
             <tr>
               <th>
                 {
@@ -560,7 +561,6 @@ const NewslettersPage = () => (
             </tr>
           </tbody>
         </Table>
-        <Link to="/">Go Home</Link>
       </Row>
     </Container>
   </Layout>

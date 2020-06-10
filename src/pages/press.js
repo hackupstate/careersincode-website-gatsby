@@ -7,6 +7,7 @@ import SEO from "../components/seo";
 import { Container, Row, Col, Button } from "reactstrap";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
+import pressStyles from "./press.module.css";
 
 const PressPage = () => (
   <Layout>
@@ -17,9 +18,9 @@ const PressPage = () => (
       ></JumbotronComponent>
     </Header>
     <SEO title="Press" />
-    <Container>
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
+    <Container fluid className={pageStyles.blueContainer}>
+      <Row className={pressStyles.blueRow}>
+        <Col className={pressStyles.blueInfoColumns}>
           <h3> {content.ui.about.press_main_content.kickoff.header} </h3>
           <p> {content.ui.about.press_main_content.kickoff.text} </p>
           <Button className={pageStyles.pageButtons} color="info">
@@ -33,7 +34,7 @@ const PressPage = () => (
             </a>
           </Button>
         </Col>
-        <Col>
+        <Col className={pressStyles.blueInfoColumns}>
           <h3> {content.ui.about.press_main_content.graduation.header} </h3>
           <p> {content.ui.about.press_main_content.graduation.text} </p>
           <Button className={pageStyles.pageButtons} color="info">
@@ -48,8 +49,8 @@ const PressPage = () => (
           </Button>
         </Col>
       </Row>
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
+      <Row className={pressStyles.blueRow}>
+        <Col className={pressStyles.blueInfoColumns}>
           <h3> {content.ui.about.press_main_content.logos.header} </h3>
           <p> {content.ui.about.press_main_content.logos.text} </p>
           <Button className={pageStyles.pageButtons} color="info">
@@ -62,7 +63,7 @@ const PressPage = () => (
             </a>
           </Button>
         </Col>
-        <Col>
+        <Col className={pressStyles.blueInfoColumns}>
           <h3> {content.ui.about.press_main_content.presentation.header} </h3>
           <p>
             {" "}
@@ -90,84 +91,83 @@ const PressPage = () => (
           </Button>
         </Col>
       </Row>
-      <hr />
-      <Row className={pageStyles.pageContentContainer}>
+    </Container>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={pageStyles.pageHeadings}>
         <Col>
           <h3> {content.ui.about.press_main_content.news.header} </h3>
         </Col>
       </Row>
-      <Row className={pageStyles.pageContentContainer}>
-        <Row className={pageStyles.pageHeadings}>
-          <p> {content.ui.about.press_main_content.news.south_side.text} </p>
-          <a
-            href={content.ui.about.press_main_content.news.south_side.address}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            {content.ui.about.press_main_content.news.south_side.link}{" "}
-          </a>
-        </Row>
-        <Row className={pageStyles.pageHeadings}>
-          <p> {content.ui.about.press_main_content.news.waer.text} </p>
-          <a
-            href={content.ui.about.press_main_content.news.waer.address_cic}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            {content.ui.about.press_main_content.news.waer.link_cic}{" "}
-          </a>
-        </Row>
-        <Row className={pageStyles.pageHeadings}>
-          <p> {content.ui.about.press_main_content.news.waer.text} </p>
-          <a
-            href={
-              content.ui.about.press_main_content.news.waer.address_bootcamp
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            {content.ui.about.press_main_content.news.waer.link_bootcamp}{" "}
-          </a>
-        </Row>
-        <Row className={pageStyles.pageHeadings}>
-          <p> {content.ui.about.press_main_content.news.waer.text} </p>
-          <a
-            href={content.ui.about.press_main_content.news.waer.address_coding}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            {content.ui.about.press_main_content.news.waer.link_coding}{" "}
-          </a>
-        </Row>
-        <Row className={pageStyles.pageHeadings}>
-          <p> {content.ui.about.press_main_content.news.spectrum.text} </p>
-          <a
-            href={content.ui.about.press_main_content.news.spectrum.address}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            {content.ui.about.press_main_content.news.spectrum.link}{" "}
-          </a>
-        </Row>
-        <Row className={pageStyles.pageHeadings}>
-          <p> {content.ui.about.press_main_content.news.syracuse.text} </p>
-          <a
-            href={content.ui.about.press_main_content.news.syracuse.address}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            {content.ui.about.press_main_content.news.syracuse.link}{" "}
-          </a>
-        </Row>
+      <Row className={pageStyles.pageHeadings}>
+        <p> {content.ui.about.press_main_content.news.south_side.text} </p>
+        <a
+          href={content.ui.about.press_main_content.news.south_side.address}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          {content.ui.about.press_main_content.news.south_side.link}{" "}
+        </a>
       </Row>
-      <hr />
-      <Row className={pageStyles.pageContentContainer}>
+      <Row className={pageStyles.pageHeadings}>
+        <p> {content.ui.about.press_main_content.news.waer.text} </p>
+        <a
+          href={content.ui.about.press_main_content.news.waer.address_cic}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          {content.ui.about.press_main_content.news.waer.link_cic}{" "}
+        </a>
+      </Row>
+      <Row className={pageStyles.pageHeadings}>
+        <p> {content.ui.about.press_main_content.news.waer.text} </p>
+        <a
+          href={content.ui.about.press_main_content.news.waer.address_bootcamp}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          {content.ui.about.press_main_content.news.waer.link_bootcamp}{" "}
+        </a>
+      </Row>
+      <Row className={pageStyles.pageHeadings}>
+        <p> {content.ui.about.press_main_content.news.waer.text} </p>
+        <a
+          href={content.ui.about.press_main_content.news.waer.address_coding}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          {content.ui.about.press_main_content.news.waer.link_coding}{" "}
+        </a>
+      </Row>
+      <Row className={pageStyles.pageHeadings}>
+        <p> {content.ui.about.press_main_content.news.spectrum.text} </p>
+        <a
+          href={content.ui.about.press_main_content.news.spectrum.address}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          {content.ui.about.press_main_content.news.spectrum.link}{" "}
+        </a>
+      </Row>
+      <Row className={pageStyles.pageHeadings}>
+        <p> {content.ui.about.press_main_content.news.syracuse.text} </p>
+        <a
+          href={content.ui.about.press_main_content.news.syracuse.address}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          {content.ui.about.press_main_content.news.syracuse.link}{" "}
+        </a>
+      </Row>
+    </Container>
+
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={pageStyles.pageHeadings}>
         <Col>
           <h3> {content.ui.about.press_main_content.medium.header} </h3>
         </Col>

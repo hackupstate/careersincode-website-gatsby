@@ -1,21 +1,85 @@
+/*
+*** VARIABLES
+*/
+
+:body {
+  --primaryBlue: #2299dd;
+  --mediumBlue: #002333;
+  --darkBlue: #03030f;
+  --lightBlueGrey: #c8c9e2;
+  --primaryGreen: #53fe99;
+  --secondaryGreen: #33d5c3;
+  --darkGreen: #204c50;
+}
+
+/*
+*** CONTAINERS
+*/
+.pageContentContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 0 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.blueContainer {
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 30px; */
+  padding: 30px 100px;
+  text-align: center;
+  width: 100%;
+  background-color: #002333;
+  color: #c8c9e2;
+}
+
+.whiteContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 30px 100px;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.greenContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 30px 100px;
+  text-align: center;
+  width: 100%;
+  background-color: #33d5c3;
+  color: #000000;
+}
+
+.techGardenImg {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.753),
+      rgba(199, 199, 199, 0.6)
+    ),
+    url("https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/14691375_10154720614189883_7910128265032499480_o.jpg?_nc_cat=108&_nc_sid=e3f864&_nc_ohc=cuFOgP2VnE0AX-8C3bm&_nc_ht=scontent-lga3-1.xx&oh=917ba7ac60ab209caf02e02a873a3cfa&oe=5F0428AD");
+  background-position: center;
+  z-index: 2;
+  opacity: 90%;
+  color: white;
+}
+
+/*
+*** ELEMENT SPECIFIC
+*/
 .pageHeadings {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-top: 20px;
-}
-
-.pageContentContainer {
-  display: flex;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  padding: 10px;
-  text-align: center;
-}
-
-.marginBottom {
-  margin-bottom: 60px;
 }
 
 .containerStyles {
@@ -28,73 +92,41 @@
   height: 200px;
 }
 
-.imgCircle {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+.marginBottom {
+  margin-bottom: 60px;
 }
 
-.imgCircleTestimonials {
-  padding-top: 20px;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 20px;
-  width: 300px;
-  max-width: 100%;
-  border-radius: 50% !important;
+th,
+td,
+tr {
+  font-size: 16px;
 }
 
-.pageButtonContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.pageButtons {
-  margin: 10px;
-}
-
-a.btnLink {
-  color: white;
-  text-decoration: none;
-}
+/*
+*** LINKS
+*/
 
 a {
-  color: black;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
-  color: #2299dd;
 }
 
-.greyTechGarden {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.753),
-      rgba(199, 199, 199, 0.6)
-    ),
-    url("https://scontent-lga3-1.xx.fbcdn.net/v/t31.0-8/14691375_10154720614189883_7910128265032499480_o.jpg?_nc_cat=108&_nc_sid=e3f864&_nc_ohc=cuFOgP2VnE0AX-8C3bm&_nc_ht=scontent-lga3-1.xx&oh=917ba7ac60ab209caf02e02a873a3cfa&oe=5F0428AD");
-  background-position: center;
-  z-index: 2;
-  opacity: 90%;
+.bannerLink {
+  color: black;
+  text-decoration: none;
+}
+
+.bannerlink:hover {
+  text-decoration: none;
   color: white;
 }
 
-.instructorStats {
-  color: #002333;
-  font-size: 64px;
-}
-
-.blueParaStats {
-  color: #2299dd;
-  font-size: x-large;
-}
-
-.greenParaStats {
-  color: #2de187;
-  font-size: x-large;
-}
-
+/*
+*** ALIGNMENT
+*/
 .centerText {
   text-align: center;
 }
@@ -110,6 +142,9 @@ a:hover {
   align-items: center;
 }
 
+/*
+*** IMAGE SIZING
+*/
 .lgLogo {
   width: 300px;
   height: auto;
@@ -125,7 +160,9 @@ a:hover {
   height: auto;
 }
 
-/* BUTTONS */
+/*
+*** BUTTONS
+*/
 .blueButton {
   margin: 30px;
   background-color: #2299dd;
@@ -138,6 +175,20 @@ a:hover {
 }
 
 .btnLink {
+  color: white;
+  text-decoration: none;
+}
+
+.pageButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.pageButtons {
+  margin: 10px;
+}
+
+a.btnLink {
   color: white;
   text-decoration: none;
 }

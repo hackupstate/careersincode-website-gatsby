@@ -1,0 +1,11 @@
+.blueRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.blueInfoColumns {
+  width: 80%;
+  min-height: 280px;
+}

@@ -1,0 +1,42 @@
+.multiButtonRow {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.statRows {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px;
+}
+
+.statColumns {
+  min-height: 200px;
+}
+
+.instructorStats {
+  color: #c8c9e2;
+  font-size: 36px;
+}
+
+.blueParaStats {
+  color: #2299dd;
+  font-size: 18px;
+}
+
+.greenParaStats {
+  color: #2de187;
+  font-size: 18px;
+}
+
+.blueStatContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  padding: 20px 100px 0 100px;
+  text-align: center;
+  width: 100%;
+  background-color: #002333;
+  color: #c8c9e2;
+}

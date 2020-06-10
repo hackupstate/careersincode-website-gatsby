@@ -117,7 +117,7 @@ const Carousels = (props) => {
       </Carousel>
       <Col md="12" className={carouselStyles.btnContainer}>
         <Link to={content.ui.index_main_content_testimonials_button.link}>
-          <Button size="lg" className={carouselStyles.blueButton}>
+          <Button size="md" className={carouselStyles.blueButton}>
             {content.ui.index_main_content_testimonials_button.copy}
           </Button>
         </Link>

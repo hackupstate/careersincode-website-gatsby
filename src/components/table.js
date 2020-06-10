@@ -1,12 +1,11 @@
 import React from "react";
 import { Table } from "reactstrap";
-// import "bootstrap/dist/css/bootstrap.min.css"
 import tableStyles from "./table.module.css";
 
 const TableComponent = (props) => {
   return (
     <div>
-      <Table>
+      <Table borderless hover>
         <thead className={tableStyles.tableHeader}>
           <tr>
             <th>{props.header1}</th>

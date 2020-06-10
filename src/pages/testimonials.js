@@ -18,6 +18,7 @@ import Joey from "../images/instructors/joeybuczek.jpg";
 import Gus from "../images/instructors/gus.jpg";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
+import testimonialStyles from "./testimonials.module.css";
 
 const TestimonialsPage = () => (
   <Layout>
@@ -42,7 +43,7 @@ const TestimonialsPage = () => (
           </h3>
           <Col>
             <img
-              className={pageStyles.imgCircleTestimonials}
+              className={testimonialStyles.imgCircleTestimonials}
               src={Kelly}
               alt={
                 content.ui.about.testimonials_main_content.students.kelly
@@ -64,7 +65,7 @@ const TestimonialsPage = () => (
           </Col>
           <Col>
             <img
-              className={pageStyles.imgCircleTestimonials}
+              className={testimonialStyles.imgCircleTestimonials}
               src={Karin}
               alt={
                 content.ui.about.testimonials_main_content.students.karin
@@ -86,7 +87,7 @@ const TestimonialsPage = () => (
           </Col>
           <Col>
             <img
-              className={pageStyles.imgCircleTestimonials}
+              className={testimonialStyles.imgCircleTestimonials}
               src={Ana}
               alt={
                 content.ui.about.testimonials_main_content.students.ana.alt_text
@@ -107,7 +108,7 @@ const TestimonialsPage = () => (
           </Col>
           <Col>
             <img
-              className={pageStyles.imgCircleTestimonials}
+              className={testimonialStyles.imgCircleTestimonials}
               src={Dana}
               alt={
                 content.ui.about.testimonials_main_content.students.dana
@@ -129,7 +130,7 @@ const TestimonialsPage = () => (
           </Col>
           <Col>
             <img
-              className={pageStyles.imgCircleTestimonials}
+              className={testimonialStyles.imgCircleTestimonials}
               src={Kaitlyn}
               alt={
                 content.ui.about.testimonials_main_content.students.kaitlyn
@@ -152,7 +153,7 @@ const TestimonialsPage = () => (
           </Col>
           <Col>
             <img
-              className={pageStyles.imgCircleTestimonials}
+              className={testimonialStyles.imgCircleTestimonials}
               src={Dakir}
               alt={
                 content.ui.about.testimonials_main_content.students.dakir
@@ -174,7 +175,7 @@ const TestimonialsPage = () => (
           </Col>
           <Col>
             <img
-              className={pageStyles.imgCircleTestimonials}
+              className={testimonialStyles.imgCircleTestimonials}
               src={Tim}
               alt={
                 content.ui.about.testimonials_main_content.students.tim.alt_text
@@ -195,7 +196,7 @@ const TestimonialsPage = () => (
           </Col>
           <Col>
             <img
-              className={pageStyles.imgCircleTestimonials}
+              className={testimonialStyles.imgCircleTestimonials}
               src={Linda}
               alt={
                 content.ui.about.testimonials_main_content.students.linda
@@ -226,7 +227,7 @@ const TestimonialsPage = () => (
           </Col>
           <Col>
             <img
-              className={pageStyles.imgCircleTestimonials}
+              className={testimonialStyles.imgCircleTestimonials}
               src={Joey}
               alt={
                 content.ui.about.testimonials_main_content.instructors.joey
@@ -249,7 +250,7 @@ const TestimonialsPage = () => (
           </Col>
           <Col>
             <img
-              className={pageStyles.imgCircleTestimonials}
+              className={testimonialStyles.imgCircleTestimonials}
               src={Gus}
               alt={
                 content.ui.about.testimonials_main_content.instructors.gus

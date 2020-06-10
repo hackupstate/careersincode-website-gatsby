@@ -11,6 +11,7 @@ import Will from "../images/team/will.png";
 import Jason from "../images/team/jason.png";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
+import teamStyles from "./team.module.css";
 
 const TeamPage = () => (
   <Layout>
@@ -38,14 +39,14 @@ const TeamPage = () => (
       <Row className={pageStyles.pageContentContainer}>
         <Col>
           <img
-            className={pageStyles.imgCircle}
+            className={teamStyles.imgCircle}
             src={Jesse}
             alt="Jesse Peplinski"
           />
           <h4> {content.ui.about.team_main_content.members.jesse} </h4>
           <p> {content.ui.about.team_main_content.members.partner} </p>
           <img
-            className={pageStyles.imgCircle}
+            className={teamStyles.imgCircle}
             src={Will}
             alt="Will Guisbond"
           />
@@ -54,32 +55,32 @@ const TeamPage = () => (
         </Col>
         <Col>
           <img
-            className={pageStyles.imgCircle}
+            className={teamStyles.imgCircle}
             src={Doug}
             alt="Doug Crescenzi"
           />
           <h4> {content.ui.about.team_main_content.members.doug} </h4>
           <p> {content.ui.about.team_main_content.members.partner} </p>
           <img
-            className={pageStyles.imgCircle}
+            className={teamStyles.imgCircle}
             src={Jason}
             alt="Jason Scharf"
           />
           <h4> {content.ui.about.team_main_content.members.jason} </h4>
           <p> {content.ui.about.team_main_content.members.ssr} </p>
         </Col>
-      </Row>
-      <Row className={pageStyles.pageButtonContainer}>
-        <Button className={pageStyles.pageButtons} color="info">
-          <a
-            href={content.ui.about.team_main_content.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-            {content.ui.about.team_main_content.button}
-          </a>
-        </Button>
+        <Row className={pageStyles.pageContentContainer}>
+          <Button className={pageStyles.blueButton}>
+            <a
+              href={content.ui.about.team_main_content.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.btnLink}
+            >
+              {content.ui.about.team_main_content.button}
+            </a>
+          </Button>
+        </Row>
       </Row>
     </Container>
   </Layout>
