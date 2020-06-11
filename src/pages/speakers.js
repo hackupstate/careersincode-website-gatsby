@@ -54,8 +54,8 @@ const Speakers = () => (
       />
     </Header>
     <SEO title="Speakers" />
-    <Container>
-      <Row className={pageStyles.pageContentContainer}>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row>
         <Col>
           <h1>
             {" "}

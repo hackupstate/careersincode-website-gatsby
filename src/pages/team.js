@@ -25,7 +25,7 @@ const TeamPage = () => (
     <Container>
       <Row className={pageStyles.pageHeadings}>
         <Col>
-          <p> {content.ui.about.team_main_content.text} </p>
+          <h3> {content.ui.about.team_main_content.text} </h3>
           <a
             href={content.ui.about.team_main_content.email}
             target="_blank"

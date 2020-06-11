@@ -4,20 +4,18 @@
     justify-content: center;
     flex-direction: column;
     min-width: 100%;
-    height: 1100px;
+    height: 1120px;
     margin-left: 0;
     margin-right: 0;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
   .statRows {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
     height: 50%;
-    padding: 0;
   }
   .statColumns {
     display: flex;
@@ -26,16 +24,7 @@
     align-items: center;
     min-width: 100%;
     margin-top: 30px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
   }
-}
-
-.multiButtonRow {
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 
 .statRows {
@@ -49,7 +38,7 @@
   min-height: 200px;
 }
 
-.instructorStats {
+.partnerStats {
   color: #c8c9e2;
   font-size: 36px;
 }

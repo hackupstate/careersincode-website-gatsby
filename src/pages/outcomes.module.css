@@ -1,3 +1,17 @@
+@media only screen and (max-width: 900px) {
+  .outcomesCardRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cardSize {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    align-self: center;
+  }
+}
+
 .cardTitle {
   font-size: 16px;
   font-weight: bold;
@@ -10,7 +24,7 @@
 .imgSize {
   object-fit: cover;
   width: auto;
-  height: 300px;
+  max-height: 300px;
 }
 
 .outcomesCardRow {
@@ -29,6 +43,7 @@
   width: 300px;
   height: auto;
   padding: 15px;
+  margin: 0;
 }
 
 .outcomesStatImgContainer {

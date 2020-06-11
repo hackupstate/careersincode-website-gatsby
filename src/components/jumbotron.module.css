@@ -1,3 +1,10 @@
+@media only screen and (max-width: 900px) {
+  .jumboContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .jumboContainer {
   background: transparent;
   color: white;

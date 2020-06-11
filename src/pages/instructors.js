@@ -136,7 +136,7 @@ const InstructorsPage = () => (
       </Row>
     </Container>
     {/* instructor/ta info w/ buttons */}
-    <Row className={pageStyles.pageContentContainer}>
+    <Row className={pageStyles.whiteContainer}>
       <Col>
         <h3>
           {" "}
@@ -206,7 +206,7 @@ const InstructorsPage = () => (
         </a>
       </Button>
     </Row>
-    <Row className={pageStyles.pageContentContainer}>
+    <Row className={pageStyles.whiteContainer}>
       <Col>
         <h3>
           {" "}
@@ -251,7 +251,7 @@ const InstructorsPage = () => (
         </a>
       </Button>
     </Row>
-    <Row className={pageStyles.pageContentContainer}>
+    <Row className={pageStyles.whiteContainer}>
       <Col>
         <h1>
           {" "}

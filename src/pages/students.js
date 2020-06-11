@@ -14,6 +14,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
+import studentStyles from "./students.module.css";
 
 const Students = () => (
   <Layout>
@@ -27,7 +28,7 @@ const Students = () => (
       />
     </Header>
     <SEO title="Current Students" />
-    <Container fluid>
+    <Container className={pageStyles.whiteContainer}>
       <Row className={(pageStyles.centerText, pageStyles.centerContentColumns)}>
         <h3 className={pageStyles.pageHeadings}>
           {
@@ -42,7 +43,7 @@ const Students = () => (
           }
         </p>
 
-        <Button color="primary" className={pageStyles.marginBottom}>
+        <Button size="md" className={pageStyles.blueButton}>
           <a
             href={
               content.ui.classroom.currStudents_main_content.classroom_info
@@ -59,12 +60,10 @@ const Students = () => (
           </a>
         </Button>
       </Row>
-      <Container
-        className={(pageStyles.marginBottom, pageStyles.containerStyles)}
-      >
-        <Row className={(pageStyles.marginBottom, pageStyles.centerText)}>
-          <Col>
-            <h3>
+      <Container fluid className={pageStyles.whiteContainer}>
+        <Row>
+          <Col className={studentStyles.iconBtnColumn}>
+            <h3 className={pageStyles.pageHeadings}>
               {
                 content.ui.classroom.student_resource_links
                   .student_resource_title
@@ -76,7 +75,7 @@ const Students = () => (
           <Col className={pageStyles.centerContentColumns}>
             <FontAwesomeIcon icon={faListAlt} size="3x" />
             <h3>{content.ui.classroom.student_resource_links.syllabus_text}</h3>
-            <Button color="info">
+            <Button size="md" className={pageStyles.blueButton}>
               <a
                 href={
                   content.ui.classroom.student_resource_links
@@ -102,7 +101,7 @@ const Students = () => (
                   .responsibilities_text
               }
             </h3>
-            <Button color="info">
+            <Button size="md" className={pageStyles.blueButton}>
               <a
                 href={
                   content.ui.classroom.student_resource_links
@@ -128,7 +127,7 @@ const Students = () => (
               {" "}
               {content.ui.classroom.student_resource_links.capstone_text}
             </h3>
-            <Button color="info">
+            <Button size="md" className={pageStyles.blueButton}>
               <a
                 href={
                   content.ui.classroom.student_resource_links
@@ -151,7 +150,7 @@ const Students = () => (
             <h3>
               {content.ui.classroom.student_resource_links.resources_text}
             </h3>
-            <Button color="info">
+            <Button size="md" className={pageStyles.blueButton}>
               <a
                 href={
                   content.ui.classroom.student_resource_links

@@ -16,6 +16,7 @@ import {
   CardTitle,
   CardText,
   CardBody,
+  CardDeck,
 } from "reactstrap";
 import Banner from "../components/banner";
 import Eva from "../images/students/eva.jpg";
@@ -80,344 +81,357 @@ const OutcomesPage = () => (
         (pageStyles.marginBottom, outcomesStyles.outcomesCardContainer)
       }
     >
-      <Row xs="4" className={outcomesStyles.outcomesCardRow}>
+      <Row className={outcomesStyles.outcomesCardRow}>
         {/* Eva Card */}
-        <Col>
-          <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
-            <CardHeader tag="h3">
-              {content.ui.outcomes.outcomes_main_content.cards.eva.name}
-            </CardHeader>
-            <CardImg
-              top
-              width="100%"
-              src={Eva}
-              alt="Eva Carafa"
-              className={outcomesStyles.imgSize}
-            />
-            <CardBody>
-              <CardTitle>
-                <p className={outcomesStyles.cardTitle}>
-                  {content.ui.outcomes.outcomes_main_content.cards.eva.position}
-                </p>
-              </CardTitle>
-              <CardText>
-                <p className={outcomesStyles.cardText}>
-                  {content.ui.outcomes.outcomes_main_content.cards.eva.company}
-                </p>
-              </CardText>
-              <Button size="sm" color="info">
-                <a
-                  href={
-                    content.ui.outcomes.outcomes_main_content.cards.eva.button
-                      .link
-                  }
-                  target="_blank"
-                  rel="noopener noreferer"
-                  className={pageStyles.btnLink}
-                >
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.eva.button
-                      .text
-                  }
-                </a>
-              </Button>
-            </CardBody>
-          </Card>
-        </Col>
-        {/* Kelly Card */}
-        <Col>
-          <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
-            <CardHeader tag="h3">
-              {content.ui.outcomes.outcomes_main_content.cards.kelly.name}
-            </CardHeader>
-            <CardImg
-              top
-              width="100%"
-              src={Kelly}
-              alt="Kelly Corey"
-              className={outcomesStyles.imgSize}
-            />
-            <CardBody>
-              <CardTitle>
-                <p className={outcomesStyles.cardTitle}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.kelly
-                      .position
-                  }
-                </p>
-              </CardTitle>
-              <CardText>
-                <p className={outcomesStyles.cardText}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.kelly
-                      .company
-                  }
-                </p>
-              </CardText>
-              <Button size="sm" color="info">
-                <a
-                  href={
-                    content.ui.outcomes.outcomes_main_content.cards.kelly.button
-                      .link
-                  }
-                  target="_blank"
-                  rel="noopener noreferer"
-                  className={pageStyles.btnLink}
-                >
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.kelly.button
-                      .text
-                  }
-                </a>
-              </Button>
-            </CardBody>
-          </Card>
-        </Col>
-        {/*Dana Card*/}
-        <Col>
-          <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
-            <CardHeader tag="h3">
-              {content.ui.outcomes.outcomes_main_content.cards.dana.name}
-            </CardHeader>
-            <CardImg
-              top
-              width="100%"
-              src={Dana}
-              alt="Dana McMullen"
-              className={outcomesStyles.imgSize}
-            />
-            <CardBody>
-              <CardTitle>
-                <p className={outcomesStyles.cardTitle}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.dana
-                      .position
-                  }
-                </p>
-              </CardTitle>
-              <CardText>
-                <p className={outcomesStyles.cardText}>
-                  {content.ui.outcomes.outcomes_main_content.cards.dana.company}
-                </p>
-              </CardText>
-              <Button size="sm" color="info">
-                <a
-                  href={
-                    content.ui.outcomes.outcomes_main_content.cards.dana.button
-                      .link
-                  }
-                  target="_blank"
-                  rel="noopener noreferer"
-                  className={pageStyles.btnLink}
-                >
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.dana.button
-                      .text
-                  }
-                </a>
-              </Button>
-            </CardBody>
-          </Card>
-        </Col>
-        {/* Beth Card */}
-        <Col>
-          <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
-            <CardHeader tag="h3">
-              {content.ui.outcomes.outcomes_main_content.cards.elizabeth.name}
-            </CardHeader>
-            <CardImg
-              top
-              width="100%"
-              src={Beth}
-              alt="Elizabeth Metcalf"
-              className={outcomesStyles.imgSize}
-            />
-            <CardBody>
-              <CardTitle>
-                <p className={outcomesStyles.cardTitle}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.elizabeth
-                      .position
-                  }
-                </p>
-              </CardTitle>
-              <CardText>
-                <p className={outcomesStyles.cardText}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.elizabeth
-                      .company
-                  }
-                </p>
-              </CardText>
-              <Button size="sm" color="info">
-                <a
-                  href={
-                    content.ui.outcomes.outcomes_main_content.cards.elizabeth
-                      .button.link
-                  }
-                  target="_blank"
-                  rel="noopener noreferer"
-                  className={pageStyles.btnLink}
-                >
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.elizabeth
-                      .button.text
-                  }
-                </a>
-              </Button>
-            </CardBody>
-          </Card>
-        </Col>
+        <CardDeck>
+          <Col sm="3">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {content.ui.outcomes.outcomes_main_content.cards.eva.name}
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Eva}
+                alt="Eva Carafa"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.eva
+                        .position
+                    }
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.eva
+                        .company
+                    }
+                  </p>
+                </CardText>
+                <Button size="sm" color="info">
+                  <a
+                    href={
+                      content.ui.outcomes.outcomes_main_content.cards.eva.button
+                        .link
+                    }
+                    target="_blank"
+                    rel="noopener noreferer"
+                    className={pageStyles.btnLink}
+                  >
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.eva.button
+                        .text
+                    }
+                  </a>
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          {/* Kelly Card */}
+          <Col sm="3">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {content.ui.outcomes.outcomes_main_content.cards.kelly.name}
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kelly}
+                alt="Kelly Corey"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.kelly
+                        .position
+                    }
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.kelly
+                        .company
+                    }
+                  </p>
+                </CardText>
+                <Button size="sm" color="info">
+                  <a
+                    href={
+                      content.ui.outcomes.outcomes_main_content.cards.kelly
+                        .button.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferer"
+                    className={pageStyles.btnLink}
+                  >
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.kelly
+                        .button.text
+                    }
+                  </a>
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          {/*Dana Card*/}
+          <Col sm="3">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {content.ui.outcomes.outcomes_main_content.cards.dana.name}
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Dana}
+                alt="Dana McMullen"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.dana
+                        .position
+                    }
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.dana
+                        .company
+                    }
+                  </p>
+                </CardText>
+                <Button size="sm" color="info">
+                  <a
+                    href={
+                      content.ui.outcomes.outcomes_main_content.cards.dana
+                        .button.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferer"
+                    className={pageStyles.btnLink}
+                  >
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.dana
+                        .button.text
+                    }
+                  </a>
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          {/* Beth Card */}
+          <Col sm="3">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {content.ui.outcomes.outcomes_main_content.cards.elizabeth.name}
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Beth}
+                alt="Elizabeth Metcalf"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.elizabeth
+                        .position
+                    }
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.elizabeth
+                        .company
+                    }
+                  </p>
+                </CardText>
+                <Button size="sm" color="info">
+                  <a
+                    href={
+                      content.ui.outcomes.outcomes_main_content.cards.elizabeth
+                        .button.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferer"
+                    className={pageStyles.btnLink}
+                  >
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.elizabeth
+                        .button.text
+                    }
+                  </a>
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+        </CardDeck>
       </Row>
       {/* New Card Row */}
-      <Row xs="4" className={outcomesStyles.outcomesCardRow}>
+      <Row className={outcomesStyles.outcomesCardRow}>
         {/* Dakir Card */}
-        <Col>
-          <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
-            <CardHeader tag="h3">
-              {content.ui.outcomes.outcomes_main_content.cards.dakir.name}
-            </CardHeader>
-            <CardImg
-              top
-              width="100%"
-              src={Dakir}
-              alt="Dakir Thompson"
-              className={outcomesStyles.imgSize}
-            />
-            <CardBody>
-              <CardTitle>
-                <p className={outcomesStyles.cardTitle}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.dakir
-                      .position
-                  }
-                </p>
-              </CardTitle>
-              <CardText>
-                <p className={outcomesStyles.cardText}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.dakir
-                      .company
-                  }
-                </p>
-              </CardText>
-              <Button size="sm" color="info">
-                <a
-                  href={
-                    content.ui.outcomes.outcomes_main_content.cards.dakir.button
-                      .link
-                  }
-                  target="_blank"
-                  rel="noopener noreferer"
-                  className={pageStyles.btnLink}
-                >
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.dakir.button
-                      .text
-                  }
-                </a>
-              </Button>
-            </CardBody>
-          </Card>
-        </Col>
-        {/*Karin Card*/}
-        <Col>
-          <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
-            <CardHeader tag="h3">
-              {content.ui.outcomes.outcomes_main_content.cards.karin.name}
-            </CardHeader>
-            <CardImg
-              top
-              width="100%"
-              src={Karin}
-              alt="Karin Thorne"
-              className={outcomesStyles.imgSize}
-            />
-            <CardBody>
-              <CardTitle>
-                <p className={outcomesStyles.cardTitle}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.karin
-                      .position
-                  }
-                </p>
-              </CardTitle>
-              <CardText>
-                <p className={outcomesStyles.cardText}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.karin
-                      .company
-                  }
-                </p>
-              </CardText>
-              <Button size="sm" color="info">
-                <a
-                  href={
-                    content.ui.outcomes.outcomes_main_content.cards.karin.button
-                      .link
-                  }
-                  target="_blank"
-                  rel="noopener noreferer"
-                  className={pageStyles.btnLink}
-                >
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.karin.button
-                      .text
-                  }
-                </a>
-              </Button>
-            </CardBody>
-          </Card>
-        </Col>
-        {/* Kaitlyn Card */}
-        <Col>
-          <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
-            <CardHeader tag="h3">
-              {content.ui.outcomes.outcomes_main_content.cards.kaitlyn.name}
-            </CardHeader>
-            <CardImg
-              top
-              width="100%"
-              src={Kaitlyn}
-              alt="Kaitlyn Warboy"
-              className={outcomesStyles.imgSize}
-            />
-            <CardBody>
-              <CardTitle>
-                <p className={outcomesStyles.cardTitle}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.kaitlyn
-                      .position
-                  }
-                </p>
-              </CardTitle>
-              <CardText>
-                <p className={outcomesStyles.cardText}>
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.kaitlyn
-                      .company
-                  }
-                </p>
-              </CardText>
-              <Button size="sm" color="info">
-                <a
-                  href={
-                    content.ui.outcomes.outcomes_main_content.cards.kaitlyn
-                      .button.link
-                  }
-                  target="_blank"
-                  rel="noopener noreferer"
-                  className={pageStyles.btnLink}
-                >
-                  {
-                    content.ui.outcomes.outcomes_main_content.cards.kaitlyn
-                      .button.text
-                  }
-                </a>
-              </Button>
-            </CardBody>
-          </Card>
-        </Col>
+        <CardDeck>
+          <Col sm="4">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {content.ui.outcomes.outcomes_main_content.cards.dakir.name}
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Dakir}
+                alt="Dakir Thompson"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.dakir
+                        .position
+                    }
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.dakir
+                        .company
+                    }
+                  </p>
+                </CardText>
+                <Button size="sm" color="info">
+                  <a
+                    href={
+                      content.ui.outcomes.outcomes_main_content.cards.dakir
+                        .button.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferer"
+                    className={pageStyles.btnLink}
+                  >
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.dakir
+                        .button.text
+                    }
+                  </a>
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          {/*Karin Card*/}
+          <Col sm="4">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {content.ui.outcomes.outcomes_main_content.cards.karin.name}
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Karin}
+                alt="Karin Thorne"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.karin
+                        .position
+                    }
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.karin
+                        .company
+                    }
+                  </p>
+                </CardText>
+                <Button size="sm" color="info">
+                  <a
+                    href={
+                      content.ui.outcomes.outcomes_main_content.cards.karin
+                        .button.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferer"
+                    className={pageStyles.btnLink}
+                  >
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.karin
+                        .button.text
+                    }
+                  </a>
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          {/* Kaitlyn Card */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {content.ui.outcomes.outcomes_main_content.cards.kaitlyn.name}
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kaitlyn}
+                alt="Kaitlyn Warboy"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.kaitlyn
+                        .position
+                    }
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.kaitlyn
+                        .company
+                    }
+                  </p>
+                </CardText>
+                <Button size="sm" color="info">
+                  <a
+                    href={
+                      content.ui.outcomes.outcomes_main_content.cards.kaitlyn
+                        .button.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferer"
+                    className={pageStyles.btnLink}
+                  >
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.kaitlyn
+                        .button.text
+                    }
+                  </a>
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+        </CardDeck>
       </Row>
     </Container>
     <Container
