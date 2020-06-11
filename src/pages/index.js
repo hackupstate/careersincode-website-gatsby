@@ -9,7 +9,7 @@ import Banner from "../components/banner";
 import Carousels from "../components/carousels";
 import BottomRowContainer from "../components/bottomrowcontainer";
 import { Link } from "gatsby";
-import { Button, Row, Col } from "reactstrap";
+import { Container, Button, Row, Col } from "reactstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -52,37 +52,42 @@ const IndexPage = (props) => (
         </Col>
       </Row>
     </Banner>
-    <Row className={pageStyles.pageHeadings}>
-      <Col md="12">
-        <h3> {content.ui.index_main_content_top_text.copy}</h3>
-        <p> {content.ui.index_main_content_top_text.description} </p>
-        <Button className={pageStyles.blueButton}>
-          <a
-            href="https://medium.com/@hackupstate/announcing-hack-upstates-careers-in-code-a8ff0bfeddbf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-            {" "}
-            {content.ui.index_main_content_top_text.button}{" "}
-          </a>
-        </Button>
-      </Col>
-    </Row>
-    <Row className={pageStyles.pageHeadings}>
-      <Col md="12">
-        <h3> {content.ui.index_main_content_bottom_text.copy} </h3>
-        <p> {content.ui.index_main_content_bottom_text.description} </p>
-        <Link to={content.ui.index_main_content_bottom_text.link}>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={pageStyles.pageHeadings}>
+        <Col>
+          <h3> {content.ui.index_main_content_top_text.copy}</h3>
+          <p> {content.ui.index_main_content_top_text.description} </p>
           <Button className={pageStyles.blueButton}>
-            {content.ui.index_main_content_bottom_text.button}
+            <a
+              href="https://medium.com/@hackupstate/announcing-hack-upstates-careers-in-code-a8ff0bfeddbf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.btnLink}
+            >
+              {" "}
+              {content.ui.index_main_content_top_text.button}{" "}
+            </a>
           </Button>
-        </Link>
-      </Col>
-    </Row>
-    <br />
+        </Col>
+      </Row>
+      <Row className={pageStyles.pageHeadings}>
+        <Col>
+          <h3> {content.ui.index_main_content_bottom_text.copy} </h3>
+          <p> {content.ui.index_main_content_bottom_text.description} </p>
+          <Button className={pageStyles.blueButton}>
+            <a
+              href={content.ui.index_main_content_bottom_text.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.btnLink}
+            >
+              {content.ui.index_main_content_bottom_text.button}
+            </a>
+          </Button>
+        </Col>
+      </Row>
+    </Container>
     <Carousels />
-    <br />
     <BottomRowContainer />
   </Layout>
 );

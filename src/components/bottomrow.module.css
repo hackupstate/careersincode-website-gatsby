@@ -12,7 +12,35 @@
   --darkGreen: #204c50;
 }
 
-.blueBox {
+/*
+*** MEDIA QUERIES
+*/
+
+@media only screen and (max-width: 900px) {
+  .breakpointRow {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    max-width: 900px;
+  }
+  .greenBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    min-width: 100%;
+  }
+  .whiteBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 100%;
+  }
+}
+
+.greenBox {
   background-color: #33d5c3;
   min-height: 100%;
   text-align: center;

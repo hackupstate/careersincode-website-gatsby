@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col, Button } from "reactstrap";
+import { Row, Col, Button } from "reactstrap";
 import content from "../content/content.json";
 import bottomRowStyles from "./bottomrow.module.css";
 
 const BottomRowContainer = (props) => {
   return (
-    <Row md="3">
-      <Col className={bottomRowStyles.blueBox}>
+    <Row className={bottomRowStyles.breakpointRow}>
+      <Col className={bottomRowStyles.greenBox}>
         <h3>
           {" "}
           {content.ui.index_main_content_bottom_row_container_one.title}{" "}
@@ -37,7 +37,7 @@ const BottomRowContainer = (props) => {
           </a>
         </Button>
       </Col>
-      <Col className={bottomRowStyles.blueBox}>
+      <Col className={bottomRowStyles.greenBox}>
         <h3>
           {" "}
           {content.ui.index_main_content_bottom_row_container_three.title}{" "}
