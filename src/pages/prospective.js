@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
+import prospectiveStyles from "./prospective.module.css";
 
 const ProspectivePage = () => (
   <Layout>
@@ -29,40 +30,45 @@ const ProspectivePage = () => (
       </JumbotronComponent>
     </Header>
     <SEO title="Prospective" />
-    <Container
-      fluid
-      className={(pageStyles.marginBottom, pageStyles.containerStyles)}
-    >
-      <Row xs="2" className={pageStyles.centerText}>
-        <Col>
-          <h1>{content.ui.classroom.students_stats.stats_days}</h1>
-          <h3>
+    <Container fluid className={prospectiveStyles.blueStatContainer}>
+      <Row className={prospectiveStyles.statRows}>
+        <Col className={prospectiveStyles.statColumns}>
+          <h3 className={prospectiveStyles.prospectiveStats}>
+            {content.ui.classroom.students_stats.stats_days}
+          </h3>
+          <p className={prospectiveStyles.blueParaStats}>
             {content.ui.classroom.students_stats.stats_days_text}
             <sup>{content.ui.classroom.students_stats.footnote_1_super}</sup>
-          </h3>
+          </p>
         </Col>
-        <Col>
-          <h1>{content.ui.classroom.students_stats.stats_salary}</h1>
-          <h3>
+        <Col className={prospectiveStyles.statColumns}>
+          <h3 className={prospectiveStyles.prospectiveStats}>
+            {content.ui.classroom.students_stats.stats_salary}
+          </h3>
+          <p className={prospectiveStyles.greenParaStats}>
             {content.ui.classroom.students_stats.stats_salary_text}
             <sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
-          </h3>
+          </p>
         </Col>
       </Row>
-      <Row xs="2" className={pageStyles.centerText}>
-        <Col>
-          <h1>{content.ui.classroom.students_stats.stats_jobs}</h1>
-          <h3>
+      <Row className={prospectiveStyles.statRows}>
+        <Col className={prospectiveStyles.statColumns}>
+          <h3 className={prospectiveStyles.prospectiveStats}>
+            {content.ui.classroom.students_stats.stats_jobs}
+          </h3>
+          <p className={prospectiveStyles.blueParaStats}>
             {content.ui.classroom.students_stats.stats_jobs_text}
             <sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
-          </h3>
+          </p>
         </Col>
-        <Col>
-          <h1>{content.ui.classroom.students_stats.stats_increase}</h1>
-          <h3>
+        <Col className={prospectiveStyles.statColumns}>
+          <h3 className={prospectiveStyles.prospectiveStats}>
+            {content.ui.classroom.students_stats.stats_increase}
+          </h3>
+          <p className={prospectiveStyles.greenParaStats}>
             {content.ui.classroom.students_stats.stats_increase_text}
             <sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
-          </h3>
+          </p>
         </Col>
       </Row>
     </Container>
@@ -112,7 +118,7 @@ const ProspectivePage = () => (
         <Col className={pageStyles.centerContentColumns}>
           <FontAwesomeIcon icon={faGraduationCap} size="3x" />
           <h3>{content.ui.classroom.student_resource_links.cohort1_text}</h3>
-          <Button color="info">
+          <Button size="md" className={pageStyles.blueButton}>
             <a
               href={
                 content.ui.classroom.student_resource_links.cohort1_button_link
@@ -131,7 +137,7 @@ const ProspectivePage = () => (
             {" "}
             {content.ui.classroom.student_resource_links.admissions_text}
           </h3>
-          <Button color="info">
+          <Button size="md" className={pageStyles.blueButton}>
             <a
               href={
                 content.ui.classroom.student_resource_links

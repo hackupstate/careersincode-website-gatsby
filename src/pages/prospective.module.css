@@ -32,11 +32,15 @@
   }
 }
 
-.multiButtonRow {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+/* @media only screen and (max-width: 900px) {
+  .iconBtnColumn {
+    margin-bottom: 20px;
+  }
 }
+
+.iconBtnColumn {
+  margin-bottom: 20px;
+} */
 
 .statRows {
   display: flex;
@@ -49,7 +53,7 @@
   min-height: 200px;
 }
 
-.instructorStats {
+.prospectiveStats {
   color: #c8c9e2;
   font-size: 36px;
 }

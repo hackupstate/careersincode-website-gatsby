@@ -5,19 +5,19 @@
 
 .jumboButtons {
   margin: 30px;
-  background-color: #2299dd;
+  background-color: #ffffff;
   border: 0px;
 }
 
 .jumboButtons:hover {
-  background: rgba(34, 153, 221, 0.7);
+  background: rgba(255, 255, 255, 0.7);
 }
 
 .btnLink {
-  color: white;
+  color: #2299dd;
   text-decoration: none;
 }
 
 .btnLink:hover {
-  color: white;
+  color: #2299dd;
 }

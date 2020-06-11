@@ -13,6 +13,7 @@ import Metis from "../images/partners/metis.jpg";
 import TechGarden from "../images/partners/ttg.jpg";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
+import partnerStyles from "./partner.module.css";
 
 const PartnerPage = () => (
   <Layout>
@@ -29,28 +30,41 @@ const PartnerPage = () => (
       </JumbotronComponent>
     </Header>
     <SEO title="Partner" />
-    <Container
-      fluid
-      className={(pageStyles.marginBottom, pageStyles.containerStyles)}
-    >
-      <Row xs="2" className={pageStyles.centerText}>
-        <Col>
-          <h1>{content.ui.partners.partners_stats.hiring_stat}</h1>
-          <h3>{content.ui.partners.partners_stats.hiring_text}</h3>
+    <Container fluid className={partnerStyles.blueStatContainer}>
+      <Row className={partnerStyles.statRows}>
+        <Col className={partnerStyles.statColumns}>
+          <h3 className={partnerStyles.partnerStats}>
+            {content.ui.partners.partners_stats.hiring_stat}
+          </h3>
+          <p className={partnerStyles.blueParaStats}>
+            {content.ui.partners.partners_stats.hiring_text}
+          </p>
         </Col>
-        <Col>
-          <h1>{content.ui.partners.partners_stats.bootcamp_stat}</h1>
-          <h3>{content.ui.partners.partners_stats.bootcamp_text}</h3>
+        <Col className={partnerStyles.statColumns}>
+          <h3 className={partnerStyles.partnerStats}>
+            {content.ui.partners.partners_stats.bootcamp_stat}
+          </h3>
+          <p className={partnerStyles.greenParaStats}>
+            {content.ui.partners.partners_stats.bootcamp_text}
+          </p>
         </Col>
       </Row>
-      <Row xs="2" className={pageStyles.centerText}>
-        <Col>
-          <h1>{content.ui.partners.partners_stats.salary_stat}</h1>
-          <h3>{content.ui.partners.partners_stats.salary_text}</h3>
+      <Row className={partnerStyles.statRows}>
+        <Col className={partnerStyles.statColumns}>
+          <h3 className={partnerStyles.partnerStats}>
+            {content.ui.partners.partners_stats.salary_stat}
+          </h3>
+          <p className={partnerStyles.blueParaStats}>
+            {content.ui.partners.partners_stats.salary_text}
+          </p>
         </Col>
-        <Col>
-          <h1>{content.ui.partners.partners_stats.prepared_stat}</h1>
-          <h3>{content.ui.partners.partners_stats.prepared_text}</h3>
+        <Col className={partnerStyles.statColumns}>
+          <h3 className={partnerStyles.partnerStats}>
+            {content.ui.partners.partners_stats.prepared_stat}
+          </h3>
+          <p className={partnerStyles.greenParaStats}>
+            {content.ui.partners.partners_stats.prepared_text}
+          </p>
         </Col>
       </Row>
     </Container>
