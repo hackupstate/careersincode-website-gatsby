@@ -13,6 +13,19 @@
 }
 
 /*
+*** BREAKPOINTS
+*/
+
+/* @media only screen and (max-width: 600px) {
+  .breakpointRow {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+} */
+
+/*
 *** CONTAINERS
 */
 .pageContentContainer {

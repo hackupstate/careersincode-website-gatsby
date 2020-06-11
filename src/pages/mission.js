@@ -17,17 +17,21 @@ const MissionPage = () => (
       ></JumbotronComponent>
     </Header>
     <SEO title="Mission" />
-    <Container fluid>
-      <Row className={(pageStyles.pageHeadings, pageStyles.whiteContainer)}>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={pageStyles.pageHeadings}>
         <h3> {content.ui.about.mission_main_content.header1.title} </h3>
         <p> {content.ui.about.mission_main_content.header1.text1} </p>
         <p> {content.ui.about.mission_main_content.header1.text2} </p>
       </Row>
-      <Row className={(pageStyles.pageHeadings, pageStyles.greenContainer)}>
+    </Container>
+    <Container fluid className={pageStyles.greenContainer}>
+      <Row className={pageStyles.pageHeadings}>
         <h3> {content.ui.about.mission_main_content.header2.title} </h3>
         <p> {content.ui.about.mission_main_content.header2.text} </p>
         <h3> {content.ui.about.mission_main_content.header3} </h3>
       </Row>
+    </Container>
+    <Container fluid className={pageStyles.whiteContainer}>
       <Row className={(pageStyles.pageHeadings, pageStyles.whiteContainer)}>
         <h3> {content.ui.about.mission_main_content.header4.title} </h3>
         <br />

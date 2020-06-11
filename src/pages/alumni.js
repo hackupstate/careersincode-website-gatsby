@@ -41,6 +41,7 @@ import Kaitlyn from "../images/students/kaitlyn.jpg";
 import Jacquay from "../images/students/jacquay.jpg";
 import Linda from "../images/students/lindakovacs.jpeg";
 import pageStyles from "./pages.module.css";
+import alumniStyles from "./alumni.module.css";
 import content from "../content/content.json";
 
 const AlumniPage = () => (
@@ -130,7 +131,13 @@ const AlumniPage = () => (
                     .twentynineteen.ana.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Ana} alt="Ana Aombe" />
+              <CardImg
+                top
+                width="100%"
+                src={Ana}
+                alt="Ana Aombe"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}
@@ -196,7 +203,13 @@ const AlumniPage = () => (
                     .twentynineteen.eva.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Eva} alt="Eva Carafa" />
+              <CardImg
+                top
+                width="100%"
+                src={Eva}
+                alt="Eva Carafa"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}
@@ -273,7 +286,13 @@ const AlumniPage = () => (
                     .twentynineteen.kelly.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Kelly} alt="Kelly Corey" />
+              <CardImg
+                top
+                width="100%"
+                src={Kelly}
+                alt="Kelly Corey"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}
@@ -389,7 +408,13 @@ const AlumniPage = () => (
                     .twentynineteen.tim.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Tim} alt="Tim Liles" />
+              <CardImg
+                top
+                width="100%"
+                src={Tim}
+                alt="Tim Liles"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}
@@ -466,7 +491,13 @@ const AlumniPage = () => (
                     .twentynineteen.dana.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Dana} alt="Dana McMullen" />
+              <CardImg
+                top
+                width="100%"
+                src={Dana}
+                alt="Dana McMullen"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}
@@ -565,7 +596,13 @@ const AlumniPage = () => (
                     .twentynineteen.elizabeth.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Beth} alt="Elizabeth Metcalf" />
+              <CardImg
+                top
+                width="100%"
+                src={Beth}
+                alt="Elizabeth Metcalf"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}
@@ -659,7 +696,13 @@ const AlumniPage = () => (
                     .twentynineteen.dakir.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Dakir} alt="Dakir Thompson" />
+              <CardImg
+                top
+                width="100%"
+                src={Dakir}
+                alt="Dakir Thompson"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}
@@ -736,7 +779,13 @@ const AlumniPage = () => (
                     .twentynineteen.karin.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Karin} alt="Karin Thorne" />
+              <CardImg
+                top
+                width="100%"
+                src={Karin}
+                alt="Karin Thorne"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}
@@ -846,7 +895,13 @@ const AlumniPage = () => (
                     .twentynineteen.kate.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Kate} alt="Kate Tortora" />
+              <CardImg
+                top
+                width="100%"
+                src={Kate}
+                alt="Kate Tortora"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}
@@ -939,7 +994,7 @@ const AlumniPage = () => (
           </CardDeck>
         </Col>
       </Row>
-      <Row className={pageStyles.pageContentContainer}>
+      <Row className={pageStyles.whiteContainer}>
         <Col>
           <CardDeck>
             {/* kaitlyn warboy */}
@@ -951,7 +1006,13 @@ const AlumniPage = () => (
                     .twentynineteen.kaitlyn.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Kaitlyn} alt="Kaitlyn Warboy" />
+              <CardImg
+                top
+                width="100%"
+                src={Kaitlyn}
+                alt="Kaitlyn Warboy"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}
@@ -1072,7 +1133,13 @@ const AlumniPage = () => (
                     .twentynineteen.jacquay.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Jacquay} alt="Jacquay Winfield" />
+              <CardImg
+                top
+                width="100%"
+                src={Jacquay}
+                alt="Jacquay Winfield"
+                className={alumniStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
                   {" "}

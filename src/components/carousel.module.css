@@ -1,3 +1,27 @@
+/*
+*** MEDIA BREAKPOINTS
+*/
+
+@media only screen and (max-width: 900px) {
+  .carouselMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    max-width: 900px;
+  }
+  .carouselImg {
+    width: 100px;
+  }
+  .carouselCaption {
+    text-align: center;
+    width: 550px;
+    height: auto;
+  }
+}
+
 .blueButton {
   background-color: #2299dd;
   border: 0px;
@@ -19,27 +43,26 @@ a.btnLink {
 }
 
 .carouselImg {
-  display: block;
   opacity: 0.7;
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 200px;
+  margin-bottom: 320px;
 }
 
 .carouselCaption {
-  color: black;
+  color: white;
   background-color: transparent;
   font-size: 18px;
   text-align: center;
-  overflow: hidden;
-  min-height: 290px;
+  margin-bottom: 20px;
 }
 
 .carouselMain {
-  background-color: #fff;
+  background-color: #002333;
+  color: white;
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 0 30px 0;
 }

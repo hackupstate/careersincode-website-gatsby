@@ -1,0 +1,32 @@
+.imgSize {
+  object-fit: cover;
+  width: auto;
+  height: 300px;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cardText {
+  font-size: 16px;
+}
+
+.alumniCardRow {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.alumniCardContainer {
+  max-width: 90%;
+}
+
+.cardSize {
+  width: 300px;
+  height: auto;
+  padding: 15px;
+}

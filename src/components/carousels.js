@@ -17,7 +17,7 @@ import Doug from "../images/team/dougcrescenzi.png";
 import content from "../content/content.json";
 import carouselStyles from "./carousel.module.css";
 
-// code for testimonial carousel taken from https://reactstrap.github.io/components/carousel/
+// code for testimonial carousel taken and adapted from https://reactstrap.github.io/components/carousel/
 
 const items = [
   {
@@ -70,13 +70,6 @@ const Carousels = (props) => {
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
-        style={{
-          width: "200px",
-          margin: "0 auto",
-          padding: "5px",
-          border: "1px solid #ddd",
-          borderRadius: "50%",
-        }}
       >
         <img
           className={carouselStyles.carouselImg}
@@ -87,6 +80,7 @@ const Carousels = (props) => {
           className={carouselStyles.carouselCaption}
           captionText={item.caption}
           captionHeader={item.header}
+          fluid
         />
       </CarouselItem>
     );
