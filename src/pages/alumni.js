@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Header from "../components/header";
 import NavComponent from "../components/nav";
@@ -59,8 +58,8 @@ const AlumniPage = () => (
       </JumbotronComponent>
     </Header>
     <SEO title="Alumni" />
-    <Container>
-      <Row className={pageStyles.pageContentContainer}>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row>
         <Col>
           <h1>
             {" "}
@@ -78,10 +77,12 @@ const AlumniPage = () => (
           </h4>
         </Col>
       </Row>
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
+    </Container>
+    <Container fluid className={pageStyles.marginBottom}>
+      <Row>
+        <Col className={pageStyles.centerItems}>
           <iframe
-            width={560}
+            width={550}
             height={315}
             src={
               content.ui.students.alumni.alumni_main_content.congratulations
@@ -96,9 +97,11 @@ const AlumniPage = () => (
             }
           ></iframe>
         </Col>
-        <Col>
+      </Row>
+      <Row>
+        <Col className={pageStyles.centerItems}>
           <iframe
-            width={560}
+            width={550}
             height={315}
             src={
               content.ui.students.alumni.alumni_main_content.congratulations
@@ -114,22 +117,27 @@ const AlumniPage = () => (
           ></iframe>
         </Col>
       </Row>
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <h2>
-            {" "}
-            {content.ui.students.alumni.alumni_main_content.cards.header}{" "}
-          </h2>
-          {/* card deck begins */}
-          <CardDeck>
-            {/* ana aombe */}
-            <Card body className="text-center">
+    </Container>
+    <Container className={pageStyles.whiteContainer}>
+      <Row className={pageStyles.pageHeadings}>
+        <h2> {content.ui.students.alumni.alumni_main_content.cards.header} </h2>
+      </Row>
+    </Container>
+    <Container
+      fluid
+      className={(pageStyles.marginBottom, alumniStyles.alumniCardContainer)}
+    >
+      <Row className={alumniStyles.alumniCardRow}>
+        {/* card deck begins */}
+        <CardDeck>
+          {/* ana aombe */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                {" "}
                 {
                   content.ui.students.alumni.alumni_main_content.cards
                     .twentynineteen.ana.name
-                }{" "}
+                }
               </CardHeader>
               <CardImg
                 top
@@ -140,18 +148,20 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.ana.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.ana.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.ana.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.ana.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -160,12 +170,13 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.ana.capstone.project
-                    }{" "}
-                  </a>{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.ana.capstone.project
+                      }
+                    </p>
+                  </a>
                 </CardText>
               </CardBody>
               <CardFooter>
@@ -194,14 +205,15 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* eva carafa */}
-            <Card body className="text-center">
+          </Col>
+          {/* eva carafa */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                {" "}
                 {
                   content.ui.students.alumni.alumni_main_content.cards
                     .twentynineteen.eva.name
-                }{" "}
+                }
               </CardHeader>
               <CardImg
                 top
@@ -212,18 +224,20 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.eva.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.eva.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.eva.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.eva.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -232,11 +246,12 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.eva.capstone.project
-                    }{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.eva.capstone.project
+                      }
+                    </p>
                   </a>{" "}
                 </CardText>
               </CardBody>
@@ -277,14 +292,15 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* kelly corey */}
-            <Card body className="text-center">
+          </Col>
+          {/* kelly corey */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                {" "}
                 {
                   content.ui.students.alumni.alumni_main_content.cards
                     .twentynineteen.kelly.name
-                }{" "}
+                }
               </CardHeader>
               <CardImg
                 top
@@ -295,18 +311,20 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.kelly.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.kelly.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.kelly.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.kelly.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -315,12 +333,13 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.kelly.capstone.project
-                    }{" "}
-                  </a>{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.kelly.capstone.project
+                      }
+                    </p>
+                  </a>
                 </CardText>
               </CardBody>
               <CardFooter>
@@ -393,20 +412,20 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <CardDeck>
-            {/* tim liles */}
-            <Card body className="text-center">
+
+      <Row className={alumniStyles.alumniCardRow}>
+        <CardDeck>
+          {/* tim liles */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                {" "}
                 {
                   content.ui.students.alumni.alumni_main_content.cards
                     .twentynineteen.tim.name
-                }{" "}
+                }
               </CardHeader>
               <CardImg
                 top
@@ -417,18 +436,20 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.tim.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.tim.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.tim.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.tim.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -437,11 +458,12 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.tim.capstone.project
-                    }{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.tim.capstone.project
+                      }
+                    </p>
                   </a>{" "}
                 </CardText>
               </CardBody>
@@ -482,14 +504,15 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* dana mcmullen */}
-            <Card body className="text-center">
+          </Col>
+          {/* dana mcmullen */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                {" "}
                 {
                   content.ui.students.alumni.alumni_main_content.cards
                     .twentynineteen.dana.name
-                }{" "}
+                }
               </CardHeader>
               <CardImg
                 top
@@ -500,18 +523,20 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.dana.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.dana.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.dana.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.dana.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -520,11 +545,12 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.dana.capstone.project
-                    }{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.dana.capstone.project
+                      }
+                    </p>
                   </a>{" "}
                 </CardText>
               </CardBody>
@@ -587,14 +613,15 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* elizabeth metcalf */}
-            <Card body className="text-center">
+          </Col>
+          {/* elizabeth metcalf */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                {" "}
                 {
                   content.ui.students.alumni.alumni_main_content.cards
                     .twentynineteen.elizabeth.name
-                }{" "}
+                }
               </CardHeader>
               <CardImg
                 top
@@ -605,18 +632,20 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.elizabeth.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.elizabeth.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -625,11 +654,12 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.elizabeth.capstone.project
-                    }{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.elizabeth.capstone.project
+                      }
+                    </p>
                   </a>{" "}
                 </CardText>
               </CardBody>
@@ -681,20 +711,19 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <CardDeck>
-            {/* dakir thompson */}
-            <Card body className="text-center">
+      <Row className={alumniStyles.alumniCardRow}>
+        <CardDeck>
+          {/* dakir thompson */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                {" "}
                 {
                   content.ui.students.alumni.alumni_main_content.cards
                     .twentynineteen.dakir.name
-                }{" "}
+                }
               </CardHeader>
               <CardImg
                 top
@@ -705,18 +734,22 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.dakir.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {" "}
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.dakir.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.dakir.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {" "}
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.dakir.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -725,12 +758,13 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.dakir.capstone.project
-                    }{" "}
-                  </a>{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.dakir.capstone.project
+                      }
+                    </p>
+                  </a>
                 </CardText>
               </CardBody>
               <CardFooter>
@@ -770,8 +804,10 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* karin thorne */}
-            <Card body className="text-center">
+          </Col>
+          {/* karin thorne */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
                 {" "}
                 {
@@ -788,18 +824,20 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.karin.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.karin.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.karin.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.karin.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -808,12 +846,13 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.karin.capstone.project
-                    }{" "}
-                  </a>{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.karin.capstone.project
+                      }
+                    </p>
+                  </a>
                 </CardText>
               </CardBody>
               <CardFooter>
@@ -886,8 +925,10 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* kate tortora */}
-            <Card body className="text-center">
+          </Col>
+          {/* kate tortora */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
                 {" "}
                 {
@@ -904,18 +945,20 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.kate.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.kate.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.kate.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.kate.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -924,12 +967,13 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.kate.capstone.project
-                    }{" "}
-                  </a>{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.kate.capstone.project
+                      }
+                    </p>
+                  </a>
                 </CardText>
               </CardBody>
               <CardFooter>
@@ -991,20 +1035,19 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
-      <Row className={pageStyles.whiteContainer}>
-        <Col>
-          <CardDeck>
+      <Row className={alumniStyles.alumniCardRow}>
+        <CardDeck>
+          <Col sm="4">
             {/* kaitlyn warboy */}
-            <Card body className="text-center">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                {" "}
                 {
                   content.ui.students.alumni.alumni_main_content.cards
                     .twentynineteen.kaitlyn.name
-                }{" "}
+                }
               </CardHeader>
               <CardImg
                 top
@@ -1015,18 +1058,20 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.kaitlyn.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.kaitlyn.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.kaitlyn.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.kaitlyn.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -1035,12 +1080,13 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.kaitlyn.capstone.project
-                    }{" "}
-                  </a>{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.kaitlyn.capstone.project
+                      }
+                    </p>
+                  </a>
                 </CardText>
               </CardBody>
               <CardFooter>
@@ -1124,8 +1170,11 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
+          </Col>
+          <Col sm="4">
             {/* jacquay winfield */}
-            <Card body className="text-center">
+
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
                 {" "}
                 {
@@ -1142,18 +1191,20 @@ const AlumniPage = () => (
               />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.jacquay.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.jacquay.year
+                    }{" "}
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.jacquay.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.jacquay.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -1162,11 +1213,12 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.jacquay.capstone.project
-                    }{" "}
+                    <p className={alumniStyles.cardText}>
+                      {
+                        content.ui.students.alumni.alumni_main_content.cards
+                          .twentynineteen.jacquay.capstone.project
+                      }
+                    </p>
                   </a>{" "}
                 </CardText>
               </CardBody>
@@ -1229,8 +1281,10 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
+          </Col>
+          <Col sm="4">
             {/* linda kovacs */}
-            <Card body className="text-center">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
                 {" "}
                 {
@@ -1238,21 +1292,30 @@ const AlumniPage = () => (
                     .twentynineteen.linda.name
                 }{" "}
               </CardHeader>
-              <CardImg top width="100%" src={Linda} alt="Linda Kovacs" />
+              <CardImg
+                top
+                width="100%"
+                src={Linda}
+                alt="Linda Kovacs"
+                // className={alumniStyles.imgSize}
+                style={{ height: "300px" }}
+              />
               <CardBody>
                 <CardTitle>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.linda.year
-                  }{" "}
+                  <p className={alumniStyles.cardTitle}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.linda.year
+                    }
+                  </p>
                 </CardTitle>
                 <CardText>
-                  {" "}
-                  {
-                    content.ui.students.alumni.alumni_main_content.cards
-                      .twentynineteen.linda.capstone.title
-                  }{" "}
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.linda.capstone.title
+                    }
+                  </p>
                   <a
                     href={
                       content.ui.students.alumni.alumni_main_content.cards
@@ -1261,11 +1324,7 @@ const AlumniPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
-                    {
-                      content.ui.students.alumni.alumni_main_content.cards
-                        .twentynineteen.linda.capstone.project
-                    }{" "}
+                    <p className={alumniStyles.cardText}>and Guest Speaker</p>
                   </a>{" "}
                 </CardText>
               </CardBody>
@@ -1317,8 +1376,8 @@ const AlumniPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
       {/* card decks end */}
     </Container>

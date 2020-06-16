@@ -25,42 +25,32 @@ const NavComponent = () => {
     <Container fluid className={navStyles.navContainer}>
       <Navbar dark expand="lg">
         <NavbarBrand href="/" className="mr-auto">
-          <img
-            src={ComboLogo}
-            alt="Logo"
-            style={{
-              width: "auto",
-              height: 30,
-              marginTop: 15,
-              display: "flex",
-              justifyContent: "start",
-            }}
-          />
+          <img src={ComboLogo} alt="Logo" className={navStyles.brandImg} />
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
-          <Nav className="ml-auto">
+          <Nav className={("ml-auto", navStyles.navAlignment)}>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret className={navStyles.navLink}>
                 About
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/mission/">
                     Mission
                   </NavLink>
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/team/">
                     Team
                   </NavLink>
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/press/">
                     Press
                   </NavLink>
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink
                     className={navStyles.dropdownLink}
                     href="/newsletters/"
@@ -68,7 +58,7 @@ const NavComponent = () => {
                     Newsletters
                   </NavLink>
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink
                     className={navStyles.dropdownLink}
                     href="/testimonials/"
@@ -76,7 +66,7 @@ const NavComponent = () => {
                     Testimonials
                   </NavLink>
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/faq/">
                     FAQ
                   </NavLink>
@@ -98,7 +88,7 @@ const NavComponent = () => {
                 Classroom
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink
                     className={navStyles.dropdownLink}
                     href="/prospective/"
@@ -106,12 +96,12 @@ const NavComponent = () => {
                     Prospective Students
                   </NavLink>
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/students/">
                     Current Students
                   </NavLink>
                 </DropdownItem>
-                <DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/speakers/">
                     Speakers
                   </NavLink>

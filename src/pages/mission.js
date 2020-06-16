@@ -4,7 +4,7 @@ import Header from "../components/header";
 import NavComponent from "../components/nav";
 import JumbotronComponent from "../components/jumbotron";
 import SEO from "../components/seo";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row } from "reactstrap";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
 

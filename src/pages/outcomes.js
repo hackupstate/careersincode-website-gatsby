@@ -120,7 +120,7 @@ const OutcomesPage = () => (
                         .link
                     }
                     target="_blank"
-                    rel="noopener noreferer"
+                    rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
                     {
@@ -169,7 +169,7 @@ const OutcomesPage = () => (
                         .button.link
                     }
                     target="_blank"
-                    rel="noopener noreferer"
+                    rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
                     {
@@ -218,7 +218,7 @@ const OutcomesPage = () => (
                         .button.link
                     }
                     target="_blank"
-                    rel="noopener noreferer"
+                    rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
                     {
@@ -267,7 +267,7 @@ const OutcomesPage = () => (
                         .button.link
                     }
                     target="_blank"
-                    rel="noopener noreferer"
+                    rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
                     {
@@ -321,7 +321,7 @@ const OutcomesPage = () => (
                         .button.link
                     }
                     target="_blank"
-                    rel="noopener noreferer"
+                    rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
                     {
@@ -370,7 +370,7 @@ const OutcomesPage = () => (
                         .button.link
                     }
                     target="_blank"
-                    rel="noopener noreferer"
+                    rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
                     {
@@ -419,7 +419,7 @@ const OutcomesPage = () => (
                         .button.link
                     }
                     target="_blank"
-                    rel="noopener noreferer"
+                    rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
                     {

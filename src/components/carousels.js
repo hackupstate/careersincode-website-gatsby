@@ -8,7 +8,6 @@ import {
   CarouselIndicators,
   CarouselCaption,
   Col,
-  Container,
 } from "reactstrap";
 import Joey from "../images/instructors/joeybuczek.jpg";
 import Kelly from "../images/students/kellycorey.jpg";
