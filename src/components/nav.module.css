@@ -13,9 +13,38 @@
 
 .navLink {
   text-decoration: none;
+  padding: 0.25rem 0.9rem;
   color: white;
 }
 
 .navLink:hover {
   color: #2299dd;
 }
+
+.dropdownItem {
+  padding: 0;
+}
+
+.brandImg {
+  width: auto;
+  height: 30px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navAlignment {
+  margin-left: auto;
+}
+@media only screen and (max-width: 600px) {
+  .navAlignment {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+}
+
+/* .dropdownMenu {
+  border: 0;
+  opacity: 0.7;
+} */

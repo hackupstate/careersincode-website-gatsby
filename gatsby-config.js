@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Careers in Code`,
-    description: `24 week coding bootcamp for women and minorities from distressed communities`,
+    description: `Careers in Code is a coding bootcamp that teaches computer programming to women and minorities to help combat poverty in Central NY. We provide students with the technical skills they need to obtain internships and entry level software development jobs with local employers after 24 weeks of instruction.`,
     author: `@hackupstate`,
+    image: `./images/banners/careers-in-code-banner-optimized.jpg`,
   },
   plugins: [
     {

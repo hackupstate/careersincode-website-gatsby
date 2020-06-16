@@ -12,6 +12,10 @@
         "link": "https://www.getdrip.com/forms/67102980/submissions/new"
       }
     },
+    "index_banner": {
+      "text": "In the News: Hack Upstate Receives Three Years of Funding from the Alliance for Economic Inclusion",
+      "link": "https://www.governor.ny.gov/news/governor-cuomo-announces-39-projects-be-funded-through-round-two-alliance-economic-inclusion?fbclid=IwAR1ZRhe0K5w0R5f1VgsFRfkVOMCV3biMVU7vPrzp5v5HGFVeEiHf71R87ZY"
+    },
     "index_main_content_top_text": {
       "copy": "Poverty throughout Central NY is rising at an accelerated rate and stifling our region's economic potential.",
       "description": "There are few opportunities for women and minorities to advance in concentrated areas of extreme poverty.",
@@ -576,7 +580,7 @@
             },
             "responsibilities": {
               "link": "https://docs.google.com/document/d/13Z4C-y_5BV9dEKFFJwi6--_J-htZiJ0Zl_0YeGYf3YQ/edit#heading=h.qtbtjrv8ds4",
-              "text": "View Responsibilities and Expectations"
+              "text": "View Responsibilities & Expectations"
             },
             "admissions": {
               "link": "https://docs.google.com/document/d/1xK9I10hEBB1ji_8flWT1zgvKuPcPjdCHGOYVFMwLPCk/edit#heading=h.fz0zr0r0cyqr",
@@ -593,7 +597,11 @@
             },
             "responsibilities": {
               "link": "https://docs.google.com/document/d/16iRkPiLUIEOFUdOlkfT8n3nm9Yx65bR14n7HZFU-eGs/edit",
-              "text": "View Responsibilities and Expectations"
+              "text": "View Responsibilities & Expectations"
+            },
+            "admissions": {
+              "link": "https://docs.google.com/document/d/1xK9I10hEBB1ji_8flWT1zgvKuPcPjdCHGOYVFMwLPCk/edit#heading=h.fz0zr0r0cyqr",
+              "text": "View Admissions Process"
             }
           }
         },

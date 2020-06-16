@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+
 import Layout from "../components/layout";
 import Header from "../components/header";
 import NavComponent from "../components/nav";
@@ -8,7 +8,7 @@ import JumboButton from "../components/jumbobutton";
 import SEO from "../components/seo";
 import { Container, Row, Table } from "reactstrap";
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
+
 import newsletterStyles from "./newsletters.module.css";
 
 const NewslettersPage = () => (

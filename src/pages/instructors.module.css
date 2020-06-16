@@ -19,6 +19,33 @@
     height: 50%;
     padding: 0;
   }
+  .whiteContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 100%;
+    height: 1100px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+  .actionRows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 50%;
+    padding: 0;
+  }
+  .actionColumns {
+    min-width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
   .statColumns {
     display: flex;
     flex-direction: column;
@@ -30,13 +57,46 @@
     margin-right: 0;
     padding: 0;
   }
+  .instructorCardRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cardSize {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    align-self: center;
+  }
 }
 
-.multiButtonRow {
+.whiteContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 30px 100px;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.actionRows {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px;
+}
+
+.actionColumns {
+  min-height: 200px;
+}
+
+/* .multiButtonRow {
   display: flex;
   justify-content: center;
   text-align: center;
-}
+} */
 
 .statRows {
   display: flex;
@@ -67,10 +127,80 @@
 .blueStatContainer {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 30px;
+  margin-bottom: 0;
   padding: 20px 100px 0 100px;
   text-align: center;
   width: 100%;
   background-color: #002333;
   color: #c8c9e2;
+}
+
+/*
+** CARDS
+*/
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.longNameStyles {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 0.9rem 0;
+}
+
+.cardText {
+  font-size: 15px;
+  margin: 5px;
+  width: 100%;
+  min-height: 3rem;
+}
+
+.imgSize {
+  object-fit: cover;
+  width: auto;
+  min-height: 300px;
+}
+
+.instructorCardRow {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.instructorCardContainer {
+  max-width: 90%;
+}
+
+.cardSize {
+  width: 300px;
+  height: auto;
+  padding: 15px;
+  margin: 0;
+}
+
+.centerContentColumns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardFooter {
+  min-height: 6.5rem;
+}
+
+.cardButton {
+  margin: 0;
+  background-color: #2299dd;
+  border: 0px;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.footerButton:hover {
+  background: rgba(34, 153, 221, 0.7);
 }

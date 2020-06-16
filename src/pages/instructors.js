@@ -136,148 +136,182 @@ const InstructorsPage = () => (
       </Row>
     </Container>
     {/* instructor/ta info w/ buttons */}
-    <Row className={pageStyles.whiteContainer}>
-      <Col>
-        <h3>
-          {" "}
-          {
-            content.ui.instructors.instructor_main_content.buttons.instructor
-              .header
-          }{" "}
-        </h3>
-        <p>
-          {" "}
-          {
-            content.ui.instructors.instructor_main_content.buttons.instructor
-              .text
-          }{" "}
-        </p>
-      </Col>
-    </Row>
-    <Row className={instructorStyles.multiButtonRow}>
-      <Button className={pageStyles.blueButton}>
-        <a
-          href={
-            content.ui.instructors.instructor_main_content.buttons.instructor
-              .apply.link
-          }
-          target="_blank"
-          rel="noopener noreferrer"
-          className={pageStyles.btnLink}
-        >
-          {
-            content.ui.instructors.instructor_main_content.buttons.instructor
-              .apply.text
-          }
-        </a>
-      </Button>
+    <Container fluid className={instructorStyles.whiteContainer}>
+      <Row className={instructorStyles.actionRows}>
+        <Col className={instructorStyles.actionColumns}>
+          <h3>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.buttons.instructor
+                .header
+            }{" "}
+          </h3>
+          <p>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.buttons.instructor
+                .text
+            }{" "}
+          </p>
+        </Col>
+        <Col className={instructorStyles.actionColumns}>
+          <Button className={pageStyles.greenButton}>
+            <a
+              href={
+                content.ui.instructors.instructor_main_content.buttons
+                  .instructor.apply.link
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.greenBtnLink}
+            >
+              {
+                content.ui.instructors.instructor_main_content.buttons
+                  .instructor.apply.text
+              }
+            </a>
+          </Button>
+          <br />
+          <Button className={pageStyles.greenButton}>
+            <a
+              href={
+                content.ui.instructors.instructor_main_content.buttons
+                  .instructor.responsibilities.link
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.greenBtnLink}
+            >
+              {
+                content.ui.instructors.instructor_main_content.buttons
+                  .instructor.responsibilities.text
+              }
+            </a>
+          </Button>
+          <br />
+          <Button className={pageStyles.greenButton}>
+            <a
+              href={
+                content.ui.instructors.instructor_main_content.buttons
+                  .instructor.admissions.link
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.greenBtnLink}
+            >
+              {
+                content.ui.instructors.instructor_main_content.buttons
+                  .instructor.admissions.text
+              }
+            </a>
+          </Button>
+        </Col>
+      </Row>
+      <Row className={instructorStyles.actionRows}>
+        <Col className={instructorStyles.actionColumns}>
+          <h3>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.buttons.ta.header
+            }{" "}
+          </h3>
+          <p>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.buttons.ta.text
+            }{" "}
+          </p>
+        </Col>
+        <Col className={instructorStyles.actionColumns}>
+          <Button className={pageStyles.greenButton}>
+            <a
+              href={
+                content.ui.instructors.instructor_main_content.buttons.ta.apply
+                  .link
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.greenBtnLink}
+            >
+              {
+                content.ui.instructors.instructor_main_content.buttons.ta.apply
+                  .text
+              }
+            </a>
+          </Button>
+          <br />
+          <Button className={pageStyles.greenButton}>
+            <a
+              href={
+                content.ui.instructors.instructor_main_content.buttons.ta
+                  .responsibilities.link
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.greenBtnLink}
+            >
+              {
+                content.ui.instructors.instructor_main_content.buttons.ta
+                  .responsibilities.text
+              }
+            </a>
+          </Button>
+          <br />
+          <Button className={pageStyles.greenButton}>
+            <a
+              href={
+                content.ui.instructors.instructor_main_content.buttons.ta
+                  .admissions.link
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.greenBtnLink}
+            >
+              {
+                content.ui.instructors.instructor_main_content.buttons.ta
+                  .admissions.text
+              }
+            </a>
+          </Button>
+        </Col>
+      </Row>
+    </Container>
 
-      <Button className={pageStyles.blueButton}>
-        <a
-          href={
-            content.ui.instructors.instructor_main_content.buttons.instructor
-              .responsibilities.link
-          }
-          target="_blank"
-          rel="noopener noreferrer"
-          className={pageStyles.btnLink}
-        >
-          {
-            content.ui.instructors.instructor_main_content.buttons.instructor
-              .responsibilities.text
-          }
-        </a>
-      </Button>
-
-      <Button className={pageStyles.blueButton}>
-        <a
-          href={
-            content.ui.instructors.instructor_main_content.buttons.instructor
-              .admissions.link
-          }
-          target="_blank"
-          rel="noopener noreferrer"
-          className={pageStyles.btnLink}
-        >
-          {
-            content.ui.instructors.instructor_main_content.buttons.instructor
-              .admissions.text
-          }
-        </a>
-      </Button>
+    {/* INSTRUCTOR CARDS */}
+    <Row className={pageStyles.pageHeadings}>
+      <h2>
+        {
+          content.ui.instructors.instructor_main_content.cohort_one.instructor
+            .header
+        }
+      </h2>
     </Row>
-    <Row className={pageStyles.whiteContainer}>
-      <Col>
-        <h3>
-          {" "}
-          {
-            content.ui.instructors.instructor_main_content.buttons.ta.header
-          }{" "}
-        </h3>
-        <p>
-          {" "}
-          {content.ui.instructors.instructor_main_content.buttons.ta.text}{" "}
-        </p>
-      </Col>
-    </Row>
-    <Row className={instructorStyles.multiButtonRow}>
-      <Button className={pageStyles.blueButton}>
-        <a
-          href={
-            content.ui.instructors.instructor_main_content.buttons.ta.apply.link
-          }
-          target="_blank"
-          rel="noopener noreferrer"
-          className={pageStyles.btnLink}
-        >
-          {content.ui.instructors.instructor_main_content.buttons.ta.apply.text}
-        </a>
-      </Button>
-
-      <Button className={pageStyles.blueButton}>
-        <a
-          href={
-            content.ui.instructors.instructor_main_content.buttons.ta
-              .responsibilities.link
-          }
-          target="_blank"
-          rel="noopener noreferrer"
-          className={pageStyles.btnLink}
-        >
-          {
-            content.ui.instructors.instructor_main_content.buttons.ta
-              .responsibilities.text
-          }
-        </a>
-      </Button>
-    </Row>
-    <Row className={pageStyles.whiteContainer}>
-      <Col>
-        <h1>
-          {" "}
-          {
-            content.ui.instructors.instructor_main_content.cohort_one.instructor
-              .header
-          }{" "}
-        </h1>
-      </Col>
-    </Row>
-    <div>
-      {/* instructor cards */}
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <CardDeck>
-            {/* jeff passetti */}
-            <Card body className="shadow-sm">
+    <Container
+      fluid
+      className={
+        (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
+      }
+    >
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* jeff passetti */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.jeff.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Jeff} alt="Jeff Passetti" />
-              <CardBody>
-                <CardTitle>
+              <CardImg
+                top
+                width="100%"
+                src={Jeff}
+                alt="Jeff Passetti"
+                className={instructorStyles.imgSize}
+              />
+              <CardTitle>
+                <p className={instructorStyles.cardTitle}>
                   {
                     content.ui.instructors.instructor_main_content.cohort_one
                       .instructor.cards.jeff.modules.text
@@ -293,7 +327,7 @@ const InstructorsPage = () => (
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
                         .instructor.cards.jeff.modules.one.text
-                    }{" "}
+                    }
                   </a>{" "}
                   |{" "}
                   <a
@@ -304,38 +338,35 @@ const InstructorsPage = () => (
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
                         .instructor.cards.jeff.modules.two.text
-                    }{" "}
+                    }
                   </a>
-                </CardTitle>
-                <CardText>
-                  <p>
-                    {" "}
+                </p>
+              </CardTitle>
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                  {
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.jeff.position.text
+                  }
+                  <a
+                    href={
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.jeff.position.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.jeff.position.text
+                        .instructor.cards.jeff.position.link_text
                     }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.jeff.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.jeff.position.link_text
-                      }{" "}
-                    </a>{" "}
-                  </p>
-                </CardText>
-              </CardBody>
-              <CardFooter>
+                  </a>
+                </p>
+              </CardText>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -393,48 +424,53 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* christy presler */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* christy presler */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.christy.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Christy} alt="Christy Presler" />
-              <CardBody>
-                <CardTitle>
+              <CardImg
+                top
+                width="100%"
+                src={Christy}
+                alt="Christy Presler"
+                className={instructorStyles.imgSize}
+              />
+              <CardTitle>
+                <p className={instructorStyles.cardTitle}>
                   {
                     content.ui.instructors.instructor_main_content.cohort_one
                       .instructor.cards.christy.modules.text
                   }
-                </CardTitle>
-                <CardText>
-                  <p>
-                    {" "}
+                </p>
+              </CardTitle>
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                  {
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.christy.position.text
+                  }
+                  <a
+                    href={
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.christy.position.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.christy.position.text
+                        .instructor.cards.christy.position.link_text
                     }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.christy.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.christy.position
-                          .link_text
-                      }{" "}
-                    </a>{" "}
-                  </p>
-                </CardText>
-              </CardBody>
-              <CardFooter>
+                  </a>
+                </p>
+              </CardText>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -492,17 +528,25 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* cashley saintilus */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* cashley saintilus */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.cash.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Cash} alt="Cashley Saintilus" />
-              <CardBody>
-                <CardTitle>
+              <CardImg
+                top
+                width="100%"
+                src={Cash}
+                alt="Cashley Saintilus"
+                className={instructorStyles.imgSize}
+              />
+              <CardTitle>
+                <p className={instructorStyles.cardTitle}>
                   {
                     content.ui.instructors.instructor_main_content.cohort_one
                       .instructor.cards.cash.modules.text
@@ -520,32 +564,32 @@ const InstructorsPage = () => (
                         .instructor.cards.cash.modules.link_text
                     }{" "}
                   </a>
-                </CardTitle>
-                <CardText>
-                  <p>
+                </p>
+              </CardTitle>
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                  {" "}
+                  {
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.cash.position.text
+                  }
+                  <a
+                    href={
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.cash.position.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.cash.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.cash.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.cash.position.link_text
-                      }{" "}
-                    </a>{" "}
-                  </p>
-                </CardText>
-              </CardBody>
-              <CardFooter>
+                        .instructor.cards.cash.position.link_text
+                    }{" "}
+                  </a>{" "}
+                </p>
+              </CardText>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -592,16 +636,16 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
 
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <CardDeck>
-            {/* zoe koulouris augustinos */}
-            <Card body className="shadow-sm">
-              <CardHeader tag="h3">
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* zoe koulouris augustinos */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3" className={instructorStyles.longNameStyles}>
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.zoe.name
@@ -612,29 +656,32 @@ const InstructorsPage = () => (
                 width="100%"
                 src={Zoe}
                 alt="Zoe Koulouris Augustinos"
+                className={instructorStyles.imgSize}
               />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.zoe.modules.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.zoe.modules.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.zoe.modules.link_text
-                    }{" "}
-                  </a>
+                        .instructor.cards.zoe.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.zoe.modules.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.zoe.modules.link_text
+                      }{" "}
+                    </a>
+                  </p>
                 </CardTitle>
                 <CardText>
-                  <p>
+                  <p className={instructorStyles.cardText}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -657,7 +704,7 @@ const InstructorsPage = () => (
                   </p>
                 </CardText>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -715,37 +762,47 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* jeremy conn */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* jeremy conn */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.jeremy.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Jeremy} alt="Jeremy Conn" />
+              <CardImg
+                top
+                width="100%"
+                src={Jeremy}
+                alt="Jeremy Conn"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jeremy.modules.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.jeremy.modules.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.jeremy.modules.link_text
-                    }{" "}
-                  </a>
+                        .instructor.cards.jeremy.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jeremy.modules.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jeremy.modules.link_text
+                      }{" "}
+                    </a>
+                  </p>
                 </CardTitle>
                 <CardText>
-                  <p>
+                  <p className={instructorStyles.cardText}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -768,7 +825,7 @@ const InstructorsPage = () => (
                   </p>
                 </CardText>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -815,79 +872,89 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* gus cost */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* gus cost */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.gus.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Gus} alt="Gus Cost" />
+              <CardImg
+                top
+                width="100%"
+                src={Gus}
+                alt="Gus Cost"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.gus.modules.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.modules.four.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.modules.four.text
-                    }{" "}
-                  </a>{" "}
-                  |
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.modules.six.link
+                        .instructor.cards.gus.modules.text
                     }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.modules.six.text
-                    }{" "}
-                  </a>{" "}
-                  |
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.modules.seven.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.modules.seven.text
-                    }{" "}
-                  </a>{" "}
-                  |
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.modules.eight.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.modules.eight.text
-                    }{" "}
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.four.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.four.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.six.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.six.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.seven.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.seven.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.eight.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.eight.text
+                      }{" "}
+                    </a>
+                  </p>
                 </CardTitle>
                 <CardText>
-                  <p>
+                  <p className={instructorStyles.cardText}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -910,7 +977,7 @@ const InstructorsPage = () => (
                   </p>
                 </CardText>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -975,7 +1042,8 @@ const InstructorsPage = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="sm" className={pageStyles.blueButton}>
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -985,77 +1053,85 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
 
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <CardDeck>
-            {/* max matthews */}
-            <Card body className="shadow-sm">
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* max matthews */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.max.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Max} alt="Max Matthews" />
+              <CardImg
+                top
+                width="100%"
+                src={Max}
+                alt="Max Matthews"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.max.modules.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.max.modules.four.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.max.modules.four.text
-                    }{" "}
-                  </a>{" "}
-                  |
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.max.modules.six.link
+                        .instructor.cards.max.modules.text
                     }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.max.modules.six.text
-                    }{" "}
-                  </a>{" "}
-                  |
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.max.modules.seven.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.max.modules.seven.text
-                    }{" "}
-                  </a>{" "}
-                  |
-                  {/* <a href={content.ui.instructors.instructor_main_content.cohort_one.instructor.cards.max.modules.ten.link}
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.four.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.four.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.six.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.six.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.seven.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.seven.text
+                      }{" "}
+                    </a>{" "}
+                    {/* | */}
+                    {/* <a href={content.ui.instructors.instructor_main_content.cohort_one.instructor.cards.max.modules.ten.link}
                       target="_blank"
                       rel="noopener noreferrer">
                       {content.ui.instructors.instructor_main_content.cohort_one.instructor.cards.gus.modules.ten.text} </a> */}
+                  </p>
                 </CardTitle>
                 <CardText>
-                  <p>
+                  <p className={instructorStyles.cardText}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -1078,7 +1154,7 @@ const InstructorsPage = () => (
                   </p>
                 </CardText>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -1143,7 +1219,8 @@ const InstructorsPage = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="sm" className={pageStyles.blueButton}>
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -1153,42 +1230,52 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* jake beard */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* jake beard */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.jake.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Jake} alt="Jake Beard" />
+              <CardImg
+                top
+                width="100%"
+                src={Jake}
+                alt="Jake Beard"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jake.modules.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.jake.modules.four.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.jake.modules.four.text
-                    }{" "}
-                  </a>{" "}
-                  |
-                  {/* <a href={content.ui.instructors.instructor_main_content.cohort_one.instructor.cards.jake.modules.ten.link}
+                        .instructor.cards.jake.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jake.modules.four.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jake.modules.four.text
+                      }{" "}
+                    </a>{" "}
+                    {/* | */}
+                    {/* <a href={content.ui.instructors.instructor_main_content.cohort_one.instructor.cards.jake.modules.ten.link}
                       target="_blank"
                       rel="noopener noreferrer">
                       {content.ui.instructors.instructor_main_content.cohort_one.instructor.cards.jake.modules.ten.text} </a> */}
+                  </p>
                 </CardTitle>
                 <CardText>
-                  <p>
+                  <p className={instructorStyles.cardText}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -1211,7 +1298,7 @@ const InstructorsPage = () => (
                   </p>
                 </CardText>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -1258,51 +1345,61 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* joey buczek */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* joey buczek */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.joey.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Joey} alt="Joey Buczek" />
+              <CardImg
+                top
+                width="100%"
+                src={Joey}
+                alt="Joey Buczek"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.joey.modules.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.joey.modules.four.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.joey.modules.four.text
-                    }{" "}
-                  </a>{" "}
-                  |
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.joey.modules.eleven.link
+                        .instructor.cards.joey.modules.text
                     }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.joey.modules.eleven.text
-                    }{" "}
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.joey.modules.four.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.joey.modules.four.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.joey.modules.eleven.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.joey.modules.eleven.text
+                      }{" "}
+                    </a>
+                  </p>
                 </CardTitle>
                 <CardText>
-                  <p>
+                  <p className={instructorStyles.cardText}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -1325,7 +1422,7 @@ const InstructorsPage = () => (
                   </p>
                 </CardText>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -1372,44 +1469,52 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
 
-      <Row className={pageStyles.pageContentContainer}>
-        <Col md="8">
-          <CardDeck>
-            {/* ryan gaus */}
-            <Card body className="shadow-sm">
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* ryan gaus */}
+          <Col sm="6">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.ryan.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Ryan} alt="Ryan Gaus" />
+              <CardImg
+                top
+                width="100%"
+                src={Ryan}
+                alt="Ryan Gaus"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.ryan.modules.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.ryan.modules.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.ryan.modules.link_text
-                    }{" "}
-                  </a>
+                        .instructor.cards.ryan.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.ryan.modules.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.ryan.modules.link_text
+                      }{" "}
+                    </a>
+                  </p>
                 </CardTitle>
                 <CardText>
-                  <p>
+                  <p className={instructorStyles.cardText}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -1428,11 +1533,11 @@ const InstructorsPage = () => (
                         content.ui.instructors.instructor_main_content
                           .cohort_one.instructor.cards.ryan.position.link_text
                       }{" "}
-                    </a>{" "}
+                    </a>
                   </p>
                 </CardText>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -1490,37 +1595,47 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* alice miller */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* alice miller */}
+          <Col sm="6">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.alice.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Alice} alt="Alice Miller" />
+              <CardImg
+                top
+                width="100%"
+                src={Alice}
+                alt="Alice Miller"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.alice.modules.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.alice.modules.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.alice.modules.link_text
-                    }{" "}
-                  </a>
+                        .instructor.cards.alice.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.alice.modules.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.alice.modules.link_text
+                      }{" "}
+                    </a>
+                  </p>
                 </CardTitle>
                 <CardText>
-                  <p>
+                  <p className={instructorStyles.cardText}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -1543,7 +1658,7 @@ const InstructorsPage = () => (
                   </p>
                 </CardText>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -1597,7 +1712,8 @@ const InstructorsPage = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="sm" className={pageStyles.blueButton}>
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -1607,28 +1723,28 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-          <div style={{ marginTop: 50 }}>
-            <a
-              href={
-                content.ui.instructors.instructor_main_content.cohort_one
-                  .instructor.button.link
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button className={pageStyles.blueButton}>
-                {" "}
-                {
-                  content.ui.instructors.instructor_main_content.cohort_one
-                    .instructor.button.text
-                }{" "}
-              </Button>{" "}
-            </a>
-          </div>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
-    </div>
+      <Row className={pageStyles.centerItems}>
+        <a
+          href={
+            content.ui.instructors.instructor_main_content.cohort_one.instructor
+              .button.link
+          }
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className={pageStyles.blueButton}>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.cohort_one
+                .instructor.button.text
+            }{" "}
+          </Button>{" "}
+        </a>
+      </Row>
+    </Container>
     {/* ta cards */}
     <Row className={pageStyles.pageContentContainer}>
       <Col>

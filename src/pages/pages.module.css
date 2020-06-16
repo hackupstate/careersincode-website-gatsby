@@ -20,6 +20,9 @@
   .blueButton {
     min-width: 250px;
   }
+  .greenButton {
+    min-width: 250px;
+  }
 }
 
 /*
@@ -187,6 +190,44 @@ a:hover {
 .btnLink {
   color: white;
   text-decoration: none;
+}
+
+.whiteButton {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 0px;
+}
+
+.whiteButton:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.whiteBtnLink {
+  color: #2299dd;
+  text-decoration: none;
+}
+
+.whiteBtnLink:hover {
+  color: #2299dd;
+}
+
+.greenButton {
+  margin: 15px 20px;
+  background-color: #33d5c3;
+  border: 0px;
+}
+
+.greenButton:hover {
+  background: rgba(51, 213, 195, 0.7);
+}
+
+.greenBtnLink {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.greenBtnLink:hover {
+  color: #ffffff;
 }
 
 .pageButtonContainer {

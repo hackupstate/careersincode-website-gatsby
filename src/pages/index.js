@@ -8,7 +8,6 @@ import SEO from "../components/seo";
 import Banner from "../components/banner";
 import Carousels from "../components/carousels";
 import BottomRowContainer from "../components/bottomrowcontainer";
-import { Link } from "gatsby";
 import { Container, Button, Row, Col } from "reactstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -41,12 +40,12 @@ const IndexPage = (props) => (
       <Row className={bannerStyles.bannerGreen}>
         <Col className={pageStyles.centerText}>
           <a
-            href={content.ui.outcomes.outcomes_main_content.banner.link}
+            href={content.ui.index_banner.link}
             target="_blank"
             rel="noopener noreferrer"
             className={pageStyles.bannerLink}
           >
-            {content.ui.outcomes.outcomes_main_content.banner.text}{" "}
+            {content.ui.index_banner.text}{" "}
             <FontAwesomeIcon icon={faArrowRight} size="1x" />
           </a>
         </Col>
