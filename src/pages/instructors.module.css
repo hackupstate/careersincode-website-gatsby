@@ -201,6 +201,6 @@
   border-radius: 0.25rem;
 }
 
-.footerButton:hover {
+.cardButton:hover {
   background: rgba(34, 153, 221, 0.7);
 }

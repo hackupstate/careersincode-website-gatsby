@@ -44,6 +44,7 @@ import {
 } from "react-icons/fa";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
+import speakerStyles from "./speakers.module.css";
 
 const Speakers = () => (
   <Layout>
@@ -77,48 +78,53 @@ const Speakers = () => (
                 .header_text_program
             }{" "}
           </p>
-          <Button className={pageStyles.blueButton}>
-            <a
-              href={
-                content.ui.classroom.guest_speakers.main_content.featured.button
-                  .link
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-              className={pageStyles.btnLink}
-            >
-              {
-                content.ui.classroom.guest_speakers.main_content.featured.button
-                  .text
-              }
-            </a>
-          </Button>
+          <Row className={pageStyles.centerItems}>
+            <Button className={pageStyles.blueButton}>
+              <a
+                href={
+                  content.ui.classroom.guest_speakers.main_content.featured
+                    .button.link
+                }
+                target="_blank"
+                rel="noopener noreferrer"
+                className={pageStyles.btnLink}
+              >
+                {
+                  content.ui.classroom.guest_speakers.main_content.featured
+                    .button.text
+                }
+              </a>
+            </Button>
+          </Row>
         </Col>
       </Row>
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <h2>
-            {" "}
-            {content.ui.classroom.guest_speakers.main_content.cards.header}{" "}
-          </h2>
-        </Col>
-      </Row>
-      {/* guest speaker cards */}
-      <div>
-        <Row className={pageStyles.pageContentContainer}>
-          <Col>
-            <CardDeck>
-              {/* ed forth */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.ed
-                      .name
-                  }
-                </CardHeader>
-                <CardImg top width="100%" src={Ed} alt="Ed Forth" />
-                <CardBody>
-                  <CardTitle>
+    </Container>
+    {/* guest speaker cards */}
+    <Row className={pageStyles.pageHeadings}>
+      <h2> {content.ui.classroom.guest_speakers.main_content.cards.header} </h2>
+    </Row>
+    <Container
+      fluid
+      className={(pageStyles.marginBottom, speakerStyles.speakerCardContainer)}
+    >
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+          {/* ed forth */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {content.ui.classroom.guest_speakers.main_content.cards.ed.name}
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ed}
+                alt="Ed Forth"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards.ed
                         .position.text
@@ -137,8 +143,10 @@ const Speakers = () => (
                           .ed.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards.ed
                         .presentation.text
@@ -157,66 +165,76 @@ const Speakers = () => (
                           .ed.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .social.website
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGlobe />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* matt flood */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.flood
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.ed
+                      .social.email
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Flood} alt="Matt Flood" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.ed
+                      .social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.ed
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.ed
+                      .social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* matt flood */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.flood
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Flood}
+                alt="Matt Flood"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .flood.position.text
@@ -235,8 +253,10 @@ const Speakers = () => (
                           .flood.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .flood.presentation.text
@@ -255,55 +275,65 @@ const Speakers = () => (
                           .flood.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .flood.social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .flood.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .flood.social.github
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGithubSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* shaun burdick */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.shaun
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.flood
+                      .social.email
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Shaun} alt="Shaun Burdick" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.flood
+                      .social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.flood
+                      .social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* shaun burdick */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.shaun
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Shaun}
+                alt="Shaun Burdick"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .shaun.position.text
@@ -322,8 +352,10 @@ const Speakers = () => (
                           .shaun.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .shaun.presentation.text
@@ -342,89 +374,92 @@ const Speakers = () => (
                           .shaun.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .shaun.social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .shaun.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .shaun.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .shaun.social.website
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGlobe />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .shaun.social.github
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGithubSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-            </CardDeck>
-          </Col>
-        </Row>
-
-        <Row className={pageStyles.pageContentContainer}>
-          <Col>
-            <CardDeck>
-              {/* kseniya lifanova */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards
-                      .kseniya.name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.shaun
+                      .social.email
                   }
-                </CardHeader>
-                <CardImg
-                  top
-                  width="100%"
-                  src={Kseniya}
-                  alt="Kseniya Lifanova"
-                />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.shaun
+                      .social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.shaun
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.shaun
+                      .social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.shaun
+                      .social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+          {/* kseniya lifanova */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.kseniya
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kseniya}
+                alt="Kseniya Lifanova"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .kseniya.position.text
@@ -443,8 +478,10 @@ const Speakers = () => (
                           .kseniya.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .kseniya.presentation.text
@@ -463,82 +500,87 @@ const Speakers = () => (
                           .kseniya.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .kseniya.social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .kseniya.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .kseniya.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .kseniya.social.website
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGlobe />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .kseniya.social.github
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGithubSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* matt checksfield */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
                     content.ui.classroom.guest_speakers.main_content.cards
-                      .checksfield.name
+                      .kseniya.social.email
                   }
-                </CardHeader>
-                <CardImg
-                  top
-                  width="100%"
-                  src={Checksfield}
-                  alt="Matt Checksfield"
-                />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .kseniya.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .kseniya.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .kseniya.social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .kseniya.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* matt checksfield */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards
+                    .checksfield.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Checksfield}
+                alt="Matt Checksfield"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .checksfield.position.text
@@ -557,8 +599,10 @@ const Speakers = () => (
                           .checksfield.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .checksfield.presentation.text
@@ -577,49 +621,54 @@ const Speakers = () => (
                           .checksfield.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .checksfield.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .checksfield.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* yulia ovchinnikova */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.yulia
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .checksfield.social.linkedin
                   }
-                </CardHeader>
-                <CardImg
-                  top
-                  width="100%"
-                  src={Yulia}
-                  alt="Yulia Ovchinnikova"
-                />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .checksfield.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* yulia ovchinnikova */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.yulia
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Yulia}
+                alt="Yulia Ovchinnikova"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .yulia.position.text
@@ -638,8 +687,10 @@ const Speakers = () => (
                           .yulia.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .yulia.presentation.text
@@ -658,73 +709,81 @@ const Speakers = () => (
                           .yulia.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .yulia.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .yulia.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .yulia.social.website
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGlobe />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .yulia.social.github
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGithubSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-            </CardDeck>
-          </Col>
-        </Row>
-
-        <Row className={pageStyles.pageContentContainer}>
-          <Col>
-            <CardDeck>
-              {/* linda kovacs */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.linda
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.yulia
+                      .social.linkedin
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Linda} alt="Linda Kovacs" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.yulia
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.yulia
+                      .social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.yulia
+                      .social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+          {/* linda kovacs */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.linda
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Linda}
+                alt="Linda Kovacs"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .linda.position.text
@@ -743,8 +802,10 @@ const Speakers = () => (
                           .linda.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .linda.presentation.success.text
@@ -776,83 +837,92 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {" "}
                       {
                         content.ui.classroom.guest_speakers.main_content.cards
                           .linda.presentation.dream.topic
-                      }{" "}
+                      }
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .linda.social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .linda.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .linda.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .linda.social.website
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGlobe />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .linda.social.github
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGithubSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* pam puri */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.pam
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.linda
+                      .social.email
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Pam} alt="Pam Puri" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.linda
+                      .social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.linda
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.linda
+                      .social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.linda
+                      .social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* pam puri */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.pam
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Pam}
+                alt="Pam Puri"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards.pam
                         .position.text
@@ -871,8 +941,10 @@ const Speakers = () => (
                           .pam.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards.pam
                         .presentation.text
@@ -891,60 +963,65 @@ const Speakers = () => (
                           .pam.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.pam
-                        .social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.pam
-                        .social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.pam
-                        .social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* charissa lawrence */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards
-                      .charissa.name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.pam
+                      .social.email
                   }
-                </CardHeader>
-                <CardImg
-                  top
-                  width="100%"
-                  src={Charissa}
-                  alt="Charissa Lawrence"
-                />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.pam
+                      .social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.pam
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* charissa lawrence */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards
+                    .charissa.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Charissa}
+                alt="Charissa Lawrence"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .charissa.position.text
@@ -963,8 +1040,10 @@ const Speakers = () => (
                           .charissa.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .charissa.presentation.text
@@ -983,62 +1062,70 @@ const Speakers = () => (
                           .charissa.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .charissa.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .charissa.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .charissa.social.github
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGithubSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-            </CardDeck>
-          </Col>
-        </Row>
-
-        <Row className={pageStyles.pageContentContainer}>
-          <Col>
-            <CardDeck>
-              {/* doug crescenzi */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.doug
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .charissa.social.linkedin
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Doug} alt="Doug Crescenzi" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .charissa.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .charissa.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+          {/* doug crescenzi */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.doug
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Doug}
+                alt="Doug Crescenzi"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .doug.position.text
@@ -1057,8 +1144,10 @@ const Speakers = () => (
                           .doug.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .doug.presentation.text
@@ -1077,66 +1166,76 @@ const Speakers = () => (
                           .doug.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .doug.social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .doug.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .doug.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .doug.social.github
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGithubSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* raj suchak */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.raj
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.doug
+                      .social.email
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Raj} alt="Raj Suchak" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.doug
+                      .social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.doug
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.doug
+                      .social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* raj suchak */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.raj
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Raj}
+                alt="Raj Suchak"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards.raj
                         .position.text
@@ -1155,8 +1254,10 @@ const Speakers = () => (
                           .raj.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards.raj
                         .presentation.text
@@ -1175,55 +1276,65 @@ const Speakers = () => (
                           .raj.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.raj
-                        .social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.raj
-                        .social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.raj
-                        .social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* andrew "doc" docherty */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.doc
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.raj
+                      .social.email
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Doc} alt="Andrew Docherty" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.raj
+                      .social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.raj
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* andrew "doc" docherty */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3" className={speakerStyles.longNameStyles}>
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.doc
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Doc}
+                alt="Andrew Docherty"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards.doc
                         .position.text
@@ -1242,8 +1353,10 @@ const Speakers = () => (
                           .doc.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards.doc
                         .presentation.text
@@ -1262,40 +1375,48 @@ const Speakers = () => (
                           .doc.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.doc
-                        .social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-            </CardDeck>
-          </Col>
-        </Row>
-
-        <Row className={pageStyles.pageContentContainer}>
-          <Col>
-            <CardDeck>
-              {/* josh creager */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.josh
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.doc
+                      .social.linkedin
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Josh} alt="Josh Creager" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+          {/* josh creager */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.josh
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Josh}
+                alt="Josh Creager"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .josh.position.text
@@ -1314,8 +1435,10 @@ const Speakers = () => (
                           .josh.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .josh.presentation.text
@@ -1334,44 +1457,54 @@ const Speakers = () => (
                           .josh.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .josh.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .josh.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* seth mulligan */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.seth
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.josh
+                      .social.linkedin
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Seth} alt="Seth Mulligan" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.josh
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* seth mulligan */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.seth
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Seth}
+                alt="Seth Mulligan"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .seth.position.text
@@ -1390,8 +1523,10 @@ const Speakers = () => (
                           .seth.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .seth.presentation.text
@@ -1410,66 +1545,76 @@ const Speakers = () => (
                           .seth.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .seth.social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .seth.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .seth.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .seth.social.website
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGlobe />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* ben lannon */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.ben
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.seth
+                      .social.email
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Ben} alt="Ben Lannon" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.seth
+                      .social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.seth
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.seth
+                      .social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* ben lannon */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.ben
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ben}
+                alt="Ben Lannon"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards.ben
                         .position.text
@@ -1488,8 +1633,10 @@ const Speakers = () => (
                           .ben.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards.ben
                         .presentation.text
@@ -1508,84 +1655,92 @@ const Speakers = () => (
                           .ben.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.ben
-                        .social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.ben
-                        .social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.ben
-                        .social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.ben
-                        .social.website
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGlobe />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards.ben
-                        .social.github
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGithubSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-            </CardDeck>
-          </Col>
-        </Row>
-
-        <Row md="2" className={pageStyles.pageContentContainer}>
-          <Col>
-            <CardDeck>
-              {/* glenn allen */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards.glenn
-                      .name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.ben
+                      .social.email
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Glenn} alt="Glenn Allen" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.ben
+                      .social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.ben
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.ben
+                      .social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.ben
+                      .social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+          {/* glenn allen */}
+          <Col sm="6">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.glenn
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Glenn}
+                alt="Glenn Allen"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .glenn.position.text
@@ -1604,8 +1759,10 @@ const Speakers = () => (
                           .glenn.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .glenn.presentation.text
@@ -1624,77 +1781,87 @@ const Speakers = () => (
                           .glenn.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .glenn.social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .glenn.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .glenn.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .glenn.social.website
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGlobe />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .glenn.social.github
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGithubSquare />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-              {/* indaria jones */}
-              <Card body className="shadow-sm">
-                <CardHeader tag="h3">
-                  {
-                    content.ui.classroom.guest_speakers.main_content.cards
-                      .indaria.name
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.glenn
+                      .social.email
                   }
-                </CardHeader>
-                <CardImg top width="100%" src={Indaria} alt="Indaria Jones" />
-                <CardBody>
-                  <CardTitle>
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.glenn
+                      .social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.glenn
+                      .social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.glenn
+                      .social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards.glenn
+                      .social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* indaria jones */}
+          <Col sm="6">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.indaria
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Indaria}
+                alt="Indaria Jones"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .indaria.position.text
@@ -1713,8 +1880,10 @@ const Speakers = () => (
                           .indaria.position.link_text
                       }{" "}
                     </a>
-                  </CardTitle>
-                  <CardText>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
                     {
                       content.ui.classroom.guest_speakers.main_content.cards
                         .indaria.presentation.text
@@ -1733,59 +1902,59 @@ const Speakers = () => (
                           .indaria.presentation.topic
                       }{" "}
                     </a>
-                  </CardText>
-                </CardBody>
-                <CardFooter>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .indaria.social.email
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaEnvelopeSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .indaria.social.linkedin
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaLinkedin />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .indaria.social.twitter
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaTwitterSquare />{" "}
-                  </a>
-                  <a
-                    href={
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .indaria.social.website
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    <FaGlobe />{" "}
-                  </a>
-                </CardFooter>
-              </Card>
-            </CardDeck>
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .indaria.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .indaria.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .indaria.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.classroom.guest_speakers.main_content.cards
+                      .indaria.social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+              </CardFooter>
+            </Card>
           </Col>
-        </Row>
-      </div>
+        </CardDeck>
+      </Row>
     </Container>
   </Layout>
 );

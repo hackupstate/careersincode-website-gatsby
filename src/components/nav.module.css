@@ -40,7 +40,7 @@
   .navAlignment {
     display: flex;
     flex-direction: column;
-    text-align: right;
+    text-align: left;
   }
 }
 
