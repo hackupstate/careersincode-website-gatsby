@@ -1746,51 +1746,64 @@ const InstructorsPage = () => (
       </Row>
     </Container>
     {/* ta cards */}
-    <Row className={pageStyles.pageContentContainer}>
-      <Col>
-        <h1>
-          {" "}
-          {
-            content.ui.instructors.instructor_main_content.cohort_one.ta.header
-          }{" "}
-        </h1>
-      </Col>
+
+    <Row className={pageStyles.pageHeadings}>
+      <h2>
+        {" "}
+        {
+          content.ui.instructors.instructor_main_content.cohort_one.ta.header
+        }{" "}
+      </h2>
     </Row>
-    <div>
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <CardDeck>
-            {/* jennifer tran */}
-            <Card body className="shadow-sm">
+
+    <Container
+      fluid
+      className={
+        (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
+      }
+    >
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* jennifer tran */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one.ta
                     .cards.jennifer.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Jennifer} alt="Jennifer Tran" />
+              <CardImg
+                top
+                width="100%"
+                src={Jennifer}
+                alt="Jennifer Tran"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one.ta
-                      .cards.jennifer.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.jennifer.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.jennifer.position.link_text
+                        .ta.cards.jennifer.position.text
                     }
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.jennifer.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.jennifer.position.link_text
+                      }
+                    </a>
+                  </p>
                 </CardTitle>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one.ta
@@ -1848,37 +1861,47 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* cashley saintilus */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* cashley saintilus */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.cash.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Cash} alt="Cashley Saintilus" />
+              <CardImg
+                top
+                width="100%"
+                src={Cash}
+                alt="Cashley Saintilus"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.cash.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.cash.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.cash.position.link_text
+                        .instructor.cards.cash.position.text
                     }
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.cash.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.cash.position.link_text
+                      }
+                    </a>
+                  </p>
                 </CardTitle>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -1925,37 +1948,47 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* david badillo */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* david badillo */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one.ta
                     .cards.david.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={David} alt="David Badillo" />
+              <CardImg
+                top
+                width="100%"
+                src={David}
+                alt="David Badillo"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one.ta
-                      .cards.david.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.david.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.david.position.link_text
+                        .ta.cards.david.position.text
                     }
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.david.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.david.position.link_text
+                      }
+                    </a>
+                  </p>
                 </CardTitle>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one.ta
@@ -1991,44 +2024,52 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
 
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <CardDeck>
-            {/* jeremy conn */}
-            <Card body className="shadow-sm">
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* jeremy conn */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.jeremy.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Jeremy} alt="Jeremy Conn" />
+              <CardImg
+                top
+                width="100%"
+                src={Jeremy}
+                alt="Jeremy Conn"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jeremy.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.jeremy.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.jeremy.position.link_text
+                        .instructor.cards.jeremy.position.text
                     }
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jeremy.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jeremy.position.link_text
+                      }
+                    </a>
+                  </p>
                 </CardTitle>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -2075,37 +2116,48 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* katie watson */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* katie watson */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one.ta
                     .cards.katie.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Katie} alt="Katie Watson" />
+              <CardImg
+                top
+                width="100%"
+                src={Katie}
+                alt="Katie Watson"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one.ta
-                      .cards.katie.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.katie.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.katie.position.link_text
+                        .ta.cards.katie.position.text
                     }
-                  </a>
+                    <br />
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.katie.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.katie.position.link_text
+                      }
+                    </a>
+                  </p>
                 </CardTitle>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one.ta
@@ -2119,9 +2171,11 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* pankaj chandiramani  */}
-            <Card body className="shadow-sm">
-              <CardHeader tag="h3">
+          </Col>
+          {/* pankaj chandiramani  */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3" className={instructorStyles.longNameStyles}>
                 {
                   content.ui.instructors.instructor_main_content.cohort_one.ta
                     .cards.pankaj.name
@@ -2132,29 +2186,32 @@ const InstructorsPage = () => (
                 width="100%"
                 src={Pankaj}
                 alt="Pankaj Chandiramani"
+                className={instructorStyles.imgSize}
               />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one.ta
-                      .cards.pankaj.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.pankaj.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.pankaj.position.link_text
+                        .ta.cards.pankaj.position.text
                     }
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.pankaj.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.pankaj.position.link_text
+                      }
+                    </a>
+                  </p>
                 </CardTitle>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one.ta
@@ -2179,44 +2236,52 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
 
-      <Row className={pageStyles.pageContentContainer}>
-        <Col>
-          <CardDeck>
-            {/* drew knab */}
-            <Card body className="shadow-sm">
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* drew knab */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one.ta
                     .cards.drew.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Drew} alt="Drew Knab" />
+              <CardImg
+                top
+                width="100%"
+                src={Drew}
+                alt="Drew Knab"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one.ta
-                      .cards.drew.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.drew.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.drew.position.link_text
+                        .ta.cards.drew.position.text
                     }
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.drew.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.drew.position.link_text
+                      }
+                    </a>
+                  </p>
                 </CardTitle>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one.ta
@@ -2263,37 +2328,47 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* wesam shanaa */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* wesam shanaa */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one.ta
                     .cards.wesam.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Wesam} alt="Wesam Shanaa" />
+              <CardImg
+                top
+                width="100%"
+                src={Wesam}
+                alt="Wesam Shanaa"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one.ta
-                      .cards.wesam.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.wesam.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.wesam.position.link_text
+                        .ta.cards.wesam.position.text
                     }
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.wesam.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.wesam.position.link_text
+                      }
+                    </a>
+                  </p>
                 </CardTitle>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one.ta
@@ -2318,37 +2393,47 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-            {/* alice miller */}
-            <Card body className="shadow-sm">
+          </Col>
+          {/* alice miller */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
                     .instructor.cards.alice.name
                 }
               </CardHeader>
-              <CardImg top width="100%" src={Alice} alt="Alice Miller" />
+              <CardImg
+                top
+                width="100%"
+                src={Alice}
+                alt="Alice Miller"
+                className={instructorStyles.imgSize}
+              />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.alice.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.alice.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.alice.position.link_text
+                        .instructor.cards.alice.position.text
                     }
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.alice.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.alice.position.link_text
+                      }
+                    </a>
+                  </p>
                 </CardTitle>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one
@@ -2402,7 +2487,8 @@ const InstructorsPage = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button className={pageStyles.blueButton}>
+                  <br />
+                  <Button className={instructorStyles.cardButton}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -2412,14 +2498,15 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
-      <Row md="3" className={pageStyles.pageContentContainer}>
-        <Col>
-          <CardDeck>
-            {/* garnet grimm */}
-            <Card body className="shadow-sm">
+
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* garnet grimm */}
+          <Col sm="3">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one.ta
@@ -2431,29 +2518,32 @@ const InstructorsPage = () => (
                 width="100%"
                 src={Placeholder}
                 alt="Placeholder profile pic"
+                className={instructorStyles.imgSize}
               />
               <CardBody>
                 <CardTitle>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one.ta
-                      .cards.garnet.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.garnet.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <p className={instructorStyles.cardTitle}>
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
-                        .ta.cards.garnet.position.link_text
+                        .ta.cards.garnet.position.text
                     }
-                  </a>
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.garnet.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.ta.cards.garnet.position.link_text
+                      }
+                    </a>
+                  </p>
                 </CardTitle>
               </CardBody>
-              <CardFooter>
+              <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href={
                     content.ui.instructors.instructor_main_content.cohort_one.ta
@@ -2507,7 +2597,8 @@ const InstructorsPage = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button size="sm" className={pageStyles.blueButton}>
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
                     {" "}
                     {
                       content.ui.instructors.instructor_main_content.cohort_one
@@ -2517,28 +2608,28 @@ const InstructorsPage = () => (
                 </a>
               </CardFooter>
             </Card>
-          </CardDeck>
-          <div style={{ marginTop: 50 }}>
-            <a
-              href={
-                content.ui.instructors.instructor_main_content.cohort_one.ta
-                  .button.link
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button className={pageStyles.blueButton}>
-                {" "}
-                {
-                  content.ui.instructors.instructor_main_content.cohort_one.ta
-                    .button.text
-                }{" "}
-              </Button>{" "}
-            </a>
-          </div>
-        </Col>
+          </Col>
+        </CardDeck>
       </Row>
-    </div>
+      <Row className={pageStyles.pageHeadings}>
+        <a
+          href={
+            content.ui.instructors.instructor_main_content.cohort_one.ta.button
+              .link
+          }
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className={pageStyles.blueButton}>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.cohort_one.ta
+                .button.text
+            }{" "}
+          </Button>{" "}
+        </a>
+      </Row>
+    </Container>
   </Layout>
 );
 

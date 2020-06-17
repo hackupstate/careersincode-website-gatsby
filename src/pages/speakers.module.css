@@ -1,0 +1,57 @@
+@media only screen and (max-width: 900px) {
+  .speakerCardRow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cardSize {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    align-self: center;
+  }
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: bold;
+  min-height: 4rem;
+}
+
+.longNameStyles {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 0.9rem 0;
+}
+
+.cardText {
+  font-size: 15px;
+  margin: 5px;
+  width: 100%;
+  min-height: 5rem;
+}
+
+.imgSize {
+  object-fit: cover;
+  width: auto;
+  height: 300px;
+}
+
+.speakerCardRow {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.speakerCardContainer {
+  max-width: 90%;
+}
+
+.cardSize {
+  width: 300px;
+  height: auto;
+  padding: 15px;
+  margin: 0;
+}
