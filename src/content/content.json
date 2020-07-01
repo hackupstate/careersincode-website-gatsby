@@ -1680,19 +1680,6 @@
             }
           }
         }
-      },
-      "schedule": {
-        "schedule_jumbotron": {
-          "heading": "Here is our schedule."
-        },
-        "schedule_main_content": {
-          "table": {
-            "table_title": "Important Dates",
-            "header_date": "Date",
-            "header_time": "Time",
-            "header_event": "Event"
-          }
-        }
       }
     },
     "partners": {
@@ -1847,7 +1834,7 @@
           "position_intern": "Intern",
           "position_success": "Student Success Rep",
           "position_instructor": "Instructor",
-          "position_ta": "Teaching Assistent",
+          "position_ta": "Teaching Assistant",
           "position_coach": "Career Coach"
         },
         "locations": {
@@ -1862,6 +1849,188 @@
           "description_instructor": "https://docs.google.com/document/d/19ilE470-oAOvAG3S6EUxm13Uu8md6J9RgpsllDU3AN8/edit",
           "description_ta": "https://docs.google.com/document/d/16iRkPiLUIEOFUdOlkfT8n3nm9Yx65bR14n7HZFU-eGs/edit",
           "description_coach": "https://docs.google.com/document/d/1sRHMY5RQZdsjPNWtJs_VdJyHUmhR1vyGcjC-RN_tIlc/edit"
+        }
+      }
+    },
+    "schedule": {
+      "schedule_jumbotron": {
+        "heading": "Here is our schedule."
+      },
+      "schedule_main_content": {
+        "table": {
+          "table_title": "Important Dates",
+          "header_date": "Date",
+          "header_time": "Time",
+          "header_event": "Event",
+          "event1": {
+            "date": "Feb 19, 2019",
+            "time": "Midnight",
+            "event": "Student Application Deadline"
+          },
+          "event2": {
+            "date": "Week of Feb 25, 2019",
+            "time": "N/A",
+            "event": "Student Decision Week"
+          },
+          "event3": {
+            "date": "March 7, 2019",
+            "time": "5:30pm",
+            "event": "Kickoff Meeting, Networking Event, and Orientation (Click to RSVP)",
+            "link": "https://www.meetup.com/Syracuse-Tech-Meetup/events/258925853/"
+          },
+          "event4": {
+            "date": "March 11, 2019",
+            "time": "5:30pm",
+            "event": "First Day of Class"
+          },
+          "event5": {
+            "date": "March 23, 2019",
+            "time": "5:30pm",
+            "event": "Mock Interviews conducted by",
+            "linkText": "Raymour & Flanigan",
+            "link": "https://raymourflanigan.com/careers/"
+          },
+          "event6": {
+            "date": "August 22, 2019",
+            "time": "5:30pm",
+            "event": "Graduation & Capstone Presentations (Click for Livestream)",
+            "link": "https://www.youtube.com/watch?v=tBYeEq7cErs"
+          },
+          "event7": {
+            "date": "September 27, 2019",
+            "time": "N/A",
+            "event": "First Student Outcomes Report Released",
+            "link": "/outcomes"
+          },
+          "event8": {
+            "date": "November 18, 2019",
+            "time": "N/A",
+            "event": "Program Transparency Report Released",
+            "link": "/outcomes"
+          },
+          "event9": {
+            "date": "February 21, 2020",
+            "time": "N/A",
+            "event": "Final Student Outcomes Report Released",
+            "link": "/outcomes"
+          }
+        }
+      }
+    },
+    "objectives2019": {},
+    "objectives": {},
+    "partner_alignment": {
+      "partner_alignment_jumbotron": {
+        "heading": "Partner Alignment",
+        "subheading": "Here is how we've strategically aligned with our partners to help reach our objectives and key results."
+      },
+      "partner_alignment_main_content": {
+        "centerstate": {
+          "heading": "CenterState CEO",
+          "text": "CenterState CEO is an independent and forward-thinking economic development strategist, business leadership organization and chamber of commerce; dedicated to the success of its members and the prosperity of the region.",
+          "objective": {
+            "heading": "Objective: Facilitate training and education strategies that empower residents to access New Economy careers, while infusing tech fluency into training for traditional industries that are experiencing New Economy disruption.",
+            "p1": "In addition, Develop workforce innovations to link hundreds of LMI individuals to New Economy careers, establishing a long-term workforce blueprint. Efforts will leverage local best practices (Work Train, Erie 21) and will be informed by local industry needs, poverty research, and community engagement.",
+            "p2": "Coding and Software program partnerships: Work Train will work with employers and partners to link low-income job seekers to career pathways in coding and software engineering. This will be achieved by a partnership with Hack Upstate, who has launched a successful Careers in Code program.",
+            "cards": {
+              "participants": {
+                "textTop": "Total number of program participants enrolled during grant term",
+                "number": "700",
+                "textBottom": "people"
+              },
+              "training": {
+                "textTop": "Total number of people completing training",
+                "number": "560",
+                "textBottom": "people"
+              },
+              "experience": {
+                "textTop": "Total number of people placed into employment or work experience",
+                "number": "450",
+                "textBottom": "people"
+              },
+              "credit": {
+                "textTop": "Total number of people earning credentials, cerficiations, or licensure",
+                "number": "375",
+                "textBottom": "people"
+              },
+              "employment": {
+                "textTop": "Retention rate - percentage of people employed after 90 days of placement",
+                "number": "75%",
+                "textBottom": "of people placed after 90 days of employment"
+              },
+              "wages": {
+                "textTop": "Average hourly wage of people placed in employment",
+                "number": "$20",
+                "textBottom": "per hour"
+              }
+            },
+            "button": {
+              "text": "Drill Down (coming soon)"
+            }
+          }
+        },
+        "lemoyne": {
+          "heading": "Le Moyne College's ERIE 21 Initiative",
+          "text": "ERIE21 is a bold, visionary initiative designed to address the region’s twin problems of persistently high poverty in Syracuse and the inability of employers to attract and retain the skilled workers needed to fill current job openings as well as those resulting from the looming exodus of baby boomers from the workforce.",
+          "objective": {
+            "heading": "Objective: Training for adults– technical training for at least 25 unemployed, underemployed, underprivileged or downsized employees to engage or re-engage local workforce",
+            "cards": {
+              "jobs": {
+                "header": "Not Started",
+                "textTop": "Place 50% of those who complete the program into entry-level jobs",
+                "number": "50%",
+                "textBottom": "of individuals placed into jobs"
+              }
+            },
+            "button": {
+              "text": "Drill Down (coming soon)"
+            }
+          }
+        }
+      }
+    },
+    "nonprofit": {
+      "nonprofit_jumbotron": {
+        "heading": "Empowering the nonprofit and public sector communities' missions by providing software development services.",
+        "subheading": "Over the duration of the bootcamp, students will create a project on something they are passionate on. We are hoping to provide students with experience, a real-world problem to solve, and the ability to help their local communities.",
+        "button": {
+          "text": "View Deck"
+        }
+      },
+      "nonprofit_main_content": {
+        "capstone": {
+          "title": "Capstone Project Document",
+          "text": "Here is more information about the capstone project.",
+          "button": {
+            "text": "Learn about the capstone",
+            "link": "https://docs.google.com/document/d/1DQo4pyWTaxEG61B-bFgLfo0_FhiFKk8duT6XBkZONW0/edit#"
+          }
+        },
+        "onboarding": {
+          "title": "Onboarding Form",
+          "text": "Interested in working with our students? Complete this onboarding form to start the process.",
+          "button": {
+            "text": "Complete nonprofit onboarding",
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSe6umxv63aQr2eIV6sBaxbwbeTeajmvD7zPRRxdD8kXUS1T4Q/viewform"
+          }
+        },
+        "students": {
+          "title": "Keeping students on track",
+          "text": "We'll have touchpoints 2-3 weeks, demo days, and a final presentation for our capstone project.",
+          "button": {
+            "text": "View the touchpoint form",
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdRm8OLtEIkfWF4mdbdzjz3fOQXAZdM6DzYvBEcEKXu_N_TdQ/viewform"
+          }
+        }
+      }
+    },
+    "unsubscribe": {
+      "unsubscribe_jumbotron": {
+        "heading": "We're sorry to see you go!",
+        "subheading": "If you miss us, you can rejoin our monthly newsletter. We send updates on Hack Upstate, Careers in Code, events, and job opportunites.",
+        "button": {
+          "link": "https://www.getdrip.com/forms/67102980/submissions/new",
+          "text": "Add me to the list"
         }
       }
     }

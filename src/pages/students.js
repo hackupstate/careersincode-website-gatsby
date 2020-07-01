@@ -27,7 +27,7 @@ const Students = () => (
         }
       />
     </Header>
-    <SEO title="Current Students" />
+    <SEO title="Students" />
     <Container className={pageStyles.whiteContainer}>
       <Row className={(pageStyles.centerText, pageStyles.centerContentColumns)}>
         <h3 className={pageStyles.pageHeadings}>

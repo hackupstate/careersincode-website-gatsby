@@ -1,5 +1,19 @@
 @import url("https://use.typekit.net/fpa4cis.css");
 
+/*
+*** VARIABLES
+*/
+
+:body {
+  --primaryBlue: #2299dd;
+  --mediumBlue: #002333;
+  --darkBlue: #03030f;
+  --lightBlueGrey: #c8c9e2;
+  --primaryGreen: #53fe99;
+  --secondaryGreen: #33d5c3;
+  --darkGreen: #204c50;
+}
+
 html {
   font-family: "Proxima-Nova", helvetica, sans-serif;
   -ms-text-size-adjust: 100%;
