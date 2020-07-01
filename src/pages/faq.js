@@ -37,7 +37,7 @@ const FaqPage = (props) => {
         <NavComponent />
         <JumbotronComponent heading={content.ui.about.faq_jumbotron.heading} />
       </Header>
-      <SEO title="Faq" />
+      <SEO title="FAQ" />
       <Container>
         <Row className={pageStyles.pageContentContainer}>
           <Col>

@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteURL: `https//www.careersincode.org`,
     title: `Careers in Code`,
     description: `Careers in Code is a coding bootcamp that teaches computer programming to women and minorities to help combat poverty in Central NY. We provide students with the technical skills they need to obtain internships and entry level software development jobs with local employers after 24 weeks of instruction.`,
     author: `@hackupstate`,
@@ -37,6 +38,7 @@ module.exports = {
         icon: `src/images/hu-logo-small.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

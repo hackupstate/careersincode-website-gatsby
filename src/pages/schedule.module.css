@@ -1,0 +1,11 @@
+.tableContainer {
+  width: 60%;
+  padding: 40px;
+  max-width: 1000px;
+}
+
+.tableHeader {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}

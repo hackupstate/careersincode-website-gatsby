@@ -1,86 +1,26 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+# Careers in Code
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+A wesbite for Hack Upstate's Careers in Code
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+Careers in Code is Hack Upstate’s new initiative to help advance Central New York’s tech community by offering computer programming education to help fight poverty. It is a 24-week program aimed at women and minorities from distressed areas of central New York — poverty in these neighborhoods means residents don’t have equal opportunities to access education and employment opportunities, and our bootcamp was created to help close this gap and increase our region’s economic potential.
 
-## 🚀 Quick start
+## Contributing
 
-1.  **Create a Gatsby site.**
+1. Clone down the code: `git clone https://github.com/hackupstate/careers-in-code-website.git`
+2. When you are creating your remote origin, remember that you should NOT be using the master branch. Instead, contact Will or Jesse to has set up an individual branch. This repo utilizes pull requests for content management.
+3. Once cloned and initialized properly, try pushing a commit to your branch. In some cases, you may need to push to the HEAD, which would change your push message (ie. git push origin HEAD:dev).
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+## Use of PR's in this Repo
 
-    ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+For the purposes of version tracking and team management, we will be using Pull Requests to manage all pushes to master. This is a really great tool for team use on Git as it minimizes the possibility of messing up the main website and helps keep your version separate (allowing you to experiment with no worries, etc.). This also allows the team manager to review code independently before it goes live (Netlify’s prod feature is great for this!).
 
-1.  **Start developing.**
+Once you have developed a particular feature and are ready for review, follow these steps:
 
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-default-starter/
-    gatsby develop
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
-
-## 🧐 What's inside?
-
-A quick look at the top-level files and directories you'll see in a Gatsby project.
-
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
-
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
-
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
-
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
-
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
-
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
-
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
+1. Commit and push your code to your own branch. Remember that since you are working on a team, people can’t read your mind. Be specific enough in your commit messages to let us know what you worked on.
+2. Once you have committed your code, go to the Github website, and navigate to your branch. Next to the branch selector above the code section, click “New Pull Request.” Github should automatically have your branch pulling into master.
+3. In this dialogue, you can edit your commit message and request reviewers on the right hand side, if necessary (you should be doing this most of the time for Will).
+4. Send the request and notify your reviewer on Slack (for some reason we don’t always get an email).
+5. If your code is good, (yay!), then the reviewer will merge it with master. If any changes are necessary, you do not need to submit another PR. Simply push the new version of your code to your own branch. Github will automatically add your changes to the existing PR and update the review guide for your reviewer. Here, it’s especially important to keep your commit messages specific as things get added under that assumption.
 
 ## 🎓 Learning Gatsby
 

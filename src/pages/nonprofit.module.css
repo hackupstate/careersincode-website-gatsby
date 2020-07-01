@@ -1,0 +1,9 @@
+.imgSize {
+  height: 200px;
+  width: auto;
+}
+
+.infoRow {
+  margin-top: 20px;
+  display: flex;
+}

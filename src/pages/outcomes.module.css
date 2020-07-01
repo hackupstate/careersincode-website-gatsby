@@ -21,6 +21,10 @@
   font-size: 16px;
 }
 
+.whiteSpace {
+  white-space: nowrap;
+}
+
 .imgSize {
   object-fit: cover;
   width: auto;
