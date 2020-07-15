@@ -23,21 +23,21 @@ const items = [
     src: Joey,
     altText: "Black and white headshot of Joey Buczek",
     caption:
-      "Being a part of this first cohort was definitely a rewarding experience! Not only did we help a group of wonderful people learn new skills to be able to advance their careers in a growing field, but we also learned a lot about how each of us could grow and contribute in more meaningful ways in the future of this program as well. There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general. I am so grateful to be a part of this endeavor, and am looking forward to seeing if this program will continue.",
+      '"...There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general."',
     header: "Joey Buczek, Cohort I Instructor",
   },
   {
     src: Kelly,
     altText: "Headshot of Kelly Corey",
     caption:
-      "Applying for Careers in Code was one of the best decisions I've made in my entire life! Over the course of 6 months, I went from a little knowledge of HTML and CSS to a full-stack JavaScript web developer. The instructors and TAs were always willing to go out of their way to help with anything we needed throughout the duration of class. I'm thrilled I got to opportunity to train in a field that I'm passionate about and I look forward to contributing to the Syracuse tech community.",
+      '"Applying for Careers in Code was one of the best decisions I\'ve made in my entire life! ..."',
     header: "Kelly Corey, Cohort I Graduate",
   },
   {
     src: Doug,
     altText: "Headshot of Doug Crescenzi",
     caption:
-      "The rise of coding bootcamps throughout the country reflects the shortage of adequately trained software developers graduating from universities and the relative demand for them from the technology sector. The reason coding bootcamps have proven effective over the years is because they provide vocational training at a fraction of the cost of a college degree.",
+      '"...The reason coding bootcamps have proven effective over the years is because they provide vocational training at a fraction of the cost of a college degree."',
     header: "Doug Crescenzi, Founder",
   },
 ];
