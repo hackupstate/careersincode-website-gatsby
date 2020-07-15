@@ -22,6 +22,7 @@ import {
 import classnames from "classnames";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
+import faqStyles from "./faq.module.css";
 
 // from reactstrap tab docs
 const FaqPage = (props) => {
@@ -49,6 +50,7 @@ const FaqPage = (props) => {
                     toggle("1");
                   }}
                   tag="h4"
+                  activeClassname={faqStyles.tabLink}
                 >
                   {content.ui.about.faq_main_content.general.header}
                 </NavLink>

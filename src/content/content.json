@@ -333,7 +333,8 @@
           "kelly": {
             "alt_text": "Kelly Corey",
             "header": "Kelly Corey, Cohort I Graduate",
-            "text": " \"Applying for Careers in Code was one of the best decisions I've made in my entire life! Over the course of 6 months, I went from a little knowledge of HTML and CSS to a full-stack JavaScript web developer. The instructors and TAs were always willing to go out of their way to help with anything we needed throughout the duration of class. I'm thrilled I got the opportunity to train in a field that I'm passionate about and I look forward to contributing to the Syracuse tech community!\" "
+            "text": " \"Applying for Careers in Code was one of the best decisions I've made in my entire life! Over the course of 6 months, I went from a little knowledge of HTML and CSS to a full-stack JavaScript web developer. The instructors and TAs were always willing to go out of their way to help with anything we needed throughout the duration of class. I'm thrilled I got the opportunity to train in a field that I'm passionate about and I look forward to contributing to the Syracuse tech community!\" ",
+            "snippet": "Applying for Careers in Code was one of the best decisions I've made in my entire life! ..."
           },
           "karin": {
             "alt_text": "Karin Thorne",
@@ -376,12 +377,21 @@
           "joey": {
             "alt_text": "Joey Buczek",
             "header": "Joey Buczek, Cohort I Instructor",
-            "text": " \"Being a part of this first cohort was definitely a rewarding experience! Not only did we help a group of wonderful people learn new skills to be able to advance their careers in a growing field, but we also learned a lot about how each of us could grow and contribute in more meaningful ways in the future of this program as well. There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general. I am so grateful to be a part of this endeavor, and am looking forward to seeing if this program will continue.\" "
+            "text": " \"Being a part of this first cohort was definitely a rewarding experience! Not only did we help a group of wonderful people learn new skills to be able to advance their careers in a growing field, but we also learned a lot about how each of us could grow and contribute in more meaningful ways in the future of this program as well. There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general. I am so grateful to be a part of this endeavor, and am looking forward to seeing if this program will continue.\" ",
+            "snippet": "... There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general."
           },
           "gus": {
             "alt_text": "Gus Cost",
             "header": "Gus Cost, Cohort I Instructor",
             "text": " \"The Careers in Code program is a great project, and it's been a privilege to have participated in teaching the first cohort. The students selected to attend are motivated, kind, and a joy to work with. Most if not all are in situations where an education in computer programming has a chance to make a big positive impact on their careers and lives. While the first cohort was a small number of students, it's exciting to think that it could be an early step in a larger arc of change that results in a more prosperous CNY community. And despite the small class size it's exciting to think that even a few more people now have a chance to make an impact as successful working software developers.\" "
+          }
+        },
+        "founders": {
+          "header": "Founder and Partner Testimonials",
+          "doug": {
+            "alt_text": "Doug Crescenzi",
+            "header": "Doug Crescenzi, Founder",
+            "text": "\"The rise of coding bootcamps throughout the country reflects the shortage of adequately trained software developers graduating from universities and the relative demand for them from the technology sector. The reason coding bootcamps have proven effective over the years is because they provide vocational training at a fraction of the cost of a college degree.\""
           }
         }
       },
@@ -1917,8 +1927,272 @@
         }
       }
     },
-    "objectives2019": {},
-    "objectives": {},
+    "objectives2019": {
+      "objectives2019_jumbotron": {
+        "heading": "2019 Objectives",
+        "subheading": "Hack Upstate’s vision is to grow and scale Careers in Code in order to provide free computer programming education to help place hundreds of women and minorities fighting poverty that are unemployed, underemployed, or underprivileged individuals, with local employers across Central and Upstate NY."
+      },
+      "objectives2019_main_content": {
+        "button_2020": {
+          "text": "View 2020 Objectives",
+          "link": "/objectives"
+        },
+        "objectives": {
+          "barriers": {
+            "heading": "Objective: Remove every possible barrier to education",
+            "text": "In order to minimize as many barriers as possible when it comes to living in poverty, accepted students received a full tuition scholarship, a laptop, a coworking space membership, a student stipend, and a student success representative to help students navigate barriers and hurdles they faced during the program.",
+            "subheading": {
+              "text": "To help inform these decisions, we asked our students two things during the screening process:",
+              "sub_1": "1. Will you require any services for the program?",
+              "sub_2": "2. What are some challenges that you might have throughout the duration of the program? How can we help address and solve them?"
+            },
+            "cards": {
+              "status": {
+                "achieved": "Achieved",
+                "some_progress": "Some Progress"
+              },
+              "tuition": {
+                "textTop": "Provide free tuition for all students",
+                "number": "11 of 11",
+                "textBottom": "free tuitions"
+              },
+              "laptop": {
+                "textTop": "Provide each student with a new laptop",
+                "number": "11 of 11",
+                "textBottom": "free laptops"
+              },
+              "coworking": {
+                "textTop": "Provide each student with a free coworking membership",
+                "number": "11 of 11",
+                "textBottom": "free coworking memberships"
+              },
+              "stipend": {
+                "textTop": "Provide each student with a spending stipend",
+                "number": "11 of 11",
+                "textBottom": "student stipends"
+              },
+              "success": {
+                "textTop": "Hire a student success representative that will help students navigate challenges they encounter throughout the program",
+                "number": "1 of 1",
+                "textBottom": "student success representative hired"
+              }
+            },
+            "button": {
+              "text": "Drill Down (coming soon)"
+            }
+          },
+          "graduation": {
+            "heading": "Objective: Help ensure 100% student graduation rate from the program",
+            "text": "We're committed to having all of our students accepted into the program graduate. Our first cohort had a 92% graduation rate from the full 24-week program.",
+            "cards": {
+              "checkin": {
+                "textTop": "Check in with all students on a bi-weekly basis",
+                "number": "109 of 132",
+                "textBottom": "student check-ins"
+              },
+              "meetings": {
+                "textTop": "Hold weekly meetings with leadership to help identify and resolve challenges students are facing",
+                "number": "13 of 24",
+                "textBottom": "meetings with leadership"
+              }
+            },
+            "button": {
+              "text": "Drill Down (coming soon)"
+            }
+          },
+          "jobs": {
+            "heading": "Objective: Generate job and wealth creation in Central New York",
+            "text": "Instructors will teach students the skills they require to receive internships and entry level software development positions. Measured every 30 days following the graduation of each cohort.",
+            "cards": {
+              "placement": {
+                "textTop": "Increase in un- and underemployed residents placed in jobs by placing 100% of students within 180 days of program completion (Feb 18, 2020)",
+                "number": "7 of 11",
+                "textBottom": "graduates placed in full-time positions or consulting arrangements"
+              },
+              "salary": {
+                "textTop": "Increase overall salaries by 50% within 180 days of program completion (Feb 18, 2020)",
+                "number": "56%",
+                "textBottom": "average salary increase with an average starting salary of $45k"
+              }
+            },
+            "button": {
+              "text": "Drill Down (coming soon)"
+            }
+          },
+          "events": {
+            "heading": "Objective: Organize and execute events throughout the program",
+            "text": "Throughout the course of the program, we organized several networking events for our students. We would often dedicate Tuesday’s class to attend developer meetups to get involved in the local tech community. Our students interacted with local technologists and helped to improve their communication skills, facilitate connections, and potential employment opportunities.",
+            "text2": "We hosted guest speakers and invited them to join us before class as well as at our networking events. They shared their experiences working in the industry and provided insight into how students can be successful. More importantly, they inspired students, provided encouragement, and demonstrated what goes into becoming a successful software developer.",
+            "cards": {
+              "events": {
+                "textTop": "Organize at least 3 events for students",
+                "number": "3 of 3",
+                "textBottom": "events organied throughout the 24-week program"
+              },
+              "speakers": {
+                "textTop": "Host at least 10 guest speakers",
+                "number": "17 of 10",
+                "textBottom": "guest speakers hosted throughout the 24-week program"
+              },
+              "meetups": {
+                "textTop": "Attend at least 5 local developer meetups",
+                "number": "5 of 5",
+                "textBottom": "meetups attended throughout the 24 week program"
+              },
+              "networking": {
+                "textTop": "Attend at least 2 regional networking events",
+                "number": "2 of 2",
+                "textBottom": "regional networking events attended throughout the 24 week program"
+              }
+            },
+            "button": {
+              "text": "Drill Down (coming soon)"
+            }
+          },
+          "community": {
+            "heading": "Objective: Provide quality community engagement",
+            "text": "Social media and marketing is a critical component of our program. It is necessary to make prospective applicants, instructors, and partners aware of the promote as well as to promote existing partners and highlight the value they bring to the program.",
+            "cards": {
+              "social": {
+                "textTop": "Increase social media engagement by 50% in 2019",
+                "number": "77.37%",
+                "textBottom": "overall social media engagement"
+              },
+              "blogs": {
+                "textTop": "Publish 2 blogs each month in 2019 for a total of 24 blogs",
+                "number": "24 of 24",
+                "textBottom": "published blogs on Medium"
+              },
+              "newsletter": {
+                "textTop": "Send a newsletter each month in 2019 for a total of 12 newsletters",
+                "number": "12 of 12",
+                "textBottom": "monthly newsletters sent to our community"
+              }
+            },
+            "button": {
+              "text": "Drill Down (coming soon)"
+            }
+          },
+          "partnerships": {
+            "heading": "Objective: Explore and develop strategic partnerships",
+            "text": "Creating and operating a coding bootcamp that will teach computer programming to women and minorities from distressed communities can’t be done alone. It requires long-term, strategic partners who will support the program and benefit from its sustained success. Strategic partners have been instrumental to Hack Upstate over the years. We’re extremely fortunate to have so many partners involved in our first cohort of Careers in Code that were critical to our success.",
+            "cards": {
+              "partnerships": {
+                "textTop": "Identify and explore 3 strategic partnerships",
+                "number": "3 of 3",
+                "textBottom": "strategic partnerships explored",
+                "onondaga": {
+                  "text": "Onondaga County",
+                  "link": "http://ongov.net/"
+                },
+                "aei": {
+                  "text": "Alliance for Economic Inclusion",
+                  "link": "https://www.governor.ny.gov/news/governor-cuomo-announces-39-projects-be-funded-through-round-two-alliance-economic-inclusion"
+                },
+                "cceo": {
+                  "text": "CenterState CEO",
+                  "link": "https://www.centerstateceo.com/"
+                },
+                "lemoyne": {
+                  "text": "LeMoyne's ERIE 21",
+                  "link": "https://www.lemoyne.edu/News/News-Article/ArticleId/246"
+                }
+              },
+              "businesses": {
+                "textTop": "Identify and partner with 3 local businesses",
+                "number": "3 of 3",
+                "textBottom": "local business partnerships",
+                "coworks": {
+                  "text": "Syracuse CoWorks",
+                  "link": "https://syracusecoworks.com/"
+                },
+                "vonLangden": {
+                  "text": "Von Langden Studios",
+                  "link": "https://vonlangenstudios.com/"
+                },
+                "artemis": {
+                  "text": "Artemis Photography",
+                  "link": "http://www.artemis-portraits.com/"
+                },
+                "local": "and multiple local employers"
+              }
+            },
+            "button": {
+              "text": "Drill Down (coming soon)"
+            }
+          }
+        },
+        "attrition": {
+          "heading": "Attrition",
+          "subheading_1": "Tremendous thank you to the",
+          "link": "http://dashboards.syrgov.net/",
+          "text": "City of Syracuse's Performance Dashboard",
+          "subheading_2": "for the inspiration."
+        }
+      }
+    },
+    "objectives": {
+      "objectives_jumbotron": {
+        "heading": "2020 Objectives",
+        "subheading": "Hack Upstate’s vision is to grow and scale Careers in Code in order to provide free computer programming education to help place hundreds of women and minorities fighting poverty that are unemployed, underemployed, or underprivileged individuals, with local employers across Central and Upstate NY."
+      },
+      "objectives_main_content": {
+        "button_2019": {
+          "text": "View 2019 Objectives",
+          "link": "/objectives-2019"
+        },
+
+        "partner_alignment": {
+          "heading": "Partner Alignment",
+          "text": "Find out how we've strategically aligned with our partners to help reach our outcomes.",
+          "button": {
+            "text": "View Partner Alignment",
+            "link": "/partner-alignment"
+          }
+        },
+        "objectives_list": {
+          "train": {
+            "heading": "Objective: Train 60 students over the next 3 years"
+          },
+          "barriers": {
+            "heading": "Objective: Remove every possible barrier to education"
+          },
+          "sustainable": {
+            "heading": "Objective: Create a sustainable model"
+          },
+          "feedback": {
+            "heading": "Objective: Learn as much as we can by gathering feedback from coding bootcamps"
+          },
+          "graduation": {
+            "heading": "Objective: Help ensure 100% student graduation rate from each cohort"
+          },
+          "jobs": {
+            "heading": "Objective: Generate job and wealth creation in Central New York"
+          },
+          "events": {
+            "heading": "Objective: Organize and execute events throughout the program"
+          },
+          "community": {
+            "heading": "Objective: Provide quality community engagement"
+          },
+          "job_preparednes": {
+            "heading": "Objective: Prepare students to enter the job force with competence and confidence"
+          },
+          "instructors_and_coaches": {
+            "heading": "Objective: Hire a lead instructor and a career coach"
+          },
+          "productivity": {
+            "heading": "Objective: Implement no/low code environments to increase productivity, save time, or reduce cost"
+          },
+          "network": {
+            "heading": "Objective: Engage and enchance our network effect"
+          },
+          "onboarding": {
+            "heading": "Objective: Create an onboarding handbook for program managers, instructors/teaching assistants, and students"
+          }
+        }
+      }
+    },
     "partner_alignment": {
       "partner_alignment_jumbotron": {
         "heading": "Partner Alignment",
