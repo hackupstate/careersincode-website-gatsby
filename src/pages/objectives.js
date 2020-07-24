@@ -24,22 +24,24 @@ const Objectives = () => (
       </JumbotronComponent>
     </Header>
     <SEO title="Objectives" />
-    <Container fluid className={pageStyles.whiteContainer}>
-      <Row className={pageStyles.pageHeadings}>
-        <Button className={pageStyles.blueButton}>
-          <a
-            href={
-              content.ui.objectives.objectives_main_content.button_2019.link
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-            {content.ui.objectives.objectives_main_content.button_2019.text}
-          </a>
-        </Button>
+    <Container fluid>
+      <Row className={pageStyles.whiteContainer}>
+        <Col>
+          <Button className={pageStyles.blueButton}>
+            <a
+              href={
+                content.ui.objectives.objectives_main_content.button_2019.link
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.btnLink}
+            >
+              {content.ui.objectives.objectives_main_content.button_2019.text}
+            </a>
+          </Button>
+        </Col>
       </Row>
-      <Row className={pageStyles.pageHeadings}>
+      <Row className={pageStyles.whiteContainer}>
         <Col>
           <h2>
             {
@@ -71,6 +73,8 @@ const Objectives = () => (
           </Button>
         </Col>
       </Row>
+    </Container>
+    <Container fluid className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
         <Col>
           <h2>

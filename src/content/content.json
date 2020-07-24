@@ -1938,6 +1938,10 @@
           "link": "/objectives"
         },
         "objectives": {
+          "status": {
+            "achieved": "Achieved",
+            "some_progress": "Some Progress"
+          },
           "barriers": {
             "heading": "Objective: Remove every possible barrier to education",
             "text": "In order to minimize as many barriers as possible when it comes to living in poverty, accepted students received a full tuition scholarship, a laptop, a coworking space membership, a student stipend, and a student success representative to help students navigate barriers and hurdles they faced during the program.",
@@ -1947,10 +1951,6 @@
               "sub_2": "2. What are some challenges that you might have throughout the duration of the program? How can we help address and solve them?"
             },
             "cards": {
-              "status": {
-                "achieved": "Achieved",
-                "some_progress": "Some Progress"
-              },
               "tuition": {
                 "textTop": "Provide free tuition for all students",
                 "number": "11 of 11",
