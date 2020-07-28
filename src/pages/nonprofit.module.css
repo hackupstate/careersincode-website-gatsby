@@ -1,9 +1,24 @@
+@media only screen and (max-width: 600px) {
+  .imgSize {
+    min-width: 200px;
+  }
+  .infoRowOdd {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 .imgSize {
   height: 200px;
   width: auto;
 }
 
 .infoRow {
+  margin-top: 20px;
+  display: flex;
+}
+
+.infoRowOdd {
   margin-top: 20px;
   display: flex;
 }

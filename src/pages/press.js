@@ -18,31 +18,37 @@ const PressPage = () => (
       ></JumbotronComponent>
     </Header>
     <SEO title="Press" />
-    <Container fluid className={pageStyles.blueContainer}>
+    <Container fluid className={pressStyles.blueContainer}>
       <Row className={pressStyles.blueRow}>
-        <Col className={pressStyles.blueInfoColumns}>
+        <Col md="6" className={pressStyles.blueInfoColumns}>
           <h3> {content.ui.about.press_main_content.kickoff.header} </h3>
-          <p> {content.ui.about.press_main_content.kickoff.text} </p>
-          <Button className={pageStyles.pageButtons} color="info">
+          <p className={pressStyles.infoText}>
+            {" "}
+            {content.ui.about.press_main_content.kickoff.text}{" "}
+          </p>
+          <Button className={pressStyles.pageButtons} color="info">
             <a
               href={content.ui.about.press_main_content.kickoff.link}
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.btnLink}
+              className={pressStyles.btnLink}
             >
               {content.ui.about.press_main_content.kickoff.button}
             </a>
           </Button>
         </Col>
-        <Col className={pressStyles.blueInfoColumns}>
+        <Col md="6" className={pressStyles.blueInfoColumns}>
           <h3> {content.ui.about.press_main_content.graduation.header} </h3>
-          <p> {content.ui.about.press_main_content.graduation.text} </p>
-          <Button className={pageStyles.pageButtons} color="info">
+          <p className={pressStyles.infoText}>
+            {" "}
+            {content.ui.about.press_main_content.graduation.text}{" "}
+          </p>
+          <Button className={pressStyles.pageButtons} color="info">
             <a
               href={content.ui.about.press_main_content.graduation.link}
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.btnLink}
+              className={pressStyles.btnLink}
             >
               {content.ui.about.press_main_content.graduation.button}
             </a>
@@ -50,22 +56,25 @@ const PressPage = () => (
         </Col>
       </Row>
       <Row className={pressStyles.blueRow}>
-        <Col className={pressStyles.blueInfoColumns}>
+        <Col md="6" className={pressStyles.blueInfoColumns}>
           <h3> {content.ui.about.press_main_content.logos.header} </h3>
-          <p> {content.ui.about.press_main_content.logos.text} </p>
-          <Button className={pageStyles.pageButtons} color="info">
+          <p className={pressStyles.infoText}>
+            {" "}
+            {content.ui.about.press_main_content.logos.text}{" "}
+          </p>
+          <Button className={pressStyles.pageButtons} color="info">
             <a
               href={content.ui.about.press_main_content.logos.action}
-              className={pageStyles.btnLink}
+              className={pressStyles.btnLink}
               download
             >
               {content.ui.about.press_main_content.logos.button}
             </a>
           </Button>
         </Col>
-        <Col className={pressStyles.blueInfoColumns}>
+        <Col md="6" className={pressStyles.blueInfoColumns}>
           <h3> {content.ui.about.press_main_content.presentation.header} </h3>
-          <p>
+          <p className={pressStyles.infoText}>
             {" "}
             Our intern Will Guisbond presented a talk at{" "}
             <a
@@ -79,12 +88,12 @@ const PressPage = () => (
             called "Lessons Learned from Organizing a Coding Bootcamp". Listen
             to his experience and how Careers in Code plans to move forward!{" "}
           </p>
-          <Button className={pageStyles.pageButtons} color="info">
+          <Button className={pressStyles.pageButtons} color="info">
             <a
               href={content.ui.about.press_main_content.presentation.link}
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.btnLink}
+              className={pressStyles.btnLink}
             >
               {content.ui.about.press_main_content.presentation.button}
             </a>
@@ -92,7 +101,7 @@ const PressPage = () => (
         </Col>
       </Row>
     </Container>
-    <Container fluid className={pageStyles.whiteContainer}>
+    <Container fluid className={pressStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
         <Col>
           <h3> {content.ui.about.press_main_content.news.header} </h3>

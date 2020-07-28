@@ -30,7 +30,7 @@ const NonProfit = (props) => (
     </Header>
     <SEO title="Non-Profit" />
     <Container fluid className={pageStyles.whiteContainer}>
-      <Row className={nonprofitStyles.infoRow}>
+      <Row className={nonprofitStyles.infoRowOdd}>
         <Col>
           <h3>{content.ui.nonprofit.nonprofit_main_content.capstone.title}</h3>
           <p>{content.ui.nonprofit.nonprofit_main_content.capstone.text}</p>
@@ -90,7 +90,7 @@ const NonProfit = (props) => (
       </Row>
     </Container>
     <Container fluid className={pageStyles.whiteContainer}>
-      <Row className={nonprofitStyles.infoRow}>
+      <Row className={nonprofitStyles.infoRowOdd}>
         <Col>
           <h3>{content.ui.nonprofit.nonprofit_main_content.students.title}</h3>
           <p>{content.ui.nonprofit.nonprofit_main_content.students.text}</p>

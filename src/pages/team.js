@@ -22,7 +22,7 @@ const TeamPage = () => (
       ></JumbotronComponent>
     </Header>
     <SEO title="Team" />
-    <Container>
+    <Container fluid>
       <Row className={pageStyles.pageHeadings}>
         <Col>
           <h3> {content.ui.about.team_main_content.text} </h3>
@@ -36,7 +36,7 @@ const TeamPage = () => (
           </a>
         </Col>
       </Row>
-      <Row className={pageStyles.pageContentContainer}>
+      <Row className={pageStyles.whiteContainer}>
         <Col>
           <img
             className={teamStyles.imgCircle}
@@ -69,7 +69,7 @@ const TeamPage = () => (
           <h4> {content.ui.about.team_main_content.members.jason} </h4>
           <p> {content.ui.about.team_main_content.members.ssr} </p>
         </Col>
-        <Row className={pageStyles.pageContentContainer}>
+        <Col className={pageStyles.pageButtonContainer}>
           <Button className={pageStyles.blueButton}>
             <a
               href={content.ui.about.team_main_content.link}
@@ -80,7 +80,7 @@ const TeamPage = () => (
               {content.ui.about.team_main_content.button}
             </a>
           </Button>
-        </Row>
+        </Col>
       </Row>
     </Container>
   </Layout>
