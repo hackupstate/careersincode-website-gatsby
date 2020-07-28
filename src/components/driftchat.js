@@ -1,13 +1,12 @@
-import React, { Component } from "react"
-import { Helmet } from "react-helmet"
+import React, { Component } from "react";
 
-class DriftChat extends Component {
-    render(props) {
-        return (
-            <React.Fragment>
-                <Helmet>
-                <script>
-    "use strict";
+const DriftChat = (props) => {
+  return (
+    <div>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+  "use strict";
 
     !function () {
       var t = window.driftt = window.drift = window.driftt || [];
@@ -31,9 +30,12 @@ class DriftChat extends Component {
     }();
     drift.SNIPPET_VERSION = '0.3.1';
     drift.load('cnv9vp5nznb7');
-  </script>
-                </Helmet>
-            </React.Fragment>
-        )
-    }
-}
+  
+  `,
+        }}
+      />
+    </div>
+  );
+};
+
+export default DriftChat;

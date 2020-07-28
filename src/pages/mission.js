@@ -32,7 +32,7 @@ const MissionPage = () => (
       </Row>
     </Container>
     <Container fluid className={pageStyles.whiteContainer}>
-      <Row className={(pageStyles.pageHeadings, pageStyles.whiteContainer)}>
+      <Row className={pageStyles.pageHeadings}>
         <h3> {content.ui.about.mission_main_content.header4.title} </h3>
         <br />
         <h4> {content.ui.about.mission_main_content.header4.subheader1} </h4>

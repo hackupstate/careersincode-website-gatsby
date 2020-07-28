@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "gatsby";
+
 import Layout from "../components/layout";
 import Header from "../components/header";
 import NavComponent from "../components/nav";
@@ -40,24 +40,29 @@ const FaqPage = (props) => {
       </Header>
       <SEO title="FAQ" />
       <Container>
-        <Row className={pageStyles.pageContentContainer}>
+        <Row className={faqStyles.whiteContainer}>
           <Col>
-            <Nav vertical pills>
+            <Nav vertical pills className={faqStyles.listMenu}>
               <NavItem>
                 <NavLink
-                  className={classnames({ active: activeTab === "1" })}
+                  className={classnames(
+                    { active: activeTab === "1" },
+                    faqStyles.tabLink
+                  )}
                   onClick={() => {
                     toggle("1");
                   }}
                   tag="h4"
-                  activeClassname={faqStyles.tabLink}
                 >
                   {content.ui.about.faq_main_content.general.header}
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink
-                  className={classnames({ active: activeTab === "2" })}
+                  className={classnames(
+                    { active: activeTab === "2" },
+                    faqStyles.tabLink
+                  )}
                   onClick={() => {
                     toggle("2");
                   }}
@@ -68,7 +73,10 @@ const FaqPage = (props) => {
               </NavItem>
               <NavItem>
                 <NavLink
-                  className={classnames({ active: activeTab === "3" })}
+                  className={classnames(
+                    { active: activeTab === "3" },
+                    faqStyles.tabLink
+                  )}
                   onClick={() => {
                     toggle("3");
                   }}
@@ -79,7 +87,10 @@ const FaqPage = (props) => {
               </NavItem>
               <NavItem>
                 <NavLink
-                  className={classnames({ active: activeTab === "4" })}
+                  className={classnames(
+                    { active: activeTab === "4" },
+                    faqStyles.tabLink
+                  )}
                   onClick={() => {
                     toggle("4");
                   }}
@@ -90,7 +101,10 @@ const FaqPage = (props) => {
               </NavItem>
               <NavItem>
                 <NavLink
-                  className={classnames({ active: activeTab === "5" })}
+                  className={classnames(
+                    { active: activeTab === "5" },
+                    faqStyles.tabLink
+                  )}
                   onClick={() => {
                     toggle("5");
                   }}
@@ -103,11 +117,11 @@ const FaqPage = (props) => {
           </Col>
           <Col>
             <TabContent activeTab={activeTab}>
-              {/* general */}
+              {/* GENERAL */}
               <TabPane tabId="1">
                 <Row>
                   <Col>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -139,7 +153,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -157,7 +171,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -175,7 +189,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -193,7 +207,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -229,7 +243,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -261,7 +275,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -282,11 +296,11 @@ const FaqPage = (props) => {
                   </Col>
                 </Row>
               </TabPane>
-              {/* student */}
+              {/* STUDENT */}
               <TabPane tabId="2">
                 <Row>
                   <Col>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -336,7 +350,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -368,7 +382,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -386,7 +400,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -404,7 +418,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -422,7 +436,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -458,11 +472,11 @@ const FaqPage = (props) => {
                   </Col>
                 </Row>
               </TabPane>
-              {/* instructors */}
+              {/* INSTRUCTORS */}
               <TabPane tabId="3">
                 <Row>
                   <Col>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -524,7 +538,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -542,7 +556,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -574,7 +588,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -599,7 +613,7 @@ const FaqPage = (props) => {
               <TabPane tabId="4">
                 <Row>
                   <Col>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {content.ui.about.faq_main_content.ta.why.question}{" "}
@@ -611,7 +625,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -661,7 +675,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -677,7 +691,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -733,7 +747,7 @@ const FaqPage = (props) => {
                         </CardText>
                       </CardBody>
                     </Card>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -752,11 +766,11 @@ const FaqPage = (props) => {
                   </Col>
                 </Row>
               </TabPane>
-              {/* partners */}
+              {/* PARTNERS */}
               <TabPane tabId="5">
                 <Row>
                   <Col>
-                    <Card>
+                    <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
                         {
@@ -780,11 +794,10 @@ const FaqPage = (props) => {
             </TabContent>
           </Col>
         </Row>
-        <Row className={pageStyles.pageContentContainer}>
+        <Row className={pageStyles.whiteContainer}>
           <Col>
             <h4> {content.ui.about.faq_main_content.questions.header} </h4>
             <p> {content.ui.about.faq_main_content.questions.text} </p>
-            <Link to="/">Go Home</Link>
           </Col>
         </Row>
       </Container>

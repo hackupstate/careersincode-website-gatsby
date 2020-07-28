@@ -18,6 +18,10 @@ import carouselStyles from "./carousel.module.css";
 
 // code for testimonial carousel taken and adapted from https://reactstrap.github.io/components/carousel/
 
+////////
+// *** COMPONENT NOT IN USE AS OF JULY 27, 2020 *** //
+///////
+
 const items = [
   {
     src: Joey,

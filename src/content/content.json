@@ -33,16 +33,19 @@
     "index_main_content_testimonials_one": {
       "image": "../images/team/dougcrescenzi.png",
       "copy": "The rise of coding bootcamps throughout the country reflects the shortage of adequately trained software developers graduating from universities and the relative demand for them from the technology sector. The reason coding bootcamps have proven effective over the years is because they provide vocational training at a fraction of the cost of a college degree.",
+      "snippet": "\"...The reason coding bootcamps have proven effective over the years is because they provide vocational training at a fraction of the cost of a college degree.\"",
       "name": "DOUG CRESCENZI, Founder"
     },
     "index_main_content_testimonials_two": {
       "image": "../images/students/kellycorey.jpg",
       "copy": "Applying for Careers in Code was one of the best decisions I've made in my entire life! Over the course of 6 months, I went from a little knowledge of HTML and CSS to a full-stack JavaScript web developer. The instructors and TAs were always willing to go out of their way to help with anything we needed throughout the duration of class. I'm thrilled I got the opportunity to train in a field that I'm passionate about and I look forward to contributing to the Syracuse tech community.",
+      "snippet": "\"Applying for Careers in Code was one of the best decisions I've made in my entire life! ...\"",
       "name": "KELLY COREY, Cohort I Graduate"
     },
     "index_main_content_testimonials_three": {
       "image": "../images/instructors/joeybuczek.jpg",
       "copy": "Being a part of this first cohort was definitely a rewarding experience! Not only did we help a group of wonderful people learn new skills to be able to advance their careers in a growing field, but we also learned a lot about how each of us could grow and contribute in more meaningful ways in the future of this program as well. There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general. I am so grateful to be a part of this endeavor, and am looking forward to seeing if this program will continue.",
+      "snippet": "\"... There was a wealth of data collected that will positively influence future cohorts, allowing this program to evolve organically along with the wants and needs of both this area and in the technology field in general.\"",
       "name": "JOEY BUCZEK, Cohort I Instructor"
     },
     "index_main_content_testimonials_button": {

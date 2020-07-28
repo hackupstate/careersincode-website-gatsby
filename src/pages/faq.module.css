@@ -1,8 +1,35 @@
+@media only screen and (max-width: 600px) {
+  .whiteContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  }
+}
+
+.whiteContainer {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+}
+
 .tabLink {
-  background-color: white;
   color: black;
 }
-.tabLink:active {
-  background-color: #c8c9e2 !important;
+
+.tabLink:visited {
+  background-color: #2299dd !important;
   color: black;
+}
+
+.infoCard {
+  margin-top: 15px;
+}
+
+.listMenu {
+  margin: 0;
+  padding-top: 15px;
 }
