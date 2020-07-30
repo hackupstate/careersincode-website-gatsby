@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px) {
+  tbody th tr td {
+    text-align: center;
+  }
+}
+
 .tableHeader {
   background-color: black;
   color: white;

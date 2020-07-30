@@ -6,7 +6,7 @@ Careers in Code is Hack Upstate’s new initiative to help advance Central New Y
 
 ## Contributing
 
-1. Clone down the code: `git clone https://github.com/hackupstate/careers-in-code-website.git`
+1. Clone down the code: `git clone https://github.com/hackupstate/careersincode-dynamic.git`
 2. When you are creating your remote origin, remember that you should NOT be using the master branch. Instead, contact Will or Jesse to has set up an individual branch. This repo utilizes pull requests for content management.
 3. Once cloned and initialized properly, try pushing a commit to your branch. In some cases, you may need to push to the HEAD, which would change your push message (ie. git push origin HEAD:dev).
 

@@ -3,9 +3,59 @@
     min-width: 200px;
   }
   .infoRowOdd {
+    margin: 0;
     display: flex;
     flex-direction: column-reverse;
+    justify-content: center;
   }
+  .infoRow {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .blueButton {
+    width: 100%;
+  }
+  .whiteContainer {
+    padding: 30px !important;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .whiteContainer {
+    padding: 30px 1100px !important;
+    margin: 0;
+  }
+}
+
+.whiteContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 30px 100px;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.blueButton {
+  margin: 0;
+  background-color: #2299dd;
+  border: 0px;
+  border-radius: 0.25rem;
+}
+
+.blueButton:hover {
+  background: rgba(34, 153, 221, 0.7);
+}
+
+.btnLink {
+  color: white;
+  text-decoration: none;
 }
 
 .imgSize {

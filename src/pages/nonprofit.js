@@ -11,7 +11,6 @@ import Project from "../images/undrawImgs/project-green.svg";
 import Collab from "../images/undrawImgs/collab-blue.svg";
 import Growth from "../images/undrawImgs/growth-green.svg";
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
 import nonprofitStyles from "./nonprofit.module.css";
 
 const NonProfit = (props) => (
@@ -29,19 +28,19 @@ const NonProfit = (props) => (
       </JumbotronComponent>
     </Header>
     <SEO title="Non-Profit" />
-    <Container fluid className={pageStyles.whiteContainer}>
+    <Container fluid className={nonprofitStyles.whiteContainer}>
       <Row className={nonprofitStyles.infoRowOdd}>
         <Col>
           <h3>{content.ui.nonprofit.nonprofit_main_content.capstone.title}</h3>
           <p>{content.ui.nonprofit.nonprofit_main_content.capstone.text}</p>
-          <Button className={pageStyles.blueButton}>
+          <Button className={nonprofitStyles.blueButton}>
             <a
               href={
                 content.ui.nonprofit.nonprofit_main_content.capstone.button.link
               }
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.btnLink}
+              className={nonprofitStyles.btnLink}
             >
               {content.ui.nonprofit.nonprofit_main_content.capstone.button.text}
             </a>
@@ -56,7 +55,7 @@ const NonProfit = (props) => (
         </Col>
       </Row>
     </Container>
-    <Container fluid className={pageStyles.whiteContainer}>
+    <Container fluid className={nonprofitStyles.whiteContainer}>
       <Row className={nonprofitStyles.infoRow}>
         <Col>
           <img
@@ -70,7 +69,7 @@ const NonProfit = (props) => (
             {content.ui.nonprofit.nonprofit_main_content.onboarding.title}
           </h3>
           <p>{content.ui.nonprofit.nonprofit_main_content.onboarding.text}</p>
-          <Button className={pageStyles.blueButton}>
+          <Button className={nonprofitStyles.blueButton}>
             <a
               href={
                 content.ui.nonprofit.nonprofit_main_content.onboarding.button
@@ -78,7 +77,7 @@ const NonProfit = (props) => (
               }
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.btnLink}
+              className={nonprofitStyles.btnLink}
             >
               {
                 content.ui.nonprofit.nonprofit_main_content.onboarding.button
@@ -89,19 +88,19 @@ const NonProfit = (props) => (
         </Col>
       </Row>
     </Container>
-    <Container fluid className={pageStyles.whiteContainer}>
+    <Container fluid className={nonprofitStyles.whiteContainer}>
       <Row className={nonprofitStyles.infoRowOdd}>
         <Col>
           <h3>{content.ui.nonprofit.nonprofit_main_content.students.title}</h3>
           <p>{content.ui.nonprofit.nonprofit_main_content.students.text}</p>
-          <Button className={pageStyles.blueButton}>
+          <Button className={nonprofitStyles.blueButton}>
             <a
               href={
                 content.ui.nonprofit.nonprofit_main_content.students.button.link
               }
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.btnLink}
+              className={nonprofitStyles.btnLink}
             >
               {content.ui.nonprofit.nonprofit_main_content.students.button.text}
             </a>

@@ -4,7 +4,7 @@ import Header from "../components/header";
 import NavComponent from "../components/nav";
 import JumbotronComponent from "../components/jumbotron";
 import SEO from "../components/seo";
-import { Container, Row } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
 
@@ -33,20 +33,32 @@ const MissionPage = () => (
     </Container>
     <Container fluid className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
-        <h3> {content.ui.about.mission_main_content.header4.title} </h3>
-        <br />
-        <h4> {content.ui.about.mission_main_content.header4.subheader1} </h4>
-        <p> {content.ui.about.mission_main_content.header4.text} </p>
-        <h4>
-          {" "}
-          {content.ui.about.mission_main_content.header4.subheader2.title}{" "}
-        </h4>
-        <p> {content.ui.about.mission_main_content.header4.subheader2.text} </p>
-        <h4>
-          {" "}
-          {content.ui.about.mission_main_content.header4.subheader3.title}{" "}
-        </h4>
-        <p> {content.ui.about.mission_main_content.header4.subheader3.text} </p>
+        <Col>
+          <h3> {content.ui.about.mission_main_content.header4.title} </h3>
+          <br />
+          <h4> {content.ui.about.mission_main_content.header4.subheader1} </h4>
+          <p> {content.ui.about.mission_main_content.header4.text} </p>
+          <h4>
+            {" "}
+            {
+              content.ui.about.mission_main_content.header4.subheader2.title
+            }{" "}
+          </h4>
+          <p>
+            {" "}
+            {content.ui.about.mission_main_content.header4.subheader2.text}{" "}
+          </p>
+          <h4>
+            {" "}
+            {
+              content.ui.about.mission_main_content.header4.subheader3.title
+            }{" "}
+          </h4>
+          <p>
+            {" "}
+            {content.ui.about.mission_main_content.header4.subheader3.text}{" "}
+          </p>
+        </Col>
       </Row>
     </Container>
   </Layout>

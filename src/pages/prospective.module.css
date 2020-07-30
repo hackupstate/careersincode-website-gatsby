@@ -14,11 +14,11 @@
     flex-direction: column;
     justify-content: center;
     min-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     height: 50%;
     padding: 0;
   }
+
   .statColumns {
     display: flex;
     flex-direction: column;
@@ -30,30 +30,22 @@
     margin-right: 0;
     padding: 0;
   }
-}
-
-/* @media only screen and (max-width: 900px) {
-  .iconBtnColumn {
-    margin-bottom: 20px;
+  .studentLinkRow {
+    padding: 0 !important;
   }
 }
-
-.iconBtnColumn {
-  margin-bottom: 20px;
-} */
 
 .statRows {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: 20px;
+  width: 40%;
 }
 
 .statColumns {
   min-height: 200px;
 }
 
-.prospectiveStats {
+.instructorStats {
   color: #c8c9e2;
   font-size: 36px;
 }
@@ -71,10 +63,25 @@
 .blueStatContainer {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 30px;
-  padding: 20px 100px 0 100px;
+  margin-bottom: 0;
+  padding: 20px 50px;
   text-align: center;
   width: 100%;
   background-color: #002333;
   color: #c8c9e2;
+}
+
+/* STUDENT LINKS */
+
+.studentLinkRow {
+  display: flex;
+  justify-content: center;
+  padding: 0 150px;
+}
+
+.studentLinkColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }

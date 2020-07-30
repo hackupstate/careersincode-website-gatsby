@@ -222,6 +222,34 @@
             "click_rate": "Click-Through Rate"
           },
           "rows": {
+            "june20": "June 2020",
+            "june20data": {
+              "link": "https://www.getdrip.com/broadcasts/415296848/06987620c3c6affbca8d4",
+              "people": "969",
+              "open_rate": "40.40%",
+              "click_rate": "4.30%"
+            },
+            "may20": "May 2020",
+            "may20data": {
+              "link": "https://www.getdrip.com/broadcasts/54448721/d4feb6834c9d8da69c6ed",
+              "people": "972",
+              "open_rate": "42.06%",
+              "click_rate": "3.92%"
+            },
+            "april20": "Apr 2020",
+            "april20data": {
+              "link": "https://www.getdrip.com/broadcasts/618912955/533118e0e7182b17af6a1",
+              "people": "979",
+              "open_rate": "40.45%",
+              "click_rate": "4.23%"
+            },
+            "march20": "Mar 2020",
+            "march20data": {
+              "link": "https://www.getdrip.com/broadcasts/273260448/306c4de50237635e380e0",
+              "people": "953",
+              "open_rate": "44.3%",
+              "click_rate": "2.88%"
+            },
             "feb20": "Feb 2020",
             "feb20data": {
               "link": "https://www.getdrip.com/broadcasts/754558476/2cd89966c14736f0f9669",
@@ -1823,7 +1851,7 @@
         },
         "banner": {
           "text": "What did our students think of Careers in Code? Read the testimonials",
-          "link": "https://careersincode.org/testimonials"
+          "link": "/testimonials"
         }
       }
     },
@@ -2191,7 +2219,7 @@
             "heading": "Objective: Engage and enchance our network effect"
           },
           "onboarding": {
-            "heading": "Objective: Create an onboarding handbook for program managers, instructors/teaching assistants, and students"
+            "heading": "Objective: Create an onboarding handbook for program managers, instructors & teaching assistants, and students"
           }
         }
       }

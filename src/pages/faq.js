@@ -41,7 +41,7 @@ const FaqPage = (props) => {
       <SEO title="FAQ" />
       <Container>
         <Row className={faqStyles.whiteContainer}>
-          <Col>
+          <Col md="4">
             <Nav vertical pills className={faqStyles.listMenu}>
               <NavItem>
                 <NavLink
@@ -116,11 +116,11 @@ const FaqPage = (props) => {
             </Nav>
           </Col>
           <Col>
-            <TabContent activeTab={activeTab}>
+            <TabContent activeTab={activeTab} className={faqStyles.answerCards}>
               {/* GENERAL */}
               <TabPane tabId="1">
                 <Row>
-                  <Col>
+                  <Col md="12">
                     <Card className={faqStyles.infoCard}>
                       <CardHeader tag="h4">
                         {" "}
@@ -317,7 +317,7 @@ const FaqPage = (props) => {
                           }{" "}
                         </CardText>
                         <CardText>
-                          <ul>
+                          <ul style={{ textAlign: "left" }}>
                             <li>
                               {" "}
                               {
