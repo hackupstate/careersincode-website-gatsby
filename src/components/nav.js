@@ -27,14 +27,14 @@ const NavComponent = () => {
         <NavbarBrand href="/" className="mr-auto">
           <img src={ComboLogo} alt="Logo" className={navStyles.brandImg} />
         </NavbarBrand>
-        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
+        <NavbarToggler onClick={toggleNavbar} className="ml-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav className={("ml-auto", navStyles.navAlignment)}>
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown nav inNavbar fluid>
               <DropdownToggle nav caret className={navStyles.navLink}>
                 About
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu left className={navStyles.dropdownDisplayInline}>
                 <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/mission/">
                     Mission

@@ -14,7 +14,7 @@ import footerStyles from "./footer.module.css";
 const Footer = (props) => {
   return (
     <footer>
-      <Row className={footerStyles.blueContainer}>
+      <Row className={footerStyles.blueContainer} noGutters>
         <Col className={footerStyles.footerEndContainer}>
           <h3 className={footerStyles.footerHeading}>
             {content.ui.footer_main_content.contact.header}

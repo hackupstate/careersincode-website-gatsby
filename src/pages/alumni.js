@@ -60,20 +60,22 @@ const AlumniPage = () => (
     <SEO title="Alumni" />
     <Container fluid className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
-        <h1>
-          {" "}
-          {
-            content.ui.students.alumni.alumni_main_content.congratulations
-              .header
-          }{" "}
-        </h1>
-        <h4>
-          {" "}
-          {
-            content.ui.students.alumni.alumni_main_content.congratulations
-              .subheader
-          }{" "}
-        </h4>
+        <Col>
+          <h1>
+            {" "}
+            {
+              content.ui.students.alumni.alumni_main_content.congratulations
+                .header
+            }{" "}
+          </h1>
+          <h4>
+            {" "}
+            {
+              content.ui.students.alumni.alumni_main_content.congratulations
+                .subheader
+            }{" "}
+          </h4>
+        </Col>
       </Row>
     </Container>
     <Container fluid className={pageStyles.marginBottom}>
