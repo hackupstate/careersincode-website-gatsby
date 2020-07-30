@@ -71,8 +71,8 @@ const Students = () => (
             </h3>
           </Col>
         </Row>
-        <Row className={pageStyles.marginBottom}>
-          <Col className={pageStyles.centerContentColumns}>
+        <Row className={studentStyles.studentLinkRow}>
+          <Col className={studentStyles.studentLinkColumn}>
             <FontAwesomeIcon icon={faListAlt} size="3x" />
             <h3>{content.ui.classroom.student_resource_links.syllabus_text}</h3>
             <Button size="md" className={pageStyles.blueButton}>
@@ -92,7 +92,7 @@ const Students = () => (
               </a>
             </Button>
           </Col>
-          <Col className={pageStyles.centerContentColumns}>
+          <Col className={studentStyles.studentLinkColumn}>
             <FontAwesomeIcon icon={faPencilRuler} size="3x" />
             <h3>
               {" "}
@@ -120,8 +120,8 @@ const Students = () => (
             </Button>
           </Col>
         </Row>
-        <Row>
-          <Col className={pageStyles.centerContentColumns}>
+        <Row className={studentStyles.studentLinkRow}>
+          <Col className={studentStyles.studentLinkColumn}>
             <FontAwesomeIcon icon={faMountain} size="3x" />
             <h3>
               {" "}
@@ -145,7 +145,7 @@ const Students = () => (
               </a>
             </Button>
           </Col>
-          <Col className={pageStyles.centerContentColumns}>
+          <Col className={studentStyles.studentLinkColumn}>
             <FontAwesomeIcon icon={faToolbox} size="3x" />
             <h3>
               {content.ui.classroom.student_resource_links.resources_text}

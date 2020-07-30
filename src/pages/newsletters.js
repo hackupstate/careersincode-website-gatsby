@@ -55,6 +55,155 @@ const NewslettersPage = () => (
             </tr>
           </thead>
           <tbody>
+            {/* JUNE 2020 */}
+            <tr>
+              <th scope="row">
+                {" "}
+                <a
+                  href={
+                    content.ui.about.newsletter_main_content.table.rows
+                      .june20data.link
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  {
+                    content.ui.about.newsletter_main_content.table.rows.june20
+                  }{" "}
+                </a>
+              </th>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows.june20data
+                    .people
+                }
+              </td>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows.june20data
+                    .open_rate
+                }
+              </td>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows.june20data
+                    .click_rate
+                }
+              </td>
+            </tr>
+            {/* MAY 2020 */}
+            <tr>
+              <th scope="row">
+                {" "}
+                <a
+                  href={
+                    content.ui.about.newsletter_main_content.table.rows
+                      .may20data.link
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  {
+                    content.ui.about.newsletter_main_content.table.rows.may20
+                  }{" "}
+                </a>
+              </th>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows.may20data
+                    .people
+                }
+              </td>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows.may20data
+                    .open_rate
+                }
+              </td>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows.may20data
+                    .click_rate
+                }
+              </td>
+            </tr>
+            {/* APRIL 2020 */}
+            <tr>
+              <th scope="row">
+                {" "}
+                <a
+                  href={
+                    content.ui.about.newsletter_main_content.table.rows
+                      .april20data.link
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  {
+                    content.ui.about.newsletter_main_content.table.rows.april20
+                  }{" "}
+                </a>
+              </th>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows
+                    .april20data.people
+                }
+              </td>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows
+                    .april20data.open_rate
+                }
+              </td>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows
+                    .april20data.click_rate
+                }
+              </td>
+            </tr>
+            {/* MARCH 2020 */}
+            <tr>
+              <th scope="row">
+                {" "}
+                <a
+                  href={
+                    content.ui.about.newsletter_main_content.table.rows
+                      .march20data.link
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  {
+                    content.ui.about.newsletter_main_content.table.rows.march20
+                  }{" "}
+                </a>
+              </th>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows
+                    .march20data.people
+                }
+              </td>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows
+                    .march20data.open_rate
+                }
+              </td>
+              <td>
+                {
+                  content.ui.about.newsletter_main_content.table.rows
+                    .march20data.click_rate
+                }
+              </td>
+            </tr>
+            {/* FEB 2020 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -91,6 +240,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* JAN 2020 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -127,6 +277,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* DEC 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -163,6 +314,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* NOV 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -199,6 +351,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* OCT 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -235,6 +388,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* SEP 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -271,6 +425,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* AUG 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -307,6 +462,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* JULY 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -343,6 +499,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* JUNE 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -379,6 +536,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* MAY 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -415,6 +573,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* APRIL 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -451,6 +610,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* MARCH 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -487,6 +647,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* FEB 2019 */}
             <tr>
               <th scope="row">
                 {" "}
@@ -523,6 +684,7 @@ const NewslettersPage = () => (
                 }
               </td>
             </tr>
+            {/* JAN 2019 */}
             <tr>
               <th scope="row">
                 {" "}

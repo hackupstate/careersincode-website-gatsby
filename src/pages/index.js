@@ -167,19 +167,23 @@ const IndexPage = (props) => (
           </Col>
         </CardDeck>
       </Row>
+
+      <Row className={testimonialStyles.buttonRow}>
+        <Col>
+          <Button size="md" className={testimonialStyles.blueButton}>
+            <a
+              href={content.ui.index_main_content_testimonials_button.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={testimonialStyles.btnLink}
+            >
+              {content.ui.index_main_content_testimonials_button.copy}
+            </a>
+          </Button>
+        </Col>
+      </Row>
     </Container>
-    <Container fluid className={testimonialStyles.blueContainer}>
-      <Button size="md" className={testimonialStyles.blueButton}>
-        <a
-          href={content.ui.index_main_content_testimonials_button.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={testimonialStyles.btnLink}
-        >
-          {content.ui.index_main_content_testimonials_button.copy}
-        </a>
-      </Button>
-    </Container>
+
     <BottomRowContainer />
   </Layout>
 );

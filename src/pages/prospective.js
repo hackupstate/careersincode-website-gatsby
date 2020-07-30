@@ -72,17 +72,15 @@ const ProspectivePage = () => (
         </Col>
       </Row>
     </Container>
-    <Container fluid className={pageStyles.marginBottom}>
-      <Row className={pageStyles.centerText}>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row>
         <Col>
           <sup>{content.ui.classroom.students_stats.footnote_1_super}</sup>
           <a href={content.ui.classroom.students_stats.footnote_1_link}>
             {content.ui.classroom.students_stats.footnote_1_name}
           </a>
-        </Col>
-      </Row>
-      <Row className={pageStyles.centerText}>
-        <Col>
+          <br />
+          <br />
           <sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
           <a href={content.ui.classroom.students_stats.footnote_2_link}>
             {content.ui.classroom.students_stats.footnote_2_name}
@@ -110,12 +108,9 @@ const ProspectivePage = () => (
         </Col>
       </Row>
     </Container>
-    <Container
-      fluid
-      className={(pageStyles.marginBottom, pageStyles.containerStyles)}
-    >
-      <Row className={pageStyles.marginBottom}>
-        <Col className={pageStyles.centerContentColumns}>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={prospectiveStyles.studentLinkRow}>
+        <Col className={prospectiveStyles.studentLinkColumn}>
           <FontAwesomeIcon icon={faGraduationCap} size="3x" />
           <h3>{content.ui.classroom.student_resource_links.cohort1_text}</h3>
           <Button size="md" className={pageStyles.blueButton}>
@@ -131,7 +126,7 @@ const ProspectivePage = () => (
             </a>
           </Button>
         </Col>
-        <Col className={pageStyles.centerContentColumns}>
+        <Col className={prospectiveStyles.studentLinkColumn}>
           <FontAwesomeIcon icon={faUserCheck} size="3x" />
           <h3>
             {" "}

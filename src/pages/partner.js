@@ -68,11 +68,8 @@ const PartnerPage = () => (
         </Col>
       </Row>
     </Container>
-    <Container
-      fluid
-      className={(pageStyles.marginBottom, pageStyles.containerStyles)}
-    >
-      <Row className={(pageStyles.centerText, pageStyles.marginBottom)}>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={pageStyles.pageHeadings}>
         <h2>{content.ui.partners.partners_logos.title}</h2>
       </Row>
       <Row className={pageStyles.centerItems}>

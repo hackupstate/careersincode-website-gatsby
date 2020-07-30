@@ -140,22 +140,18 @@ const InstructorsPage = () => (
       <Row className={instructorStyles.actionRows}>
         <Col className={instructorStyles.actionColumns}>
           <h3>
-            {" "}
             {
               content.ui.instructors.instructor_main_content.buttons.instructor
                 .header
-            }{" "}
+            }
           </h3>
           <p>
-            {" "}
             {
               content.ui.instructors.instructor_main_content.buttons.instructor
                 .text
-            }{" "}
+            }
           </p>
-        </Col>
-        <Col className={instructorStyles.actionColumns}>
-          <Button className={pageStyles.greenButton}>
+          <Button className={instructorStyles.greenButton}>
             <a
               href={
                 content.ui.instructors.instructor_main_content.buttons
@@ -163,7 +159,7 @@ const InstructorsPage = () => (
               }
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.greenBtnLink}
+              className={instructorStyles.greenBtnLink}
             >
               {
                 content.ui.instructors.instructor_main_content.buttons
@@ -171,8 +167,7 @@ const InstructorsPage = () => (
               }
             </a>
           </Button>
-          <br />
-          <Button className={pageStyles.greenButton}>
+          <Button className={instructorStyles.greenButton}>
             <a
               href={
                 content.ui.instructors.instructor_main_content.buttons
@@ -180,7 +175,7 @@ const InstructorsPage = () => (
               }
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.greenBtnLink}
+              className={instructorStyles.greenBtnLink}
             >
               {
                 content.ui.instructors.instructor_main_content.buttons
@@ -188,8 +183,7 @@ const InstructorsPage = () => (
               }
             </a>
           </Button>
-          <br />
-          <Button className={pageStyles.greenButton}>
+          <Button className={instructorStyles.greenButton}>
             <a
               href={
                 content.ui.instructors.instructor_main_content.buttons
@@ -197,7 +191,7 @@ const InstructorsPage = () => (
               }
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.greenBtnLink}
+              className={instructorStyles.greenBtnLink}
             >
               {
                 content.ui.instructors.instructor_main_content.buttons
@@ -206,8 +200,7 @@ const InstructorsPage = () => (
             </a>
           </Button>
         </Col>
-      </Row>
-      <Row className={instructorStyles.actionRows}>
+
         <Col className={instructorStyles.actionColumns}>
           <h3>
             {" "}
@@ -221,9 +214,8 @@ const InstructorsPage = () => (
               content.ui.instructors.instructor_main_content.buttons.ta.text
             }{" "}
           </p>
-        </Col>
-        <Col className={instructorStyles.actionColumns}>
-          <Button className={pageStyles.greenButton}>
+
+          <Button className={instructorStyles.greenButton}>
             <a
               href={
                 content.ui.instructors.instructor_main_content.buttons.ta.apply
@@ -231,7 +223,7 @@ const InstructorsPage = () => (
               }
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.greenBtnLink}
+              className={instructorStyles.greenBtnLink}
             >
               {
                 content.ui.instructors.instructor_main_content.buttons.ta.apply
@@ -239,8 +231,8 @@ const InstructorsPage = () => (
               }
             </a>
           </Button>
-          <br />
-          <Button className={pageStyles.greenButton}>
+
+          <Button className={instructorStyles.greenButton}>
             <a
               href={
                 content.ui.instructors.instructor_main_content.buttons.ta
@@ -248,7 +240,7 @@ const InstructorsPage = () => (
               }
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.greenBtnLink}
+              className={instructorStyles.greenBtnLink}
             >
               {
                 content.ui.instructors.instructor_main_content.buttons.ta
@@ -256,8 +248,8 @@ const InstructorsPage = () => (
               }
             </a>
           </Button>
-          <br />
-          <Button className={pageStyles.greenButton}>
+
+          <Button className={instructorStyles.greenButton}>
             <a
               href={
                 content.ui.instructors.instructor_main_content.buttons.ta
@@ -265,7 +257,7 @@ const InstructorsPage = () => (
               }
               target="_blank"
               rel="noopener noreferrer"
-              className={pageStyles.greenBtnLink}
+              className={instructorStyles.greenBtnLink}
             >
               {
                 content.ui.instructors.instructor_main_content.buttons.ta
@@ -278,6 +270,7 @@ const InstructorsPage = () => (
     </Container>
 
     {/* INSTRUCTOR CARDS */}
+
     <Row className={pageStyles.pageHeadings}>
       <h2>
         {
@@ -286,6 +279,7 @@ const InstructorsPage = () => (
         }
       </h2>
     </Row>
+
     <Container
       fluid
       className={
@@ -1756,12 +1750,7 @@ const InstructorsPage = () => (
       </h2>
     </Row>
 
-    <Container
-      fluid
-      className={
-        (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
-      }
-    >
+    <Container fluid className={instructorStyles.instructorCardContainer}>
       <Row className={instructorStyles.instructorCardRow}>
         <CardDeck>
           {/* jennifer tran */}

@@ -1,6 +1,8 @@
 @media only screen and (max-width: 600px) {
   .tableContainer {
     margin: 0;
+    width: 100%;
+    padding: 40px !important;
   }
 }
 

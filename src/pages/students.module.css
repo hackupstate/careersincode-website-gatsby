@@ -2,8 +2,23 @@
   .iconBtnColumn {
     margin-bottom: 20px;
   }
+  .studentLinkRow {
+    padding: 0 !important;
+  }
 }
 
 .iconBtnColumn {
   margin-bottom: 20px;
+}
+
+.studentLinkRow {
+  display: flex;
+  justify-content: center;
+}
+
+.studentLinkColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }

@@ -4,19 +4,21 @@
     justify-content: center;
     flex-direction: column;
     min-width: 100%;
-    height: 1120px;
+    height: 1100px;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
   }
   .statRows {
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-width: 100%;
+    margin: 0;
     height: 50%;
+    padding: 0;
   }
+
   .statColumns {
     display: flex;
     flex-direction: column;
@@ -24,14 +26,16 @@
     align-items: center;
     min-width: 100%;
     margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
   }
 }
 
 .statRows {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: 20px;
+  width: 40%;
 }
 
 .statColumns {
@@ -56,8 +60,8 @@
 .blueStatContainer {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 30px;
-  padding: 20px 100px 0 100px;
+  margin-bottom: 0;
+  padding: 20px 50px;
   text-align: center;
   width: 100%;
   background-color: #002333;

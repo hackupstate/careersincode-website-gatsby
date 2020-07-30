@@ -12,6 +12,9 @@
     min-width: 100%;
     margin: 0;
   }
+  .infoText {
+    height: auto;
+  }
 }
 
 .blueContainer {
@@ -71,6 +74,10 @@
 }
 
 .btnLink {
+  color: white;
+  text-decoration: none;
+}
+.btnLink:hover {
   color: white;
   text-decoration: none;
 }

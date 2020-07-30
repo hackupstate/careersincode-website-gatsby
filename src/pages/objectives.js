@@ -25,7 +25,7 @@ const Objectives = () => (
     </Header>
     <SEO title="Objectives" />
     <Container fluid>
-      <Row className={pageStyles.whiteContainer}>
+      <Row className={pageStyles.pageHeadings}>
         <Col>
           <Button className={pageStyles.blueButton}>
             <a
@@ -41,7 +41,9 @@ const Objectives = () => (
           </Button>
         </Col>
       </Row>
-      <Row className={pageStyles.whiteContainer}>
+    </Container>
+    <Container fluid>
+      <Row className={pageStyles.pageHeadings}>
         <Col>
           <h2>
             {
