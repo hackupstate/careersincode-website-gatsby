@@ -87,7 +87,7 @@ const NavComponent = () => {
               <DropdownToggle nav caret className={navStyles.navLink}>
                 Classroom
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu left>
                 <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink
                     className={navStyles.dropdownLink}
