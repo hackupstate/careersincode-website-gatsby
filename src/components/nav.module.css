@@ -16,11 +16,16 @@
   padding: 0.25rem 0.9rem;
   color: white;
 }
-
+.navLink::after {
+  display: inline-block;
+}
 .navLink:hover {
   color: #2299dd;
 }
 
+.dropdownDisplayInline::after {
+  display: inline-block;
+}
 .dropdownItem {
   padding: 0;
 }
