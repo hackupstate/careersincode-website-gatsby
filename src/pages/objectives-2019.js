@@ -87,7 +87,7 @@ const Objectives2019 = () => (
     {/** BARRIER CARDS **/}
     <Container fluid>
       <Row className={objectivesStyles.infoCardRow}>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {
@@ -117,7 +117,7 @@ const Objectives2019 = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {
@@ -147,7 +147,7 @@ const Objectives2019 = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {
@@ -179,7 +179,7 @@ const Objectives2019 = () => (
         </Col>
       </Row>
       <Row className={objectivesStyles.infoCardRow}>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {
@@ -209,7 +209,7 @@ const Objectives2019 = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {
@@ -261,7 +261,7 @@ const Objectives2019 = () => (
     {/** GRADUATION CARDS **/}
     <Container fluid>
       <Row className={objectivesStyles.infoCardRow}>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusYellow}>
               {
@@ -291,7 +291,7 @@ const Objectives2019 = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusYellow}>
               {
@@ -343,7 +343,7 @@ const Objectives2019 = () => (
     {/** JOBS CARDS **/}
     <Container fluid>
       <Row className={objectivesStyles.infoCardRow}>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusYellow}>
               {
@@ -373,7 +373,7 @@ const Objectives2019 = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {
@@ -431,7 +431,7 @@ const Objectives2019 = () => (
     {/** EVENTS CARDS **/}
     <Container fluid>
       <Row className={objectivesStyles.infoCardRow}>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {
@@ -461,7 +461,7 @@ const Objectives2019 = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {
@@ -493,7 +493,7 @@ const Objectives2019 = () => (
         </Col>
       </Row>
       <Row className={objectivesStyles.infoCardRow}>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {
@@ -523,7 +523,7 @@ const Objectives2019 = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {
@@ -575,7 +575,7 @@ const Objectives2019 = () => (
     {/** COMMUNITY CARDS **/}
     <Container fluid>
       <Row className={objectivesStyles.infoCardRow}>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {" "}
@@ -606,7 +606,7 @@ const Objectives2019 = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {" "}
@@ -637,7 +637,7 @@ const Objectives2019 = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {" "}
@@ -690,7 +690,7 @@ const Objectives2019 = () => (
     {/** PARTNERSHIPS CARDS **/}
     <Container fluid>
       <Row className={objectivesStyles.infoCardRow}>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {" "}
@@ -778,7 +778,7 @@ const Objectives2019 = () => (
             </CardBody>
           </Card>
         </Col>
-        <Col sm="3" className={objectivesStyles.columnStyle}>
+        <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
             <CardHeader className={objectivesStyles.cardStatusGreen}>
               {" "}
