@@ -1761,11 +1761,11 @@
         "subheading": "Our first cohort of Careers in Code started on March, 11 2019 and ended on August 22, 2019. Classes were held Monday through Thursday, 5:30pm to 8:30pm at the Technology Garden in Syracuse, NY. Learn more about our job placement and student experience after graduation.",
         "button": {
           "outcomes_text": "View Outcomes Report",
-          "outcomes_link": "https://careersincode.org/assets/files/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf",
+          "outcomes_link": "../files/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf",
           "consolidated_text": "View Consolidated Outcomes",
-          "consolidated_link": "https://careersincode.org/assets/files/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf",
+          "consolidated_link": "../files/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf",
           "transparency_text": "View Transparency Report",
-          "transparency_link": "https://careersincode.org/assets/files/Careers-in-Code-Transparency-Report-Cohort-1.pdf"
+          "transparency_link": "../files/Careers-in-Code-Transparency-Report-Cohort-1.pdf"
         }
       },
       "outcomes_main_content": {
