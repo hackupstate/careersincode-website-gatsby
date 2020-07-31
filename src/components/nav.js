@@ -67,6 +67,16 @@ const NavComponent = () => {
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem className={navStyles.dropdownItem}>
+                  <NavLink className={navStyles.dropdownLink} href="/alumni/">
+                  Alumni
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
+                  <NavLink className={navStyles.dropdownLink} href="/speakers/">
+                    Guest Speakers
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/faq/">
                     FAQ
                   </NavLink>
@@ -74,18 +84,13 @@ const NavComponent = () => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/alumni/" className={navStyles.navLink}>
-                Alumni
-              </NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink href="/instructors/" className={navStyles.navLink}>
                 Instructors & TA's
               </NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret className={navStyles.navLink}>
-                Classroom
+                Students
               </DropdownToggle>
               <DropdownMenu left>
                 <DropdownItem className={navStyles.dropdownItem}>
@@ -99,11 +104,6 @@ const NavComponent = () => {
                 <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/students/">
                     Current Students
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem className={navStyles.dropdownItem}>
-                  <NavLink className={navStyles.dropdownLink} href="/speakers/">
-                    Speakers
                   </NavLink>
                 </DropdownItem>
                 {/* <DropdownItem>
