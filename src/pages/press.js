@@ -6,8 +6,6 @@ import JumbotronComponent from "../components/jumbotron";
 import SEO from "../components/seo";
 import { Container, Row, Col, Button } from "reactstrap";
 
-// import PressKitZip from "../files/CareersinCodePressKit";
-
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
 import pressStyles from "./press.module.css";
@@ -67,7 +65,7 @@ const PressPage = () => (
           </p>
           <Button className={pressStyles.pageButtons} color="info">
             <a
-              href={content.ui.about.press_main_content.logos.action}
+              href={"/CareersinCodePressKit.zip"}
               className={pressStyles.btnLink}
               download
             >
