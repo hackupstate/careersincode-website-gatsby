@@ -6,7 +6,6 @@ import JumbotronComponent from "../components/jumbotron";
 import JumboButton from "../components/jumbobutton";
 import SEO from "../components/seo";
 import { Container, Row, Button, Col } from "reactstrap";
-import jumboPDF from "../files/Community Foundation Presentation - Friday Mar 21, 2019.pdf";
 import Project from "../images/undrawImgs/project-green.svg";
 import Collab from "../images/undrawImgs/collab-blue.svg";
 import Growth from "../images/undrawImgs/growth-green.svg";
@@ -22,7 +21,7 @@ const NonProfit = (props) => (
         subheading={content.ui.nonprofit.nonprofit_jumbotron.subheading}
       >
         <JumboButton
-          btnLink={jumboPDF}
+          btnLink={"/Community Foundation Presentation - Friday Mar 21, 2019.pdf"}
           btnText={content.ui.nonprofit.nonprofit_jumbotron.button.text}
         />
       </JumbotronComponent>

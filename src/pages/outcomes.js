@@ -54,7 +54,7 @@ const OutcomesPage = () => (
           btnText={content.ui.outcomes.outcomes_jumbotron.button.outcomes_text}
         />
         <JumboButton
-          btnLink={"Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf"}
+          btnLink={"/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf"}
           btnText={
             content.ui.outcomes.outcomes_jumbotron.button.consolidated_text
           }
