@@ -14,8 +14,8 @@ const Objectives = () => (
     <Header>
       <NavComponent />
       <JumbotronComponent
-        heading={content.ui.index_jumbotron.heading}
-        subheading={content.ui.index_jumbotron.subheading}
+        heading={"2020 Objectives (Under Construction)"}
+        subheading={"Hack Upstate’s vision is to grow and scale Careers in Code in order to provide free computer programming education to help place hundreds of women and minorities fighting poverty that are unemployed, underemployed, or underprivileged individuals, with local employers across Central and Upstate NY."}
       >
         <JumboButton
           btnLink={content.ui.index_jumbotron.button1.link}

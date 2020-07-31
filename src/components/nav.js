@@ -103,6 +103,23 @@ const NavComponent = () => {
                 Outcomes
               </NavLink>
             </NavItem>
+            <UncontrolledDropdown nav inNavbar fluid>
+              <DropdownToggle nav caret className={navStyles.navLink}>
+                Objectives
+              </DropdownToggle>
+              <DropdownMenu left className={navStyles.dropdownDisplayInline}>
+                <DropdownItem className={navStyles.dropdownItem}>
+                  <NavLink className={navStyles.dropdownLink} href="/objectives-2019/">
+                    2019 Objectives
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
+                  <NavLink className={navStyles.dropdownLink} href="/objectives/">
+                    2020 Objectives (coming soon)
+                  </NavLink>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             <NavItem>
               <NavLink href="/contact/" className={navStyles.navLink}>
                 Contact
