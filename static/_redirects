@@ -2,7 +2,7 @@
 # /assets/files / 301!
 
 # Attempt 2
-https://careersincode.org/assets/files/ https://careersincode.org/ 301!
+https://careersincode.org/assets/files/* https://careersincode.org/:splat 301!
 
 # Redirect default Netlify subdomain to primary domain
 http://careersincode.netlify.app/* http://careersincode.org/:splat 301!
