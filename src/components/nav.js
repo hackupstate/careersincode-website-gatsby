@@ -88,31 +88,11 @@ const NavComponent = () => {
                 Instructors & TA's
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret className={navStyles.navLink}>
+            <NavItem>
+              <NavLink href="/students/" className={navStyles.navLink}>
                 Students
-              </DropdownToggle>
-              <DropdownMenu left>
-                <DropdownItem className={navStyles.dropdownItem}>
-                  <NavLink
-                    className={navStyles.dropdownLink}
-                    href="/prospective/"
-                  >
-                    Prospective Students
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem className={navStyles.dropdownItem}>
-                  <NavLink className={navStyles.dropdownLink} href="/students/">
-                    Current Students
-                  </NavLink>
-                </DropdownItem>
-                {/* <DropdownItem>
-                <NavLink className={navStyles.dropdownLink} href="/schedule/">
-                  Schedule
-                </NavLink>
-              </DropdownItem> */}
-              </DropdownMenu>
-            </UncontrolledDropdown>
+              </NavLink>
+            </NavItem>
             <NavItem>
               <NavLink href="/partner/" className={navStyles.navLink}>
                 Partners

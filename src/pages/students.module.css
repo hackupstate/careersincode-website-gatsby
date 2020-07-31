@@ -1,15 +1,78 @@
 @media only screen and (max-width: 900px) {
+  .blueStatContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 100%;
+    height: 1100px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+  .statRows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+    margin: 0;
+    height: 50%;
+    padding: 0;
+  }
+
+  .statColumns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 100%;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
   .iconBtnColumn {
     margin-bottom: 20px;
   }
-  .studentLinkRow {
-    padding: 0 !important;
-  }
 }
 
-.iconBtnColumn {
-  margin-bottom: 20px;
+.statRows {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
+
+.statColumns {
+  min-height: 200px;
+}
+
+.instructorStats {
+  color: #c8c9e2;
+  font-size: 36px;
+}
+
+.blueParaStats {
+  color: #2299dd;
+  font-size: 18px;
+}
+
+.greenParaStats {
+  color: #2de187;
+  font-size: 18px;
+}
+
+.blueStatContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+  padding: 20px 50px;
+  text-align: center;
+  width: 100%;
+  background-color: #002333;
+  color: #c8c9e2;
+}
+
+/* STUDENT LINKS */
 
 .studentLinkRow {
   display: flex;
