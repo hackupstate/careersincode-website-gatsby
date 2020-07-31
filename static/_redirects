@@ -1,7 +1,7 @@
 # Redirect the PDFS in /assets/files to the new /static folder. Not sure if this is / or /static - We'll find out!
-# /assets/files / 301!
+/assets/files/* /:splat 301!
 
-# Attempt 2
+# Attempt 2 - This works
 https://careersincode.org/assets/files/* https://careersincode.org/:splat 301!
 
 # Redirect default Netlify subdomain to primary domain
