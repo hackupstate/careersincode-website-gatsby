@@ -1,2 +1,2 @@
 # Redirect the PDFS in /assets/files to the new /static folder. Not sure if this is / or /static - We'll find out!
-/assets/files /
+/assets/files /static
