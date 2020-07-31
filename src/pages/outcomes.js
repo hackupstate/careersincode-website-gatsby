@@ -33,10 +33,6 @@ import Terakeet from "../images/companies/terakeet.jpg";
 import Gypsum from "../images/companies/gypsum.jpg";
 import Raymour from "../images/companies/raymour.jpg";
 
-import FinalOutcomesReport from "../files/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf";
-import ConsolidatedReport from "../files/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf";
-import TransparencyReport from "../files/Careers-in-Code-Transparency-Report-Cohort-1.pdf";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -54,17 +50,17 @@ const OutcomesPage = () => (
         subheading={content.ui.outcomes.outcomes_jumbotron.subheading}
       >
         <JumboButton
-          btnLink={FinalOutcomesReport}
+          btnLink={"/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf"}
           btnText={content.ui.outcomes.outcomes_jumbotron.button.outcomes_text}
         />
         <JumboButton
-          btnLink={ConsolidatedReport}
+          btnLink={"Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf"}
           btnText={
             content.ui.outcomes.outcomes_jumbotron.button.consolidated_text
           }
         />
         <JumboButton
-          btnLink={TransparencyReport}
+          btnLink={"/Careers-in-Code-Transparency-Report-Cohort-1.pdf"}
           btnText={
             content.ui.outcomes.outcomes_jumbotron.button.transparency_text
           }
