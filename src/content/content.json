@@ -137,7 +137,7 @@
           "header": "Logos & Marketing",
           "text": "Use the button below to download our press media kit in a zip-file format. This contains relevant Careers in Code logos & brand materials for news / media outlets to use.",
           "button": "Download",
-          "action": "../assets/CareersinCodePressKit.zip"
+          "action": "../files/CareersinCodePressKit.zip"
         },
         "presentation": {
           "header": "Presentation",
@@ -1309,11 +1309,11 @@
       "more_links": {
         "header": "More Links",
         "conduct": {
-          "link": "http://hackupstate.com/conduct.html",
+          "link": "https://hackupstate.com/conduct",
           "text": "Code of Conduct"
         },
         "privacy": {
-          "link": "http://hackupstate.com/privacy.html",
+          "link": "https://hackupstate.com/privacy",
           "text": "Privacy Policy"
         }
       }

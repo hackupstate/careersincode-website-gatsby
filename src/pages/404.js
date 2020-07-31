@@ -21,15 +21,18 @@ const NotFoundPage = (props) => (
       />
     </Header>
     <SEO title="Home" />
-    <Container fluid className={pageStyles.pageContentContainer}>
-      <FontAwesomeIcon icon={faCode} size="5x" />
-    </Container>
-    <Container fluid className={pageStyles.pageContentContainer}>
-      <Row className={pageStyles.whiteContainer}>
-        <h2>Sorry, we can't find the page you're looking for.</h2>
-        <p>
-          Click <a href="/">here</a> to go back to the home page.
-        </p>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={pageStyles.pageHeadings}>
+        <FontAwesomeIcon icon={faCode} size="5x" />
+      </Row>
+
+      <Row className={pageStyles.pageHeadings}>
+        <Col>
+          <h2>Sorry, we can't find the page you're looking for.</h2>
+          <p>
+            Click <a href="/">here</a> to go back to the home page.
+          </p>
+        </Col>
       </Row>
     </Container>
   </Layout>
