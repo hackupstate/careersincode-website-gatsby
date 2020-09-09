@@ -29,6 +29,7 @@ import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
 import bannerStyles from "../components/banner.module.css";
 import testimonialStyles from "./testimonials.module.css";
+import cirrLogo from "../images/partners/cirr_50.png";
 
 const IndexPage = (props) => (
   <Layout>
@@ -178,6 +179,27 @@ const IndexPage = (props) => (
               className={testimonialStyles.btnLink}
             >
               {content.ui.index_main_content_testimonials_button.copy}
+            </a>
+          </Button>
+        </Col>
+      </Row>
+    </Container>
+
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={bannerStyles.bannerWhite}>
+        <Col className={pageStyles.centerText}>
+          <img src={cirrLogo} alt="CIRR Logo"></img>
+          <h3>Graduate Outcomes You Can Trust</h3>
+          <p>We graduated 11 students on August 22, 2019. 7 of 11 of our graduates have been placed in in-field internships, entry level positions, or consulting arrangements with an average salary increase of ~56%.</p>
+          <p>As a CIRR certified school, we fully offer transparent results. CIRR is the industry standard for placement stats and we are commited to publishing trustworthy graduate outcomes.</p>
+          <Button size="md" className={testimonialStyles.blueButton}>
+            <a
+              href="https://cirr.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={testimonialStyles.btnLink}
+            >
+              View CIRR Standards
             </a>
           </Button>
         </Col>
