@@ -112,8 +112,7 @@ const OutcomesPage = () => (
                     }
                   </p>
                 </CardText>
-                <Button size="sm" color="info">
-                  <a
+                <a
                     href={
                       content.ui.outcomes.outcomes_main_content.cards.eva.button
                         .link
@@ -122,12 +121,13 @@ const OutcomesPage = () => (
                     rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
+                <Button size="sm" color="info">
                     {
                       content.ui.outcomes.outcomes_main_content.cards.eva.button
                         .text
                     }
-                  </a>
                 </Button>
+                </a>
               </CardBody>
             </Card>
           </Col>
@@ -161,8 +161,7 @@ const OutcomesPage = () => (
                     }
                   </p>
                 </CardText>
-                <Button size="sm" color="info">
-                  <a
+                <a
                     href={
                       content.ui.outcomes.outcomes_main_content.cards.kelly
                         .button.link
@@ -171,12 +170,13 @@ const OutcomesPage = () => (
                     rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
+                <Button size="sm" color="info">
                     {
                       content.ui.outcomes.outcomes_main_content.cards.kelly
                         .button.text
                     }
-                  </a>
                 </Button>
+                </a>
               </CardBody>
             </Card>
           </Col>
@@ -210,8 +210,7 @@ const OutcomesPage = () => (
                     }
                   </p>
                 </CardText>
-                <Button size="sm" color="info">
-                  <a
+                <a
                     href={
                       content.ui.outcomes.outcomes_main_content.cards.dana
                         .button.link
@@ -220,12 +219,13 @@ const OutcomesPage = () => (
                     rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
+                <Button size="sm" color="info">
                     {
                       content.ui.outcomes.outcomes_main_content.cards.dana
                         .button.text
                     }
-                  </a>
                 </Button>
+                </a>
               </CardBody>
             </Card>
           </Col>
@@ -259,8 +259,7 @@ const OutcomesPage = () => (
                     }
                   </p>
                 </CardText>
-                <Button size="sm" color="info">
-                  <a
+                <a
                     href={
                       content.ui.outcomes.outcomes_main_content.cards.elizabeth
                         .button.link
@@ -269,12 +268,13 @@ const OutcomesPage = () => (
                     rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
+                <Button size="sm" color="info">
                     {
                       content.ui.outcomes.outcomes_main_content.cards.elizabeth
                         .button.text
                     }
-                  </a>
                 </Button>
+                </a>
               </CardBody>
             </Card>
           </Col>
@@ -313,8 +313,7 @@ const OutcomesPage = () => (
                     }
                   </p>
                 </CardText>
-                <Button size="sm" color="info">
-                  <a
+                <a
                     href={
                       content.ui.outcomes.outcomes_main_content.cards.dakir
                         .button.link
@@ -323,12 +322,13 @@ const OutcomesPage = () => (
                     rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
+                <Button size="sm" color="info">
                     {
                       content.ui.outcomes.outcomes_main_content.cards.dakir
                         .button.text
                     }
-                  </a>
                 </Button>
+                </a>
               </CardBody>
             </Card>
           </Col>
@@ -362,8 +362,7 @@ const OutcomesPage = () => (
                     }
                   </p>
                 </CardText>
-                <Button size="sm" color="info">
-                  <a
+                <a
                     href={
                       content.ui.outcomes.outcomes_main_content.cards.karin
                         .button.link
@@ -372,12 +371,13 @@ const OutcomesPage = () => (
                     rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
+                <Button size="sm" color="info">
                     {
                       content.ui.outcomes.outcomes_main_content.cards.karin
                         .button.text
                     }
-                  </a>
                 </Button>
+                </a>
               </CardBody>
             </Card>
           </Col>
@@ -411,8 +411,7 @@ const OutcomesPage = () => (
                     }
                   </p>
                 </CardText>
-                <Button size="sm" color="info">
-                  <a
+                <a
                     href={
                       content.ui.outcomes.outcomes_main_content.cards.kaitlyn
                         .button.link
@@ -421,12 +420,13 @@ const OutcomesPage = () => (
                     rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
+                <Button size="sm" color="info">
                     {
                       content.ui.outcomes.outcomes_main_content.cards.kaitlyn
                         .button.text
                     }
-                  </a>
                 </Button>
+                </a>
               </CardBody>
             </Card>
           </Col>
@@ -550,16 +550,16 @@ const OutcomesPage = () => (
           <h3>Graduate Outcomes You Can Trust</h3>
           <p>We graduated 11 students on August 22, 2019. 7 of 11 of our graduates have been placed in in-field internships, entry level positions, or consulting arrangements with an average salary increase of ~56%.</p>
           <p>As a CIRR certified school, we fully offer transparent results. CIRR is the industry standard for placement stats and we are commited to publishing trustworthy graduate outcomes.</p>
-          <Button size="md" className={testimonialStyles.blueButton}>
-            <a
+          <a
               href="https://cirr.org/"
               target="_blank"
               rel="noopener noreferrer"
               className={testimonialStyles.btnLink}
             >
+          <Button size="md" className={testimonialStyles.blueButton}>
               View CIRR Standards
-            </a>
           </Button>
+          </a>
         </Col>
       </Row>
     </Container>

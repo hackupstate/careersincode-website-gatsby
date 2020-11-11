@@ -12,14 +12,14 @@ const BottomRowContainer = (props) => {
           {content.ui.index_main_content_bottom_row_container_one.title}{" "}
         </h3>
         <p>{content.ui.index_main_content_bottom_row_container_one.copy}</p>
-        <Button size="md" className={bottomRowStyles.whiteButton}>
-          <a
+        <a
             href={content.ui.index_main_content_bottom_row_container_one.link}
             className={bottomRowStyles.btnLinkBlue}
           >
+        <Button size="md" className={bottomRowStyles.whiteButton}>
             {content.ui.index_main_content_bottom_row_container_one.button}
-          </a>
         </Button>
+        </a>
       </Col>
       <Col className={bottomRowStyles.whiteBox}>
         <h3>
@@ -27,15 +27,14 @@ const BottomRowContainer = (props) => {
           {content.ui.index_main_content_bottom_row_container_two.title}{" "}
         </h3>
         <p>{content.ui.index_main_content_bottom_row_container_two.copy}</p>
-
-        <Button size="md" className={bottomRowStyles.greenButton}>
-          <a
+        <a
             href={content.ui.index_main_content_bottom_row_container_two.link}
             className={bottomRowStyles.btnLink}
           >
+        <Button size="md" className={bottomRowStyles.greenButton}>
             {content.ui.index_main_content_bottom_row_container_two.button}
-          </a>
         </Button>
+        </a>
       </Col>
       <Col className={bottomRowStyles.greenBox}>
         <h3>
@@ -43,14 +42,14 @@ const BottomRowContainer = (props) => {
           {content.ui.index_main_content_bottom_row_container_three.title}{" "}
         </h3>
         <p>{content.ui.index_main_content_bottom_row_container_three.copy}</p>
-        <Button size="md" className={bottomRowStyles.whiteButton}>
-          <a
+        <a
             href={content.ui.index_main_content_bottom_row_container_three.link}
             className={bottomRowStyles.btnLinkBlue}
           >
+        <Button size="md" className={bottomRowStyles.whiteButton}>
             {content.ui.index_main_content_bottom_row_container_three.button}
-          </a>
         </Button>
+        </a>
       </Col>
     </Row>
   );

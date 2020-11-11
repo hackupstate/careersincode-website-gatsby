@@ -127,8 +127,7 @@ const ProspectivePage = () => (
           }
         </p>
 
-        <Button size="md" className={pageStyles.blueButton}>
-          <a
+        <a
             href={
               content.ui.classroom.currStudents_main_content.classroom_info
                 .classroom_button_link
@@ -137,19 +136,19 @@ const ProspectivePage = () => (
             rel="noopener noreferrer"
             className={pageStyles.btnLink}
           >
+        <Button size="md" className={pageStyles.blueButton}>
             {
               content.ui.classroom.currStudents_main_content.classroom_info
                 .classroom_button_text
             }
-          </a>
         </Button>
+        </a>
       </Row>
       <Row className={prospectiveStyles.studentLinkRow}>
         <Col className={prospectiveStyles.studentLinkColumn}>
           <FontAwesomeIcon icon={faGraduationCap} size="3x" />
           <h3>{content.ui.classroom.student_resource_links.cohort1_text}</h3>
-          <Button size="md" className={pageStyles.blueButton}>
-            <a
+          <a
               href={
                 content.ui.classroom.student_resource_links.cohort1_button_link
               }
@@ -157,9 +156,10 @@ const ProspectivePage = () => (
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
+          <Button size="md" className={pageStyles.blueButton}>
               {content.ui.classroom.student_resource_links.cohort1_button_text}
-            </a>
           </Button>
+          </a>
         </Col>
         <Col className={prospectiveStyles.studentLinkColumn}>
           <FontAwesomeIcon icon={faUserCheck} size="3x" />
@@ -167,8 +167,7 @@ const ProspectivePage = () => (
             {" "}
             {content.ui.classroom.student_resource_links.admissions_text}
           </h3>
-          <Button size="md" className={pageStyles.blueButton}>
-            <a
+          <a
               href={
                 content.ui.classroom.student_resource_links
                   .admissions_button_link
@@ -177,18 +176,18 @@ const ProspectivePage = () => (
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
+          <Button size="md" className={pageStyles.blueButton}>
               {
                 content.ui.classroom.student_resource_links
                   .admissions_button_text
               }
-            </a>
           </Button>
+          </a>
         </Col>
         <Col className={prospectiveStyles.studentLinkColumn}>
           <FontAwesomeIcon icon={faListAlt} size="3x" />
           <h3>{content.ui.classroom.student_resource_links.syllabus_text}</h3>
-          <Button size="md" className={pageStyles.blueButton}>
-            <a
+          <a
               href={
                 content.ui.classroom.student_resource_links
                   .syllabus_button_link
@@ -197,12 +196,13 @@ const ProspectivePage = () => (
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
+          <Button size="md" className={pageStyles.blueButton}>
               {
                 content.ui.classroom.student_resource_links
                   .syllabus_button_text
               }
-            </a>
           </Button>
+          </a>
         </Col>
       </Row>
       <Row className={prospectiveStyles.studentLinkRow}>
@@ -215,8 +215,7 @@ const ProspectivePage = () => (
                 .responsibilities_text
             }
           </h3>
-          <Button size="md" className={pageStyles.blueButton}>
-            <a
+          <a
               href={
                 content.ui.classroom.student_resource_links
                   .responsibilities_button_link
@@ -225,13 +224,14 @@ const ProspectivePage = () => (
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
+          <Button size="md" className={pageStyles.blueButton}>
               {" "}
               {
                 content.ui.classroom.student_resource_links
                   .admissions_button_text
               }
-            </a>
           </Button>
+          </a>
         </Col>
         <Col className={prospectiveStyles.studentLinkColumn}>
           <FontAwesomeIcon icon={faMountain} size="3x" />
@@ -239,8 +239,7 @@ const ProspectivePage = () => (
             {" "}
             {content.ui.classroom.student_resource_links.capstone_text}
           </h3>
-          <Button size="md" className={pageStyles.blueButton}>
-            <a
+          <a
               href={
                 content.ui.classroom.student_resource_links
                   .capstone_button_link
@@ -249,21 +248,21 @@ const ProspectivePage = () => (
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
+          <Button size="md" className={pageStyles.blueButton}>
               {" "}
               {
                 content.ui.classroom.student_resource_links
                   .capstone_button_text
               }
-            </a>
           </Button>
+          </a>
         </Col>
         <Col className={prospectiveStyles.studentLinkColumn}>
           <FontAwesomeIcon icon={faToolbox} size="3x" />
           <h3>
             {content.ui.classroom.student_resource_links.resources_text}
           </h3>
-          <Button size="md" className={pageStyles.blueButton}>
-            <a
+          <a
               href={
                 content.ui.classroom.student_resource_links
                   .resources_button_link
@@ -272,12 +271,13 @@ const ProspectivePage = () => (
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
+          <Button size="md" className={pageStyles.blueButton}>
               {
                 content.ui.classroom.student_resource_links
                   .resources_button_text
               }
-            </a>
           </Button>
+          </a>
         </Col>
       </Row>
     </Container>

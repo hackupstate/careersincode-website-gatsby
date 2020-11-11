@@ -70,33 +70,33 @@ const IndexPage = (props) => (
         <Col className={pageStyles.centerContentColumns}>
           <h3> {content.ui.index_main_content_top_text.copy}</h3>
           <p> {content.ui.index_main_content_top_text.description} </p>
-          <Button className={pageStyles.blueButton}>
-            <a
+          <a
               href="https://medium.com/@hackupstate/announcing-hack-upstates-careers-in-code-a8ff0bfeddbf"
               target="_blank"
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
+          <Button className={pageStyles.blueButton}>
               {" "}
               {content.ui.index_main_content_top_text.button}{" "}
-            </a>
           </Button>
+          </a>
         </Col>
       </Row>
       <Row className={pageStyles.pageHeadings}>
         <Col className={pageStyles.centerContentColumns}>
           <h3> {content.ui.index_main_content_bottom_text.copy} </h3>
           <p> {content.ui.index_main_content_bottom_text.description} </p>
-          <Button className={pageStyles.blueButton}>
-            <a
+          <a
               href={content.ui.index_main_content_bottom_text.link}
               target="_blank"
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
+          <Button className={pageStyles.blueButton}>
               {content.ui.index_main_content_bottom_text.button}
-            </a>
           </Button>
+          </a>
         </Col>
       </Row>
     </Container>
@@ -171,16 +171,16 @@ const IndexPage = (props) => (
 
       <Row className={testimonialStyles.buttonRow}>
         <Col>
-          <Button size="md" className={testimonialStyles.blueButton}>
-            <a
+        <a
               href={content.ui.index_main_content_testimonials_button.link}
               target="_blank"
               rel="noopener noreferrer"
               className={testimonialStyles.btnLink}
             >
+          <Button size="md" className={testimonialStyles.blueButton}>
               {content.ui.index_main_content_testimonials_button.copy}
-            </a>
           </Button>
+          </a>
         </Col>
       </Row>
     </Container>
@@ -192,16 +192,16 @@ const IndexPage = (props) => (
           <h3>Graduate Outcomes You Can Trust</h3>
           <p>We graduated 11 students on August 22, 2019. 7 of 11 of our graduates have been placed in in-field internships, entry level positions, or consulting arrangements with an average salary increase of ~56%.</p>
           <p>As a CIRR certified school, we fully offer transparent results. CIRR is the industry standard for placement stats and we are commited to publishing trustworthy graduate outcomes.</p>
-          <Button size="md" className={testimonialStyles.blueButton}>
-            <a
+          <a
               href="https://cirr.org/"
               target="_blank"
               rel="noopener noreferrer"
               className={testimonialStyles.btnLink}
             >
+          <Button size="md" className={testimonialStyles.blueButton}>
               View CIRR Standards
-            </a>
           </Button>
+          </a>
         </Col>
       </Row>
     </Container>

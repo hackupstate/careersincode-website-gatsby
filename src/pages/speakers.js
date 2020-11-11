@@ -79,8 +79,7 @@ const Speakers = () => (
             }{" "}
           </p>
           <Row className={pageStyles.centerItems}>
-            <Button className={pageStyles.blueButton}>
-              <a
+          <a
                 href={
                   content.ui.classroom.guest_speakers.main_content.featured
                     .button.link
@@ -89,12 +88,13 @@ const Speakers = () => (
                 rel="noopener noreferrer"
                 className={pageStyles.btnLink}
               >
+            <Button className={pageStyles.blueButton}>
                 {
                   content.ui.classroom.guest_speakers.main_content.featured
                     .button.text
                 }
-              </a>
             </Button>
+            </a>
           </Row>
         </Col>
       </Row>
