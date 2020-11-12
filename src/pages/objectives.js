@@ -27,8 +27,7 @@ const Objectives = () => (
     <Container fluid>
       <Row className={pageStyles.pageHeadings}>
         <Col>
-          <Button className={pageStyles.blueButton}>
-            <a
+        <a
               href={
                 content.ui.objectives.objectives_main_content.button_2019.link
               }
@@ -36,9 +35,10 @@ const Objectives = () => (
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
+          <Button className={pageStyles.blueButton}>
               {content.ui.objectives.objectives_main_content.button_2019.text}
-            </a>
           </Button>
+          </a>
         </Col>
       </Row>
     </Container>
@@ -57,8 +57,7 @@ const Objectives = () => (
                 .text
             }
           </p>
-          <Button className={pageStyles.blueButton}>
-            <a
+          <a
               href={
                 content.ui.objectives.objectives_main_content.partner_alignment
                   .button.link
@@ -67,12 +66,13 @@ const Objectives = () => (
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
+          <Button className={pageStyles.blueButton}>
               {
                 content.ui.objectives.objectives_main_content.partner_alignment
                   .button.text
               }
-            </a>
           </Button>
+          </a>
         </Col>
       </Row>
     </Container>

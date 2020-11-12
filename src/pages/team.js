@@ -70,16 +70,16 @@ const TeamPage = () => (
           <p> {content.ui.about.team_main_content.members.ssr} </p>
         </Col>
         <Col className={pageStyles.pageButtonContainer}>
-          <Button className={pageStyles.blueButton}>
-            <a
+        <a
               href={content.ui.about.team_main_content.link}
               target="_blank"
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
-              {content.ui.about.team_main_content.button}
-            </a>
+          <Button className={pageStyles.blueButton}>
+            {content.ui.about.team_main_content.button}
           </Button>
+          </a>
         </Col>
       </Row>
     </Container>

@@ -27,16 +27,15 @@ const PressPage = () => (
             {" "}
             {content.ui.about.press_main_content.kickoff.text}{" "}
           </p>
-          <Button className={pressStyles.pageButtons} color="info">
-            <a
+          <a
               href={content.ui.about.press_main_content.kickoff.link}
               target="_blank"
               rel="noopener noreferrer"
               className={pressStyles.btnLink}
             >
-              {content.ui.about.press_main_content.kickoff.button}
-            </a>
+          <Button className={pressStyles.pageButtons} color="info">           {content.ui.about.press_main_content.kickoff.button}  
           </Button>
+          </a>
         </Col>
         <Col md="6" className={pressStyles.blueInfoColumns}>
           <h3> {content.ui.about.press_main_content.graduation.header} </h3>
@@ -44,16 +43,15 @@ const PressPage = () => (
             {" "}
             {content.ui.about.press_main_content.graduation.text}{" "}
           </p>
-          <Button className={pressStyles.pageButtons} color="info">
-            <a
+          <a
               href={content.ui.about.press_main_content.graduation.link}
               target="_blank"
               rel="noopener noreferrer"
               className={pressStyles.btnLink}
             >
-              {content.ui.about.press_main_content.graduation.button}
-            </a>
+          <Button className={pressStyles.pageButtons} color="info"> {content.ui.about.press_main_content.graduation.button}
           </Button>
+          </a>
         </Col>
       </Row>
       <Row className={pressStyles.blueRow}>
@@ -63,15 +61,14 @@ const PressPage = () => (
             {" "}
             {content.ui.about.press_main_content.logos.text}{" "}
           </p>
-          <Button className={pressStyles.pageButtons} color="info">
-            <a
+          <a
               href={"/CareersinCodePressKit.zip"}
               className={pressStyles.btnLink}
               download
             >
-              {content.ui.about.press_main_content.logos.button}
-            </a>
+          <Button className={pressStyles.pageButtons} color="info">{content.ui.about.press_main_content.logos.button}
           </Button>
+          </a>
         </Col>
         <Col md="6" className={pressStyles.blueInfoColumns}>
           <h3> {content.ui.about.press_main_content.presentation.header} </h3>
@@ -89,16 +86,15 @@ const PressPage = () => (
             called "Lessons Learned from Organizing a Coding Bootcamp". Listen
             to his experience and how Careers in Code plans to move forward!{" "}
           </p>
-          <Button className={pressStyles.pageButtons} color="info">
-            <a
+          <a
               href={content.ui.about.press_main_content.presentation.link}
               target="_blank"
               rel="noopener noreferrer"
               className={pressStyles.btnLink}
             >
-              {content.ui.about.press_main_content.presentation.button}
-            </a>
+          <Button className={pressStyles.pageButtons} color="info"> {content.ui.about.press_main_content.presentation.button}
           </Button>
+          </a>
         </Col>
       </Row>
     </Container>

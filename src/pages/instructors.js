@@ -151,8 +151,7 @@ const InstructorsPage = () => (
                 .text
             }
           </p>
-          <Button className={instructorStyles.greenButton}>
-            <a
+          <a
               href={
                 content.ui.instructors.instructor_main_content.buttons
                   .instructor.apply.link
@@ -161,14 +160,14 @@ const InstructorsPage = () => (
               rel="noopener noreferrer"
               className={instructorStyles.greenBtnLink}
             >
+          <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons
                   .instructor.apply.text
               }
-            </a>
           </Button>
-          <Button className={instructorStyles.greenButton}>
-            <a
+          </a>
+          <a
               href={
                 content.ui.instructors.instructor_main_content.buttons
                   .instructor.responsibilities.link
@@ -177,14 +176,14 @@ const InstructorsPage = () => (
               rel="noopener noreferrer"
               className={instructorStyles.greenBtnLink}
             >
+          <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons
                   .instructor.responsibilities.text
               }
-            </a>
           </Button>
-          <Button className={instructorStyles.greenButton}>
-            <a
+          </a>
+          <a
               href={
                 content.ui.instructors.instructor_main_content.buttons
                   .instructor.admissions.link
@@ -193,12 +192,13 @@ const InstructorsPage = () => (
               rel="noopener noreferrer"
               className={instructorStyles.greenBtnLink}
             >
+          <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons
                   .instructor.admissions.text
               }
-            </a>
           </Button>
+          </a>
         </Col>
 
         <Col className={instructorStyles.actionColumns}>
@@ -215,8 +215,7 @@ const InstructorsPage = () => (
             }{" "}
           </p>
 
-          <Button className={instructorStyles.greenButton}>
-            <a
+          <a
               href={
                 content.ui.instructors.instructor_main_content.buttons.ta.apply
                   .link
@@ -225,15 +224,15 @@ const InstructorsPage = () => (
               rel="noopener noreferrer"
               className={instructorStyles.greenBtnLink}
             >
+          <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons.ta.apply
                   .text
               }
-            </a>
           </Button>
+          </a>
 
-          <Button className={instructorStyles.greenButton}>
-            <a
+          <a
               href={
                 content.ui.instructors.instructor_main_content.buttons.ta
                   .responsibilities.link
@@ -242,15 +241,15 @@ const InstructorsPage = () => (
               rel="noopener noreferrer"
               className={instructorStyles.greenBtnLink}
             >
+          <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons.ta
                   .responsibilities.text
               }
-            </a>
           </Button>
+          </a>
 
-          <Button className={instructorStyles.greenButton}>
-            <a
+          <a
               href={
                 content.ui.instructors.instructor_main_content.buttons.ta
                   .admissions.link
@@ -259,12 +258,13 @@ const InstructorsPage = () => (
               rel="noopener noreferrer"
               className={instructorStyles.greenBtnLink}
             >
+          <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons.ta
                   .admissions.text
               }
-            </a>
           </Button>
+          </a>
         </Col>
       </Row>
     </Container>

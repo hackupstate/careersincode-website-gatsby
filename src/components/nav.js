@@ -121,11 +121,6 @@ const NavComponent = () => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/contact/" className={navStyles.navLink}>
-                Contact
-              </NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink href="/jobs/" className={navStyles.navLink}>
                 Jobs
               </NavLink>

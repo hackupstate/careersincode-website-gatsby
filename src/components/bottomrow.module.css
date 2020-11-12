@@ -67,6 +67,7 @@ a.btnLink {
 .whiteButton {
   margin: 30px;
   background-color: #ffffff;
+  color: #2299dd;
   border: 0px;
   border-radius: 0.25rem;
 }
@@ -79,6 +80,7 @@ a.btnLink {
 .greenButton {
   margin: 30px;
   background-color: #33d5c3;
+  color: #ffffff;
   border: 0px;
   border-radius: 0.25rem;
 }

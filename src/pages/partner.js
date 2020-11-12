@@ -118,15 +118,15 @@ const PartnerPage = () => (
       <br />
       <p>{content.ui.partners.partner_info.paragraph2}</p>
       <br />
-      <Button color="info" className={pageStyles.marginBottom}>
-        <a
+      <Button color="info" className={pageStyles.marginBottom} 
           href={content.ui.partners.partner_info.button.link}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer">
+        <span
           className={pageStyles.btnLink}
         >
           {content.ui.partners.partner_info.button.text}
-        </a>
+        </span>
       </Button>
     </Container>
   </Layout>
