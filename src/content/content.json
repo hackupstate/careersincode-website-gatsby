@@ -1885,11 +1885,11 @@
         },
         "descriptions": {
           "description_link_text": "Job Description",
-          "description_intern": "https://docs.google.com/document/d/1l-bi2QYwCcrlDYPoNVTkoVGpu9LFczgKBi3K1HK6bRQ/edit",
+          "description_intern": "/Careers in Code - Internship Job Description.pdf",
           "description_success": "https://docs.google.com/document/d/1JIhgd1x6_vycI2kbYZ_7bqGtj8FofYbVMiBUAr7UEuc/edit",
-          "description_instructor": "https://docs.google.com/document/d/19ilE470-oAOvAG3S6EUxm13Uu8md6J9RgpsllDU3AN8/edit",
-          "description_ta": "https://docs.google.com/document/d/16iRkPiLUIEOFUdOlkfT8n3nm9Yx65bR14n7HZFU-eGs/edit",
-          "description_coach": "https://docs.google.com/document/d/1sRHMY5RQZdsjPNWtJs_VdJyHUmhR1vyGcjC-RN_tIlc/edit"
+          "description_instructor": "/Careers in Code - Instructor Job Posting.pdf",
+          "description_ta": "/Careers in Code - Teaching Assistant Job Description.pdf",
+          "description_coach": "/Careers in Code - Career Coach Job Description.pdf"
         }
       }
     },
