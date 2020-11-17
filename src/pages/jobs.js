@@ -42,41 +42,31 @@ const JobsPage = () => (
             .description_intern
         }
         position2={
-          content.ui.jobs_main_content.jobs_table.positions.position_success
+          content.ui.jobs_main_content.jobs_table.positions.position_instructor
         }
         location2={
           content.ui.jobs_main_content.jobs_table.locations.location_syr
         }
         description2={
           content.ui.jobs_main_content.jobs_table.descriptions
-            .description_success
+            .description_instructor
         }
         position3={
-          content.ui.jobs_main_content.jobs_table.positions.position_instructor
+          content.ui.jobs_main_content.jobs_table.positions.position_ta
         }
         location3={
           content.ui.jobs_main_content.jobs_table.locations.location_syr
         }
         description3={
-          content.ui.jobs_main_content.jobs_table.descriptions
-            .description_instructor
+          content.ui.jobs_main_content.jobs_table.descriptions.description_ta
         }
         position4={
-          content.ui.jobs_main_content.jobs_table.positions.position_ta
+          content.ui.jobs_main_content.jobs_table.positions.position_coach
         }
         location4={
           content.ui.jobs_main_content.jobs_table.locations.location_syr
         }
         description4={
-          content.ui.jobs_main_content.jobs_table.descriptions.description_ta
-        }
-        position5={
-          content.ui.jobs_main_content.jobs_table.positions.position_coach
-        }
-        location5={
-          content.ui.jobs_main_content.jobs_table.locations.location_syr
-        }
-        description5={
           content.ui.jobs_main_content.jobs_table.descriptions.description_coach
         }
       />

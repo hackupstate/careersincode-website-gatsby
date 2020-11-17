@@ -89,7 +89,6 @@ const IndexPage = (props) => (
           <p> {content.ui.index_main_content_bottom_text.description} </p>
           <a
               href={content.ui.index_main_content_bottom_text.link}
-              target="_blank"
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
@@ -173,7 +172,6 @@ const IndexPage = (props) => (
         <Col>
         <a
               href={content.ui.index_main_content_testimonials_button.link}
-              target="_blank"
               rel="noopener noreferrer"
               className={testimonialStyles.btnLink}
             >

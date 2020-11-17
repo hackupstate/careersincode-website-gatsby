@@ -66,19 +66,6 @@ const TableComponent = (props) => {
               </a>
             </td>
           </tr>
-          <tr>
-            <th scope="row">{props.position5}</th>
-            <td>{props.location5}</td>
-            <td>
-              <a
-                href={props.description5}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {props.linktext}
-              </a>
-            </td>
-          </tr>
         </tbody>
       </Table>
     </div>

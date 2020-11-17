@@ -72,7 +72,6 @@ const TeamPage = () => (
         <Col className={pageStyles.pageButtonContainer}>
         <a
               href={content.ui.about.team_main_content.link}
-              target="_blank"
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >

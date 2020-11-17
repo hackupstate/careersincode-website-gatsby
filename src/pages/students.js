@@ -152,7 +152,6 @@ const ProspectivePage = () => (
               href={
                 content.ui.classroom.student_resource_links.cohort1_button_link
               }
-              target="_blank"
               rel="noopener noreferrer"
               className={pageStyles.btnLink}
             >
