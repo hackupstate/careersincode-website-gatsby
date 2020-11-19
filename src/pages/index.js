@@ -26,6 +26,7 @@ import Joey from "../images/instructors/joeybuczek.jpg";
 import Kelly from "../images/students/kellycorey.jpg";
 import Doug from "../images/team/dougcrescenzi.png";
 import content from "../content/content.json";
+import cardStyles from "../components/card.module.css";
 import pageStyles from "./pages.module.css";
 import bannerStyles from "../components/banner.module.css";
 import testimonialStyles from "./testimonials.module.css";
@@ -54,12 +55,12 @@ const IndexPage = (props) => (
       <Row className={bannerStyles.bannerGreen}>
         <Col className={pageStyles.centerText}>
           <a
-            href={content.ui.index_banner.link}
+            href={content.ui.index_banner_announce.link}
             target="_blank"
             rel="noopener noreferrer"
             className={pageStyles.bannerLink}
           >
-            {content.ui.index_banner.text}{" "}
+            {content.ui.index_banner_announce.text}{" "}
             <FontAwesomeIcon icon={faArrowRight} size="1x" />
           </a>
         </Col>
@@ -99,6 +100,7 @@ const IndexPage = (props) => (
         </Col>
       </Row>
     </Container>
+         
     <Container fluid className={testimonialStyles.blueContainer}>
       <Row>
         <CardDeck>
@@ -186,9 +188,44 @@ const IndexPage = (props) => (
     <Container fluid className={pageStyles.whiteContainer}>
       <Row className={bannerStyles.bannerWhite}>
         <Col className={pageStyles.centerText}>
+        <h2 className={pageStyles.outcomes}>Our Cohort 1 Students Saw Results</h2>
+          <p>We graduated 11 students on August 22, 2019 with the following outcomes.</p>
+          <Row className={cardStyles.row}>
+          <Card className={cardStyles.card}>
+            <span className={cardStyles.stat}>91%</span>
+            <span className={cardStyles.value}>Graduation Rate</span>
+          </Card>
+          <Card className={cardStyles.card}>
+          <span className={cardStyles.stat}>63%</span>
+          <span className={cardStyles.value}>Placement Rate</span>
+          </Card>
+          <Card className={cardStyles.card}>
+          <span className={cardStyles.stat}>56%</span>
+          <span className={cardStyles.value}>Salary Increase</span>
+          </Card>
+          <Card className={cardStyles.card}>
+          <span className={cardStyles.stat}>$45,490</span>
+          <span className={cardStyles.value}>Average Starting Salary</span>
+          </Card>
+          </Row>
+          <a
+              href="https://careersincode.org/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={testimonialStyles.btnLink}
+            >
+          <Button size="md" className={testimonialStyles.blueButton}>
+              View Cohort 1 Outcomes
+          </Button>
+          </a>
+          </Col>
+      </Row>
+    </Container>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={bannerStyles.bannerWhite}>
+        <Col className={pageStyles.centerText}>
           <img src={cirrLogo} alt="CIRR Logo"></img>
           <h3>Graduate Outcomes You Can Trust</h3>
-          <p>We graduated 11 students on August 22, 2019. 7 of 11 of our graduates have been placed in in-field internships, entry level positions, or consulting arrangements with an average salary increase of ~56%.</p>
           <p>As a CIRR certified school, we fully offer transparent results. CIRR is the industry standard for placement stats and we are commited to publishing trustworthy graduate outcomes.</p>
           <a
               href="https://cirr.org/"
@@ -198,6 +235,24 @@ const IndexPage = (props) => (
             >
           <Button size="md" className={testimonialStyles.blueButton}>
               View CIRR Standards
+          </Button>
+          </a>
+        </Col>
+      </Row>
+    </Container>
+
+    <Container fluid className={pageStyles.blueContainer}>
+      <Row className={bannerStyles.bannerWhite}>
+        <Col className={pageStyles.centerText}>
+          <h3>A Curriculum Informed by Local Employers</h3>
+          <p>We partner with local employers to develop and provide feedback on our curriculum.</p>
+          <a
+              href="/partner"
+              rel="noopener noreferrer"
+              className={testimonialStyles.btnLink}
+            >
+          <Button size="md" className={testimonialStyles.blueButton}>
+              Partners
           </Button>
           </a>
         </Col>
