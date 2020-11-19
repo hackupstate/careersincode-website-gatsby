@@ -54,12 +54,12 @@ const IndexPage = (props) => (
       <Row className={bannerStyles.bannerGreen}>
         <Col className={pageStyles.centerText}>
           <a
-            href={content.ui.index_banner.link}
+            href={content.ui.index_banner_announce.link}
             target="_blank"
             rel="noopener noreferrer"
             className={pageStyles.bannerLink}
           >
-            {content.ui.index_banner.text}{" "}
+            {content.ui.index_banner_announce.text}{" "}
             <FontAwesomeIcon icon={faArrowRight} size="1x" />
           </a>
         </Col>
