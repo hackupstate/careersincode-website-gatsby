@@ -204,6 +204,24 @@ const IndexPage = (props) => (
       </Row>
     </Container>
 
+    <Container fluid className={pageStyles.blueContainer}>
+      <Row className={bannerStyles.bannerWhite}>
+        <Col className={pageStyles.centerText}>
+          <h3>A Curriculum Informed by Local Employers</h3>
+          <p>We partner with local employers to develop and provide feedback on our curriculum.</p>
+          <a
+              href="/partner"
+              rel="noopener noreferrer"
+              className={testimonialStyles.btnLink}
+            >
+          <Button size="md" className={testimonialStyles.blueButton}>
+              Partners
+          </Button>
+          </a>
+        </Col>
+      </Row>
+    </Container>
+
     <BottomRowContainer />
   </Layout>
 );
