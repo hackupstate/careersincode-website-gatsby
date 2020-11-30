@@ -23,6 +23,7 @@ const PartnerPage = () => (
         heading={content.ui.partners.partners_jumbotron.heading}
         subheading={content.ui.partners.partners_jumbotron.subheading}
       >
+        
         <JumboButton
           btnLink={content.ui.partners.partners_jumbotron.button.link}
           btnText={content.ui.partners.partners_jumbotron.button.text}
