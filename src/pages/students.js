@@ -120,29 +120,6 @@ const ProspectivePage = () => (
               .classroom_heading
           }
         </h3>
-        <p>
-          {
-            content.ui.classroom.currStudents_main_content.classroom_info
-              .classroom_subheading
-          }
-        </p>
-
-        <a
-            href={
-              content.ui.classroom.currStudents_main_content.classroom_info
-                .classroom_button_link
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-        <Button size="md" className={pageStyles.blueButton}>
-            {
-              content.ui.classroom.currStudents_main_content.classroom_info
-                .classroom_button_text
-            }
-        </Button>
-        </a>
       </Row>
       <Row className={prospectiveStyles.studentLinkRow}>
         <Col className={prospectiveStyles.studentLinkColumn}>
