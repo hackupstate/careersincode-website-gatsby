@@ -11,6 +11,7 @@ const TableComponent = (props) => {
             <th>{props.header1}</th>
             <th>{props.header2}</th>
             <th>{props.header3}</th>
+            <th>{props.header4}</th>
           </tr>
         </thead>
         <tbody>
@@ -26,6 +27,15 @@ const TableComponent = (props) => {
                 {props.linktext}
               </a>
             </td>
+            <td>
+              <a
+                href={props.application1}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {props.application_text}
+              </a>
+            </td>
           </tr>
           <tr>
             <th scope="row">{props.position2}</th>
@@ -37,6 +47,15 @@ const TableComponent = (props) => {
                 rel="noopener noreferrer"
               >
                 {props.linktext}
+              </a>
+            </td>
+            <td>
+              <a
+                href={props.application2}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {props.application_text}
               </a>
             </td>
           </tr>

@@ -1875,6 +1875,7 @@
         "header_position": "Position",
         "header_location": "Location",
         "header_description": "Description",
+        "header_application": "Application",
         "positions": {
           "position_intern": "Intern",
           "position_success": "Student Success Rep",
@@ -1894,6 +1895,11 @@
           "description_instructor": "/Careers in Code - Instructor Job Posting (1).pdf",
           "description_ta": "/Careers in Code - Teaching Assistant Job Description (1).pdf",
           "description_coach": "/Careers in Code - Career Coach Job Description.pdf"
+        },
+        "applications": {
+          "application_link_text": "Apply Now",
+          "ta_application": "https://bit.ly/cic2-ta",
+          "instructor_application": "https://bit.ly/cic2-instructors"
         }
       }
     },
