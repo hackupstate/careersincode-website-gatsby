@@ -104,7 +104,7 @@ const ProspectivePage = () => (
             title="Congrats"
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/3N0K2ZgpB0s"
+            src={content.ui.classroom.students_congrats_video}
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
