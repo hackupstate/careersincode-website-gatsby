@@ -1052,10 +1052,10 @@
         "alumni_main_content": {
           "congratulations": {
             "header": "Congratulations to our Cohort I Graduates!",
-            "subheader": "Watch their capstone presentations & ceremony below:",
+            "subheader": "Watch their capstone presentations and congratulation videos below:",
             "capstone_link": "https://www.youtube.com/embed/tBYeEq7cErs",
             "capstone_title": "Careers in Code - Capstone Presentations and Graduation Ceremony - Cohort 1",
-            "recap_link": "https://youtu.be/3N0K2ZgpB0s",
+            "recap_link": "https://www.youtube.com/embed/3N0K2ZgpB0s",
             "recap_title": "Careers in Code - Congratulation Video - Cohort 1"
           },
           "cards": {
