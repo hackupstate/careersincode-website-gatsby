@@ -1054,9 +1054,9 @@
             "header": "Congratulations to our Cohort I Graduates!",
             "subheader": "Watch their capstone presentations & ceremony below:",
             "capstone_link": "https://www.youtube.com/embed/tBYeEq7cErs",
-            "capstone_title": "Careers in Code - Cohort 1 Capstone Presentations and Graduation Ceremony",
-            "recap_link": "https://www.youtube.com/embed/zIdH9WhtAjo",
-            "recap_title": "Careers in Code - Cohort 1 Recap Video"
+            "capstone_title": "Careers in Code - Capstone Presentations and Graduation Ceremony - Cohort 1",
+            "recap_link": "https://youtu.be/3N0K2ZgpB0s",
+            "recap_title": "Careers in Code - Congratulation Video - Cohort 1"
           },
           "cards": {
             "header": "Careers in Code Alumni",
@@ -1347,8 +1347,8 @@
         "footnote_2_link": "https://www.coursereport.com/reports/coding-bootcamp-job-placement-2018#timeframe",
         "footnote_2_super": "2"
       },
-      "students_congrats": "Congrats to Our Cohort I Graduates!",
-      "students_congrats_video": "https://youtu.be/3N0K2ZgpB0s",
+      "students_congrats": "Why get involved with Careers in Code? Hear from our students and partners.",
+      "students_congrats_video": "https://www.youtube.com/embed/zIdH9WhtAjo",
       "student_resource_links": {
         "student_resource_title": "Helpful Links",
         "cohort1_icon": "",
