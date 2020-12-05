@@ -27,6 +27,7 @@ import Kelly from "../images/students/kellycorey.jpg";
 import Doug from "../images/team/dougcrescenzi.png";
 import content from "../content/content.json";
 import cardStyles from "../components/card.module.css";
+import blogStyles from "../components/blog.module.css";
 import pageStyles from "./pages.module.css";
 import bannerStyles from "../components/banner.module.css";
 import testimonialStyles from "./testimonials.module.css";
@@ -260,6 +261,26 @@ const IndexPage = (props) => (
     </Container>
 
     <BottomRowContainer />
+
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={bannerStyles.bannerWhite}>
+        <Col className={pageStyles.centerText}>
+          <h2>Check out the latest at Careers in Code</h2>
+          <Card className={blogStyles.propertyCard}>
+            <p className={blogStyles.propertyDescription}>Student Success Stories</p>
+            <a
+            href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-karin-thorne-4ed8603a2c3e"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={pageStyles.bannerLink}
+          >
+            <img src="../Karin-Thorne.png" height="20%" width="20%"></img>
+            <p>Karine Thorne</p>
+            </a>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   </Layout>
 );
 

@@ -226,6 +226,27 @@
             "click_rate": "Click-Through Rate"
           },
           "rows": {
+            "nov20": "November 2020",
+            "nov20data": {
+              "link": "https://www.getdrip.com/broadcasts/321791168/3f4151ac28f14b7d56b2b",
+              "people": "940",
+              "open_rate": "34.45%",
+              "click_rate": "2.60%"
+            },
+            "august20": "August 2020",
+            "august20data": {
+              "link": "https://www.getdrip.com/broadcasts/992158523/b0ff14f151249f1eca056",
+              "people": "953",
+              "open_rate": "38.69%",
+              "click_rate": "3.97%"
+            },
+            "july20": "July 2020",
+            "july20data": {
+              "link": "https://www.getdrip.com/broadcasts/327201364/8f150d4c0067d766066d1",
+              "people": "957",
+              "open_rate": "39,41%",
+              "click_rate": "4.98%"
+            },
             "june20": "June 2020",
             "june20data": {
               "link": "https://www.getdrip.com/broadcasts/415296848/06987620c3c6affbca8d4",
