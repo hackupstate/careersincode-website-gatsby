@@ -29,7 +29,7 @@ const Objectives2019 = () => (
       ></JumbotronComponent>
     </Header>
     <SEO title="Objectives 2019" />
-    <Container fluid>
+    <Container>
       <Row className={pageStyles.pageHeadings}>
         <Button className={pageStyles.blueButton}>
           <a
@@ -50,7 +50,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** BARRIERS SECTION **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.whiteContainer}>
         <h2>
           {
@@ -85,7 +85,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** BARRIER CARDS **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.infoCardRow}>
         <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
@@ -242,7 +242,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** GRADUATION SECTION **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.whiteContainer}>
         <h2>
           {
@@ -259,7 +259,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** GRADUATION CARDS **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.infoCardRow}>
         <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
@@ -324,7 +324,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** JOBS SECTION **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.whiteContainer}>
         <h2>
           {
@@ -341,7 +341,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** JOBS CARDS **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.infoCardRow}>
         <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
@@ -406,7 +406,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** EVENTS SECTION **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.whiteContainer}>
         <h2>
           {
@@ -429,7 +429,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** EVENTS CARDS **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.infoCardRow}>
         <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
@@ -556,7 +556,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** COMMUNITY SECTION **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.whiteContainer}>
         <h2>
           {
@@ -573,7 +573,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** COMMUNITY CARDS **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.infoCardRow}>
         <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
@@ -671,7 +671,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** PARTNERSHIPS SECTION **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.whiteContainer}>
         <h2>
           {
@@ -688,7 +688,7 @@ const Objectives2019 = () => (
       </Row>
     </Container>
     {/** PARTNERSHIPS CARDS **/}
-    <Container fluid>
+    <Container>
       <Row className={objectivesStyles.infoCardRow}>
         <Col sm="12" md="4" className={objectivesStyles.columnStyle}>
           <Card className={objectivesStyles.infoCard}>
