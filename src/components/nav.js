@@ -77,6 +77,11 @@ const NavComponent = () => {
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem className={navStyles.dropdownItem}>
+                  <NavLink className={navStyles.dropdownLink} href="/jobs/">
+                    Jobs
+                  </NavLink>
+                </DropdownItem>
+                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/faq/">
                     FAQ
                   </NavLink>
@@ -85,7 +90,7 @@ const NavComponent = () => {
             </UncontrolledDropdown>
             <NavItem>
               <NavLink href="/instructors/" className={navStyles.navLink}>
-                Instructors & TA's
+                Instructors
               </NavLink>
             </NavItem>
             <NavItem>
@@ -120,11 +125,6 @@ const NavComponent = () => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <NavItem>
-              <NavLink href="/jobs/" className={navStyles.navLink}>
-                Jobs
-              </NavLink>
-            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
