@@ -9,6 +9,8 @@ import Doug from "../images/team/dougcrescenzi.png";
 import Jesse from "../images/team/jesse.png";
 import Will from "../images/team/will.png";
 import Jason from "../images/team/jason.png";
+import Dana from "../images/team/dana.jpg";
+import Laura from "../images/team/laura.jpg";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
 import teamStyles from "./team.module.css";
@@ -22,22 +24,20 @@ const TeamPage = () => (
       ></JumbotronComponent>
     </Header>
     <SEO title="Team" />
-    <Container fluid>
+    <Container fluid className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
         <Col>
           <h3> {content.ui.about.team_main_content.text} </h3>
-          <a
-            href={content.ui.about.team_main_content.email}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            team@hackupstate.com{" "}
-          </a>
+         
+          <p mb="3">
+            <Button className={pageStyles.blueButton}>
+              {content.ui.about.team_main_content.button}
+            </Button>
+          </p>
         </Col>
       </Row>
-      <Row className={pageStyles.whiteContainer}>
-        <Col>
+      <Row >
+        <Col lg="6">
           <img
             className={teamStyles.imgCircle}
             src={Jesse}
@@ -47,13 +47,13 @@ const TeamPage = () => (
           <p> {content.ui.about.team_main_content.members.partner} </p>
           <img
             className={teamStyles.imgCircle}
-            src={Will}
-            alt="Will Guisbond"
+            src={Laura}
+            alt="Laura Thorne"
           />
-          <h4> {content.ui.about.team_main_content.members.will} </h4>
-          <p> {content.ui.about.team_main_content.members.intern} </p>
+          <h4> Laura Thorne </h4>
+          <p> Career Coach </p>
         </Col>
-        <Col>
+        <Col lg="6">
           <img
             className={teamStyles.imgCircle}
             src={Doug}
@@ -69,16 +69,14 @@ const TeamPage = () => (
           <h4> {content.ui.about.team_main_content.members.jason} </h4>
           <p> {content.ui.about.team_main_content.members.ssr} </p>
         </Col>
-        <Col className={pageStyles.pageButtonContainer}>
-        <a
-              href={content.ui.about.team_main_content.link}
-              rel="noopener noreferrer"
-              className={pageStyles.btnLink}
-            >
-          <Button className={pageStyles.blueButton}>
-            {content.ui.about.team_main_content.button}
-          </Button>
-          </a>
+        <Col lg="6">
+          <img
+            className={teamStyles.imgCircle}
+            src={Dana}
+            alt="Dana McMullen"
+          />
+          <h4> Dana McMullen </h4>
+          <p> Program Manager </p>
         </Col>
       </Row>
     </Container>
