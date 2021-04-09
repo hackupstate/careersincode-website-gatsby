@@ -9,6 +9,8 @@ import { Container, Row, Col, Button } from "reactstrap";
 import Centerstate from "../images/partners/cceo.jpg";
 import Onondaga from "../images/partners/onondaga.jpg";
 import Coworks from "../images/partners/coworks.jpg";
+import Banner from "../images/partners/banner.jpg";
+import Commonspace from "../images/partners/commonspace.png";
 import Metis from "../images/partners/metis.jpg";
 import TechGarden from "../images/partners/ttg.jpg";
 import content from "../content/content.json";
@@ -73,6 +75,33 @@ const PartnerPage = () => (
       <Row className={pageStyles.pageHeadings}>
         <h2>{content.ui.partners.partners_logos.title}</h2>
       </Row>
+      <Row className={pageStyles.pageHeadings}>
+        <h3>Cohort 2</h3>
+      </Row>
+      <Row className={pageStyles.centerItems}>
+        <img
+          src={Banner}
+        />
+      </Row>
+      <Row xs="2">
+        <Col className={`${pageStyles.centerContentColumns} mt-3`}>
+          <img
+            src={Commonspace}
+            alt="coworks-logo"
+          />
+        </Col>
+        <Col className={`${pageStyles.centerContentColumns} mt-3`}>
+          <img
+            src={Metis}
+            alt="metis-consulting-logo"
+          />
+        </Col>
+      </Row>
+    </Container>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={pageStyles.pageHeadings}>
+        <h3>Cohort 1</h3>
+      </Row>
       <Row className={pageStyles.centerItems}>
         <img
           src={Onondaga}
@@ -84,14 +113,12 @@ const PartnerPage = () => (
         <Col className={pageStyles.centerContentColumns}>
           <img
             src={TechGarden}
-            className={pageStyles.mdLogo}
             alt="the-tech-garden-logo"
           />
         </Col>
         <Col className={pageStyles.centerContentColumns}>
           <img
             src={Coworks}
-            className={pageStyles.mdLogo}
             alt="centerstate-ceo-logo"
           />
         </Col>
@@ -100,14 +127,12 @@ const PartnerPage = () => (
         <Col className={pageStyles.centerContentColumns}>
           <img
             src={Centerstate}
-            className={pageStyles.mdLogo}
             alt="coworks-logo"
           />
         </Col>
         <Col className={pageStyles.centerContentColumns}>
           <img
             src={Metis}
-            className={pageStyles.mdLogo}
             alt="metis-consulting-logo"
           />
         </Col>
