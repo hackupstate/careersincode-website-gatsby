@@ -24,7 +24,7 @@ const TeamPage = () => (
       ></JumbotronComponent>
     </Header>
     <SEO title="Team" />
-    <Container fluid className={pageStyles.whiteContainer}>
+    <Container className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
         <Col>
           <h3> {content.ui.about.team_main_content.text} </h3>
