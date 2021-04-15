@@ -99,6 +99,11 @@ const NavComponent = () => {
               </NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href="/mentors/" className={navStyles.navLink}>
+                Mentors
+              </NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="/partner/" className={navStyles.navLink}>
                 Partners
               </NavLink>
