@@ -58,8 +58,8 @@ const MentorsPage = () => (
         subheading="Our mentors have years of experience and will help support you througout your journey of becoming a software developer"
       >
         <JumboButton
-          btnLink={content.ui.instructors.instructor_jumbotron.button.link}
-          btnText={content.ui.instructors.instructor_jumbotron.button.text}
+          btnLink="https://forms.gle/GgV6NKtvZDQL9kwC8"
+          btnText="Become a mentor"
         />
       </JumbotronComponent>
     </Header>
