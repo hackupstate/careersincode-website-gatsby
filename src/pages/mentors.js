@@ -242,7 +242,7 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
               />
               <CardText>
                 <p className={instructorStyles.cardText}>
-                I’m available for 1:1 pair programming sessions, input on your capstone, additional tutoring for topics that you might need a little bit more help on from class, or pretty much anything else you can think of. Just throw the topic in the comments when you schedule with calendly. Also, if there are any topics that you’d like me to record a quick answer to and post publicly, feel free to slack them to me and I’ll put something together
+                I’m available for 1:1 pair programming, input on your capstone, or additional tutoring for topics that you might need a little bit more help on from class.
                 </p>
               </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
