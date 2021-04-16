@@ -105,390 +105,156 @@ const MentorsPage = () => (
                 >
                   <br />
                   <Button size="sm" className={instructorStyles.cardButton}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.office_hours.text
-                    }{" "}
+                    {" "}Schedule Office Hours{" "}
                   </Button>{" "}
                 </a>
               </CardFooter>
             </Card>
           </Col>
-          {/* christy presler */}
+  
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                {
-                  content.ui.instructors.instructor_main_content.cohort_one
-                    .instructor.cards.christy.name
-                }
-              </CardHeader>
+              <CardHeader tag="h3">Doug Crescenzi</CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={Christy}
-                alt="Christy Presler"
+                src={Doug}
+                alt="Doug"
                 className={instructorStyles.imgSize}
               />
               <CardText>
                 <p className={instructorStyles.cardText}>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.christy.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.christy.position.link_text
-                    }
-                  </a>
+                  Blockchain
                 </p>
               </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
                 <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.social.email
-                  }
+                  href="https://meetings.hubspot.com/doug208"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.social.linkedin
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.social.twitter
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaTwitterSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.social.website
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGlobe />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}Schedule Office Hours{" "}
+                  </Button>{" "}
                 </a>
               </CardFooter>
             </Card>
           </Col>
-          {/* cashley saintilus */}
+
+          {/* will guisbond */}
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                {
-                  content.ui.instructors.instructor_main_content.cohort_one
-                    .instructor.cards.cash.name
-                }
+              <CardHeader tag="h3" className={instructorStyles.longNameStyles}>
+                Laura Thorne
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={Cash}
-                alt="Cashley Saintilus"
+                src={Laura}
+                alt="Laura"
                 className={instructorStyles.imgSize}
               />
               <CardText>
                 <p className={instructorStyles.cardText}>
-                  {" "}
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.cash.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.cash.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.cash.position.link_text
-                    }{" "}
-                  </a>{" "}
+                You can message me on Signal or Facebook or LinkedIn. Touches with me are require once every other week. This can be via one on one or popping into a group session or by email. 
+Topics include anything around job searching, entrepreneur goals/freelancing, networking, adding skills to resume, etc. We'll be covering each part of the job search in our Modules every 3 weeks. 
                 </p>
               </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
                 <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.cash.social.email
-                  }
+                  href="https://calendly.com/theenvironmentalcareercoach/hack-upstate-careers-in-code"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}Schedule Office Hours{" "}
+                  </Button>{" "}
                 </a>
+                <br />
                 <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.cash.social.linkedin
-                  }
+                  href="https://us02web.zoom.us/j/81083028686"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.cash.social.website
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGlobe />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.cash.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}Join Group Hours{" "}
+                  </Button>{" "}
                 </a>
               </CardFooter>
             </Card>
           </Col>
+
         </CardDeck>
       </Row>
 
       <Row className={instructorStyles.instructorCardRow}>
         <CardDeck>
-          {/* zoe koulouris augustinos */}
+          {/* will guisbond */}
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3" className={instructorStyles.longNameStyles}>
-                {
-                  content.ui.instructors.instructor_main_content.cohort_one
-                    .instructor.cards.zoe.name
-                }
+                Will Guisbond
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={Zoe}
-                alt="Zoe Koulouris Augustinos"
+                src={Will}
+                alt="Will"
                 className={instructorStyles.imgSize}
               />
-              <CardBody>
-
-                <CardText>
-                  <p className={instructorStyles.cardText}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.zoe.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.zoe.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.zoe.position.link_text
-                      }{" "}
-                    </a>{" "}
-                  </p>
-                </CardText>
-              </CardBody>
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                   You can setup time to chat with me about anything at all.
+                </p>
+              </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
                 <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.zoe.social.email
-                  }
+                  href="https://calendly.com/willguisbond"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.zoe.social.linkedin
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.zoe.social.twitter
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaTwitterSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.zoe.social.website
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGlobe />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.zoe.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}Schedule Office Hours{" "}
+                  </Button>{" "}
                 </a>
               </CardFooter>
             </Card>
           </Col>
-          {/* jeremy conn */}
+          {/* max matthews */}
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
                   content.ui.instructors.instructor_main_content.cohort_one
-                    .instructor.cards.jeremy.name
+                    .instructor.cards.max.name
                 }
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={Jeremy}
-                alt="Jeremy Conn"
+                src={Max}
+                alt="Max Matthews"
                 className={instructorStyles.imgSize}
               />
-              <CardBody>
-                <CardText>
-                  <p className={instructorStyles.cardText}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.jeremy.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.jeremy.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.jeremy.position.link_text
-                      }{" "}
-                    </a>{" "}
-                  </p>
-                </CardText>
-              </CardBody>
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                I’m available for 1:1 pair programming sessions, input on your capstone, additional tutoring for topics that you might need a little bit more help on from class, or pretty much anything else you can think of. Just throw the topic in the comments when you schedule with calendly. Also, if there are any topics that you’d like me to record a quick answer to and post publicly, feel free to slack them to me and I’ll put something together
+                </p>
+              </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
                 <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jeremy.social.email
-                  }
+                  href="https://calendly.com/maxmatthews"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jeremy.social.linkedin
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jeremy.social.twitter
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaTwitterSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jeremy.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}Schedule Office Hours{" "}
+                  </Button>{" "}
                 </a>
               </CardFooter>
             </Card>
@@ -509,103 +275,20 @@ const MentorsPage = () => (
                 alt="Gus Cost"
                 className={instructorStyles.imgSize}
               />
-              <CardBody>
-                <CardText>
-                  <p className={instructorStyles.cardText}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.gus.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.gus.position.link_text
-                      }{" "}
-                    </a>{" "}
-                  </p>
-                </CardText>
-              </CardBody>
+               <CardText>
+                <p className={instructorStyles.cardText}>
+                   You can setup time to chat with me about anything at all.
+                </p>
+              </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
                 <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.gus.social.email
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.gus.social.linkedin
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.gus.social.twitter
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaTwitterSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.gus.social.website
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGlobe />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.gus.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
-                </a>
-                <br />
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.gus.office_hours.link
-                  }
+                  href="https://calendly.com/guscost"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <br />
                   <Button size="sm" className={instructorStyles.cardButton}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.gus.office_hours.text
-                    }{" "}
+                    {" "}Schedule Office Hours{" "}
                   </Button>{" "}
                 </a>
               </CardFooter>
@@ -614,216 +297,9 @@ const MentorsPage = () => (
         </CardDeck>
       </Row>
 
-      <Row className={instructorStyles.instructorCardRow}>
+      {/* <Row className={instructorStyles.instructorCardRow}>
         <CardDeck>
-          {/* max matthews */}
-          <Col sm="4">
-            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                {
-                  content.ui.instructors.instructor_main_content.cohort_one
-                    .instructor.cards.max.name
-                }
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={Max}
-                alt="Max Matthews"
-                className={instructorStyles.imgSize}
-              />
-              <CardBody>
-                <CardText>
-                  <p className={instructorStyles.cardText}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.max.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.max.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.max.position.link_text
-                      }{" "}
-                    </a>{" "}
-                  </p>
-                </CardText>
-              </CardBody>
-              <CardFooter className={instructorStyles.cardFooter}>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.max.social.email
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.max.social.linkedin
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.max.social.twitter
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaTwitterSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.max.social.website
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGlobe />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.max.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
-                </a>
-                <br />
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.max.office_hours.link
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <br />
-                  <Button size="sm" className={instructorStyles.cardButton}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.max.office_hours.text
-                    }{" "}
-                  </Button>{" "}
-                </a>
-              </CardFooter>
-            </Card>
-          </Col>
-          {/* jake beard */}
-          <Col sm="4">
-            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                {
-                  content.ui.instructors.instructor_main_content.cohort_one
-                    .instructor.cards.jake.name
-                }
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={Jake}
-                alt="Jake Beard"
-                className={instructorStyles.imgSize}
-              />
-              <CardBody>
-                <CardText>
-                  <p className={instructorStyles.cardText}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.jake.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.jake.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.jake.position.link_text
-                      }{" "}
-                    </a>{" "}
-                  </p>
-                </CardText>
-              </CardBody>
-              <CardFooter className={instructorStyles.cardFooter}>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jake.social.email
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jake.social.linkedin
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jake.social.twitter
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaTwitterSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.jake.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
-                </a>
-              </CardFooter>
-            </Card>
-          </Col>
-          {/* joey buczek */}
+
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -839,86 +315,26 @@ const MentorsPage = () => (
                 alt="Joey Buczek"
                 className={instructorStyles.imgSize}
               />
-              <CardBody>
-                <CardText>
-                  <p className={instructorStyles.cardText}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.joey.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.joey.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.joey.position.link_text
-                      }{" "}
-                    </a>{" "}
-                  </p>
-                </CardText>
-              </CardBody>
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                   You can setup time to chat with me about anything at all.
+                </p>
+              </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
                 <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.joey.social.email
-                  }
+                  href="https://meetings.hubspot.com/doug208"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.joey.social.linkedin
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.joey.social.twitter
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaTwitterSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.joey.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}Schedule Office Hours{" "}
+                  </Button>{" "}
                 </a>
               </CardFooter>
             </Card>
           </Col>
-        </CardDeck>
-      </Row>
-
-      <Row className={instructorStyles.instructorCardRow}>
-        <CardDeck>
-          {/* ryan gaus */}
-          <Col sm="6">
+           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 {
@@ -933,199 +349,61 @@ const MentorsPage = () => (
                 alt="Ryan Gaus"
                 className={instructorStyles.imgSize}
               />
-              <CardBody>
-                <CardText>
-                  <p className={instructorStyles.cardText}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.ryan.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.ryan.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.ryan.position.link_text
-                      }{" "}
-                    </a>
-                  </p>
-                </CardText>
-              </CardBody>
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                   You can setup time to chat with me about anything at all.
+                </p>
+              </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
                 <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.ryan.social.email
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.ryan.social.linkedin
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.ryan.social.twitter
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaTwitterSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.ryan.social.website
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGlobe />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.ryan.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
-                </a>
-              </CardFooter>
-            </Card>
-          </Col>
-          {/* alice miller */}
-          <Col sm="6">
-            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                {
-                  content.ui.instructors.instructor_main_content.cohort_one
-                    .instructor.cards.alice.name
-                }
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={Alice}
-                alt="Alice Miller"
-                className={instructorStyles.imgSize}
-              />
-              <CardBody>
-                <CardText>
-                  <p className={instructorStyles.cardText}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.alice.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.alice.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.instructors.instructor_main_content
-                          .cohort_one.instructor.cards.alice.position.link_text
-                      }{" "}
-                    </a>{" "}
-                  </p>
-                </CardText>
-              </CardBody>
-              <CardFooter className={instructorStyles.cardFooter}>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.alice.social.email
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.alice.social.linkedin
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.alice.social.twitter
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaTwitterSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.alice.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
-                </a>
-                <br />
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.alice.office_hours.link
-                  }
+                  href="https://meetings.hubspot.com/doug208"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <br />
                   <Button size="sm" className={instructorStyles.cardButton}>
-                    {" "}
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.alice.office_hours.text
-                    }{" "}
+                    {" "}Schedule Office Hours{" "}
+                  </Button>{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.christy.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Christy}
+                alt="Christy Presler"
+                className={instructorStyles.imgSize}
+              />
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                  You can setup time to chat with me about anything at all. 
+                </p>
+              </CardText>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}Schedule Office Hours{" "}
                   </Button>{" "}
                 </a>
               </CardFooter>
             </Card>
           </Col>
         </CardDeck>
-      </Row>
+      </Row> */}
     </Container>
   </Layout>
 );
