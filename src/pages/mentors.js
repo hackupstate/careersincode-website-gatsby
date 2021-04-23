@@ -26,21 +26,15 @@ import {
   FaGithubSquare,
   FaGlobe,
 } from "react-icons/fa";
-import Jeff from "../images/instructors/jeff-passetti.jpg";
-import Christy from "../images/instructors/christy_presler.jpg";
-import Cash from "../images/tas/cash.jpg";
-import Zoe from "../images/instructors/zoe.jpg";
-import Jeremy from "../images/instructors/jeremyconn.jpg";
-import Gus from "../images/instructors/gus.jpg";
-import Max from "../images/instructors/max.jpg";
-import Jake from "../images/instructors/jakebeard.jpg";
-import Joey from "../images/instructors/joeybuczek.jpg";
-import Ryan from "../images/instructors/ryangaus.png";
-import Alice from "../images/tas/alicemiller.jpeg";
-import Placeholder from "../images/tas/profile-placeholder.png";
+
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
 import instructorStyles from "./mentors.module.css";
+
+import Gus from "../images/instructors/gus.jpg";
+import Max from "../images/instructors/max.jpg";
+import Karin from "../images/students/karin.jpg"
+
 
 import Doug from "../images/team/dougcrescenzi.png";
 import Jesse from "../images/team/jesse.png";
@@ -283,6 +277,75 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
               <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href="https://calendly.com/guscost"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}Schedule Office Hours{" "}
+                  </Button>{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* karin thorne */}
+          <Col sm="6">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3" className={instructorStyles.longNameStyles}>
+                Karin Thorne
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Karin}
+                alt="Karin"
+                className={instructorStyles.imgSize}
+              />
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                I am available to chat about anything. I am a graduate of the first cohort and can help with some of the struggles you may experience along the way.
+                </p>
+              </CardText>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href="https://calendly.com/saltcitycode"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}Schedule Office Hours{" "}
+                  </Button>{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* dana mcmullen */}
+          <Col sm="6">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                  Dana McMullen
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Dana}
+                alt="Dana McMullen"
+                className={instructorStyles.imgSize}
+              />
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                I currently work at the Program for Careers in Code and am willing to help you plug in what you've learned in each module towards to the development of your capstone. I can also help you with your wireframes, figuring out code content, correct errors, and with answering your code accessibility questions
+                </p>
+              </CardText>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href="https://calendly.com/mcmullen-dana-cic"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
