@@ -69,10 +69,10 @@ const ProspectivePage = () => (
         heading={content.ui.classroom.prospective_jumbotron.heading}
         subheading={content.ui.students.alumni.alumni_jumbotron.subheading}
       >
-        <JumboButton
+        {/* <JumboButton
           btnLink={content.ui.classroom.prospective_jumbotron.button.link}
           btnText={content.ui.classroom.prospective_jumbotron.button.text}
-        />
+        /> */}
       </JumbotronComponent>
     </Header>
     <SEO title="Prospective" />

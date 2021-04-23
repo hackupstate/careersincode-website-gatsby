@@ -41,10 +41,10 @@ const IndexPage = (props) => (
         heading={content.ui.index_jumbotron.heading}
         subheading={content.ui.index_jumbotron.subheading}
       >
-        <JumboButton
+        {/* <JumboButton
           btnLink={content.ui.index_jumbotron.button1.link}
           btnText={content.ui.index_jumbotron.button1.text}
-        />
+        /> */}
         <JumboButton
           btnLink={content.ui.index_jumbotron.button2.link}
           btnText={content.ui.index_jumbotron.button2.text}
