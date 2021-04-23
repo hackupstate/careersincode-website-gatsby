@@ -118,7 +118,23 @@ const ProspectivePage = () => (
         </Col>
       </Row>
     </Container>
-   
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row>
+        <Col>
+          <sup>{content.ui.classroom.students_stats.footnote_1_super}</sup>
+          <a href={content.ui.classroom.students_stats.footnote_1_link}>
+            {content.ui.classroom.students_stats.footnote_1_name}
+          </a>
+          <br />
+          <br />
+          <sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
+          <a href={content.ui.classroom.students_stats.footnote_2_link}>
+            {content.ui.classroom.students_stats.footnote_2_name}
+          </a>
+        </Col>
+      </Row>
+    </Container>
+
     <Container className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
         <h2> Cohort 2 Students </h2>
@@ -150,7 +166,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Brandy Mack
+                Brandy Mack
               </CardHeader>
               <CardImg
                 top
@@ -165,7 +181,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Brielle Dailey
+                Brielle Dailey
               </CardHeader>
               <CardImg
                 top
@@ -185,7 +201,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Carolyn Sprague
+                Carolyn Sprague
               </CardHeader>
               <CardImg
                 top
@@ -200,7 +216,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Dominique Wynn
+                Dominique Wynn
               </CardHeader>
               <CardImg
                 top
@@ -215,7 +231,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Elina Nguyen
+                Elina Nguyen
               </CardHeader>
               <CardImg
                 top
@@ -234,7 +250,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Fobealia Barrett-Wynn
+                Fobealia Barrett-Wynn
               </CardHeader>
               <CardImg
                 top
@@ -249,7 +265,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Jaheal Smith
+                Jaheal Smith
               </CardHeader>
               <CardImg
                 top
@@ -264,7 +280,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Karen Baxter
+                Karen Baxter
               </CardHeader>
               <CardImg
                 top
@@ -284,7 +300,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Kyle Gilbert
+                Kyle Gilbert
               </CardHeader>
               <CardImg
                 top
@@ -299,7 +315,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              La'Tonia Mertica Sheppard Walker
+                La'Tonia Mertica Sheppard Walker
               </CardHeader>
               <CardImg
                 top
@@ -314,7 +330,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Melaquan Saffold
+                Melaquan Saffold
               </CardHeader>
               <CardImg
                 top
@@ -334,7 +350,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Sara Dow
+                Sara Dow
               </CardHeader>
               <CardImg
                 top
@@ -349,7 +365,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Shah Mansoor
+                Shah Mansoor
               </CardHeader>
               <CardImg
                 top
@@ -364,7 +380,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Shantina Perez
+                Shantina Perez
               </CardHeader>
               <CardImg
                 top
@@ -384,7 +400,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-              Susan Baiter
+                Susan Baiter
               </CardHeader>
               <CardImg
                 top
@@ -397,9 +413,174 @@ const ProspectivePage = () => (
           </Col>
         </CardDeck>
       </Row>
-
       {/* card decks end */}
     </Container>
+    <Container fluid className={pageStyles.marginBottom}>
+      <Row>
+        <Col className={pageStyles.centerText}>
+          <h3>{content.ui.classroom.students_congrats}</h3>
+        </Col>
+      </Row>
+      <Row>
+        <Col className={pageStyles.centerItems}>
+          <iframe
+            title="Congrats"
+            width="560"
+            height="315"
+            src={content.ui.classroom.students_congrats_video}
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </Col>
+      </Row>
+    </Container>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={(pageStyles.centerText, pageStyles.centerContentColumns)}>
+        <h3 className={pageStyles.pageHeadings}>
+          {
+            content.ui.classroom.currStudents_main_content.classroom_info
+              .classroom_heading
+          }
+        </h3>
+      </Row>
+      <Row className={prospectiveStyles.studentLinkRow}>
+        <Col className={prospectiveStyles.studentLinkColumn}>
+          <FontAwesomeIcon icon={faGraduationCap} size="3x" />
+          <h3>{content.ui.classroom.student_resource_links.cohort1_text}</h3>
+          <a
+            href={
+              content.ui.classroom.student_resource_links.cohort1_button_link
+            }
+            rel="noopener noreferrer"
+            className={pageStyles.btnLink}
+          >
+            <Button size="md" className={pageStyles.blueButton}>
+              {content.ui.classroom.student_resource_links.cohort1_button_text}
+            </Button>
+          </a>
+        </Col>
+        <Col className={prospectiveStyles.studentLinkColumn}>
+          <FontAwesomeIcon icon={faUserCheck} size="3x" />
+          <h3>
+            {" "}
+            {content.ui.classroom.student_resource_links.admissions_text}
+          </h3>
+          <a
+            href={
+              content.ui.classroom.student_resource_links
+                .admissions_button_link
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={pageStyles.btnLink}
+          >
+            <Button size="md" className={pageStyles.blueButton}>
+              {
+                content.ui.classroom.student_resource_links
+                  .admissions_button_text
+              }
+            </Button>
+          </a>
+        </Col>
+        <Col className={prospectiveStyles.studentLinkColumn}>
+          <FontAwesomeIcon icon={faListAlt} size="3x" />
+          <h3>{content.ui.classroom.student_resource_links.syllabus_text}</h3>
+          <a
+            href={
+              content.ui.classroom.student_resource_links
+                .syllabus_button_link
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={pageStyles.btnLink}
+          >
+            <Button size="md" className={pageStyles.blueButton}>
+              {
+                content.ui.classroom.student_resource_links
+                  .syllabus_button_text
+              }
+            </Button>
+          </a>
+        </Col>
+      </Row>
+      <Row className={prospectiveStyles.studentLinkRow}>
+        <Col className={prospectiveStyles.studentLinkColumn}>
+          <FontAwesomeIcon icon={faPencilRuler} size="3x" />
+          <h3>
+            {" "}
+            {
+              content.ui.classroom.student_resource_links
+                .responsibilities_text
+            }
+          </h3>
+          <a
+            href={
+              content.ui.classroom.student_resource_links
+                .responsibilities_button_link
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={pageStyles.btnLink}
+          >
+            <Button size="md" className={pageStyles.blueButton}>
+              {" "}
+              {
+                content.ui.classroom.student_resource_links
+                  .admissions_button_text
+              }
+            </Button>
+          </a>
+        </Col>
+        <Col className={prospectiveStyles.studentLinkColumn}>
+          <FontAwesomeIcon icon={faMountain} size="3x" />
+          <h3>
+            {" "}
+            {content.ui.classroom.student_resource_links.capstone_text}
+          </h3>
+          <a
+            href={
+              content.ui.classroom.student_resource_links
+                .capstone_button_link
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={pageStyles.btnLink}
+          >
+            <Button size="md" className={pageStyles.blueButton}>
+              {" "}
+              {
+                content.ui.classroom.student_resource_links
+                  .capstone_button_text
+              }
+            </Button>
+          </a>
+        </Col>
+        <Col className={prospectiveStyles.studentLinkColumn}>
+          <FontAwesomeIcon icon={faToolbox} size="3x" />
+          <h3>
+            {content.ui.classroom.student_resource_links.resources_text}
+          </h3>
+          <a
+            href={
+              content.ui.classroom.student_resource_links
+                .resources_button_link
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={pageStyles.btnLink}
+          >
+            <Button size="md" className={pageStyles.blueButton}>
+              {
+                content.ui.classroom.student_resource_links
+                  .resources_button_text
+              }
+            </Button>
+          </a>
+        </Col>
+      </Row>
+    </Container>
+
   </Layout>
 );
 
