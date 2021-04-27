@@ -63,6 +63,30 @@ const ApprenticeshipPage = () => (
       </Row>
     </Container>
 
+    <Container >
+      <Row className={pageStyles.pageHeadingsLeftAlign}>
+        <h3 className="text-center">What are the components of a registered apprenticeship?</h3>
+        <h4>About</h4>
+        <p>This approach is the “Competency-based approach”. Apprentices complete a minimum of 1,000 hours of on-the-job training in any areas of the training outline. Apprentices register for at least 144 hours of related instruction, but may test out earlier. Apprentices participate until they have shown competency for each skill in the training outline. Competency is demonstrated by both written and hands-on testing.</p>
+        <p>The term of apprenticeship may be measured either through the completion of the industry standard for hours of on-the-job learning and related and supplemental instruction, attainment of competency, or a hybrid blend of the time-based and competency-based approaches. However, programs in the building and construction trades and for firefighters shall use the time-based approach.</p>
+        <p>The competency-based approach measures skill acquisition through the individual apprentice’s successful demonstration of acquired skills and knowledge, as verified by the program sponsor. Programs utilizing this approach shall require apprentices to complete no less than six months of an on-the-job learning component of registered apprenticeship. The program standards shall address how on-the-job learning will be integrated into the program, describe competencies, meet industry-recognized standards or certifications, and identify an appropriate means of testing and evaluation for such competencies.</p>
+
+        <h4>5 Components</h4>
+        <ol>
+          <li><strong>Employer involvement.</strong> An employer must formally hire the apprentices and train them at its workplace, using a curriculum and standards customized to its work processes.</li>
+          <li><strong>Structured on-the-job learning.</strong> The apprentices must have opportunities to learn by doing in real-world work environments, with support from supervisors or other workplace mentors.</li>
+          <li><strong>Related instruction.</strong> The program must include academic coursework to complement the applied work experience. Instruction typically takes place in a classroom, but programs are increasingly offering online classes.</li>
+          <li><strong>Rewards for skills gains.</strong> Participants in Registered Apprenticeships must be paid for the work they do from day one. And their pay should increase as they develop new skills and become more adept at their jobs. The more they learn, the more they earn.</li>
+          <li><strong>National occupational credential.</strong> Registered Apprenticeships should lead to a nationally recognized credential or certificate for everyone who successfully completes the program.</li>
+        </ol>
+
+        <h4>Training Outline</h4>
+        <p>Class training times are based on 3 hour classes, 4 days per week, over the span of 24 weeks for a total of 288 hours of instruction from Careers in Code. We have included <a href="/Careers in Code - MACNY - Apprenticeship Training Outline.pdf"> some potential training options for our apprentices here</a>. We'll work closely with employers to determine the training options for our apprentices.</p>
+
+      </Row>
+    </Container>
+
+
 
 
   </Layout>
