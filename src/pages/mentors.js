@@ -236,7 +236,7 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
               />
               <CardText>
                 <p className={instructorStyles.cardText}>
-                I’m available for 1:1 pair programming, input on your capstone, or additional tutoring for topics that you might need a little bit more help on from class.
+                I’m available for 1:1 pair programming, input on your capstone, or additional tutoring for topics that you might need a little bit more help on from class. The top categories I mentor for (in no particular order) are In no particular order: Full Stack Dev, HTML, Bootstrap, Node, React, SQL, Entrepreneurship, Capstone, Wireframing. 
                 </p>
               </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
@@ -271,7 +271,7 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
               />
                <CardText>
                 <p className={instructorStyles.cardText}>
-                   You can setup time to chat with me about anything at all.
+                    Hi I'm Gus! I work at Density Inc and do a lot of frontend and full-stack programming. The top categories I mentor are JavaScript and TypeScript.
                 </p>
               </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
@@ -308,7 +308,7 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
               />
               <CardText>
                 <p className={instructorStyles.cardText}>
-                I am available to chat about anything. I am a graduate of the first cohort and can help with some of the struggles you may experience along the way.
+                I am available to chat about anything. I am a graduate of the first cohort and can help with some of the struggles you may experience along the way. The top caterogires I mentor for are Capstone, HTML, CSS, Wireframing, Project Management, General Questions
                 </p>
               </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
@@ -340,7 +340,7 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
               />
               <CardText>
                 <p className={instructorStyles.cardText}>
-                I currently work at the Program for Careers in Code and am willing to help you plug in what you've learned in each module towards to the development of your capstone. I can also help you with your wireframes, figuring out code content, correct errors, and with answering your code accessibility questions
+                I currently work at the Program for Careers in Code and am willing to help you plug in what you've learned in each module towards to the development of your capstone. I can also help you with your wireframes, figuring out code content, correct errors, and with answering your code accessibility questions. The top categories I mentor for are Front End Web Development (HTML, CSS, Bootstrap, W3CSS, Javascript)
                 </p>
               </CardText>
               <CardFooter className={instructorStyles.cardFooter}>
