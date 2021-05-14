@@ -30,6 +30,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-dev-utils": ">=11.0.4",
     "react-fontawesome": "^1.7.1",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.10.0",
@@ -38,6 +39,8 @@
     "styled-components": "^5.1.1",
     "typescript": "^3.9.2",
     "typography": "^0.16.19",
+    "xmlhttprequest-ssl": ">=1.6.2",
+    "ssri": ">=8.0.1",
     "utf-8-validate": "^5.0.5"
   },
   "devDependencies": {
