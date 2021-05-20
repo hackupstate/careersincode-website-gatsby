@@ -103,6 +103,7 @@ const IndexPage = (props) => (
     </Container>
          
     <Container fluid className={testimonialStyles.blueContainer}>
+    <h2 className="white-text">Hear What Our Community Is Saying About Careers In Code</h2>
       <Row>
         <CardDeck>
           <Col sm="4">
@@ -225,8 +226,8 @@ const IndexPage = (props) => (
     <Container fluid className={pageStyles.whiteContainer}>
       <Row className={bannerStyles.bannerWhite}>
         <Col className={pageStyles.centerText}>
-          <img src={cirrLogo} alt="CIRR Logo"></img>
           <h3>Graduate Outcomes You Can Trust</h3>
+          <img src={cirrLogo} alt="CIRR Logo"></img>
           <p>As a CIRR certified school, we fully offer transparent results. CIRR is the industry standard for placement stats and we are commited to publishing trustworthy graduate outcomes.</p>
           <a
               href="https://cirr.org/"
@@ -262,22 +263,96 @@ const IndexPage = (props) => (
 
     <BottomRowContainer />
 
-    <Container fluid className={pageStyles.whiteContainer}>
-      <Row className={bannerStyles.bannerWhite}>
-        <Col className={pageStyles.centerText}>
-          <h2>Check out the latest at Careers in Code</h2>
-          <Card className={blogStyles.propertyCard}>
-            <p className={blogStyles.propertyDescription}>Student Success Stories</p>
-            <a
-            href="https://medium.com/@hackupstate/careers-in-code-student-success-stories-karin-thorne-4ed8603a2c3e"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.bannerLink}
-          >
-            <img src="../Karin-Thorne.png" height="20%" width="20%"></img>
-            <p>Karine Thorne</p>
-            </a>
-          </Card>
+    <Container fluid className={testimonialStyles.blueContainer}>
+    <h2 className="white-text">Read The Latest On Hack Upstate</h2>
+      <Row>
+        <CardDeck>
+          <a href="https://hackupstate.medium.com/introducing-the-second-cohort-of-careers-in-code-students-150f7e58d812" target="_b">
+          <Col sm="4">
+            <Card body className={("shadow-sm", testimonialStyles.cardStyle)}>
+              <CardImg
+                top
+                width="100%"
+                src={"https://miro.medium.com/max/1400/0*Xutc25pDct1pNl7j"}
+                alt=""
+                className={testimonialStyles.cardImg}
+              />
+              <CardText>
+                <p className={testimonialStyles.cardText}>
+                "Careers in Code is a coding bootcamp that teaches computer programming to women and minorities to help..."
+                </p>
+              </CardText>
+              <CardTitle>
+                <p className={testimonialStyles.cardTitle}>
+                Introducing the Second Cohort of Careers in Code Students!
+                </p>
+              </CardTitle>
+            </Card>
+          </Col>
+          </a>
+
+          <a href="https://hackupstate.medium.com/announcing-our-career-coach-laura-thorne-f628f063ef02" target="_b">
+          <Col sm="4">
+            <Card body className={("shadow-sm", testimonialStyles.cardStyle)}>
+              <CardImg
+                top
+                width="100%"
+                src={"https://miro.medium.com/max/1400/0*x5V_ueee_400JYrx"}
+                alt=""
+                className={testimonialStyles.cardImg}
+              />
+              <CardText>
+                <p className={testimonialStyles.cardText}>
+                  "We’re very excited to announce that Laura Thorne has joined our team as our Career Coach for our second..."
+                </p>
+              </CardText>
+              <CardTitle>
+                <p className={testimonialStyles.cardTitle}>
+                Announcing Our Career Coach, Laura Thorne!
+                </p>
+              </CardTitle>
+            </Card>
+          </Col>
+          </a>
+
+          <a href="https://hackupstate.medium.com/technology-is-changing-the-roles-of-teachers-and-students-c34c54f24531" target="_b">
+          <Col sm="4">
+            <Card body className={("shadow-sm", testimonialStyles.cardStyle)}>
+              <CardImg
+                top
+                width="100%"
+                src="https://miro.medium.com/max/2560/0*z_Mr56BzDN726WBN"
+                alt="https://miro.medium.com/max/2560/0*z_Mr56BzDN726WBN"
+                className={testimonialStyles.cardImg}
+              />
+              <CardText>
+                <p className={testimonialStyles.cardText}>
+                  "Technology is changing the duties of students and teachers in the classroom. Students are doing more..."
+                </p>
+              </CardText>
+              <CardTitle>
+                <p className={testimonialStyles.cardTitle}>
+                  Technology Is Changing The Roles Of Teachers And Students
+                </p>
+              </CardTitle>
+            </Card>
+          </Col>
+          </a>
+        </CardDeck>
+      </Row>
+
+      <Row className={testimonialStyles.buttonRow}>
+        <Col>
+        <a
+              href={"https://hackupstate.medium.com/"}
+              rel="noopener noreferrer"
+              className={testimonialStyles.btnLink}
+              target="_blank"
+            >
+          <Button size="md" className={testimonialStyles.blueButton}>
+              Read Our Blog
+          </Button>
+          </a>
         </Col>
       </Row>
     </Container>
