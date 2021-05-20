@@ -347,6 +347,7 @@ const IndexPage = (props) => (
               href={"https://hackupstate.medium.com/"}
               rel="noopener noreferrer"
               className={testimonialStyles.btnLink}
+              target="_blank"
             >
           <Button size="md" className={testimonialStyles.blueButton}>
               Read Our Blog
