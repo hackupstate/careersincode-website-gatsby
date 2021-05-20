@@ -40,7 +40,7 @@
     "typescript": "^3.9.2",
     "typography": "^0.16.19",
     "xmlhttprequest-ssl": ">=1.6.2",
-    "ssri": ">=8.0.1",
+    "ssri": ">=7.1.1",
     "utf-8-validate": "^5.0.5"
   },
   "devDependencies": {
