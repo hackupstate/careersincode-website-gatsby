@@ -26,6 +26,7 @@ import {
   FaGithubSquare,
   FaGlobe,
 } from "react-icons/fa";
+
 import Jeff from "../images/instructors/jeff-passetti.jpg";
 import Christy from "../images/instructors/christy_presler.jpg";
 import Cash from "../images/tas/cash.jpg";
@@ -269,8 +270,1357 @@ const InstructorsPage = () => (
       </Row>
     </Container>
 
-    {/* INSTRUCTOR CARDS */}
+    {/* INSTRUCTOR CARDS - COHORT 2 */}
+    <Row className={pageStyles.pageHeadings}>
+      <h2> Cohort 2 Instructors</h2>
+    </Row>
 
+    <Container
+      fluid
+      className={
+        (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
+      }
+    >
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* instructor */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                INSTRUCTOR NAME
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Jeff}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          {/* christy presler */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.christy.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Christy}
+                alt="Christy Presler"
+                className={instructorStyles.imgSize}
+              />
+              <CardTitle>
+                <p className={instructorStyles.cardTitle}>
+                  {
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.christy.modules.text
+                  }
+                </p>
+              </CardTitle>
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                  {
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.christy.position.text
+                  }
+                  <a
+                    href={
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.christy.position.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.christy.position.link_text
+                    }
+                  </a>
+                </p>
+              </CardText>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.christy.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.christy.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.christy.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.christy.social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.christy.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* cashley saintilus */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.cash.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Cash}
+                alt="Cashley Saintilus"
+                className={instructorStyles.imgSize}
+              />
+              <CardTitle>
+                <p className={instructorStyles.cardTitle}>
+                  {
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.cash.modules.text
+                  }
+                  <a
+                    href={
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.cash.modules.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.cash.modules.link_text
+                    }{" "}
+                  </a>
+                </p>
+              </CardTitle>
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                  {" "}
+                  {
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.cash.position.text
+                  }
+                  <a
+                    href={
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.cash.position.link
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.cash.position.link_text
+                    }{" "}
+                  </a>{" "}
+                </p>
+              </CardText>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.cash.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.cash.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.cash.social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.cash.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* zoe koulouris augustinos */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3" className={instructorStyles.longNameStyles}>
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.zoe.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Zoe}
+                alt="Zoe Koulouris Augustinos"
+                className={instructorStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={instructorStyles.cardTitle}>
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.zoe.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.zoe.modules.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.zoe.modules.link_text
+                      }{" "}
+                    </a>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={instructorStyles.cardText}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.zoe.position.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.zoe.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.zoe.position.link_text
+                      }{" "}
+                    </a>{" "}
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.zoe.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.zoe.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.zoe.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.zoe.social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.zoe.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* jeremy conn */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.jeremy.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Jeremy}
+                alt="Jeremy Conn"
+                className={instructorStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={instructorStyles.cardTitle}>
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.jeremy.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jeremy.modules.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jeremy.modules.link_text
+                      }{" "}
+                    </a>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={instructorStyles.cardText}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.jeremy.position.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jeremy.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jeremy.position.link_text
+                      }{" "}
+                    </a>{" "}
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.jeremy.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.jeremy.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.jeremy.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.jeremy.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* gus cost */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.gus.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Gus}
+                alt="Gus Cost"
+                className={instructorStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={instructorStyles.cardTitle}>
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.gus.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.four.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.four.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.six.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.six.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.seven.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.seven.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.eight.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.modules.eight.text
+                      }{" "}
+                    </a>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={instructorStyles.cardText}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.gus.position.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.gus.position.link_text
+                      }{" "}
+                    </a>{" "}
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.gus.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.gus.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.gus.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.gus.social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.gus.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+                <br />
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.gus.office_hours.link
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.gus.office_hours.text
+                    }{" "}
+                  </Button>{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* max matthews */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.max.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Max}
+                alt="Max Matthews"
+                className={instructorStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={instructorStyles.cardTitle}>
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.max.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.four.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.four.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.six.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.six.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.seven.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.modules.seven.text
+                      }{" "}
+                    </a>{" "}
+                    {/* | */}
+                    {/* <a href={content.ui.instructors.instructor_main_content.cohort_one.instructor.cards.max.modules.ten.link}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      {content.ui.instructors.instructor_main_content.cohort_one.instructor.cards.gus.modules.ten.text} </a> */}
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={instructorStyles.cardText}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.max.position.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.max.position.link_text
+                      }{" "}
+                    </a>{" "}
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.max.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.max.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.max.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.max.social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.max.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+                <br />
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.max.office_hours.link
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.max.office_hours.text
+                    }{" "}
+                  </Button>{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* jake beard */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.jake.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Jake}
+                alt="Jake Beard"
+                className={instructorStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={instructorStyles.cardTitle}>
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.jake.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jake.modules.four.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jake.modules.four.text
+                      }{" "}
+                    </a>{" "}
+                    {/* | */}
+                    {/* <a href={content.ui.instructors.instructor_main_content.cohort_one.instructor.cards.jake.modules.ten.link}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      {content.ui.instructors.instructor_main_content.cohort_one.instructor.cards.jake.modules.ten.text} </a> */}
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={instructorStyles.cardText}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.jake.position.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jake.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.jake.position.link_text
+                      }{" "}
+                    </a>{" "}
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.jake.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.jake.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.jake.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.jake.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* joey buczek */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.joey.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Joey}
+                alt="Joey Buczek"
+                className={instructorStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={instructorStyles.cardTitle}>
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.joey.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.joey.modules.four.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.joey.modules.four.text
+                      }{" "}
+                    </a>{" "}
+                    |
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.joey.modules.eleven.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.joey.modules.eleven.text
+                      }{" "}
+                    </a>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={instructorStyles.cardText}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.joey.position.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.joey.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.joey.position.link_text
+                      }{" "}
+                    </a>{" "}
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.joey.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.joey.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.joey.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.joey.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* ryan gaus */}
+          <Col sm="6">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.ryan.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ryan}
+                alt="Ryan Gaus"
+                className={instructorStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={instructorStyles.cardTitle}>
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.ryan.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.ryan.modules.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.ryan.modules.link_text
+                      }{" "}
+                    </a>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={instructorStyles.cardText}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.ryan.position.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.ryan.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.ryan.position.link_text
+                      }{" "}
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.ryan.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.ryan.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.ryan.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.ryan.social.website
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGlobe />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.ryan.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+          {/* alice miller */}
+          <Col sm="6">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.instructors.instructor_main_content.cohort_one
+                    .instructor.cards.alice.name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Alice}
+                alt="Alice Miller"
+                className={instructorStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={instructorStyles.cardTitle}>
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.alice.modules.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.alice.modules.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.alice.modules.link_text
+                      }{" "}
+                    </a>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={instructorStyles.cardText}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.alice.position.text
+                    }
+                    <a
+                      href={
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.alice.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.instructors.instructor_main_content
+                          .cohort_one.instructor.cards.alice.position.link_text
+                      }{" "}
+                    </a>{" "}
+                  </p>
+                </CardText>
+              </CardBody>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.alice.social.email
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.alice.social.linkedin
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.alice.social.twitter
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaTwitterSquare />{" "}
+                </a>
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.alice.social.github
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaGithubSquare />{" "}
+                </a>
+                <br />
+                <a
+                  href={
+                    content.ui.instructors.instructor_main_content.cohort_one
+                      .instructor.cards.alice.office_hours.link
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}
+                    {
+                      content.ui.instructors.instructor_main_content.cohort_one
+                        .instructor.cards.alice.office_hours.text
+                    }{" "}
+                  </Button>{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+      <Row className={pageStyles.centerItems}>
+        <a
+          href={
+            content.ui.instructors.instructor_main_content.cohort_one.instructor
+              .button.link
+          }
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className={pageStyles.blueButton}>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.cohort_one
+                .instructor.button.text
+            }{" "}
+          </Button>{" "}
+        </a>
+      </Row>
+    </Container>
+    {/* ta cards */}
+
+    {/* INSTRUCTOR CARDS - COHORT 1 */}
     <Row className={pageStyles.pageHeadings}>
       <h2>
         {
