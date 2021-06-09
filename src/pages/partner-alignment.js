@@ -34,7 +34,7 @@ const Alignment = (props) => (
       />
     </Header>
     <SEO title="Partner Alignment" />
-    <Container fluid>
+    <Container>
       <Row className={alignmentStyles.whiteContainer}>
         <h2>
           {
@@ -75,10 +75,7 @@ const Alignment = (props) => (
         </p>
       </Row>
     </Container>
-    <Container
-      fluid
-      className={(pageStyles.marginBottom, alignmentStyles.infoCardContainer)}
-    >
+    <Container className={(pageStyles.marginBottom, alignmentStyles.infoCardContainer)}>
       <Row className={alignmentStyles.infoCardRow}>
         <Col sm="3">
           <Card className={alignmentStyles.infoCard}>
@@ -257,7 +254,7 @@ const Alignment = (props) => (
         </Col>
       </Row>
     </Container>
-    <Container fluid>
+    <Container>
       <Row className={alignmentStyles.whiteContainer}>
         <h2>
           {
@@ -286,10 +283,7 @@ const Alignment = (props) => (
         </h2>
       </Row>
     </Container>
-    <Container
-      fluid
-      className={(pageStyles.marginBottom, alignmentStyles.infoCardContainer)}
-    >
+    <Container className={(pageStyles.marginBottom, alignmentStyles.infoCardContainer)}>
       <Row className={alignmentStyles.infoCardRow}>
         <Col sm="3">
           <Card>
