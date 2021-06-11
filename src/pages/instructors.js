@@ -27,7 +27,12 @@ import {
   FaGlobe,
 } from "react-icons/fa";
 
+import Aneesa from "../images/instructors/aneesa.png";
+import Nathan from "../images/instructors/nathan evans.jpg";
+import Dana from "../images/team/dana.jpg";
+import Kaitlyn from "../images/students/kaitlyn.jpg";
 import Jeff from "../images/instructors/jeff-passetti.jpg";
+import Karin from "../images/instructors/karin.jpg";
 import Christy from "../images/instructors/christy_presler.jpg";
 import Cash from "../images/tas/cash.jpg";
 import Zoe from "../images/instructors/zoe.jpg";
@@ -287,122 +292,143 @@ const InstructorsPage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
-                INSTRUCTOR NAME
+                Max Matthews
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={Jeff}
+                src={Max}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
             </Card>
           </Col>
-          {/* christy presler */}
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
-                {
-                  content.ui.instructors.instructor_main_content.cohort_one
-                    .instructor.cards.christy.name
-                }
+                Karin Thorne
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Karin}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Christy Prensler
               </CardHeader>
               <CardImg
                 top
                 width="100%"
                 src={Christy}
-                alt="Christy Presler"
+                alt="#"
                 className={instructorStyles.imgSize}
               />
-              <CardTitle>
-                <p className={instructorStyles.cardTitle}>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.modules.text
-                  }
-                </p>
-              </CardTitle>
-              <CardText>
-                <p className={instructorStyles.cardText}>
-                  {
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.position.text
-                  }
-                  <a
-                    href={
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.christy.position.link
-                    }
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {
-                      content.ui.instructors.instructor_main_content.cohort_one
-                        .instructor.cards.christy.position.link_text
-                    }
-                  </a>
-                </p>
-              </CardText>
-              <CardFooter className={instructorStyles.cardFooter}>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.social.email
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaEnvelopeSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.social.linkedin
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaLinkedin />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.social.twitter
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaTwitterSquare />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.social.website
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGlobe />{" "}
-                </a>
-                <a
-                  href={
-                    content.ui.instructors.instructor_main_content.cohort_one
-                      .instructor.cards.christy.social.github
-                  }
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {" "}
-                  <FaGithubSquare />{" "}
-                </a>
-              </CardFooter>
             </Card>
           </Col>
-          {/* cashley saintilus */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Kaitlyn Warboy
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kaitlyn}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Dana McMullen
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Dana}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Gus Cost
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Gus}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Ryan Gaus
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ryan}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Joey Buczek
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Joey}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Nathan Evans
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Nathan}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Aneesa Hussain
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Aneesa}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
