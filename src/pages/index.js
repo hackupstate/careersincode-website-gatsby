@@ -32,6 +32,7 @@ import pageStyles from "./pages.module.css";
 import bannerStyles from "../components/banner.module.css";
 import testimonialStyles from "./testimonials.module.css";
 import cirrLogo from "../images/partners/cirr_50.png";
+//import {jsonData} from "../utils/rss-to-json.js";
 
 const IndexPage = (props) => (
   <Layout>
