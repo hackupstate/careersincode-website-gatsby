@@ -142,7 +142,7 @@ const InstructorsPage = () => (
       </Row>
     </Container>
     {/* instructor/ta info w/ buttons */}
-    <Container fluid className={instructorStyles.whiteContainer}>
+    <Container className={instructorStyles.whiteContainer}>
       <Row className={instructorStyles.actionRows}>
         <Col className={instructorStyles.actionColumns}>
           <h3>
@@ -281,7 +281,6 @@ const InstructorsPage = () => (
     </Row>
 
     <Container
-      fluid
       className={
         (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
       }
@@ -460,7 +459,6 @@ const InstructorsPage = () => (
     </Row>
 
     <Container
-      fluid
       className={
         (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
       }
@@ -1929,7 +1927,7 @@ const InstructorsPage = () => (
       </h2>
     </Row>
 
-    <Container fluid className={instructorStyles.instructorCardContainer}>
+    <Container className={instructorStyles.instructorCardContainer}>
       <Row className={instructorStyles.instructorCardRow}>
         <CardDeck>
           {/* jennifer tran */}
