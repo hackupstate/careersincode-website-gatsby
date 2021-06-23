@@ -531,21 +531,6 @@ const InstructorsPage = () => (
           </Col>
         </CardDeck>
       </Row>
-      <Row className={pageStyles.centerItems}>
-        <a
-          href="https://hackupstate.medium.com/meet-our-careers-in-code-instructors-teaching-assistants-and-staff-ba39f542ad49"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button className={pageStyles.blueButton}>
-            {" "}
-            {
-              content.ui.instructors.instructor_main_content.cohort_one
-                .instructor.button.text
-            }{" "}
-          </Button>{" "}
-        </a>
-      </Row>
     </Container>
     {/* INSTRUCTOR CARDS - COHORT 1 */}
     <Row className={pageStyles.pageHeadings}>
