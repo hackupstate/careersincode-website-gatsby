@@ -162,18 +162,18 @@
   object-fit: cover;
   width: auto;
   min-height: 300px;
+  max-height: 300px;
 }
 
 .instructorCardRow {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin: 20px 0;
+  margin: auto;
   text-align: center;
 }
 
 .instructorCardContainer {
-  max-width: 90%;
   margin-bottom: 100px;
 }
 
@@ -181,7 +181,7 @@
   width: 300px;
   height: auto;
   padding: 15px;
-  margin: 0;
+  margin: auto;
 }
 
 .centerContentColumns {

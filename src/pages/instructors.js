@@ -26,7 +26,14 @@ import {
   FaGithubSquare,
   FaGlobe,
 } from "react-icons/fa";
+
+import Kelley from "../images/students/kellycorey.jpg";
+import Aneesa from "../images/instructors/aneesa.png";
+import Nathan from "../images/instructors/nathan evans.jpg";
+import Dana from "../images/team/dana.jpg";
+import Kaitlyn from "../images/students/kaitlyn.jpg";
 import Jeff from "../images/instructors/jeff-passetti.jpg";
+import Karin from "../images/instructors/karin.jpg";
 import Christy from "../images/instructors/christy_presler.jpg";
 import Cash from "../images/tas/cash.jpg";
 import Zoe from "../images/instructors/zoe.jpg";
@@ -136,7 +143,7 @@ const InstructorsPage = () => (
       </Row>
     </Container>
     {/* instructor/ta info w/ buttons */}
-    <Container fluid className={instructorStyles.whiteContainer}>
+    <Container className={instructorStyles.whiteContainer}>
       <Row className={instructorStyles.actionRows}>
         <Col className={instructorStyles.actionColumns}>
           <h3>
@@ -268,9 +275,264 @@ const InstructorsPage = () => (
         </Col>
       </Row>
     </Container>
+    {/* INSTRUCTOR CARDS - COHORT 2 */}
+    <Row className={pageStyles.pageHeadings}>
+      <h2> Cohort 2 Instructors</h2>
+    </Row>
 
-    {/* INSTRUCTOR CARDS */}
+    <Container
+      className={
+        (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
+      }
+    >
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* instructor */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Max Matthews
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Max}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Karin Thorne
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Karin}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Christy Prensler
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Christy}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Kaitlyn Warboy
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kaitlyn}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Dana McMullen
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Dana}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Gus Cost
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Gus}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Ryan Gaus
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ryan}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Joey Buczek
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Joey}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Nathan Evans
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Nathan}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Aneesa Hussain
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Aneesa}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+      <Row className={pageStyles.centerItems}>
+        <a
+          href="https://hackupstate.medium.com/meet-our-careers-in-code-instructors-teaching-assistants-and-staff-ba39f542ad49"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className={pageStyles.blueButton}>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.cohort_one
+                .instructor.button.text
+            }{" "}
+          </Button>{" "}
+        </a>
+      </Row>
+    </Container>
+    {/* ta cards */}
+    <Row className={pageStyles.pageHeadings}>
+      <h2>Teaching Assistants</h2>
+    </Row>
 
+    <Container
+      className={
+        (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
+      }
+    >
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* instructor */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Dana McMullen
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Dana}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Karin Thorne
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Karin}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Kelley Corey
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kelley}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Drew Knab
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Drew}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Kaitlyn Warboy
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kaitlyn}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+    </Container>
+    {/* INSTRUCTOR CARDS - COHORT 1 */}
     <Row className={pageStyles.pageHeadings}>
       <h2>
         {
@@ -281,7 +543,6 @@ const InstructorsPage = () => (
     </Row>
 
     <Container
-      fluid
       className={
         (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
       }
@@ -1750,7 +2011,7 @@ const InstructorsPage = () => (
       </h2>
     </Row>
 
-    <Container fluid className={instructorStyles.instructorCardContainer}>
+    <Container className={instructorStyles.instructorCardContainer}>
       <Row className={instructorStyles.instructorCardRow}>
         <CardDeck>
           {/* jennifer tran */}
