@@ -27,6 +27,7 @@ import {
   FaGlobe,
 } from "react-icons/fa";
 
+import Kelley from "../images/students/kellycorey.jpg";
 import Aneesa from "../images/instructors/aneesa.png";
 import Nathan from "../images/instructors/nathan evans.jpg";
 import Dana from "../images/team/dana.jpg";
@@ -274,7 +275,6 @@ const InstructorsPage = () => (
         </Col>
       </Row>
     </Container>
-
     {/* INSTRUCTOR CARDS - COHORT 2 */}
     <Row className={pageStyles.pageHeadings}>
       <h2> Cohort 2 Instructors</h2>
@@ -447,7 +447,106 @@ const InstructorsPage = () => (
       </Row>
     </Container>
     {/* ta cards */}
+    <Row className={pageStyles.pageHeadings}>
+      <h2>Teaching Assistants</h2>
+    </Row>
 
+    <Container
+      className={
+        (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
+      }
+    >
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* instructor */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Dana McMullen
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Dana}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Karin Thorne
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Karin}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Kelley Corey
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kelley}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Drew Knab
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Drew}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Kaitlyn Warboy
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kaitlyn}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+      <Row className={pageStyles.centerItems}>
+        <a
+          href="https://hackupstate.medium.com/meet-our-careers-in-code-instructors-teaching-assistants-and-staff-ba39f542ad49"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className={pageStyles.blueButton}>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.cohort_one
+                .instructor.button.text
+            }{" "}
+          </Button>{" "}
+        </a>
+      </Row>
+    </Container>
     {/* INSTRUCTOR CARDS - COHORT 1 */}
     <Row className={pageStyles.pageHeadings}>
       <h2>
