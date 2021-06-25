@@ -358,11 +358,6 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
               </CardFooter>
             </Card>
           </Col>
-        </CardDeck>
-      </Row>
-
-      <Row className={instructorStyles.instructorCardRow}>
-        <CardDeck>
           <Col sm="6">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3" className={instructorStyles.longNameStyles}>
@@ -396,6 +391,7 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
           </Col>
         </CardDeck>
       </Row>
+
 
       {/* <Row className={instructorStyles.instructorCardRow}>
         <CardDeck>
