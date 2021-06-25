@@ -295,7 +295,7 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
       <Row className={instructorStyles.instructorCardRow}>
         <CardDeck>
           {/* karin thorne */}
-          <Col sm="6">
+          <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3" className={instructorStyles.longNameStyles}>
                 Karin Thorne
@@ -327,7 +327,7 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
             </Card>
           </Col>
           {/* dana mcmullen */}
-          <Col sm="6">
+          <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                   Dana McMullen
@@ -358,7 +358,7 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
               </CardFooter>
             </Card>
           </Col>
-          <Col sm="6">
+          <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3" className={instructorStyles.longNameStyles}>
                 Kaitlyn Warboy
