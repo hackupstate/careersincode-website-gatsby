@@ -34,6 +34,7 @@ import instructorStyles from "./mentors.module.css";
 import Gus from "../images/instructors/gus.jpg";
 import Max from "../images/instructors/max.jpg";
 import Karin from "../images/students/karin.jpg"
+import Kaitlyn from "../images/students/kaitlyn.jpg"
 
 
 import Doug from "../images/team/dougcrescenzi.png";
@@ -346,6 +347,42 @@ Topics include anything around job searching, entrepreneur goals/freelancing, ne
               <CardFooter className={instructorStyles.cardFooter}>
                 <a
                   href="https://calendly.com/mcmullen-dana-cic"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <br />
+                  <Button size="sm" className={instructorStyles.cardButton}>
+                    {" "}Schedule Office Hours{" "}
+                  </Button>{" "}
+                </a>
+              </CardFooter>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          <Col sm="6">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3" className={instructorStyles.longNameStyles}>
+                Kaitlyn Warboy
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kaitlyn}
+                alt="Kaitlyn"
+                className={instructorStyles.imgSize}
+              />
+              <CardText>
+                <p className={instructorStyles.cardText}>
+                I'm available to help with HTML, CSS, basic Javascript, React or any general questions regarding Capstones, organization etc. You can schedule 30 min or 60 minute sessions.
+                </p>
+              </CardText>
+              <CardFooter className={instructorStyles.cardFooter}>
+                <a
+                  href="https://calendly.com/kmwarboy"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
