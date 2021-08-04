@@ -56,6 +56,29 @@ const ApprenticeshipPage = () => (
         <h4>Return on investment</h4>
         <p>Hiring an apprentice as an investment. As an employer, you’ll be hiring an apprentice at a lower salary than a skilled worker with years of experience. With training through Careers in Code, our apprentices will become qualified individuals at your organization who will help to grow and advance your company forward. We have a rigorous screening and vetting process for all our apprentices to ensure they are a good fit for your organization.</p>
 
+        <h4>FAQs</h4>
+
+        <h5>How much does this cost?</h5>
+        <p>For the pilot program, it's a flat, $8,500 fee. Long-term, we're exploring recruitment fees that would make the most sense for a sustainable model. </p>
+
+        <h5>What does this cost contribute to? Is it our participation with the apprenticeship program and having access to these candidates? Kind of like a membership fee? </h5>
+        <p>Correct. You can think of this like a one-time membership fee of sorts, i.e. having direct access to qualified software developers.</p>
+
+        <h5>Is the cost also connected with the training programs the apprentices are doing as well? </h5>
+        <p>Correct. The fee covers the current training covered by Careers in Code. If there are additional training / specialized training programs that you require for the prospective apprentices, we can discuss.</p>
+
+        <h5>Is there other additional cost for those programs or is that covered by MACNY?</h5>
+        <p>MACNY will work with you on any additional training w/r/t what you’re looking for, cost, timelines, etc. </p>
+
+        <h5>Prior to interviews, we need the candidates to complete an online application. Is this OK?</h5>
+        <p>This wouldn't be an issue. When we begin to queue up the interview process, you can note this w/ our prospective apprentices who are interviewing w/ you. </p>
+
+        <h5>What type of support/time is needed on behalf of the employer to engage with the state, MACNY, and Hack Upstate?</h5>
+        <p>MACNY manages much of this relationship w/ the state and the employer, so there isn't much overhead from the employer. We'll provide an estimated support/time here at a later time.</p>
+
+        <h5>If an apprentice didn’t work out during employment is the cost refunded?</h5>
+        <p>Our team is giving some thought into how to handle this and we will update this once we have an answer.</p>
+
         <h4>Apply now</h4>
         <p>Interested in hiring an apprentice with Careers in Code and MACNY? <a href="https://docs.google.com/forms/d/e/1FAIpQLScPSxR3t9YdFh5veiBMWQV2i2JNDnxW2gwZY4twfG3uwYkw9A/viewform">Complete the following</a> and we’ll be in touch!</p>
 
