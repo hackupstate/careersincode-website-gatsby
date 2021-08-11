@@ -9,6 +9,8 @@ import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
 import instructorStyles from "./instructors.module.css";
 
+import Timeline from "../images/misc/apprenticeship-timeline.png";
+
 const ApprenticeshipPage = () => (
   <Layout>
     <Header>
@@ -55,6 +57,26 @@ const ApprenticeshipPage = () => (
   
         <h4>Return on investment</h4>
         <p>Hiring an apprentice as an investment. As an employer, you’ll be hiring an apprentice at a lower salary than a skilled worker with years of experience. With training through Careers in Code, our apprentices will become qualified individuals at your organization who will help to grow and advance your company forward. We have a rigorous screening and vetting process for all our apprentices to ensure they are a good fit for your organization.</p>
+
+        <h4>Timelines</h4>
+        <img src={Timeline} />
+        
+        <p><strong>Early-Mid August</strong></p>
+        <ul>
+          <li>Commitment from local employers to hire apprentices at their organizations.</li>
+        </ul>
+
+        <p><strong>Mid-Late August - Early September</strong></p>
+        <ul>
+          <li>Careers in Code and MACNY apprenticeship interviews.</li>
+          <li>Employer presentations to prospective apprentices.</li>
+          <li>Employer apprenticeship interviews.</li>
+        </ul>
+
+        <p><strong>September</strong></p>
+        <ul>
+          <li>Final decisions on apprentices.</li>
+        </ul>
 
         <h4>FAQs</h4>
 
