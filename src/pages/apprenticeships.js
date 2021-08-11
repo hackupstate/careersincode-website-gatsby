@@ -59,8 +59,6 @@ const ApprenticeshipPage = () => (
         <p>Hiring an apprentice as an investment. As an employer, you’ll be hiring an apprentice at a lower salary than a skilled worker with years of experience. With training through Careers in Code, our apprentices will become qualified individuals at your organization who will help to grow and advance your company forward. We have a rigorous screening and vetting process for all our apprentices to ensure they are a good fit for your organization.</p>
 
         <h4>Timelines</h4>
-        <img src={Timeline} />
-        
         <p><strong>Early-Mid August</strong></p>
         <ul>
           <li>Commitment from local employers to hire apprentices at their organizations.</li>
@@ -95,11 +93,11 @@ const ApprenticeshipPage = () => (
         <h5>Prior to interviews, we need the candidates to complete an online application. Is this OK?</h5>
         <p>This wouldn't be an issue. When we begin to queue up the interview process, you can note this w/ our prospective apprentices who are interviewing w/ you. </p>
 
-        <h5>What type of support/time is needed on behalf of the employer to engage with the state, MACNY, and Hack Upstate?</h5>
-        <p>MACNY manages much of this relationship w/ the state and the employer, so there isn't much overhead from the employer. We'll provide an estimated support/time here at a later time.</p>
+        <h5>What type of support/time is needed on behalf of the employer?</h5>
+        <p>MACNY handles all the internal management and everything with the state. MACNY will ask you to meet with us once per quarter for 45 mins - 1 hour. We will always be avaliable to answer any questiosn and help with anything you need.</p>
 
         <h5>If an apprentice didn’t work out during employment is the cost refunded?</h5>
-        <p>Our team is giving some thought into how to handle this and we will update this once we have an answer.</p>
+        <p>We do not offer a placement / money-back guarantee. The prospective apprentices have been vetted 3 times through a proven interview process to ensure retention. You’ll have an opportunity to interview everyone in the cohort to ensure that the apprentice is a good fit at your organization. You do not commit to hire anyone until you find the right person who you’d like to bring on board to your team.</p>
 
         <h4>Apply now</h4>
         <p>Interested in hiring an apprentice with Careers in Code and MACNY? <a href="https://docs.google.com/forms/d/e/1FAIpQLScPSxR3t9YdFh5veiBMWQV2i2JNDnxW2gwZY4twfG3uwYkw9A/viewform">Complete the following</a> and we’ll be in touch!</p>
