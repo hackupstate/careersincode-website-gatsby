@@ -110,6 +110,10 @@
   color: #000000;
 }
 
+.leftAlign {
+  text-align: left;
+}
+
 .containerStyles {
   width: 70%;
   padding: 30px;
