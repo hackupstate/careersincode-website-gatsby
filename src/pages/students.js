@@ -151,7 +151,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                Ariel Murhpy
+                Ariel Murphy
               </CardHeader>
               <CardImg
                 top
