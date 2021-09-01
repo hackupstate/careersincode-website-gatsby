@@ -1072,7 +1072,7 @@
         },
         "alumni_main_content": {
           "congratulations": {
-            "header": "Congratulations to our Cohort I Graduates!",
+            "header": "Congratulations to our graduates!",
             "subheader": "Watch their capstone presentations and congratulation videos below:",
             "capstone_link": "https://www.youtube.com/embed/tBYeEq7cErs",
             "capstone_title": "Careers in Code - Capstone Presentations and Graduation Ceremony - Cohort 1",
@@ -1080,7 +1080,7 @@
             "recap_title": "Careers in Code - Congratulation Video - Cohort 1"
           },
           "cards": {
-            "header": "Careers in Code Alumni",
+            "header": "Cohort 1 Alumni",
             "twentynineteen": {
               "ana": {
                 "name": "Ana Aombe",
