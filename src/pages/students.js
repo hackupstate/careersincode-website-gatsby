@@ -73,6 +73,11 @@ const ProspectivePage = () => (
           btnLink={content.ui.classroom.prospective_jumbotron.button.link}
           btnText={content.ui.classroom.prospective_jumbotron.button.text}
         /> */}
+
+        <JumboButton
+          btnLink={"https://forms.gle/w3vyujNdsAuLsUHR9"}
+          btnText={"Join The Cohort 3 Waitlist"}
+        />
       </JumbotronComponent>
     </Header>
     <SEO title="Prospective" />
