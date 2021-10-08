@@ -170,7 +170,7 @@ const AlumniPage = () => (
                   <FaEnvelopeSquare />{" "}
                 </a>
                 <a
-                  href="mailto:https://www.linkedin.com/in/ariellouise/"
+                  href="https://www.linkedin.com/in/ariellouise/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
