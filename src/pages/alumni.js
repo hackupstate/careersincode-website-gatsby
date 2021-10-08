@@ -151,7 +151,7 @@ const AlumniPage = () => (
                     }
                   </p>
                   <a
-                    href=""
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=4759s"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -203,7 +203,7 @@ const AlumniPage = () => (
                     }
                   </p>
                   <a
-                    href=""
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=1570s"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -254,7 +254,7 @@ const AlumniPage = () => (
                     }
                   </p>
                   <a
-                    href=""
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=1953s"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -310,7 +310,7 @@ const AlumniPage = () => (
                     }
                   </p>
                   <a
-                    href=""
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=2327s"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -353,7 +353,7 @@ const AlumniPage = () => (
                     }
                   </p>
                   <a
-                    href=""
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=5408s"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -404,7 +404,7 @@ const AlumniPage = () => (
                     }
                   </p>
                   <a
-                    href=""
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=2906s"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -462,7 +462,7 @@ const AlumniPage = () => (
                     }
                   </p>
                   <a
-                    href=""
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=3459s"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -620,7 +620,7 @@ const AlumniPage = () => (
                     }
                   </p>
                   <a
-                    href=""
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=4208s"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -670,7 +670,7 @@ const AlumniPage = () => (
                     }
                   </p>
                   <a
-                    href=""
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=1143s"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
