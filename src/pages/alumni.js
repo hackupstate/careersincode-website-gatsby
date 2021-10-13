@@ -564,7 +564,7 @@ const AlumniPage = () => (
                     }
                   </p>
                   <a
-                    href=""
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=3805s"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
