@@ -42,7 +42,7 @@ const FaqPage = (props) => {
       <Container>
         <Row className={faqStyles.whiteContainer}>
           <Col md="4">
-            <Nav vertical pills className={faqStyles.listMenu}>
+            <Nav vertical pills className={classnames(faqStyles.listMenu, faqStyles.faqNav)}>
               <NavItem>
                 <NavLink
                   className={classnames(

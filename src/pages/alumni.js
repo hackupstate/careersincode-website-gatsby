@@ -116,7 +116,10 @@ const AlumniPage = () => (
     </Container>
     <Container className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
-        <h2> Cohort 2 Alumni </h2>
+        <h2 className="mb-0"> Cohort 2 Alumni </h2>
+      </Row>
+      <Row className={pageStyles.pageHeadings}>
+        <h3 className="mt-0">Graduated on August 26th, 2021</h3>
       </Row>
     </Container>
     <Container
@@ -139,7 +142,44 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+              <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=4759s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>Flirt First</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:arielladders@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/ariellouise/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
             </Card>
+            
           </Col>
           {/* student name */}
           <Col sm="4">
@@ -154,6 +194,42 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+                            <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=1570s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>Syro-Waste Directory</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:ilovemybagelbutt@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/brandy-m-44a780198/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
             </Card>
           </Col>
           {/* student name */}
@@ -169,6 +245,42 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+                            <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=1953s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>I Love CNY</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:brielledailey@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/brielle-dailey-04852420b/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
             </Card>
           </Col>
         </CardDeck>
@@ -189,6 +301,34 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+                            <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=2327s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>Blvck Blossom Vibee</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:nevawynn@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+              </CardFooter>
             </Card>
           </Col>
           {/* student name */}
@@ -204,6 +344,42 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+                <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=5408s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>Grammar Goblin</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:jahealsmith@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/jaheal-smith-171a04114/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
             </Card>
           </Col>
           {/* student name */}
@@ -219,7 +395,44 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+              <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=2906s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>Walkumentary</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:kgilbert78@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/kyle-gilbert-cny/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
             </Card>
+            
           </Col>
         </CardDeck>
       </Row>
@@ -240,6 +453,42 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+              <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=3459s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>CREAS CRAVE</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:latoniamertica@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/latoniamertica/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
             </Card>
           </Col>
           {/* student name */}
@@ -255,6 +504,42 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+              <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>The Better Gift Depot</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:melaquansaffold@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/melaquan-saffold-48b71745/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
             </Card>
           </Col>
                     {/* student name */}
@@ -270,6 +555,42 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+              <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=3805s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>Hello Syracuse</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:sarajanedw@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/sara-dow/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
             </Card>
           </Col>
         </CardDeck>
@@ -290,6 +611,42 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+              <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=4208s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>Professional and Personalized Interpreting Services</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:mansoorsha@hotmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/shahm19/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
             </Card>
           </Col>
           <Col sm="6">
@@ -304,6 +661,42 @@ const AlumniPage = () => (
                 alt="#"
                 className={alumniStyles.imgSize}
               />
+              <CardBody>
+                <CardText>
+                  <p className={alumniStyles.cardText}>
+                    {
+                      content.ui.students.alumni.alumni_main_content.cards
+                        .twentynineteen.elizabeth.capstone.title
+                    }
+                  </p>
+                  <a
+                    href="https://www.youtube.com/watch?v=-qUJ2Taa8og&t=1143s"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className={alumniStyles.cardText}>Music Festivals of New York State</p>
+                  </a>{" "}
+                </CardText>
+              </CardBody>
+              <CardFooter>
+                {" "}
+                <a
+                  href="mailto:susanbaiter@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaEnvelopeSquare />{" "}
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/susan-baiter/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {" "}
+                  <FaLinkedin />{" "}
+                </a>
+              </CardFooter>
             </Card>
           </Col>
         </CardDeck>
