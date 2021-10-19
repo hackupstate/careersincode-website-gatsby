@@ -26,6 +26,7 @@ import Beth from "../images/students/beth.jpg";
 import Dakir from "../images/students/dakir.jpg";
 import Karin from "../images/students/karin.jpg";
 import Kaitlyn from "../images/students/kaitlyn.jpg";
+import Tim from "../images/students/tim.jpeg";
 
 import UI from "../images/companies/ui.jpg";
 import NID from "../images/companies/nid.jpg";
@@ -304,7 +305,7 @@ const OutcomesPage = () => (
       <Row className={outcomesStyles.outcomesCardRow}>
         {/* Dakir Card */}
         <CardDeck>
-          <Col sm="4">
+          <Col sm="3">
             <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
               <CardHeader tag="h3">
                 {content.ui.outcomes.outcomes_main_content.cards.dakir.name}
@@ -353,7 +354,7 @@ const OutcomesPage = () => (
             </Card>
           </Col>
           {/*Karin Card*/}
-          <Col sm="4">
+          <Col sm="3">
             <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
               <CardHeader tag="h3">
                 {content.ui.outcomes.outcomes_main_content.cards.karin.name}
@@ -402,7 +403,7 @@ const OutcomesPage = () => (
             </Card>
           </Col>
           {/* Kaitlyn Card */}
-          <Col sm="4">
+          <Col sm="3">
             <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
               <CardHeader tag="h3">
                 {content.ui.outcomes.outcomes_main_content.cards.kaitlyn.name}
@@ -445,6 +446,43 @@ const OutcomesPage = () => (
                       content.ui.outcomes.outcomes_main_content.cards.kaitlyn
                         .button.text
                     }
+                </Button>
+                </a>
+              </CardBody>
+            </Card>
+          </Col>
+           {/* Kaitlyn Card */}
+           <Col sm="3">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Timothy Liles
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Tim}
+                alt="Timothy Liles"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>
+                    Web Design Specialist 
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>
+                    City of Syracuse (Syracuse, NY)
+                  </p>
+                </CardText>
+                <a
+                    href="https://hackupstate.medium.com/careers-in-code-student-success-stories-tim-liles-fea853fc1c50"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={pageStyles.btnLink}
+                  >
+                <Button size="sm" color="info">
+                  Read Tim's Story
                 </Button>
                 </a>
               </CardBody>
