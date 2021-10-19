@@ -1780,11 +1780,11 @@
     "outcomes": {
       "outcomes_jumbotron": {
         "heading": "Outcomes",
-        "subheading": "Our first cohort of Careers in Code started on March, 11 2019 and ended on August 22, 2019. Classes were held Monday through Thursday, 5:30pm to 8:30pm at the Technology Garden in Syracuse, NY. Learn more about our job placement and student experience after graduation.",
+        "subheading": "Learn more about our job placement and student experience after graduation.",
         "button": {
           "outcomes_text": "View Outcomes Report",
           "outcomes_link": "../files/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf",
-          "consolidated_text": "View Consolidated Outcomes",
+          "consolidated_text": "View 2-pager Outcomes",
           "consolidated_link": "../files/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf",
           "transparency_text": "View Transparency Report",
           "transparency_link": "../files/Careers-in-Code-Transparency-Report-Cohort-1.pdf"
@@ -1860,7 +1860,7 @@
         "outcomes_snippets": {
           "heading": "Outcomes",
           "jobs": {
-            "number": "7 OF 11",
+            "number": "8 OF 11",
             "text": "Students that have obtained jobs, internships, or consulting arrangements with local employers within 180 days of graduation."
           },
           "salary": {
@@ -2065,7 +2065,7 @@
             "cards": {
               "placement": {
                 "textTop": "Increase in un- and underemployed residents placed in jobs by placing 100% of students within 180 days of program completion (Feb 18, 2020)",
-                "number": "7 of 11",
+                "number": "8 of 11",
                 "textBottom": "graduates placed in full-time positions or consulting arrangements"
               },
               "salary": {

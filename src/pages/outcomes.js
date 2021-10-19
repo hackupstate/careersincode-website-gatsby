@@ -44,6 +44,8 @@ import testimonialStyles from "./testimonials.module.css";
 
 import cirrLogo from "../images/partners/cirr_50.png";
 
+import classnames from "classnames";
+
 const OutcomesPage = () => (
   <Layout>
     <Header>
@@ -52,22 +54,6 @@ const OutcomesPage = () => (
         heading={content.ui.outcomes.outcomes_jumbotron.heading}
         subheading={content.ui.outcomes.outcomes_jumbotron.subheading}
       >
-        <JumboButton
-          btnLink={"/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf"}
-          btnText={content.ui.outcomes.outcomes_jumbotron.button.outcomes_text}
-        />
-        <JumboButton
-          btnLink={"/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf"}
-          btnText={
-            content.ui.outcomes.outcomes_jumbotron.button.consolidated_text
-          }
-        />
-        <JumboButton
-          btnLink={"/Careers-in-Code-Transparency-Report-Cohort-1.pdf"}
-          btnText={
-            content.ui.outcomes.outcomes_jumbotron.button.transparency_text
-          }
-        />
       </JumbotronComponent>
     </Header>
     <SEO title="Outcomes" />
@@ -80,6 +66,40 @@ const OutcomesPage = () => (
         (pageStyles.marginBottom, outcomesStyles.outcomesCardContainer)
       }
     >
+    <Row className={pageStyles.pageHeadings}>
+      <h3>Cohort 1 (March, 11 2019 - August 22, 2019)</h3>
+    </Row>
+    <Row className={outcomesStyles.outcomesCardRow}>
+      <a
+        href={"/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf"}
+        rel="noopener noreferrer"
+        className={pageStyles.btnLink}
+      >
+        <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
+          {content.ui.outcomes.outcomes_jumbotron.button.outcomes_text}
+        </Button>
+      </a>
+
+      <a
+        href={"/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf"}
+        rel="noopener noreferrer"
+        className={pageStyles.btnLink}
+      >
+        <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
+          {content.ui.outcomes.outcomes_jumbotron.button.consolidated_text}
+        </Button>
+      </a>
+
+      <a
+        href={"/Careers-in-Code-Transparency-Report-Cohort-1.pdf"}
+        rel="noopener noreferrer"
+        className={pageStyles.btnLink}
+      >
+        <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
+          {content.ui.outcomes.outcomes_jumbotron.button.transparency_text}
+        </Button>
+      </a>
+      </Row>
       <Row className={outcomesStyles.outcomesCardRow}>
         {/* Eva Card */}
         <CardDeck>
@@ -548,7 +568,7 @@ const OutcomesPage = () => (
         <Col className={pageStyles.centerText}>
           <img src={cirrLogo} alt="CIRR Logo"></img>
           <h3>Graduate Outcomes You Can Trust</h3>
-          <p>We graduated 11 students on August 22, 2019. 7 of 11 of our graduates have been placed in in-field internships, entry level positions, or consulting arrangements with an average salary increase of ~56%.</p>
+          <p>We graduated 11 students on August 22, 2019. 8 of 11 of our graduates have been placed in in-field internships, entry level positions, or consulting arrangements with an average salary increase of ~56%.</p>
           <p>As a CIRR certified school, we fully offer transparent results. CIRR is the industry standard for placement stats and we are commited to publishing trustworthy graduate outcomes.</p>
           <a
               href="https://cirr.org/"

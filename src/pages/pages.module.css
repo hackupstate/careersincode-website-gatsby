@@ -211,6 +211,13 @@ a:hover {
   border-radius: 0.25rem;
 }
 
+.blueButtonMargin {
+  margin: 0px 25px 0px 25px;
+  background-color: #2299dd;
+  border: 0px;
+  border-radius: 0.25rem;
+}
+
 .blueButton:hover {
   background: rgba(34, 153, 221, 0.7);
 }
