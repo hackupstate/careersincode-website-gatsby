@@ -73,6 +73,8 @@ const JobsPage = () => (
           content.ui.jobs_main_content.jobs_table.descriptions
             .description_intern
         }
+        application3="mailto:jesse@hackupstate.com?subject=Careers%20In%20Code%20Program%20Manager"
+
         position4={
           content.ui.jobs_main_content.jobs_table.positions.position_coach
         }
@@ -82,6 +84,12 @@ const JobsPage = () => (
         description4={
           content.ui.jobs_main_content.jobs_table.descriptions.description_coach
         }
+        application4="mailto:jesse@hackupstate.com?subject=Careers%20In%20Code%20Career%20Coach"
+
+        position5="Student Success Representative"
+        location5="Remote"
+        description5="/jobs/Careers in Code - Student Success Representative - Job Description.pdf"
+        application5="mailto:jesse@hackupstate.com?subject=Careers%20In%20Code%20Student%20Success%20Representative"
       />
     </Container>
   </Layout>
