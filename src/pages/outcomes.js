@@ -33,6 +33,8 @@ import NID from "../images/companies/nid.jpg";
 import Terakeet from "../images/companies/terakeet.jpg";
 import Gypsum from "../images/companies/gypsum.jpg";
 import Raymour from "../images/companies/raymour.jpg";
+import Syracuse from "../images/companies/syracuse.gif";
+import Sidearm from "../images/companies/sidearm.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -574,7 +576,11 @@ const OutcomesPage = () => (
       </Row>
       <Row>
         <Col className={outcomesStyles.centerContentColumns}>
-          <img src={Gypsum} className={pageStyles.smLogo} alt="gypsum-logo" />
+          <img 
+            src={Gypsum}
+            className={pageStyles.smLogo}
+            alt="gypsum-logo"
+          />
         </Col>
         <Col className={outcomesStyles.centerContentColumns}>
           <img
@@ -583,7 +589,22 @@ const OutcomesPage = () => (
             alt="raymour-flanigan-logo"
           />
         </Col>
+        <Col className={outcomesStyles.centerContentColumns}>
+          <img
+            src={Syracuse}
+            className={pageStyles.smLogo}
+            alt="syracuse-logo"
+          />
+        </Col>
+        <Col className={outcomesStyles.centerContentColumns}>
+          <img
+            src={Sidearm}
+            className={pageStyles.smLogo}
+            alt="Sidearm-logo"
+          />
+        </Col>
       </Row>
+      
     </Container>
     <Banner>
       <Row className={bannerStyles.bannerGreen}>
@@ -606,7 +627,6 @@ const OutcomesPage = () => (
         <Col className={pageStyles.centerText}>
           <img src={cirrLogo} alt="CIRR Logo"></img>
           <h3>Graduate Outcomes You Can Trust</h3>
-          <p>We graduated 11 students on August 22, 2019. 8 of 11 of our graduates have been placed in in-field internships, entry level positions, or consulting arrangements with an average salary increase of ~56%.</p>
           <p>As a CIRR certified school, we fully offer transparent results. CIRR is the industry standard for placement stats and we are commited to publishing trustworthy graduate outcomes.</p>
           <a
               href="https://cirr.org/"
