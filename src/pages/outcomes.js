@@ -73,7 +73,7 @@ const OutcomesPage = () => (
       }
     >
     <Row className={pageStyles.pageHeadings}>
-      <h3>Cohort 2 (March, 15 2019 - August 26, 2021)</h3>
+      <h3>Cohort 2 (March, 15 2021 - August 26, 2021)</h3>
     </Row>
 
     <Row className={outcomesStyles.outcomesCardRow}>
