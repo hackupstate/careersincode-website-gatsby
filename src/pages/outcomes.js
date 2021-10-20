@@ -581,6 +581,7 @@ const OutcomesPage = () => (
               content.ui.outcomes.outcomes_main_content.outcomes_snippets
                 .heading
             }
+            <sup>1</sup>
           </h1>
         </Col>
       </Row>
@@ -612,6 +613,13 @@ const OutcomesPage = () => (
                 .text
             }
           </p>
+        </Col>
+      </Row>
+    </Container>
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row>
+        <Col>
+          <sup>{content.ui.classroom.students_stats.footnote_1_super}</sup>Data reflects outcomes from our first cohort
         </Col>
       </Row>
     </Container>
