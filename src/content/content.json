@@ -1783,7 +1783,7 @@
         "subheading": "Learn more about our job placement and student experience after graduation.",
         "button": {
           "outcomes_text": "View Outcomes Report",
-          "outcomes_link": "../files/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf",
+          "outcomes_link": "/static/outcomes/cohort-1/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf",
           "consolidated_text": "View 2-pager Outcomes",
           "consolidated_link": "../files/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf",
           "transparency_text": "View Transparency Report",

@@ -74,9 +74,10 @@ const OutcomesPage = () => (
     </Row>
     <Row className={outcomesStyles.outcomesCardRow}>
       <a
-        href={"/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf"}
+        href={"/outcomes/cohort-1/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf"}
         rel="noopener noreferrer"
         className={pageStyles.btnLink}
+        target="_blank"
       >
         <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
           {content.ui.outcomes.outcomes_jumbotron.button.outcomes_text}
@@ -84,9 +85,10 @@ const OutcomesPage = () => (
       </a>
 
       <a
-        href={"/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf"}
+        href={"/outcomes/cohort-1/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf"}
         rel="noopener noreferrer"
         className={pageStyles.btnLink}
+        target="_blank"
       >
         <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
           {content.ui.outcomes.outcomes_jumbotron.button.consolidated_text}
@@ -94,9 +96,10 @@ const OutcomesPage = () => (
       </a>
 
       <a
-        href={"/Careers-in-Code-Transparency-Report-Cohort-1.pdf"}
+        href={"/outcomes/cohort-1/Careers-in-Code-Transparency-Report-Cohort-1.pdf"}
         rel="noopener noreferrer"
         className={pageStyles.btnLink}
+        target="_blank"
       >
         <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
           {content.ui.outcomes.outcomes_jumbotron.button.transparency_text}
