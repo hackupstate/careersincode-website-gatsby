@@ -195,34 +195,34 @@ const IndexPage = (props) => (
     <Container fluid className={pageStyles.whiteContainer}>
       <Row className={bannerStyles.bannerWhite}>
         <Col className={pageStyles.centerText}>
-        <h2 className={pageStyles.outcomes}>Our Cohort 1 Students Saw Results</h2>
-          <p>We graduated 11 students on August 22, 2019 with the following outcomes.</p>
-          <Row className={cardStyles.row}>
-          <Card className={cardStyles.card}>
+        <h2 className={pageStyles.outcomes}>Outcomes</h2>
+          <p>View our outcomes.</p>
+          <Row className={cardStyles.rowoutcomes}>
+          <Card className={cardStyles.cardoutcomes}>
             <span className={cardStyles.stat}>91%</span>
             <span className={cardStyles.value}>Graduation Rate</span>
           </Card>
-          <Card className={cardStyles.card}>
-          <span className={cardStyles.stat}>63%</span>
+          <Card className={cardStyles.cardoutcomes}>
+          <span className={cardStyles.stat}>72%</span>
           <span className={cardStyles.value}>Placement Rate</span>
           </Card>
-          <Card className={cardStyles.card}>
+          <Card className={cardStyles.cardoutcomes}>
           <span className={cardStyles.stat}>56%</span>
           <span className={cardStyles.value}>Salary Increase</span>
           </Card>
-          <Card className={cardStyles.card}>
+          <Card className={cardStyles.cardoutcomes}>
           <span className={cardStyles.stat}>$45,490</span>
           <span className={cardStyles.value}>Average Starting Salary</span>
           </Card>
           </Row>
           <a
-              href="https://careersincode.org/Careers-in-Code-Cohort-1-Outcomes-2-pager.pdf"
+              href="/outcomes"
               target="_blank"
               rel="noopener noreferrer"
               className={testimonialStyles.btnLink}
             >
           <Button size="md" className={testimonialStyles.blueButton}>
-              View Cohort 1 Outcomes
+              View Outcomes
           </Button>
           </a>
           </Col>
