@@ -28,6 +28,8 @@ import Karin from "../images/students/karin.jpg";
 import Kaitlyn from "../images/students/kaitlyn.jpg";
 import Tim from "../images/students/tim.jpeg";
 
+import LaTonia from "../images/students/cohort-2/latonia.png";
+
 import UI from "../images/companies/ui.jpg";
 import NID from "../images/companies/nid.jpg";
 import Terakeet from "../images/companies/terakeet.jpg";
@@ -63,6 +65,76 @@ const OutcomesPage = () => (
     <Row className={pageStyles.pageHeadings}>
       <h2>{content.ui.outcomes.outcomes_main_content.header}</h2>
     </Row>
+
+    <Container
+      fluid
+      className={
+        (pageStyles.marginBottom, outcomesStyles.outcomesCardContainer)
+      }
+    >
+    <Row className={pageStyles.pageHeadings}>
+      <h3>Cohort 2 (March, 15 2019 - August 26, 2021)</h3>
+    </Row>
+
+    <Row className={outcomesStyles.outcomesCardRow}>
+      <a
+        href={"/outcomes/cohort-2/Careers-In-Code-Student-Outcomes-Report.pdf"}
+        rel="noopener noreferrer"
+        className={pageStyles.btnLink}
+        target="_blank"
+      >
+        <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
+          View 0-30 Day Outcomes Report
+        </Button>
+      </a>
+      </Row>
+      <Row className={outcomesStyles.outcomesCardRow}>
+        {/* La'Tonia Card */}
+        <CardDeck>
+          <Col sm="3">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                La'Tonia Mertica Sheppard Walker
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={LaTonia}
+                alt="LaTonia"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>Syracuse Surge Communications Manager</p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>CenterState CEO</p>
+                </CardText>
+                {/* TBD - Waiting for story */}
+                {/* <a
+                    href={
+                      content.ui.outcomes.outcomes_main_content.cards.eva.button
+                        .link
+                    }
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={pageStyles.btnLink}
+                  >
+                <Button size="sm" color="info">
+                    {
+                      content.ui.outcomes.outcomes_main_content.cards.eva.button
+                        .text
+                    }
+                </Button>
+                </a> */}
+              </CardBody>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+      {/* New Card Row */}
+    </Container>
+
     <Container
       fluid
       className={
