@@ -78,7 +78,7 @@ const OutcomesPage = () => (
 
     <Row className={outcomesStyles.outcomesCardRow}>
       <a
-        href={"/outcomes/cohort-2/Careers-In-Code-Student-Outcomes-Report.pdf"}
+        href={"/outcomes/cohort-2/Careers-In-Code-Student-Outcomes-Report-Cohort-2.pdf"}
         rel="noopener noreferrer"
         className={pageStyles.btnLink}
         target="_blank"
