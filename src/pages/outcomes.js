@@ -29,6 +29,8 @@ import Kaitlyn from "../images/students/kaitlyn.jpg";
 import Tim from "../images/students/tim.jpeg";
 
 import LaTonia from "../images/students/cohort-2/latonia.png";
+import mel from "../images/students/cohort-2/mel.jpg";
+import sara from "../images/students/cohort-2/sara.png";
 
 import UI from "../images/companies/ui.jpg";
 import NID from "../images/companies/nid.jpg";
@@ -91,7 +93,8 @@ const OutcomesPage = () => (
       <Row className={outcomesStyles.outcomesCardRow}>
         {/* La'Tonia Card */}
         <CardDeck>
-          <Col sm="3">
+
+          <Col sm="4">
             <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
               <CardHeader tag="h3">
                 La'Tonia Mertica Sheppard Walker
@@ -110,29 +113,88 @@ const OutcomesPage = () => (
                 <CardText>
                   <p className={outcomesStyles.cardText}>CenterState CEO</p>
                 </CardText>
-                {/* TBD - Waiting for story */}
-                {/* <a
-                    href={
-                      content.ui.outcomes.outcomes_main_content.cards.eva.button
-                        .link
-                    }
+                <a
+                    href="https://hackupstate.medium.com/student-spotlight-latonia-mertica-d0ad92c94209"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={pageStyles.btnLink}
                   >
                 <Button size="sm" color="info">
-                    {
-                      content.ui.outcomes.outcomes_main_content.cards.eva.button
-                        .text
-                    }
+                  Read La'Tonia's story 
                 </Button>
-                </a> */}
+                </a>
               </CardBody>
             </Card>
           </Col>
+
+          <Col sm="4">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Sara Dow
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={sara}
+                alt="LaTonia"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>Junior Software Developer</p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>Kirkwork</p>
+                </CardText>
+                <a
+                    href="https://hackupstate.medium.com/careers-in-code-student-success-stories-sara-dow-12f1264820dd"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={pageStyles.btnLink}
+                  >
+                <Button size="sm" color="info">
+                  Read Sara's story 
+                </Button>
+                </a>
+              </CardBody>
+            </Card>
+          </Col>
+
+          <Col sm="4">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Melaquan Saffold
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={mel}
+                alt="Mel"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>Product Manager, IT</p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>City of Syracuse</p>
+                </CardText>
+                <a
+                    href="https://hackupstate.medium.com/careers-in-code-student-success-stories-melaquan-saffold-a8505f1e747"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={pageStyles.btnLink}
+                  >
+                <Button size="sm" color="info">
+                  Read Mel's story 
+                </Button>
+                </a>
+              </CardBody>
+            </Card>
+          </Col>
+
         </CardDeck>
       </Row>
-      {/* New Card Row */}
     </Container>
 
     <Container
