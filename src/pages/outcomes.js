@@ -89,6 +89,17 @@ const OutcomesPage = () => (
           View 60-90 Day Outcomes Report
         </Button>
       </a>
+
+      <a
+        href={"/outcomes/cohort-2/Careers-in-Code-Cohort-2-Outcomes-1-pager.pdf"}
+        rel="noopener noreferrer"
+        className={pageStyles.btnLink}
+        target="_blank"
+      >
+        <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
+          View 1-pager Outcomes
+        </Button>
+      </a>
       </Row>
       <Row className={outcomesStyles.outcomesCardRow}>
         {/* La'Tonia Card */}
