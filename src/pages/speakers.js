@@ -55,7 +55,7 @@ const Speakers = () => (
       />
     </Header>
     <SEO title="Speakers" />
-    <Container fluid className={pageStyles.whiteContainer}>
+    <Container className={pageStyles.whiteContainer}>
       <Row>
         <Col>
           <h1>
@@ -69,13 +69,6 @@ const Speakers = () => (
             {
               content.ui.classroom.guest_speakers.main_content.featured
                 .header_text_skills
-            }{" "}
-          </p>
-          <p>
-            {" "}
-            {
-              content.ui.classroom.guest_speakers.main_content.featured
-                .header_text_program
             }{" "}
           </p>
           <Row className={pageStyles.centerItems}>
@@ -104,7 +97,6 @@ const Speakers = () => (
       <h2> {content.ui.classroom.guest_speakers.main_content.cards.header} </h2>
     </Row>
     <Container
-      fluid
       className={(pageStyles.marginBottom, speakerStyles.speakerCardContainer)}
     >
       <Row className={speakerStyles.speakerCardRow}>

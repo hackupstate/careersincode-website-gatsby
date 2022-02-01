@@ -27,7 +27,7 @@ const PartnerPage = () => (
       >
         
         <JumboButton
-          btnLink={content.ui.partners.partners_jumbotron.button.link}
+          btnLink="mailto:jesse@hackupstate.com?subject=Careers%20In%20Code%20Partnership"
           btnText={content.ui.partners.partners_jumbotron.button.text}
         />
       </JumbotronComponent>

@@ -63,10 +63,10 @@ const InstructorsPage = () => (
         heading={content.ui.instructors.instructor_jumbotron.heading}
         subheading={content.ui.instructors.instructor_jumbotron.subheading}
       >
-        <JumboButton
+        {/* <JumboButton
           btnLink={content.ui.instructors.instructor_jumbotron.button.link}
           btnText={content.ui.instructors.instructor_jumbotron.button.text}
-        />
+        /> */}
       </JumbotronComponent>
     </Header>
     <SEO title="Instructors" />
@@ -159,10 +159,7 @@ const InstructorsPage = () => (
             }
           </p>
           <a
-              href={
-                content.ui.instructors.instructor_main_content.buttons
-                  .instructor.apply.link
-              }
+              href="https://forms.gle/uN24Pd2dECgqvrad9"
               target="_blank"
               rel="noopener noreferrer"
               className={instructorStyles.greenBtnLink}
@@ -206,6 +203,16 @@ const InstructorsPage = () => (
               }
           </Button>
           </a>
+          <a
+              href={content.ui.jobs_main_content.jobs_table.descriptions.description_instructor}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={instructorStyles.greenBtnLink}
+            >
+          <Button className={instructorStyles.greenButton}>
+              View Job Description
+          </Button>
+          </a>
         </Col>
 
         <Col className={instructorStyles.actionColumns}>
@@ -223,10 +230,7 @@ const InstructorsPage = () => (
           </p>
 
           <a
-              href={
-                content.ui.instructors.instructor_main_content.buttons.ta.apply
-                  .link
-              }
+              href="https://forms.gle/TFWNj9GgKabReUVp8"
               target="_blank"
               rel="noopener noreferrer"
               className={instructorStyles.greenBtnLink}
