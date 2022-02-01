@@ -639,7 +639,7 @@
         "buttons": {
           "instructor": {
             "header": "Instructors",
-            "text": "We’re actively looking for first-rate instructors to help support our Careers in Code bootcamp by helping to teach our students the fundamental skills they’ll need to obtain internship and entry-level positions and be successful as a software developer. Software professionals have the talent and skills necessary to create professional opportunities for our students. We'd love to work with you!",
+            "text": "We’re seeking first-rate instructors to help support our Careers in Code bootcamp. They’ll help to teach our students the fundamental skills they’ll need to obtain internship and entry-level positions and be successful as a software developer.",
             "apply": {
               "link": "https://docs.google.com/forms/d/e/1FAIpQLSdF3yHZ3zkLIznVaPnh_zfNDe9b1S9Bm17Mu5hwIV3k0Vr2pw/viewform",
               "text": "Apply Now"
@@ -655,7 +655,7 @@
           },
           "ta": {
             "header": "Teaching Assistants",
-            "text": "We’re seeking motivated individuals (preferably with some teaching experience in the coding/computer science field) to assist with our Careers in Code coding bootcamp. Teaching assistants will help support our instructors, students, and overall classroom. We'd love to work with you!",
+            "text": "We’re seeking motivated individuals (preferably with some teaching experience in the coding/computer science field) to assist with our Careers in Code coding bootcamp. Teaching assistants will help support our instructors, students, and the overall classroom.",
             "faq_link": "/faq",
             "apply": {
               "link": "https://docs.google.com/forms/d/e/1FAIpQLSf7GhPnZ_fvgqj-KOpHaThczUdiDsmAC5dXm_8f1-uCyloMfQ/viewform",
