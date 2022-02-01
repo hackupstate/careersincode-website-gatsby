@@ -89,13 +89,13 @@ const NavComponent = () => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="/instructors/" className={navStyles.navLink}>
-                Instructors
+              <NavLink href="/students/" className={navStyles.navLink}>
+                Students
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/students/" className={navStyles.navLink}>
-                Students
+              <NavLink href="/instructors/" className={navStyles.navLink}>
+                Instructors
               </NavLink>
             </NavItem>
             <NavItem>

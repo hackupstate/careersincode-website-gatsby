@@ -19,37 +19,9 @@ const Footer = (props) => {
           <h3 className={footerStyles.footerHeading}>
             {content.ui.footer_main_content.contact.header}
           </h3>
-          {/* DOUG */}
-
-          <div className={footerStyles.contactCol}>
-            <p className={footerStyles.footerSubheading}>
-              {" "}
-              {content.ui.footer_main_content.contact.doug.name}{" "}
-            </p>
-            <p>
-              <a
-                className={footerStyles.footerLink}
-                href={content.ui.footer_main_content.contact.doug.email}
-              >
-                {content.ui.footer_main_content.contact.doug.email_text}
-              </a>
-            </p>
-            <p>
-              <a
-                className={footerStyles.footerLink}
-                href={content.ui.footer_main_content.contact.doug.phone}
-              >
-                {content.ui.footer_main_content.contact.doug.phone_text}
-              </a>
-            </p>
-          </div>
           {/* JESSE */}
 
           <div className={footerStyles.contactCol}>
-            <p className={footerStyles.footerSubheading}>
-              {" "}
-              {content.ui.footer_main_content.contact.jesse.name}{" "}
-            </p>
             <p>
               <a
                 className={footerStyles.footerLink}
