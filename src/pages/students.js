@@ -84,6 +84,12 @@ const ProspectivePage = () => (
           btnLink={"https://forms.gle/B2qnHM5TDsTGYVAa9"}
           btnText={"Apply Now"}
         />
+
+        <JumboButton
+          btnLink={"/admissions/arpa/Careers in Code - Student Admissions Process - ARPA.pdf"}
+          btnText={"View student admissions process"}
+        />
+
       </JumbotronComponent>
     </Header>
     <SEO title="Prospective" />
