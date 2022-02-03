@@ -42,6 +42,12 @@ import pageStyles from "./pages.module.css";
 import prospectiveStyles from "./students.module.css";
 import alumniStyles from "./alumni.module.css";
 
+import Banner from "../components/banner";
+
+import bannerStyles from "../components/banner.module.css";
+
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 import Ariel from "../images/students/cohort-2/ariel.png";
 import brandy from "../images/students/cohort-2/brandy.jpg";
 import brielle from "../images/students/cohort-2/brielle.jpg";
@@ -140,7 +146,9 @@ const ProspectivePage = () => (
       </Row>
     </Container>
 
-    <Container className={pageStyles.whiteContainer}>
+
+    {/* ADD STUDENT HEADSHOTS HERE */}
+    {/* <Container className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
         <h2> Cohort 2 Students </h2>
       </Row>
@@ -150,9 +158,7 @@ const ProspectivePage = () => (
       className={(pageStyles.marginBottom, alumniStyles.alumniCardContainer)}
     >
       <Row className={alumniStyles.alumniCardRow}>
-        {/* card deck begins */}
         <CardDeck>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -167,7 +173,6 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -182,7 +187,6 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -202,7 +206,6 @@ const ProspectivePage = () => (
 
       <Row className={alumniStyles.alumniCardRow}>
         <CardDeck>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -217,7 +220,6 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -232,7 +234,6 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -251,7 +252,6 @@ const ProspectivePage = () => (
       </Row>
       <Row className={alumniStyles.alumniCardRow}>
         <CardDeck>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -266,7 +266,6 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -281,7 +280,6 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -301,7 +299,6 @@ const ProspectivePage = () => (
 
       <Row className={alumniStyles.alumniCardRow}>
         <CardDeck>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -316,7 +313,6 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -331,7 +327,6 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -351,7 +346,6 @@ const ProspectivePage = () => (
 
       <Row className={alumniStyles.alumniCardRow}>
         <CardDeck>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -366,7 +360,6 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -381,7 +374,6 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -401,7 +393,6 @@ const ProspectivePage = () => (
 
       <Row className={alumniStyles.alumniCardRow}>
         <CardDeck>
-          {/* student name */}
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -418,8 +409,9 @@ const ProspectivePage = () => (
           </Col>
         </CardDeck>
       </Row>
-      {/* card decks end */}
-    </Container>
+    </Container> */}
+    {/* END STUDENT HEADSHOTS */}
+
     <Container fluid className={pageStyles.marginBottom}>
       <Row>
         <Col className={pageStyles.centerText}>
@@ -440,6 +432,8 @@ const ProspectivePage = () => (
         </Col>
       </Row>
     </Container>
+
+    {/* HELPFUL RESOURCES */}
     <Container fluid className={pageStyles.whiteContainer}>
       <Row className={(pageStyles.centerText, pageStyles.centerContentColumns)}>
         <h3 className={pageStyles.pageHeadings}>
@@ -451,8 +445,26 @@ const ProspectivePage = () => (
       </Row>
       <Row className={prospectiveStyles.studentLinkRow}>
         <Col className={prospectiveStyles.studentLinkColumn}>
+          <FontAwesomeIcon icon={faUserCheck} size="3x" />
+          <h3>
+            {" "}
+            Admissions
+          </h3>
+          <a
+            href={"/admissions/arpa/Careers in Code - Student Admissions Process - ARPA.pdf"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={pageStyles.btnLink}
+          >
+            <Button size="md" className={pageStyles.blueButton}>
+            View admissions process
+            </Button>
+          </a>
+        </Col>
+
+        <Col className={prospectiveStyles.studentLinkColumn}>
           <FontAwesomeIcon icon={faGraduationCap} size="3x" />
-          <h3>{content.ui.classroom.student_resource_links.cohort1_text}</h3>
+          <h3>Alumni</h3>
           <a
             href={
               content.ui.classroom.student_resource_links.cohort1_button_link
@@ -461,55 +473,10 @@ const ProspectivePage = () => (
             className={pageStyles.btnLink}
           >
             <Button size="md" className={pageStyles.blueButton}>
-              {content.ui.classroom.student_resource_links.cohort1_button_text}
+              View our alumni
             </Button>
           </a>
         </Col>
-        <Col className={prospectiveStyles.studentLinkColumn}>
-          <FontAwesomeIcon icon={faUserCheck} size="3x" />
-          <h3>
-            {" "}
-            {content.ui.classroom.student_resource_links.admissions_text}
-          </h3>
-          <a
-            href={
-              content.ui.classroom.student_resource_links
-                .admissions_button_link
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-            <Button size="md" className={pageStyles.blueButton}>
-              {
-                content.ui.classroom.student_resource_links
-                  .admissions_button_text
-              }
-            </Button>
-          </a>
-        </Col>
-        <Col className={prospectiveStyles.studentLinkColumn}>
-          <FontAwesomeIcon icon={faListAlt} size="3x" />
-          <h3>{content.ui.classroom.student_resource_links.syllabus_text}</h3>
-          <a
-            href={
-              content.ui.classroom.student_resource_links
-                .syllabus_button_link
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-            <Button size="md" className={pageStyles.blueButton}>
-              {
-                content.ui.classroom.student_resource_links
-                  .syllabus_button_text
-              }
-            </Button>
-          </a>
-        </Col>
-      </Row>
-      <Row className={prospectiveStyles.studentLinkRow}>
         <Col className={prospectiveStyles.studentLinkColumn}>
           <FontAwesomeIcon icon={faPencilRuler} size="3x" />
           <h3>
@@ -520,20 +487,14 @@ const ProspectivePage = () => (
             }
           </h3>
           <a
-            href={
-              content.ui.classroom.student_resource_links
-                .responsibilities_button_link
-            }
+            href={"/admissions/arpa/Careers in Code - Student Responsibilities and Expectations - Spring 2022 (ARPA) Cohort.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             className={pageStyles.btnLink}
           >
             <Button size="md" className={pageStyles.blueButton}>
               {" "}
-              {
-                content.ui.classroom.student_resource_links
-                  .admissions_button_text
-              }
+              View responsibilites and expectations
             </Button>
           </a>
         </Col>
@@ -544,47 +505,35 @@ const ProspectivePage = () => (
             {content.ui.classroom.student_resource_links.capstone_text}
           </h3>
           <a
-            href={
-              content.ui.classroom.student_resource_links
-                .capstone_button_link
-            }
+            href={"/admissions/arpa/Careers in Code - Capstone Project - Students - Spring 2022 (ARPA) Cohort.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             className={pageStyles.btnLink}
           >
             <Button size="md" className={pageStyles.blueButton}>
               {" "}
-              {
-                content.ui.classroom.student_resource_links
-                  .capstone_button_text
-              }
-            </Button>
-          </a>
-        </Col>
-        <Col className={prospectiveStyles.studentLinkColumn}>
-          <FontAwesomeIcon icon={faToolbox} size="3x" />
-          <h3>
-            {content.ui.classroom.student_resource_links.resources_text}
-          </h3>
-          <a
-            href={
-              content.ui.classroom.student_resource_links
-                .resources_button_link
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-            <Button size="md" className={pageStyles.blueButton}>
-              {
-                content.ui.classroom.student_resource_links
-                  .resources_button_text
-              }
+             View capstone requirements
             </Button>
           </a>
         </Col>
       </Row>
     </Container>
+
+    <Banner>
+      <Row className={bannerStyles.bannerGreen}>
+        <Col className={pageStyles.centerText}>
+          <a
+            href={"https://forms.gle/B2qnHM5TDsTGYVAa9"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={pageStyles.bannerLink}
+          >
+            APPLY FOR OUR SPRING 2022 (APRA) COHORT TODAY!{" "}
+            <FontAwesomeIcon icon={faArrowRight} size="1x" />
+          </a>
+        </Col>
+      </Row>
+    </Banner>
 
   </Layout>
 );
