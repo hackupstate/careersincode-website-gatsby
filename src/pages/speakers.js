@@ -46,13 +46,20 @@ import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
 import speakerStyles from "./speakers.module.css";
 
+import JumboButton from "../components/jumbobutton";
+
 const Speakers = () => (
   <Layout>
     <Header>
       <NavComponent />
       <JumbotronComponent
         heading={content.ui.classroom.guest_speakers.jumbotron.heading}
+      >
+      <JumboButton
+        btnLink={content.ui.classroom.guest_speakers.main_content.featured.button.link}
+        btnText={"Speak to our students"}
       />
+      </JumbotronComponent>
     </Header>
     <SEO title="Speakers" />
     <Container className={pageStyles.whiteContainer}>
@@ -71,30 +78,12 @@ const Speakers = () => (
                 .header_text_skills
             }{" "}
           </p>
-          <Row className={pageStyles.centerItems}>
-          <a
-                href={
-                  content.ui.classroom.guest_speakers.main_content.featured
-                    .button.link
-                }
-                target="_blank"
-                rel="noopener noreferrer"
-                className={pageStyles.btnLink}
-              >
-            <Button className={pageStyles.blueButton}>
-                {
-                  content.ui.classroom.guest_speakers.main_content.featured
-                    .button.text
-                }
-            </Button>
-            </a>
-          </Row>
         </Col>
       </Row>
     </Container>
     {/* guest speaker cards */}
     <Row className={pageStyles.pageHeadings}>
-      <h2> {content.ui.classroom.guest_speakers.main_content.cards.header} </h2>
+      <h2>Cohort 1 Speakers</h2>
     </Row>
     <Container
       className={(pageStyles.marginBottom, speakerStyles.speakerCardContainer)}
