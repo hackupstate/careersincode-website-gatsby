@@ -75,8 +75,8 @@ const ProspectivePage = () => (
         /> */}
 
         <JumboButton
-          btnLink={"https://forms.gle/w3vyujNdsAuLsUHR9"}
-          btnText={"Join The Cohort 3 Waitlist"}
+          btnLink={"https://forms.gle/B2qnHM5TDsTGYVAa9"}
+          btnText={"Apply Now"}
         />
       </JumbotronComponent>
     </Header>
