@@ -82,7 +82,7 @@ const IndexPage = (props) => (
           <h3> {content.ui.index_main_content_top_text.copy}</h3>
           <p> {content.ui.index_main_content_top_text.description} </p>
           <a
-              href="https://medium.com/@hackupstate/announcing-hack-upstates-careers-in-code-a8ff0bfeddbf"
+              href={"/students"}
               target="_blank"
               rel="noopener noreferrer"
               className={pageStyles.btnLink}

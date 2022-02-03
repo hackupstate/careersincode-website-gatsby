@@ -92,7 +92,7 @@ const ProspectivePage = () => (
 
       </JumbotronComponent>
     </Header>
-    <SEO title="Prospective" />
+    <SEO title="Students" />
     <Container fluid className={prospectiveStyles.blueStatContainer}>
       <Row className={prospectiveStyles.statRows}>
         <Col className={prospectiveStyles.statColumns}>

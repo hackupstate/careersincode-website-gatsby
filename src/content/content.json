@@ -23,13 +23,13 @@
     "index_main_content_top_text": {
       "copy": "Poverty throughout Central NY is rising at an accelerated rate and stifling our region's economic potential.",
       "description": "There are few opportunities for women and minorities to advance in concentrated areas of extreme poverty.",
-      "link": "https://medium.com/@hackupstate/announcing-hack-upstates-careers-in-code-a8ff0bfeddbf",
-      "button": "Learn More"
+      "link": "/students",
+      "button": "Apply now"
     },
     "index_main_content_bottom_text": {
-      "copy": "Many Central NY employers struggle to find local software developers.",
+      "copy": "Many Central and Upstate NY employers struggle to find local software developers.",
       "link": "/partner",
-      "button": "We Can Help"
+      "button": "We can help"
     },
     "index_main_content_testimonials": {
       "copy": "Testimonials"
