@@ -28,7 +28,15 @@ const PartnerPage = () => (
         
         <JumboButton
           btnLink="mailto:jesse@hackupstate.com?subject=Careers%20In%20Code%20Partnership"
-          btnText={content.ui.partners.partners_jumbotron.button.text}
+          btnText="Email us"
+        />
+        <JumboButton
+          btnLink="https://www.canva.com/design/DAEgvedpMjs/JYTHqCkuUVd9Fs_B4HxNLw/view?utm_content=DAEgvedpMjs&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton&__s=tpqmbcw5zbfxdrtpbmev"
+          btnText="How to get involved"
+        />
+        <JumboButton
+          btnLink="https://docs.google.com/forms/d/e/1FAIpQLSdSR30iV2My-_eoWAT9NFIwwVm_wtoMUwdCkNq1Z1RlZZYTTw/viewform"
+          btnText="Take our business partner survey"
         />
       </JumbotronComponent>
     </Header>
@@ -144,7 +152,7 @@ const PartnerPage = () => (
       <br />
       <p>{content.ui.partners.partner_info.paragraph2}</p>
       <br />
-      <Button color="info" className={pageStyles.marginBottom} 
+      {/* <Button color="info" className={pageStyles.marginBottom} 
           href={content.ui.partners.partner_info.button.link}
           target="_blank"
           rel="noopener noreferrer">
@@ -153,7 +161,7 @@ const PartnerPage = () => (
         >
           {content.ui.partners.partner_info.button.text}
         </span>
-      </Button>
+      </Button> */}
     </Container>
   </Layout>
 );
