@@ -83,6 +83,175 @@ const Speakers = () => (
     </Container>
     {/* guest speaker cards */}
     <Row className={pageStyles.pageHeadings}>
+      <h2>Cohort 2 Speakers</h2>
+    </Row>
+    <Container
+      className={(pageStyles.marginBottom, speakerStyles.speakerCardContainer)}
+    >
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+          {/* Will Guisbond */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Will Guisbond</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ed}
+                alt="Will Guisbond"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                  Will Guisbond
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards.ed
+                        .presentation.text
+                    }
+                    <a
+                      href="https://youtu.be/f2RLP4vf2ro?t=20"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Why We're All Business Owners
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          {/* Dana McMullen */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Dana McMullen</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Flood}
+                alt="Matt Flood"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards
+                        .flood.position.text
+                    }
+                    <a
+                      href={
+                        content.ui.classroom.guest_speakers.main_content.cards
+                          .flood.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.classroom.guest_speakers.main_content.cards
+                          .flood.position.link_text
+                      }{" "}
+                    </a>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards
+                        .flood.presentation.text
+                    }
+                    <a
+                      href={
+                        content.ui.classroom.guest_speakers.main_content.cards
+                          .flood.presentation.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.classroom.guest_speakers.main_content.cards
+                          .flood.presentation.topic
+                      }{" "}
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          {/* shaun burdick */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">
+                {
+                  content.ui.classroom.guest_speakers.main_content.cards.shaun
+                    .name
+                }
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Shaun}
+                alt="Shaun Burdick"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards
+                        .shaun.position.text
+                    }
+                    <a
+                      href={
+                        content.ui.classroom.guest_speakers.main_content.cards
+                          .shaun.position.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.classroom.guest_speakers.main_content.cards
+                          .shaun.position.link_text
+                      }{" "}
+                    </a>
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards
+                        .shaun.presentation.text
+                    }
+                    <a
+                      href={
+                        content.ui.classroom.guest_speakers.main_content.cards
+                          .shaun.presentation.link
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      {
+                        content.ui.classroom.guest_speakers.main_content.cards
+                          .shaun.presentation.topic
+                      }{" "}
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+      </Container>
+    <Row className={pageStyles.pageHeadings}>
       <h2>Cohort 1 Speakers</h2>
     </Row>
     <Container
