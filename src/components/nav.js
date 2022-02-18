@@ -82,7 +82,7 @@ const NavComponent = () => {
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem className={navStyles.dropdownItem}>
-                  <NavLink className={navStyles.dropdownLink} href="/faq/">
+                  <NavLink className={navStyles.dropdownLink} href="https://hackupstate.notion.site/15a27fdec8e9493f8ce6c5ff862006f4?v=7383d3cdf6e44a4db9872bbc4a3ab6a7">
                     FAQ
                   </NavLink>
                 </DropdownItem>
