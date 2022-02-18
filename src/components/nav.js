@@ -72,18 +72,13 @@ const NavComponent = () => {
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem className={navStyles.dropdownItem}>
-                  <NavLink className={navStyles.dropdownLink} href="/speakers/">
-                    Guest Speakers
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem className={navStyles.dropdownItem}>
                   <NavLink className={navStyles.dropdownLink} href="/jobs/">
                     Jobs
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem className={navStyles.dropdownItem}>
-                  <NavLink className={navStyles.dropdownLink} href="https://hackupstate.notion.site/15a27fdec8e9493f8ce6c5ff862006f4?v=7383d3cdf6e44a4db9872bbc4a3ab6a7">
-                    FAQ
+                  <NavLink className={navStyles.dropdownLink} href="/objectives/">
+                    Objectives
                   </NavLink>
                 </DropdownItem>
               </DropdownMenu>
@@ -109,27 +104,20 @@ const NavComponent = () => {
               </NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href="/speakers/" className={navStyles.navLink}>
+                Speakers
+              </NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="/outcomes/" className={navStyles.navLink}>
                 Outcomes
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar fluid>
-              <DropdownToggle nav caret className={navStyles.navLink}>
-                Objectives
-              </DropdownToggle>
-              <DropdownMenu left className={navStyles.dropdownDisplayInline}>
-                <DropdownItem className={navStyles.dropdownItem}>
-                  <NavLink className={navStyles.dropdownLink} href="/objectives-2019/">
-                    2019 Objectives
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem className={navStyles.dropdownItem}>
-                  <NavLink className={navStyles.dropdownLink} href="/objectives/">
-                    2020 Objectives (coming soon)
-                  </NavLink>
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink className={navStyles.navLink} href="https://hackupstate.notion.site/15a27fdec8e9493f8ce6c5ff862006f4?v=7383d3cdf6e44a4db9872bbc4a3ab6a7">
+                FAQ
+              </NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
