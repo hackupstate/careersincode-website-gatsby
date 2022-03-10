@@ -184,64 +184,314 @@ const Speakers = () => (
               </CardBody>
             </Card>
           </Col>
-          {/* shaun burdick */}
-          <Col sm="4">
+          {/* Melissa Schmitz */}
+         <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
-              <CardHeader tag="h3">
-                {
-                  content.ui.classroom.guest_speakers.main_content.cards.shaun
-                    .name
-                }
-              </CardHeader>
+              <CardHeader tag="h3">Melissa Schmitz</CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={Shaun}
-                alt="Shaun Burdick"
+                src={Ed}
+                alt="Melissa Schmitz"
                 className={speakerStyles.imgSize}
               />
               <CardBody>
                 <CardTitle>
                   <p className={speakerStyles.cardTitle}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .shaun.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.classroom.guest_speakers.main_content.cards
-                          .shaun.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.classroom.guest_speakers.main_content.cards
-                          .shaun.position.link_text
-                      }{" "}
-                    </a>
+                  Melissa Schmitz
                   </p>
                 </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
                     {
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .shaun.presentation.text
+                      content.ui.classroom.guest_speakers.main_content.cards.ed
+                        .presentation.text
                     }
                     <a
-                      href={
-                        content.ui.classroom.guest_speakers.main_content.cards
-                          .shaun.presentation.link
-                      }
+                      href="https://youtu.be/6LqqdNNehOA?t=1404"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {" "}
-                      {
-                        content.ui.classroom.guest_speakers.main_content.cards
-                          .shaun.presentation.topic
-                      }{" "}
+                      What is Augmented Reality
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          {/*Joshua Marris */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Joshua Marris</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ed}
+                alt="Joshua Marris"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                  Joshua Marris
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards.ed
+                        .presentation.text
+                    }
+                    <a
+                      href="https://youtu.be/vTVo9oK-60g?t=130"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      A Frame
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+       {/*Annalena Davis */}
+             <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Annalena Davis</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ed}
+                alt="Annalena Davis"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                  Annalena Davis
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards.ed
+                        .presentation.text
+                    }
+                    <a
+                      href="https://youtu.be/UoNQ0z3SmTY?t=74"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Breaking into Tech
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+       {/*David Vorhees */}
+       <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">David Vorhees</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ed}
+                alt="David Vorhees"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                  David Vorhees
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards.ed
+                        .presentation.text
+                    }
+                    <a
+                      href="https://youtu.be/Cxz5Fi3Fzng?t=114"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Creating beautiful code
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+       {/*Erin Smith*/}
+       <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Erin Smith</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ed}
+                alt="Erin Smith"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                  Erin Smith
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards.ed
+                        .presentation.text
+                    }
+                    <a
+                      href="https://youtu.be/IqXUUQinhTA?t=221"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      The power of connections
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+       {/*Betania Allo*/}
+       <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Betania Allo</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ed}
+                alt="Betania Allo"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                  Betania Allo
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards.ed
+                        .presentation.text
+                    }
+                    <a
+                      href="https://youtu.be/bpj1NN_kRlU?t=2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+       {/*Glenn Allen*/}
+       <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Glenn Allen</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ed}
+                alt="Glenn Allen"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                  Glenn Allen
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards.ed
+                        .presentation.text
+                    }
+                    <a
+                      href="https://youtu.be/mbQwtDKv6r8?t=215"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Life as a freelance IT consultant
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+  {/*Linda Kovacs*/}
+    <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Linda Kovacs</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ed}
+                alt="Linda Kovacs"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                  Linda Kovacs
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards.ed
+                        .presentation.text
+                    }
+                    <a
+                      href="https://youtu.be/ld37Z9nMKLs?t=484"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          {/*Natasha Falter*/}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Natasha Falter</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ed}
+                alt="Natasha Falter"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={speakerStyles.cardTitle}>
+                  Natasha Falter
+                  </p>
+                </CardTitle>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                    {
+                      content.ui.classroom.guest_speakers.main_content.cards.ed
+                        .presentation.text
+                    }
+                    <a
+                      href="https://youtu.be/uqHTHjt86xU?t=194"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      HR and The Tech Industry
                     </a>
                   </p>
                 </CardText>
