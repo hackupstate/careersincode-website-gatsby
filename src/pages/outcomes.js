@@ -31,6 +31,7 @@ import Tim from "../images/students/tim.jpeg";
 import LaTonia from "../images/students/cohort-2/latonia.png";
 import mel from "../images/students/cohort-2/mel.jpg";
 import sara from "../images/students/cohort-2/sara.png";
+import kyle from "../images/students/cohort-2/kyle.jpg";
 
 import UI from "../images/companies/ui.jpg";
 import NID from "../images/companies/nid.jpg";
@@ -105,7 +106,7 @@ const OutcomesPage = () => (
         {/* La'Tonia Card */}
         <CardDeck>
 
-          <Col sm="4">
+          <Col sm="3">
             <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
               <CardHeader tag="h3">
                 La'Tonia Mertica Sheppard Walker
@@ -138,7 +139,7 @@ const OutcomesPage = () => (
             </Card>
           </Col>
 
-          <Col sm="4">
+          <Col sm="3">
             <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
               <CardHeader tag="h3">
                 Sara Dow
@@ -171,7 +172,7 @@ const OutcomesPage = () => (
             </Card>
           </Col>
 
-          <Col sm="4">
+          <Col sm="3">
             <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
               <CardHeader tag="h3">
                 Melaquan Saffold
@@ -198,6 +199,39 @@ const OutcomesPage = () => (
                   >
                 <Button size="sm" color="info">
                   Read Mel's story 
+                </Button>
+                </a>
+              </CardBody>
+            </Card>
+          </Col>
+
+          <Col sm="3">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Kyle Gilbert
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={kyle}
+                alt="Kyle"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>Lab Assistant</p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>Density</p>
+                </CardText>
+                <a
+                    href="https://hackupstate.medium.com/careers-in-code-student-success-stories-kyle-gilbert-59eb41a60a99"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={pageStyles.btnLink}
+                  >
+                <Button size="sm" color="info">
+                  Read Kyle's story 
                 </Button>
                 </a>
               </CardBody>
