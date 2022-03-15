@@ -104,7 +104,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  March 29, 2021
+                  March 29, 2021 | 
                     <a
                       href="https://youtu.be/f2RLP4vf2ro?t=20"
                       target="_blank"
@@ -131,7 +131,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  May 3, 2021
+                  May 3, 2021 | 
                     <a
                       href={
                         content.ui.classroom.guest_speakers.main_content.cards
@@ -166,7 +166,7 @@ const Speakers = () => (
 
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  May 24, 2021
+                  May 24, 2021 | 
                     <a
                       href="https://youtu.be/6LqqdNNehOA?t=1404"
                       target="_blank"
@@ -179,6 +179,10 @@ const Speakers = () => (
               </CardBody>
             </Card>
           </Col>
+          </CardDeck>
+        </Row>
+        <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
           {/*Joshua Marris */}
           <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
@@ -193,7 +197,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  June 7, 2021,
+                  June 7, 2021 | 
                     <a
                       href="https://youtu.be/vTVo9oK-60g?t=130"
                       target="_blank"
@@ -220,7 +224,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  June 14, 2021
+                  June 14, 2021 | 
                     <a
                       href="https://youtu.be/UoNQ0z3SmTY?t=74"
                       target="_blank"
@@ -247,7 +251,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  June 21, 2021
+                  June 21, 2021 | 
                     <a
                       href="https://youtu.be/Cxz5Fi3Fzng?t=114"
                       target="_blank"
@@ -260,6 +264,10 @@ const Speakers = () => (
               </CardBody>
             </Card>
           </Col>
+          </CardDeck>
+      </Row>
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
        {/*Erin Smith*/}
        <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
@@ -274,7 +282,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  July 12, 2021
+                  July 12, 2021 | 
                     <a
                       href="https://youtu.be/IqXUUQinhTA?t=221"
                       target="_blank"
@@ -301,7 +309,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  July 19, 2021v
+                  July 19, 2021 | 
                     <a
                       href="https://youtu.be/bpj1NN_kRlU?t=2"
                       target="_blank"
@@ -327,7 +335,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  August 2, 2021
+                  August 2, 2021 | 
                     <a
                       href="https://youtu.be/mbQwtDKv6r8?t=215"
                       target="_blank"
@@ -340,6 +348,10 @@ const Speakers = () => (
               </CardBody>
             </Card>
           </Col>
+          </CardDeck>
+      </Row>
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
   {/*Linda Kovacs*/}
     <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
@@ -354,7 +366,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  August 16, 2021
+                  August 16, 2021 | 
                     <a
                       href="https://youtu.be/ld37Z9nMKLs?t=484"
                       target="_blank"
@@ -381,7 +393,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  August 18, 2021
+                  August 18, 2021 | 
                     <a
                       href="https://youtu.be/uqHTHjt86xU?t=194"
                       target="_blank"
@@ -394,6 +406,10 @@ const Speakers = () => (
               </CardBody>
             </Card>
           </Col>
+          </CardDeck>
+      </Row>
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
         </CardDeck>
       </Row>
       </Container>
