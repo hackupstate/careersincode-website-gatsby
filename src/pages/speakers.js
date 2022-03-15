@@ -102,17 +102,9 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                  Will Guisbond
-                  </p>
-                </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .presentation.text
-                    }
+                  March 29, 2021
                     <a
                       href="https://youtu.be/f2RLP4vf2ro?t=20"
                       target="_blank"
@@ -137,34 +129,9 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .flood.position.text
-                    }
-                    <a
-                      href={
-                        content.ui.classroom.guest_speakers.main_content.cards
-                          .flood.position.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.classroom.guest_speakers.main_content.cards
-                          .flood.position.link_text
-                      }{" "}
-                    </a>
-                  </p>
-                </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards
-                        .flood.presentation.text
-                    }
+                  May 3, 2021
                     <a
                       href={
                         content.ui.classroom.guest_speakers.main_content.cards
@@ -196,17 +163,10 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                  Melissa Schmitz
-                  </p>
-                </CardTitle>
+
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .presentation.text
-                    }
+                  May 24, 2021
                     <a
                       href="https://youtu.be/6LqqdNNehOA?t=1404"
                       target="_blank"
@@ -231,17 +191,9 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                  Joshua Marris
-                  </p>
-                </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .presentation.text
-                    }
+                  June 7, 2021,
                     <a
                       href="https://youtu.be/vTVo9oK-60g?t=130"
                       target="_blank"
@@ -266,17 +218,9 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                  Annalena Davis
-                  </p>
-                </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .presentation.text
-                    }
+                  June 14, 2021
                     <a
                       href="https://youtu.be/UoNQ0z3SmTY?t=74"
                       target="_blank"
@@ -301,17 +245,9 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                  David Vorhees
-                  </p>
-                </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .presentation.text
-                    }
+                  June 21, 2021
                     <a
                       href="https://youtu.be/Cxz5Fi3Fzng?t=114"
                       target="_blank"
@@ -336,17 +272,9 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                  Erin Smith
-                  </p>
-                </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .presentation.text
-                    }
+                  July 12, 2021
                     <a
                       href="https://youtu.be/IqXUUQinhTA?t=221"
                       target="_blank"
@@ -371,17 +299,9 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                  Betania Allo
-                  </p>
-                </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .presentation.text
-                    }
+                  July 19, 2021v
                     <a
                       href="https://youtu.be/bpj1NN_kRlU?t=2"
                       target="_blank"
@@ -405,17 +325,9 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                  Glenn Allen
-                  </p>
-                </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .presentation.text
-                    }
+                  August 2, 2021
                     <a
                       href="https://youtu.be/mbQwtDKv6r8?t=215"
                       target="_blank"
@@ -440,17 +352,9 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                  Linda Kovacs
-                  </p>
-                </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .presentation.text
-                    }
+                  August 16, 2021
                     <a
                       href="https://youtu.be/ld37Z9nMKLs?t=484"
                       target="_blank"
@@ -475,17 +379,9 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-                <CardTitle>
-                  <p className={speakerStyles.cardTitle}>
-                  Natasha Falter
-                  </p>
-                </CardTitle>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                    {
-                      content.ui.classroom.guest_speakers.main_content.cards.ed
-                        .presentation.text
-                    }
+                  August 18, 2021
                     <a
                       href="https://youtu.be/uqHTHjt86xU?t=194"
                       target="_blank"
