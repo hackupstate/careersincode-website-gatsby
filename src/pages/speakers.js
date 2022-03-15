@@ -110,7 +110,7 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Why We're All Business Owners
+                       Why We're All Business Owners
                     </a>
                   </p>
                 </CardText>
@@ -131,21 +131,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  May 3, 2021 | 
-                    <a
-                      href={
-                        content.ui.classroom.guest_speakers.main_content.cards
-                          .flood.presentation.link
-                      }
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {" "}
-                      {
-                        content.ui.classroom.guest_speakers.main_content.cards
-                          .flood.presentation.topic
-                      }{" "}
-                    </a>
+                  May 3, 2021
                   </p>
                 </CardText>
               </CardBody>
@@ -172,7 +158,7 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      What is Augmented Reality
+                       What is Augmented Reality
                     </a>
                   </p>
                 </CardText>
@@ -203,7 +189,7 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      A Frame
+                       A Frame
                     </a>
                   </p>
                 </CardText>
@@ -230,7 +216,7 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Breaking into Tech
+                       Breaking into Tech
                     </a>
                   </p>
                 </CardText>
@@ -257,7 +243,7 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Creating beautiful code
+                       Creating beautiful code
                     </a>
                   </p>
                 </CardText>
@@ -288,7 +274,7 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      The power of connections
+                       The power of connections
                     </a>
                   </p>
                 </CardText>
@@ -315,6 +301,7 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
+                      View Talk
                     </a>
                   </p>
                 </CardText>
@@ -341,7 +328,7 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Life as a freelance IT consultant
+                     Life as a freelance IT consultant
                     </a>
                   </p>
                 </CardText>
@@ -353,7 +340,7 @@ const Speakers = () => (
       <Row className={speakerStyles.speakerCardRow}>
         <CardDeck>
   {/*Linda Kovacs*/}
-    <Col sm="4">
+    <Col sm="6">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">Linda Kovacs</CardHeader>
               <CardImg
@@ -372,7 +359,7 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-
+                       View Talk
                     </a>
                   </p>
                 </CardText>
@@ -380,7 +367,7 @@ const Speakers = () => (
             </Card>
           </Col>
           {/*Natasha Falter*/}
-          <Col sm="4">
+          <Col sm="6">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">Natasha Falter</CardHeader>
               <CardImg
@@ -399,7 +386,7 @@ const Speakers = () => (
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      HR and The Tech Industry
+                       HR and The Tech Industry
                     </a>
                   </p>
                 </CardText>
