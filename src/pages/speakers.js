@@ -35,6 +35,18 @@ import Seth from "../images/speakers/sethmulligan.jpeg";
 import Ben from "../images/speakers/benlannon.jpeg";
 import Glenn from "../images/speakers/glennallen.jpg";
 import Indaria from "../images/speakers/indaria-jones.jpg";
+
+//cohort 2
+import Annalena from "../images/speakers/cohort-2/annalena.jpg";
+import Betania from "../images/speakers/cohort-2/betania.jpg";
+import Dana from "../images/speakers/cohort-2/dana.jpg";
+import Dave from "../images/speakers/cohort-2/dave.jpg";
+import Erin from "../images/speakers/cohort-2/erin.jpg";
+import JoshM from "../images/speakers/cohort-2/josh.jpg";
+import Melissa from "../images/speakers/cohort-2/melissa.jpg";
+import Natasha from "../images/speakers/cohort-2/natasha.jpg";
+import Will from "../images/speakers/cohort-2/will.png";
+
 import {
   FaEnvelopeSquare,
   FaTwitterSquare,
@@ -97,7 +109,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Ed}
+                src={Will}
                 alt="Will Guisbond"
                 className={speakerStyles.imgSize}
               />
@@ -124,7 +136,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Flood}
+                src={Dana}
                 alt="Matt Flood"
                 className={speakerStyles.imgSize}
               />
@@ -144,7 +156,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Ed}
+                src={Melissa}
                 alt="Melissa Schmitz"
                 className={speakerStyles.imgSize}
               />
@@ -176,7 +188,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Ed}
+                src={JoshM}
                 alt="Joshua Marris"
                 className={speakerStyles.imgSize}
               />
@@ -203,7 +215,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Ed}
+                src={Annalena}
                 alt="Annalena Davis"
                 className={speakerStyles.imgSize}
               />
@@ -230,7 +242,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Ed}
+                src={Dave}
                 alt="David Vorhees"
                 className={speakerStyles.imgSize}
               />
@@ -261,7 +273,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Ed}
+                src={Erin}
                 alt="Erin Smith"
                 className={speakerStyles.imgSize}
               />
@@ -288,7 +300,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Ed}
+                src={Betania}
                 alt="Betania Allo"
                 className={speakerStyles.imgSize}
               />
@@ -315,7 +327,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Ed}
+                src={Glenn}
                 alt="Glenn Allen"
                 className={speakerStyles.imgSize}
               />
@@ -346,7 +358,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Ed}
+                src={Linda}
                 alt="Linda Kovacs"
                 className={speakerStyles.imgSize}
               />
@@ -373,7 +385,7 @@ const Speakers = () => (
               <CardImg
                 top
                 width="100%"
-                src={Ed}
+                src={Natasha}
                 alt="Natasha Falter"
                 className={speakerStyles.imgSize}
               />
