@@ -35,6 +35,18 @@ import Seth from "../images/speakers/sethmulligan.jpeg";
 import Ben from "../images/speakers/benlannon.jpeg";
 import Glenn from "../images/speakers/glennallen.jpg";
 import Indaria from "../images/speakers/indaria-jones.jpg";
+
+//cohort 2
+import Annalena from "../images/speakers/cohort-2/annalena.jpg";
+import Betania from "../images/speakers/cohort-2/betania.jpg";
+import Dana from "../images/speakers/cohort-2/dana.jpg";
+import Dave from "../images/speakers/cohort-2/dave.jpg";
+import Erin from "../images/speakers/cohort-2/erin.jpg";
+import JoshM from "../images/speakers/cohort-2/josh.jpg";
+import Melissa from "../images/speakers/cohort-2/melissa.jpg";
+import Natasha from "../images/speakers/cohort-2/natasha.jpg";
+import Will from "../images/speakers/cohort-2/will.png";
+
 import {
   FaEnvelopeSquare,
   FaTwitterSquare,
@@ -82,6 +94,324 @@ const Speakers = () => (
       </Row>
     </Container>
     {/* guest speaker cards */}
+    <Row className={pageStyles.pageHeadings}>
+      <h2>Cohort 2 Speakers</h2>
+    </Row>
+    <Container
+      className={(pageStyles.marginBottom, speakerStyles.speakerCardContainer)}
+    >
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+          {/* Will Guisbond */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Will Guisbond</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Will}
+                alt="Will Guisbond"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>March 29, 2021 </p>
+                    <a
+                      href="https://youtu.be/f2RLP4vf2ro?t=20"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       Why We're All Business Owners
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          {/* Dana McMullen */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Dana McMullen</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Dana}
+                alt="Matt Flood"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  May 3, 2021
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          {/* Melissa Schmitz */}
+         <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Melissa Schmitz</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Melissa}
+                alt="Melissa Schmitz"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>May 24, 2021 </p>
+                    <a
+                      href="https://youtu.be/6LqqdNNehOA?t=1404"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       What is Augmented Reality
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          </CardDeck>
+        </Row>
+        <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+          {/*Joshua Marris */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Joshua Marris</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={JoshM}
+                alt="Joshua Marris"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>June 7, 2021 </p>
+                    <a
+                      href="https://youtu.be/vTVo9oK-60g?t=130"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       A Frame
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+       {/*Annalena Davis */}
+             <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Annalena Davis</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Annalena}
+                alt="Annalena Davis"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>June 14, 2021 </p>
+                    <a
+                      href="https://youtu.be/UoNQ0z3SmTY?t=74"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       Breaking into Tech
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+       {/*David Vorhees */}
+       <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">David Vorhees</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Dave}
+                alt="David Vorhees"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>June 21, 2021 </p>
+                    <a
+                      href="https://youtu.be/Cxz5Fi3Fzng?t=114"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       Creating beautiful code
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          </CardDeck>
+      </Row>
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+       {/*Erin Smith*/}
+       <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Erin Smith</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Erin}
+                alt="Erin Smith"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>July 12, 2021 </p>
+                    <a
+                      href="https://youtu.be/IqXUUQinhTA?t=221"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       The power of connections
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+       {/*Betania Allo*/}
+       <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Betania Allo</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Betania}
+                alt="Betania Allo"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>July 19, 2021 </p> 
+                    <a
+                      href="https://youtu.be/bpj1NN_kRlU?t=2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Talk
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+       {/*Glenn Allen*/}
+       <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Glenn Allen</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Glenn}
+                alt="Glenn Allen"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>August 2, 2021 </p>
+                    <a
+                      href="https://youtu.be/mbQwtDKv6r8?t=215"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                     Life as a freelance IT consultant
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          </CardDeck>
+      </Row>
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+  {/*Linda Kovacs*/}
+    <Col sm="6">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Linda Kovacs</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Linda}
+                alt="Linda Kovacs"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>August 16, 2021 </p>
+                    <a
+                      href="https://youtu.be/ld37Z9nMKLs?t=484"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       View Talk
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          {/*Natasha Falter*/}
+          <Col sm="6">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Natasha Falter</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Natasha}
+                alt="Natasha Falter"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>August 18, 2021 </p>
+                    <a
+                      href="https://youtu.be/uqHTHjt86xU?t=194"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       HR and The Tech Industry
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+          </CardDeck>
+      </Row>
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+        </CardDeck>
+      </Row>
+      </Container>
     <Row className={pageStyles.pageHeadings}>
       <h2>Cohort 1 Speakers</h2>
     </Row>
