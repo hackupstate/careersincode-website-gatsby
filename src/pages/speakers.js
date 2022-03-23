@@ -68,7 +68,7 @@ const Speakers = () => (
         heading={content.ui.classroom.guest_speakers.jumbotron.heading}
       >
       <JumboButton
-        btnLink={content.ui.classroom.guest_speakers.main_content.featured.button.link}
+        btnLink={"https://calendly.com/hucareersincode/guest-speaker"}
         btnText={"Speak to our students"}
       />
       </JumbotronComponent>
