@@ -61,7 +61,7 @@ import nicoleb from "../images/students/cohort-3/nicoleb.jpg";
 import shantina from "../images/students/cohort-3/shantina.png";
 // import daniellefloyd from "";
 // import markell from "";
-// import christi from "";
+import christi from "../images/students/cohort-3/christiharlow.png";
 import larry from "../images/students/cohort-3/larrygoodman.jpeg";
 // import chaz from "";
 // import strange from "";
@@ -234,7 +234,7 @@ const ProspectivePage = () => (
               <CardImg
                 top
                 width="100%"
-                src={placeholderimage}
+                src={christi}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
