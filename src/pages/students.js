@@ -59,6 +59,13 @@ import wayneboyd from "../images/students/cohort-3/wayneboyd.jpg";
 import zachhafner from "../images/students/cohort-3/zachhafner.jpeg";
 import nicoleb from "../images/students/cohort-3/nicoleb.jpg";
 import shantina from "../images/students/cohort-3/shantina.png";
+// import daniellefloyd from "";
+// import markell from "";
+// import christi from "";
+// import larry from "";
+// import chaz from "";
+// import strange from "";
+
 
 const ProspectivePage = () => (
   <Layout>
