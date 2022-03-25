@@ -59,7 +59,7 @@ import wayneboyd from "../images/students/cohort-3/wayneboyd.jpg";
 import zachhafner from "../images/students/cohort-3/zachhafner.jpeg";
 import nicoleb from "../images/students/cohort-3/nicoleb.jpg";
 import shantina from "../images/students/cohort-3/shantina.png";
-// import daniellefloyd from "";
+import daniellefloyd from "../images/students/cohort-3/daniellefloyd.jpg";
 // import markell from "";
 import christi from "../images/students/cohort-3/christiharlow.png";
 import larry from "../images/students/cohort-3/larrygoodman.jpeg";
@@ -173,7 +173,7 @@ const ProspectivePage = () => (
               <CardImg
                 top
                 width="100%"
-                src={placeholderimage}
+                src={daniellefloyd}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
