@@ -32,6 +32,7 @@ import pageStyles from "./pages.module.css";
 import bannerStyles from "../components/banner.module.css";
 import testimonialStyles from "./testimonials.module.css";
 import cirrLogo from "../images/partners/cirr_50.png";
+import courseReportLogo from "../images/coursereportlogo.png";
 //import {jsonData} from "../utils/rss-to-json.js";
 
 const IndexPage = (props) => (
@@ -251,7 +252,24 @@ const IndexPage = (props) => (
         </Col>
       </Row>
     </Container>
-
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={bannerStyles.bannerWhite}>
+        <Col className={pageStyles.centerText}>
+          <h3>View us on Course Report</h3>
+          <img src={courseReportLogo} alt="Course Report Logo"></img>
+          <a
+              href="https://www.coursereport.com/schools/careers-in-code"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={testimonialStyles.btnLink}
+            >
+          <Button size="md" className={testimonialStyles.blueButton}>
+              View Course Report Reviews2
+          </Button>
+          </a>
+        </Col>
+      </Row>
+    </Container>
     <Container fluid className={pageStyles.blueContainer}>
       <Row className={bannerStyles.bannerWhite}>
         <Col className={pageStyles.centerText}>
