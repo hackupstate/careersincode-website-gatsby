@@ -31,8 +31,8 @@ const TestimonialsPage = () => (
         heading={content.ui.about.testimonials_jumbotron.heading}
       >
         <JumboButton
-          btnLink={content.ui.about.testimonials_jumbotron.button.link}
-          btnText={content.ui.about.newsletter_jumbotron.button.text}
+          btnLink="https://www.coursereport.com/schools/careers-in-code"
+          btnText="View Reviews on Course Report"
         />
       </JumbotronComponent>
     </Header>
@@ -52,7 +52,7 @@ const TestimonialsPage = () => (
           />
         </Col>
         <Col>
-          <h4>La'Tonia Mertica , Cohort Two Graduate</h4>
+          <h4>La'Tonia Mertica , Cohort Two Graduateg</h4>
           <p>Where I'd be in life at this moment had I not joined Careers in Code is something I can't imagine. 
 I started the program thinking I wouldn't finish. Some days it took all the strength I had to show up. I was always happy - relieved - I did. Those powering CiC always made me feel energized, inspiringly challenged, and ready to re-define (again and again) my self perceptions of what I can achieve. I appreciate their holistic approach. Constant encouragement. Vibrant support. These collective qualities allowed me to thrive. They equipped me with fundamentals, including a growth mindset, to be successful pursuing code/web dev. 
 Now I have opportunities that were once surreal. I have options. I've been able to create possibilities. It feels wonderful. More importantly to me, it feels reliable. I have skills and sights for better days that can't be taken away from me. Those powering CiC put me in a mental place to help make this my reality.
