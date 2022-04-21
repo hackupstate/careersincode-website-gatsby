@@ -256,7 +256,8 @@ const IndexPage = (props) => (
       <Row className={bannerStyles.bannerWhite}>
         <Col className={pageStyles.centerText}>
           <h3>View us on Course Report</h3>
-          <img src={courseReportLogo} alt="Course Report Logo"></img>
+          <img style="width: 300px;" src={courseReportLogo} alt="Course Report Logo"></img>
+          <p>View all of our reviews on Course Report</p>
           <a
               href="https://www.coursereport.com/schools/careers-in-code"
               target="_blank"
@@ -264,7 +265,7 @@ const IndexPage = (props) => (
               className={testimonialStyles.btnLink}
             >
           <Button size="md" className={testimonialStyles.blueButton}>
-              View Course Report Reviews2
+              View Course Report Reviews
           </Button>
           </a>
         </Col>
