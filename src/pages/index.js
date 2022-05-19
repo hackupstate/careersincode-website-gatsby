@@ -32,6 +32,7 @@ import pageStyles from "./pages.module.css";
 import bannerStyles from "../components/banner.module.css";
 import testimonialStyles from "./testimonials.module.css";
 import cirrLogo from "../images/partners/cirr_50.png";
+import courseReportLogo from "../images/coursereportlogo.png";
 //import {jsonData} from "../utils/rss-to-json.js";
 
 const IndexPage = (props) => (
@@ -51,13 +52,13 @@ const IndexPage = (props) => (
           btnText={content.ui.index_jumbotron.button2.text}
         />
       <JumboButton
-          btnLink={"https://forms.gle/B2qnHM5TDsTGYVAa9"}
-          btnText={"Apply now"}
+          btnLink={"https://forms.gle/S4RDs8MEd2rmQGyy6"}
+          btnText={"Join the Fall, 2022 waitlist"}
         />
-        <JumboButton
+        {/* <JumboButton
           btnLink={"/admissions/arpa/Careers in Code - Student Admissions Process - ARPA.pdf"}
           btnText={"View student admissions process"}
-        />
+        /> */}
       </JumbotronComponent>
     </Header>
     <SEO title="Home" />
@@ -251,7 +252,25 @@ const IndexPage = (props) => (
         </Col>
       </Row>
     </Container>
-
+    <Container fluid className={pageStyles.whiteContainer}>
+      <Row className={bannerStyles.bannerWhite}>
+        <Col className={pageStyles.centerText}>
+          <h3>View us on Course Report</h3>
+          <img style={{width: '300px'}}  src={courseReportLogo} alt="Course Report Logo"></img>
+          <p>View all of our reviews on Course Report</p>
+          <a
+              href="https://www.coursereport.com/schools/careers-in-code"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={testimonialStyles.btnLink}
+            >
+          <Button size="md" className={testimonialStyles.blueButton}>
+              View Course Report Reviews
+          </Button>
+          </a>
+        </Col>
+      </Row>
+    </Container>
     <Container fluid className={pageStyles.blueContainer}>
       <Row className={bannerStyles.bannerWhite}>
         <Col className={pageStyles.centerText}>

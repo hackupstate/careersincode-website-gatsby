@@ -48,23 +48,23 @@ import bannerStyles from "../components/banner.module.css";
 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-import Ariel from "../images/students/cohort-2/ariel.png";
-import brandy from "../images/students/cohort-2/brandy.jpg";
-import brielle from "../images/students/cohort-2/brielle.jpg";
-import carolyn from "../images/students/cohort-2/carolyn.png";
-import dominique from "../images/students/cohort-2/dominique.png";
-import elina from "../images/students/cohort-2/elina.jpeg";
-import Fobelia from "../images/students/cohort-2/Fobelia.png";
-import jaheal from "../images/students/cohort-2/jaheal.jpg";
-import karen from "../images/students/cohort-2/karen.jpg";
-import kyle from "../images/students/cohort-2/kyle.jpg";
-import latonia from "../images/students/cohort-2/latonia.png";
-import mel from "../images/students/cohort-2/mel.jpg";
-import sara from "../images/students/cohort-2/sara.png";
-import shah from "../images/students/cohort-2/shah.jpg";
-import shantina from "../images/students/cohort-2/shantina.png";
-import susan from "../images/students/cohort-2/susan.jpg";
+import placeholderimage from "../images/students/placeholder.jpg";
 
+import coreymitchell from "../images/students/cohort-3/coreymitchell.jpg";
+import dougroussin from "../images/students/cohort-3/DougRoussin.jpg";
+import scotyia from "../images/students/cohort-3/scotyia.jpg";
+import stephanienunez from "../images/students/cohort-3/stephanienunez.jpg";
+import tiffanywilliams from "../images/students/cohort-3/tiffany.jpg";
+import wayneboyd from "../images/students/cohort-3/wayneboyd.jpg";
+import zachhafner from "../images/students/cohort-3/zachhafner.jpeg";
+import nicoleb from "../images/students/cohort-3/nicoleb.jpg";
+import shantina from "../images/students/cohort-3/shantina.png";
+import daniellefloyd from "../images/students/cohort-3/daniellefloyd.jpg";
+// import markell from "";
+import christi from "../images/students/cohort-3/christiharlow.png";
+import larry from "../images/students/cohort-3/larrygoodman.jpeg";
+// import chaz from "";
+// import strange from "";
 
 
 const ProspectivePage = () => (
@@ -81,14 +81,14 @@ const ProspectivePage = () => (
         /> */}
 
         <JumboButton
-          btnLink={"https://forms.gle/B2qnHM5TDsTGYVAa9"}
-          btnText={"Apply Now"}
+          btnLink={"https://forms.gle/S4RDs8MEd2rmQGyy6"}
+          btnText={"Join the Fall, 2022 waitlist"}
         />
 
-        <JumboButton
+        {/* <JumboButton
           btnLink={"/admissions/arpa/Careers in Code - Student Admissions Process - ARPA.pdf"}
           btnText={"View student admissions process"}
-        />
+        /> */}
 
       </JumbotronComponent>
     </Header>
@@ -154,9 +154,9 @@ const ProspectivePage = () => (
 
 
     {/* ADD STUDENT HEADSHOTS HERE */}
-    {/* <Container className={pageStyles.whiteContainer}>
+    <Container className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
-        <h2> Cohort 2 Students </h2>
+        <h2>Cohort 3 Students (Spring 2022)</h2>
       </Row>
     </Container>
     <Container
@@ -168,12 +168,12 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                Ariel Murphy
+              Danielle Floyd
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={Ariel}
+                src={daniellefloyd}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
@@ -182,12 +182,12 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                Brandy Mack
+              Markell Osborne
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={brandy}
+                src={placeholderimage}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
@@ -196,105 +196,12 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                Brielle Dailey
+              Tiffany Williams
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={brielle}
-                alt="#"
-                className={alumniStyles.imgSize}
-              />
-            </Card>
-          </Col>
-        </CardDeck>
-      </Row>
-
-      <Row className={alumniStyles.alumniCardRow}>
-        <CardDeck>
-          <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Carolyn Sprague
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={carolyn}
-                alt="#"
-                className={alumniStyles.imgSize}
-              />
-            </Card>
-          </Col>
-          <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Dominique Wynn
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={dominique}
-                alt="#"
-                className={alumniStyles.imgSize}
-              />
-            </Card>
-          </Col>
-          <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Elina Nguyen
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={elina}
-                alt="#"
-                className={alumniStyles.imgSize}
-              />
-            </Card>
-          </Col>
-        </CardDeck>
-      </Row>
-      <Row className={alumniStyles.alumniCardRow}>
-        <CardDeck>
-          <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Fobealia Barrett-Wynn
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={Fobelia}
-                alt="#"
-                className={alumniStyles.imgSize}
-              />
-            </Card>
-          </Col>
-          <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Jaheal Smith
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={jaheal}
-                alt="#"
-                className={alumniStyles.imgSize}
-              />
-            </Card>
-          </Col>
-          <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Karen Baxter
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={karen}
+                src={tiffanywilliams}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
@@ -308,12 +215,12 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                Kyle Gilbert
+              Wayne Boyd
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={kyle}
+                src={wayneboyd}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
@@ -322,12 +229,12 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                La'Tonia Mertica Sheppard Walker
+              Christi Harlow
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={latonia}
+                src={christi}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
@@ -336,12 +243,58 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                Melaquan Saffold
+              Larry Goodman
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={mel}
+                src={larry}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+      <Row className={alumniStyles.alumniCardRow}>
+        <CardDeck>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Stephanie Nunez
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={stephanienunez}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Zachary Hafner
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={zachhafner}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Chaz Dickerson
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={placeholderimage}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
@@ -355,35 +308,7 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                Sara Dow
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={sara}
-                alt="#"
-                className={alumniStyles.imgSize}
-              />
-            </Card>
-          </Col>
-          <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Shah Mansoor
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={shah}
-                alt="#"
-                className={alumniStyles.imgSize}
-              />
-            </Card>
-          </Col>
-          <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Shantina Perez
+              Shantina Perez
               </CardHeader>
               <CardImg
                 top
@@ -394,6 +319,34 @@ const ProspectivePage = () => (
               />
             </Card>
           </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Scotyia Bain
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={scotyia}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Corey Mitchell
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={coreymitchell}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
         </CardDeck>
       </Row>
 
@@ -402,12 +355,40 @@ const ProspectivePage = () => (
           <Col sm="4">
             <Card body className={("shadow-sm", alumniStyles.cardSize)}>
               <CardHeader tag="h3">
-                Susan Baiter
+              Strange Maeweather
               </CardHeader>
               <CardImg
                 top
                 width="100%"
-                src={susan}
+                src={placeholderimage}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Nicole Broadnax
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={nicoleb}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Doug Roussin
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={dougroussin}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
@@ -415,7 +396,7 @@ const ProspectivePage = () => (
           </Col>
         </CardDeck>
       </Row>
-    </Container> */}
+    </Container>
     {/* END STUDENT HEADSHOTS */}
 
     <Container fluid className={pageStyles.marginBottom}>

@@ -5,3 +5,7 @@
 # Redirect default Netlify subdomain to primary domain
 http://careersincode.netlify.app/* http://careersincode.org/:splat 301!
 https://careersincode.netlify.app/* https://careersincode.org/:splat 301!
+
+# Redirect FAQ page to Notion
+http://careersincode.org/faq/ https://hackupstate.notion.site/15a27fdec8e9493f8ce6c5ff862006f4?v=7383d3cdf6e44a4db9872bbc4a3ab6a7 301!
+https://careersincode.org/faq/ https://hackupstate.notion.site/15a27fdec8e9493f8ce6c5ff862006f4?v=7383d3cdf6e44a4db9872bbc4a3ab6a7 301!
