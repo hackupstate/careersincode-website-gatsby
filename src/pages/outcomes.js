@@ -87,7 +87,7 @@ const OutcomesPage = () => (
         target="_blank"
       >
         <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
-          View 60-90 Day Outcomes Report
+          View Full Outcomes Report
         </Button>
       </a>
 
