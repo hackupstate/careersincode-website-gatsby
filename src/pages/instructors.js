@@ -279,6 +279,93 @@ const InstructorsPage = () => (
         </Col>
       </Row>
     </Container>
+       {/* INSTRUCTOR CARDS - COHORT 3 */}
+       <Row className={pageStyles.pageHeadings}>
+      <h2> Cohort 2 Instructors</h2>
+    </Row>
+
+    <Container
+      className={
+        (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
+      }
+    >
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* instructor */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Max Matthews
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Max}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Ryan Gaus
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ryan}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Joey Buczek
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Joey}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Nathan Evans
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Nathan}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+             </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+      <Row className={pageStyles.centerItems}>
+        <a
+          href="https://hackupstate.medium.com/meet-our-careers-in-code-instructors-teaching-assistants-and-staff-ba39f542ad49"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className={pageStyles.blueButton}>
+            {" "}
+            {
+              content.ui.instructors.instructor_main_content.cohort_one
+                .instructor.button.text
+            }{" "}
+          </Button>{" "}
+        </a>
+      </Row>
+    </Container>
     {/* INSTRUCTOR CARDS - COHORT 2 */}
     <Row className={pageStyles.pageHeadings}>
       <h2> Cohort 2 Instructors</h2>
