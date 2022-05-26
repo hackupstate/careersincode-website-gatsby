@@ -60,11 +60,11 @@ import zachhafner from "../images/students/cohort-3/zachhafner.jpeg";
 import nicoleb from "../images/students/cohort-3/nicoleb.jpg";
 import shantina from "../images/students/cohort-3/shantina.png";
 import daniellefloyd from "../images/students/cohort-3/daniellefloyd.jpg";
-// import markell from "";
+import markellosborne from "../images/students/cohort-3/markellosborne.png";
 import christi from "../images/students/cohort-3/christiharlow.png";
 import larry from "../images/students/cohort-3/larrygoodman.jpeg";
-// import chaz from "";
-// import strange from "";
+import chazdickerson from "../images/students/cohort-3/chazdickerson.png";
+import strangemaeweather from "../images/students/cohort-3/strangemaeweather.png";
 
 
 const ProspectivePage = () => (
@@ -187,7 +187,7 @@ const ProspectivePage = () => (
               <CardImg
                 top
                 width="100%"
-                src={placeholderimage}
+                src={markellosborne}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
@@ -294,7 +294,7 @@ const ProspectivePage = () => (
               <CardImg
                 top
                 width="100%"
-                src={placeholderimage}
+                src={chazdickerson}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
@@ -360,7 +360,7 @@ const ProspectivePage = () => (
               <CardImg
                 top
                 width="100%"
-                src={placeholderimage}
+                src={strangemaeweather}
                 alt="#"
                 className={alumniStyles.imgSize}
               />
