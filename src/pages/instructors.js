@@ -281,7 +281,7 @@ const InstructorsPage = () => (
     </Container>
        {/* INSTRUCTOR CARDS - COHORT 3 */}
        <Row className={pageStyles.pageHeadings}>
-      <h2> Cohort 2 Instructors</h2>
+      <h2> Cohort 3 Instructors</h2>
     </Row>
 
     <Container
@@ -315,20 +315,6 @@ const InstructorsPage = () => (
                 top
                 width="100%"
                 src={Ryan}
-                alt="#"
-                className={instructorStyles.imgSize}
-              />
-            </Card>
-          </Col>
-          <Col sm="4">
-            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Joey Buczek
-              </CardHeader>
-              <CardImg
-                top
-                width="100%"
-                src={Joey}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
