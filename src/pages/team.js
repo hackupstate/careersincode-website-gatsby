@@ -11,6 +11,7 @@ import Will from "../images/team/will.png";
 import Jason from "../images/team/jason.png";
 import Dana from "../images/team/dana.jpg";
 import Laura from "../images/team/laura.jpg";
+import Max from "../images/team/maxgerlach.png";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
 import teamStyles from "./team.module.css";
@@ -72,10 +73,10 @@ const TeamPage = () => (
         <Col lg="6">
           <img
             className={teamStyles.imgCircle}
-            src={Dana}
-            alt="Dana McMullen"
+            src={maxgerlach}
+            alt="Max Gerlach"
           />
-          <h4> Dana McMullen </h4>
+          <h4> Max Gerlach </h4>
           <p> Program Manager </p>
         </Col>
       </Row>
