@@ -50,6 +50,9 @@ import Katie from "../images/tas/katiewatson.jpeg";
 import Pankaj from "../images/tas/pankajc.jpeg";
 import Drew from "../images/tas/drewknab.jpeg";
 import Wesam from "../images/tas/wesamshanaa.png";
+import Ariel from "../images/students/cohort-2/ariel.png";
+import latonia from "../images/students/cohort-2/latonia.png";
+import mel from "../images/students/cohort-2/mel.jpg";
 import Placeholder from "../images/tas/profile-placeholder.png";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
@@ -350,6 +353,92 @@ const InstructorsPage = () => (
             }{" "}
           </Button>{" "}
         </a>
+      </Row>
+    </Container>
+    {/* ta cards */}
+    <Row className={pageStyles.pageHeadings}>
+      <h2>Cohort 3 Teaching Assistants</h2>
+    </Row>
+
+    <Container
+      className={
+        (pageStyles.marginBottom, instructorStyles.instructorCardContainer)
+      }
+    >
+      <Row className={instructorStyles.instructorCardRow}>
+        <CardDeck>
+          {/* instructor */}
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+                La'Tonia Mertica Sheppard Walker
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={latonia}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Karin Thorne
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Karin}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Melaquan Saffold
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={mel}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Ariel Murphy
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Ariel}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Kaitlyn Warboy
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Kaitlyn}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+          </Col>
+        </CardDeck>
       </Row>
     </Container>
     {/* INSTRUCTOR CARDS - COHORT 2 */}
