@@ -355,9 +355,9 @@ const InstructorsPage = () => (
         </a>
       </Row>
     </Container>
-    {/* ta cards */}
+    {/* TA CARDS - COHORT 3 */}
     <Row className={pageStyles.pageHeadings}>
-      <h2>Cohort 3 Teaching Assistants</h2>
+      <h2> Cohort 3 Teaching Assistants</h2>
     </Row>
 
     <Container
@@ -369,7 +369,7 @@ const InstructorsPage = () => (
         <CardDeck>
           {/* instructor */}
           <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 La'Tonia Mertica Sheppard Walker
               </CardHeader>
@@ -397,7 +397,7 @@ const InstructorsPage = () => (
             </Card>
           </Col>
           <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 Melaquan Saffold
               </CardHeader>
@@ -411,7 +411,7 @@ const InstructorsPage = () => (
             </Card>
           </Col>
           <Col sm="4">
-            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 Ariel Murphy
               </CardHeader>
