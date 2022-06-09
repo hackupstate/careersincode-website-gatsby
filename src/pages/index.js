@@ -51,30 +51,30 @@ const IndexPage = (props) => (
           btnLink={content.ui.index_jumbotron.button2.link}
           btnText={content.ui.index_jumbotron.button2.text}
         />
-      <JumboButton
+        <JumboButton
           btnLink={"https://forms.gle/S4RDs8MEd2rmQGyy6"}
           btnText={"Join the Fall, 2022 waitlist"}
+          />
+               <JumboButton
+          btnLink={"/Why-Careers-in-Code.png"}
+          btnText={"Why Careers in Code?"}
         />
-        {/* <JumboButton
-          btnLink={"/admissions/arpa/Careers in Code - Student Admissions Process - ARPA.pdf"}
-          btnText={"View student admissions process"}
-        /> */}
-      </JumbotronComponent>
-    </Header>
-    <SEO title="Home" />
-    <Banner>
-      <Row className={bannerStyles.bannerGreen}>
-        <Col className={pageStyles.centerText}>
-          <a
-            href={content.ui.index_banner_announce.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.bannerLink}
-          >
-            {content.ui.index_banner_announce.text}{" "}
-            <FontAwesomeIcon icon={faArrowRight} size="1x" />
-          </a>
-        </Col>
+        </JumbotronComponent>
+      </Header>
+      <SEO title="Home" />
+      <Banner>
+        <Row className={bannerStyles.bannerGreen}>
+          <Col className={pageStyles.centerText}>
+            <a
+              href={content.ui.index_banner_announce.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pageStyles.bannerLink}
+            >
+              {content.ui.index_banner_announce.text}{" "}
+              <FontAwesomeIcon icon={faArrowRight} size="1x" />
+            </a>
+          </Col>
       </Row>
     </Banner>
     <Container fluid className={pageStyles.whiteContainer}>
