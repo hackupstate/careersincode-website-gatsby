@@ -378,7 +378,7 @@ const InstructorsPage = () => (
                 width="100%"
                 src={latonia}
                 alt="#"
-                className={alumniStyles.imgSize}
+                className={instructorStyles.imgSize}
               />
             </Card>
           </Col>
@@ -406,7 +406,7 @@ const InstructorsPage = () => (
                 width="100%"
                 src={mel}
                 alt="#"
-                className={alumniStyles.imgSize}
+                className={instructorStyles.imgSize}
               />
             </Card>
           </Col>
@@ -420,7 +420,7 @@ const InstructorsPage = () => (
                 width="100%"
                 src={Ariel}
                 alt="#"
-                className={alumniStyles.imgSize}
+                className={instructorStyles.imgSize}
               />
             </Card>
           </Col>
