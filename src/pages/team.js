@@ -11,7 +11,7 @@ import Will from "../images/team/will.png";
 import Jason from "../images/team/jason.png";
 import Dana from "../images/team/dana.jpg";
 import Laura from "../images/team/laura.jpg";
-import Max from "../images/team/maxgerlach.png";
+import maxgerlach from "../images/team/maxgerlach.png";
 import content from "../content/content.json";
 import pageStyles from "./pages.module.css";
 import teamStyles from "./team.module.css";
