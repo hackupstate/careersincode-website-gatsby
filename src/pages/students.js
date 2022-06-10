@@ -85,6 +85,11 @@ const ProspectivePage = () => (
           btnText={"Join the Fall, 2022 waitlist"}
         />
 
+        <JumboButton
+          btnLink={"Cohort-3-Student-Demographic.pdf"}
+          btnText={"Check out our Student Demographic Data"}
+        />
+
         {/* <JumboButton
           btnLink={"/admissions/arpa/Careers in Code - Student Admissions Process - ARPA.pdf"}
           btnText={"View student admissions process"}
