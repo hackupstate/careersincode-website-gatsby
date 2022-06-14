@@ -51,6 +51,7 @@ import Will from "../images/speakers/cohort-2/will.png";
 import amandadarcangelo from "../images/speakers/cohort-3/amandadarcangelo.jpeg"
 import annwillmott from "../images/speakers/cohort-3/annwillmott.jpeg"
 import brandonlanthrip from "../images/speakers/cohort-3/brandonlanthrip.jpeg"
+import Jason from "../images/team/jason.png"
 
 import {
   FaEnvelopeSquare,
@@ -123,7 +124,7 @@ const Speakers = () => (
                   <p className={speakerStyles.cardText}>
                   <p>June 13, 2022 </p>
                     <a
-                      href="https://youtu.be/f2RLP4vf2ro?t=20"
+                      href="https://www.youtube.com/watch?v=jZXM7tTJ1K4&t=2001s"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -148,7 +149,14 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  June 6, 2022
+                  <p>June 6, 2022 </p>
+                  <a
+                      href="youtube.com/watch?v=2NplJTIasoo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       Life as a Freelance IT Consultant
+                    </a>
                   </p>
                 </CardText>
               </CardBody>
@@ -171,11 +179,11 @@ const Speakers = () => (
                   <p className={speakerStyles.cardText}>
                   <p>May 16, 2022 </p>
                     <a
-                      href="https://youtu.be/6LqqdNNehOA?t=1404"
+                      href="https://www.youtube.com/watch?v=U2EpPNPasBI"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       Well to the Data Industry
+                       Welcome to the Data Industry
                     </a>
                   </p>
                 </CardText>
@@ -200,13 +208,40 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>April 25, 2022 </p>
+                  <p>May 9, 2022 </p>
                     <a
-                      href="https://youtu.be/vTVo9oK-60g?t=130"
+                      href="https://www.youtube.com/watch?v=RjHRBFBtERc&t=321s"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                        The Parachute Opened: My Web3 Story
+                    </a>
+                  </p>
+                </CardText>
+              </CardBody>
+            </Card>
+          </Col>
+           {/*Jason Scharf*/}
+           <Col sm="4">
+            <Card body className={("shadow-sm", speakerStyles.cardSize)}>
+              <CardHeader tag="h3">Jason Scharf</CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={Jason}
+                alt="Jason Scharf"
+                className={speakerStyles.imgSize}
+              />
+              <CardBody>
+                <CardText>
+                  <p className={speakerStyles.cardText}>
+                  <p>April 25, 2022 </p>
+                    <a
+                      href="https://www.youtube.com/watch?v=XdjODk_elx0&t=523s"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                       Accessing Syracuse's Open Data
                     </a>
                   </p>
                 </CardText>
@@ -229,7 +264,7 @@ const Speakers = () => (
                   <p className={speakerStyles.cardText}>
                   <p>April 11, 2022 </p>
                     <a
-                      href="https://youtu.be/UoNQ0z3SmTY?t=74"
+                      href="https://www.youtube.com/watch?v=uY7miuOHYQM&t=2137s"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -240,7 +275,13 @@ const Speakers = () => (
               </CardBody>
             </Card>
           </Col>
-    {/* guest speaker cards */}
+          </CardDeck>
+      </Row>
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck>
+        </CardDeck>
+      </Row>
+      </Container>
     <Row className={pageStyles.pageHeadings}>
       <h2>Cohort 2 Speakers</h2>
     </Row>
