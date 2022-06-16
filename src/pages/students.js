@@ -86,8 +86,8 @@ const ProspectivePage = () => (
         />
 
         <JumboButton
-          btnLink={"Cohort-3-Student-Demographic.pdf"}
-          btnText={"Check out our Student Demographic Data"}
+          btnLink={"/Demographics/Cohort-3-Student-Demographic.pdf"}
+          btnText={"Student Demographic Data"}
         />
 
         {/* <JumboButton
