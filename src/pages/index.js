@@ -52,8 +52,8 @@ const IndexPage = (props) => (
           btnText={content.ui.index_jumbotron.button2.text}
         />
         <JumboButton
-          btnLink={"https://forms.gle/S4RDs8MEd2rmQGyy6"}
-          btnText={"Join the Fall, 2022 waitlist"}
+          btnLink={"https://forms.gle/pZvDC7dbCAUNCyg49"}
+          btnText={"Apply for our Fall, 2022 cohort"}
           />
                <JumboButton
           btnLink={"/Why-Careers-in-Code.png"}

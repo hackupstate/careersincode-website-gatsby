@@ -81,9 +81,9 @@ const ProspectivePage = () => (
         /> */}
 
         <JumboButton
-          btnLink={"https://forms.gle/S4RDs8MEd2rmQGyy6"}
-          btnText={"Join the Fall, 2022 waitlist"}
-        />
+          btnLink={"https://forms.gle/pZvDC7dbCAUNCyg49"}
+          btnText={"Apply for our Fall, 2022 cohort"}
+          />
 
         <JumboButton
           btnLink={"/Demographics/Cohort-3-Student-Demographic.pdf"}
@@ -515,12 +515,12 @@ const ProspectivePage = () => (
       <Row className={bannerStyles.bannerGreen}>
         <Col className={pageStyles.centerText}>
           <a
-            href={"https://forms.gle/B2qnHM5TDsTGYVAa9"}
+            href={"https://forms.gle/pZvDC7dbCAUNCyg49"}
             target="_blank"
             rel="noopener noreferrer"
             className={pageStyles.bannerLink}
           >
-            APPLY FOR OUR SPRING 2022 (APRA) COHORT TODAY!{" "}
+            APPLY FOR OUR FALL 2022 COHORT TODAY!{" "}
             <FontAwesomeIcon icon={faArrowRight} size="1x" />
           </a>
         </Col>
