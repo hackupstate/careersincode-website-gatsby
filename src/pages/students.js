@@ -443,7 +443,7 @@ const ProspectivePage = () => (
             Admissions
           </h3>
           <a
-            href={"/admissions/cohort 4/Careers in Code - Student Admissions Process - Cohort 4.pdf"}
+            href={"/admissions/Careers in Code - Student Admissions Process - Cohort 4.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             className={pageStyles.btnLink}
@@ -479,7 +479,7 @@ const ProspectivePage = () => (
             }
           </h3>
           <a
-            href={"/admissions/cohort 4/Careers in Code - Student Responsibilities and Expectations - Cohort 4.pdf"}
+            href={"/admissions/Careers in Code - Student Responsibilities and Expectations - Cohort 4.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             className={pageStyles.btnLink}
