@@ -45,7 +45,7 @@ import Erin from "../images/speakers/cohort-2/erin.jpg";
 import JoshM from "../images/speakers/cohort-2/josh.jpg";
 import Melissa from "../images/speakers/cohort-2/melissa.jpg";
 import Natasha from "../images/speakers/cohort-2/natasha.jpg";
-import Will from "../images/speakers/cohort-2/will.jpg";
+import Will from "../images/speakers/cohort-2/will.png";
 
 //cohort 3
 import amandadarcangelo from "../images/speakers/cohort-3/amandadarcangelo.jpeg"

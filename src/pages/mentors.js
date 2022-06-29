@@ -39,7 +39,7 @@ import Kaitlyn from "../images/students/kaitlyn.jpg"
 
 import Doug from "../images/team/dougcrescenzi.png";
 import Jesse from "../images/team/jesse.png";
-import Will from "../images/team/will.png";
+import Will from "../images/speakers/cohort-2/will.png";
 import Jason from "../images/team/jason.png";
 import Dana from "../images/team/dana.jpg";
 import Laura from "../images/team/laura.jpg";

@@ -7,7 +7,6 @@ import SEO from "../components/seo";
 import { Button, Container, Row, Col } from "reactstrap";
 import Doug from "../images/team/dougcrescenzi.png";
 import Jesse from "../images/team/jesse.png";
-import Will from "../images/team/will.png";
 import Jason from "../images/team/jason.png";
 import Dana from "../images/team/dana.jpg";
 import Laura from "../images/team/laura.jpg";
