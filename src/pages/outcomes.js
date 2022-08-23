@@ -51,6 +51,9 @@ import bannerStyles from "../components/banner.module.css";
 import testimonialStyles from "./testimonials.module.css";
 
 import cirrLogo from "../images/partners/cirr_50.png";
+import Density from "../images/partners/density.png";
+import cceo from "../images/partners/cceo.png";
+import Kirkwork from "../images/partners/kirkwork.png";
 
 import classnames from "classnames";
 
@@ -739,6 +742,13 @@ const OutcomesPage = () => (
           <h2>
             {content.ui.outcomes.outcomes_main_content.company_logos.text}
           </h2>
+       </Col>
+        <Col className={outcomesStyles.centerContentColumns}>
+          <img
+            src={Density}
+            className={pageStyles.smLogo}
+            alt="density-logo"
+          />
         </Col>
       </Row>
       <Row>
@@ -792,9 +802,22 @@ const OutcomesPage = () => (
             className={pageStyles.smLogo}
             alt="Sidearm-logo"
           />
+         </Col>
+        </Row>
+         <Row>
+         <Col className={outcomesStyles.centerContentColumns}>
+          <img
+            src={cceo}
+            className={pageStyles.smLogo}
+            alt="CenterStateCEO-logo"
+          />
         </Col>
-      </Row>
-      
+        <Col className={outcomesStyles.centerContentColumns}>
+          <img
+            src={Kirkwork}
+            className={pageStyles.smLogo}
+            alt="kirkwork-logo"
+          />
     </Container>
     <Banner>
       <Row className={bannerStyles.bannerGreen}>
