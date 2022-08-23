@@ -32,6 +32,7 @@ import LaTonia from "../images/students/cohort-2/latonia.png";
 import mel from "../images/students/cohort-2/mel.jpg";
 import sara from "../images/students/cohort-2/sara.png";
 import kyle from "../images/students/cohort-2/kyle.jpg";
+import brandy from "../images/students/cohort-2/brandy.jpg"
 
 import UI from "../images/companies/ui.jpg";
 import NID from "../images/companies/nid.jpg";
@@ -109,7 +110,40 @@ const OutcomesPage = () => (
         {/* La'Tonia Card */}
         <CardDeck>
 
-          <Col sm="3">
+        <Col sm="3">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Brandy Mack
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={brandy}
+                alt="Brandy"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>Digital Marketing Specialist</p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>Terakeet</p>
+                </CardText>
+                <a
+                    href="https://hackupstate.medium.com/careers-in-code-student-success-stories-brandy-mack-132f7b58abaa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={pageStyles.btnLink}
+                  >
+                <Button size="sm" color="info">
+                  Read Brandy's story 
+                </Button>
+                </a>
+              </CardBody>
+            </Card>
+          </Col>
+          
+           <Col sm="3">
             <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
               <CardHeader tag="h3">
                 La'Tonia Mertica Sheppard Walker
