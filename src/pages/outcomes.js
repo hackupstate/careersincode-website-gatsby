@@ -852,6 +852,8 @@ const OutcomesPage = () => (
             className={pageStyles.smLogo}
             alt="kirkwork-logo"
           />
+          </Col>
+          </Row>
     </Container>
     <Banner>
       <Row className={bannerStyles.bannerGreen}>
