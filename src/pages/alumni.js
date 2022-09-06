@@ -70,6 +70,10 @@ const AlumniPage = () => (
         heading={content.ui.students.alumni.alumni_jumbotron.heading}
         subheading={content.ui.students.alumni.alumni_jumbotron.subheading}
       >
+        <JumboButton
+          btnLink={"/Demographics/Cohort-3-Student-Demographic.pdf"}
+          btnText={"Student Demographic Data"}
+        />
         {/* <JumboButton
           btnLink={content.ui.students.alumni.alumni_jumbotron.button.link}
           btnText={content.ui.students.alumni.alumni_jumbotron.button.text}
@@ -90,7 +94,245 @@ const AlumniPage = () => (
         </Col>
       </Row>
     </Container>
+    <Container
+      fluid
+      className={(pageStyles.marginBottom, alumniStyles.alumniCardContainer)}
+    >
+      <Row className={alumniStyles.alumniCardRow}>
+        <CardDeck>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Danielle Floyd
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={daniellefloyd}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Markell Osborne
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={markellosborne}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Tiffany Williams
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={tiffanywilliams}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
 
+      <Row className={alumniStyles.alumniCardRow}>
+        <CardDeck>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Wayne Boyd
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={wayneboyd}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Christi Harlow
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={christi}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Larry Goodman
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={larry}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+      <Row className={alumniStyles.alumniCardRow}>
+        <CardDeck>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Stephanie Nunez
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={stephanienunez}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Zachary Hafner
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={zachhafner}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Chaz Dickerson
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={chazdickerson}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={alumniStyles.alumniCardRow}>
+        <CardDeck>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Shantina Perez
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={shantina}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Scotyia Bain
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={scotyia}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Corey Mitchell
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={coreymitchell}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+
+      <Row className={alumniStyles.alumniCardRow}>
+        <CardDeck>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Strange Maeweather
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={strangemaeweather}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Nicole Broadnax
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={nicoleb}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+          <Col sm="4">
+            <Card body className={("shadow-sm", alumniStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Doug Roussin
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={dougroussin}
+                alt="#"
+                className={alumniStyles.imgSize}
+              />
+            </Card>
+          </Col>
+        </CardDeck>
+      </Row>
+    </Container>
+    {/* END STUDENT HEADSHOTS */}
     <Container className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
         <h2>Watch our cohort 2 capstone presentations</h2>
