@@ -114,6 +114,39 @@ const AlumniPage = () => (
       fluid
       className={(pageStyles.marginBottom, alumniStyles.alumniCardContainer)}
     >
+
+      <Container className={pageStyles.whiteContainer}>
+        <Row className={pageStyles.pageHeadings}>
+          <h2>Watch our cohort 3 capstone presentations</h2>
+        </Row>
+      </Container>
+      <Container fluid className={pageStyles.marginBottom}>
+        <Row>
+          <Col className={pageStyles.centerItems}>
+            <iframe
+              width={550}
+              height={315}
+              src="https://www.youtube.com/embed/OiARpirfP5c"
+              frameBorder={0}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title={
+                content.ui.students.alumni.alumni_main_content.congratulations
+                  .capstone_title
+              }
+            ></iframe>
+          </Col>
+        </Row>
+      </Container>
+      <Container className={pageStyles.whiteContainer}>
+        <Row className={pageStyles.pageHeadings}>
+          <h2 className="mb-0">Cohort 3 Alumni </h2>
+        </Row>
+        <Row className={pageStyles.pageHeadings}>
+          <h3 className="mt-0">Graduated on September 8th, 2022</h3>
+        </Row>
+      </Container>
+
       <Row className={alumniStyles.alumniCardRow}>
         <CardDeck>
           <Col sm="4">
