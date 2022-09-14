@@ -62,6 +62,23 @@ import shah from "../images/students/cohort-2/shah.jpg";
 import shantina from "../images/students/cohort-2/shantina.png";
 import susan from "../images/students/cohort-2/susan.jpg";
 
+import coreymitchell from "../images/students/cohort-3/coreymitchell.jpg";
+import dougroussin from "../images/students/cohort-3/DougRoussin.jpg";
+import scotyia from "../images/students/cohort-3/scotyia.jpg";
+import stephanienunez from "../images/students/cohort-3/stephanienunez.jpg";
+import tiffanywilliams from "../images/students/cohort-3/tiffany.jpg";
+import wayneboyd from "../images/students/cohort-3/wayneboyd.jpg";
+import zachhafner from "../images/students/cohort-3/zachhafner.jpeg";
+import nicoleb from "../images/students/cohort-3/nicoleb.jpg";
+import shantina from "../images/students/cohort-3/shantina.png";
+import daniellefloyd from "../images/students/cohort-3/daniellefloyd.jpg";
+import markellosborne from "../images/students/cohort-3/markellosborne.png";
+import christi from "../images/students/cohort-3/christiharlow.png";
+import larry from "../images/students/cohort-3/larrygoodman.jpeg";
+import chazdickerson from "../images/students/cohort-3/chazdickerson.png";
+import strangemaeweather from "../images/students/cohort-3/strangemaeweather.png";
+
+
 const AlumniPage = () => (
   <Layout>
     <Header>
