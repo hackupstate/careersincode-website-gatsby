@@ -429,23 +429,6 @@ const ProspectivePage = () => (
         </Col>
       </Row>
     </Container>
-
-    <Banner>
-      <Row className={bannerStyles.bannerGreen}>
-        <Col className={pageStyles.centerText}>
-          <a
-            href={"https://forms.gle/tkwrqV9VVnLbaTPTA"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.bannerLink}
-          >
-            J{" "}
-            <FontAwesomeIcon icon={faArrowRight} size="1x" />
-          </a>
-        </Col>
-      </Row>
-    </Banner>
-
   </Layout>
 );
 

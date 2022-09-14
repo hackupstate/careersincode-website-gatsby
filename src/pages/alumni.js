@@ -62,6 +62,22 @@ import shah from "../images/students/cohort-2/shah.jpg";
 import shantina from "../images/students/cohort-2/shantina.png";
 import susan from "../images/students/cohort-2/susan.jpg";
 
+import coreymitchell from "../images/students/cohort-3/coreymitchell.jpg";
+import dougroussin from "../images/students/cohort-3/DougRoussin.jpg";
+import scotyia from "../images/students/cohort-3/scotyia.jpg";
+import stephanienunez from "../images/students/cohort-3/stephanienunez.jpg";
+import tiffanywilliams from "../images/students/cohort-3/tiffany.jpg";
+import wayneboyd from "../images/students/cohort-3/wayneboyd.jpg";
+import zachhafner from "../images/students/cohort-3/zachhafner.jpeg";
+import nicoleb from "../images/students/cohort-3/nicoleb.jpg";
+import daniellefloyd from "../images/students/cohort-3/daniellefloyd.jpg";
+import markellosborne from "../images/students/cohort-3/markellosborne.png";
+import christi from "../images/students/cohort-3/christiharlow.png";
+import larry from "../images/students/cohort-3/larrygoodman.jpeg";
+import chazdickerson from "../images/students/cohort-3/chazdickerson.png";
+import strangemaeweather from "../images/students/cohort-3/strangemaeweather.png";
+
+
 const AlumniPage = () => (
   <Layout>
     <Header>
@@ -98,6 +114,39 @@ const AlumniPage = () => (
       fluid
       className={(pageStyles.marginBottom, alumniStyles.alumniCardContainer)}
     >
+
+      <Container className={pageStyles.whiteContainer}>
+        <Row className={pageStyles.pageHeadings}>
+          <h2>Watch our cohort 3 capstone presentations</h2>
+        </Row>
+      </Container>
+      <Container fluid className={pageStyles.marginBottom}>
+        <Row>
+          <Col className={pageStyles.centerItems}>
+            <iframe
+              width={550}
+              height={315}
+              src="https://www.youtube.com/embed/OiARpirfP5c"
+              frameBorder={0}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title={
+                content.ui.students.alumni.alumni_main_content.congratulations
+                  .capstone_title
+              }
+            ></iframe>
+          </Col>
+        </Row>
+      </Container>
+      <Container className={pageStyles.whiteContainer}>
+        <Row className={pageStyles.pageHeadings}>
+          <h2 className="mb-0">Cohort 3 Alumni </h2>
+        </Row>
+        <Row className={pageStyles.pageHeadings}>
+          <h3 className="mt-0">Graduated on September 8th, 2022</h3>
+        </Row>
+      </Container>
+
       <Row className={alumniStyles.alumniCardRow}>
         <CardDeck>
           <Col sm="4">
