@@ -70,7 +70,6 @@ import tiffanywilliams from "../images/students/cohort-3/tiffany.jpg";
 import wayneboyd from "../images/students/cohort-3/wayneboyd.jpg";
 import zachhafner from "../images/students/cohort-3/zachhafner.jpeg";
 import nicoleb from "../images/students/cohort-3/nicoleb.jpg";
-import shantina from "../images/students/cohort-3/shantina.png";
 import daniellefloyd from "../images/students/cohort-3/daniellefloyd.jpg";
 import markellosborne from "../images/students/cohort-3/markellosborne.png";
 import christi from "../images/students/cohort-3/christiharlow.png";
