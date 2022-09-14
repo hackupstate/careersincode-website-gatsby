@@ -81,13 +81,17 @@ const ProspectivePage = () => (
         /> */}
 
         <JumboButton
-          btnLink={"https://forms.gle/pZvDC7dbCAUNCyg49"}
-          btnText={"Apply for our Fall, 2022 cohort"}
+          btnLink={"https://forms.gle/tkwrqV9VVnLbaTPTA"}
+          btnText={"Join our Spring, 2023 Waitlist"}
           />
 
         <JumboButton
-          btnLink={"/Demographics/Cohort-3-Student-Demographic.pdf"}
-          btnText={"Student Demographic Data"}
+          btnLink={"/admissions/Careers in Code - Student Admissions Process - Cohort 4.pdf"}
+          btnText={"View Admissions Process"}
+        />
+        <JumboButton
+          btnLink={"/admissions/Careers in Code - Student Responsibilities and Expectations - Cohort 4.pdf"}
+          btnText={"View Responsibilites and Expectations"}
         />
 
         {/* <JumboButton
@@ -159,7 +163,7 @@ const ProspectivePage = () => (
 
 
     {/* ADD STUDENT HEADSHOTS HERE */}
-    <Container className={pageStyles.whiteContainer}>
+    {/*<Container className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
         <h2>Cohort 3 Students (Spring 2022)</h2>
       </Row>
@@ -402,6 +406,7 @@ const ProspectivePage = () => (
         </CardDeck>
       </Row>
     </Container>
+      */}
     {/* END STUDENT HEADSHOTS */}
 
     <Container fluid className={pageStyles.marginBottom}>
@@ -425,102 +430,16 @@ const ProspectivePage = () => (
       </Row>
     </Container>
 
-    {/* HELPFUL RESOURCES */}
-    <Container fluid className={pageStyles.whiteContainer}>
-      <Row className={(pageStyles.centerText, pageStyles.centerContentColumns)}>
-        <h3 className={pageStyles.pageHeadings}>
-          {
-            content.ui.classroom.currStudents_main_content.classroom_info
-              .classroom_heading
-          }
-        </h3>
-      </Row>
-      <Row className={prospectiveStyles.studentLinkRow}>
-        <Col className={prospectiveStyles.studentLinkColumn}>
-          <FontAwesomeIcon icon={faUserCheck} size="3x" />
-          <h3>
-            {" "}
-            Admissions
-          </h3>
-          <a
-            href={"/admissions/Careers in Code - Student Admissions Process - Cohort 4.pdf"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-            <Button size="md" className={pageStyles.blueButton}>
-            View admissions process
-            </Button>
-          </a>
-        </Col>
-
-        <Col className={prospectiveStyles.studentLinkColumn}>
-          <FontAwesomeIcon icon={faGraduationCap} size="3x" />
-          <h3>Alumni</h3>
-          <a
-            href={
-              content.ui.classroom.student_resource_links.cohort1_button_link
-            }
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-            <Button size="md" className={pageStyles.blueButton}>
-              View our alumni
-            </Button>
-          </a>
-        </Col>
-        <Col className={prospectiveStyles.studentLinkColumn}>
-          <FontAwesomeIcon icon={faPencilRuler} size="3x" />
-          <h3>
-            {" "}
-            {
-              content.ui.classroom.student_resource_links
-                .responsibilities_text
-            }
-          </h3>
-          <a
-            href={"/admissions/Careers in Code - Student Responsibilities and Expectations - Cohort 4.pdf"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-            <Button size="md" className={pageStyles.blueButton}>
-              {" "}
-              View responsibilites and expectations
-            </Button>
-          </a>
-        </Col>
-        <Col className={prospectiveStyles.studentLinkColumn}>
-          <FontAwesomeIcon icon={faMountain} size="3x" />
-          <h3>
-            {" "}
-            {content.ui.classroom.student_resource_links.capstone_text}
-          </h3>
-          <a
-            href={"/admissions/arpa/Careers in Code - Capstone Project - Students - Spring 2022 (ARPA) Cohort.pdf"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={pageStyles.btnLink}
-          >
-            <Button size="md" className={pageStyles.blueButton}>
-              {" "}
-             View capstone requirements
-            </Button>
-          </a>
-        </Col>
-      </Row>
-    </Container>
-
     <Banner>
       <Row className={bannerStyles.bannerGreen}>
         <Col className={pageStyles.centerText}>
           <a
-            href={"https://forms.gle/pZvDC7dbCAUNCyg49"}
+            href={"https://forms.gle/tkwrqV9VVnLbaTPTA"}
             target="_blank"
             rel="noopener noreferrer"
             className={pageStyles.bannerLink}
           >
-            APPLY FOR OUR FALL 2022 COHORT TODAY!{" "}
+            J{" "}
             <FontAwesomeIcon icon={faArrowRight} size="1x" />
           </a>
         </Col>
