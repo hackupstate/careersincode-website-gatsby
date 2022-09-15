@@ -87,14 +87,6 @@ const AlumniPage = () => (
         heading={content.ui.students.alumni.alumni_jumbotron.heading}
         subheading={content.ui.students.alumni.alumni_jumbotron.subheading}
       >
-        <JumboButton
-          btnLink={"/Demographics/Cohort-3-Student-Demographic.pdf"}
-          btnText={"Student Demographic Data"}
-        />
-        {/* <JumboButton
-          btnLink={content.ui.students.alumni.alumni_jumbotron.button.link}
-          btnText={content.ui.students.alumni.alumni_jumbotron.button.text}
-        /> */}
       </JumbotronComponent>
     </Header>
     <SEO title="Alumni" />
