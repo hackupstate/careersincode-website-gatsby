@@ -6,6 +6,7 @@ import JumbotronComponent from "../components/jumbotron";
 import JumboButton from "../components/jumbobutton";
 import SEO from "../components/seo";
 import {
+  Button,
   Container,
   Row,
   Col,
