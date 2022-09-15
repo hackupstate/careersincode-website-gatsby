@@ -6,6 +6,7 @@ import JumbotronComponent from "../components/jumbotron";
 import JumboButton from "../components/jumbobutton";
 import SEO from "../components/seo";
 import {
+  Button,
   Container,
   Row,
   Col,
@@ -61,7 +62,6 @@ import sara from "../images/students/cohort-2/sara.png";
 import shah from "../images/students/cohort-2/shah.jpg";
 import shantina from "../images/students/cohort-2/shantina.png";
 import susan from "../images/students/cohort-2/susan.jpg";
-
 import coreymitchell from "../images/students/cohort-3/coreymitchell.jpg";
 import dougroussin from "../images/students/cohort-3/DougRoussin.jpg";
 import scotyia from "../images/students/cohort-3/scotyia.jpg";
@@ -76,6 +76,7 @@ import christi from "../images/students/cohort-3/christiharlow.png";
 import larry from "../images/students/cohort-3/larrygoodman.jpeg";
 import chazdickerson from "../images/students/cohort-3/chazdickerson.png";
 import strangemaeweather from "../images/students/cohort-3/strangemaeweather.png";
+import pressStyles from "./press.module.css";
 
 
 const AlumniPage = () => (
@@ -86,14 +87,6 @@ const AlumniPage = () => (
         heading={content.ui.students.alumni.alumni_jumbotron.heading}
         subheading={content.ui.students.alumni.alumni_jumbotron.subheading}
       >
-        <JumboButton
-          btnLink={"/Demographics/Cohort-3-Student-Demographic.pdf"}
-          btnText={"Student Demographic Data"}
-        />
-        {/* <JumboButton
-          btnLink={content.ui.students.alumni.alumni_jumbotron.button.link}
-          btnText={content.ui.students.alumni.alumni_jumbotron.button.text}
-        /> */}
       </JumbotronComponent>
     </Header>
     <SEO title="Alumni" />
@@ -145,6 +138,15 @@ const AlumniPage = () => (
         <Row className={pageStyles.pageHeadings}>
           <h3 className="mt-0">Graduated on September 8th, 2022</h3>
         </Row>
+        <a
+              href="/Demographics/Cohort-3-Student-Demographic.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={pressStyles.btnLink}
+            >
+          <Button className={pressStyles.pageButtons} color="info">Student Demographic Data</Button>
+          </a>
+        
       </Container>
 
       <Row className={alumniStyles.alumniCardRow}>
