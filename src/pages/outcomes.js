@@ -34,6 +34,9 @@ import sara from "../images/students/cohort-2/sara.png";
 import kyle from "../images/students/cohort-2/kyle.jpg";
 import brandy from "../images/students/cohort-2/brandy.jpg"
 
+import larry from "../images/students/cohort-3/larrygoodman.jpeg";
+import daniellefloyd from "../images/students/cohort-3/daniellefloyd.jpg";
+
 import UI from "../images/companies/ui.jpg";
 import NID from "../images/companies/nid.jpg";
 import Terakeet from "../images/companies/terakeet.jpg";
@@ -72,7 +75,111 @@ const OutcomesPage = () => (
     <Row className={pageStyles.pageHeadings}>
       <h2>{content.ui.outcomes.outcomes_main_content.header}</h2>
     </Row>
+    <Container
+      fluid
+      className={
+        (pageStyles.marginBottom, outcomesStyles.outcomesCardContainer)
+      }
+    >
+    <Row className={pageStyles.pageHeadings}>
+      <h3>Cohort 3 (March, 28 2022 - September 8, 2022)</h3>
+    </Row>
 
+    {/*<Row className={outcomesStyles.outcomesCardRow}>
+      <a
+        href={"/outcomes/cohort-2/Careers-In-Code-Student-Outcomes-Report-Cohort-2.pdf"}
+        rel="noopener noreferrer"
+        className={pageStyles.btnLink}
+        target="_blank"
+      >
+        <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
+          View Full Outcomes Report
+        </Button>
+      </a>
+
+      <a
+        href={"/outcomes/cohort-2/Careers-in-Code-Cohort-2-Outcomes-1-pager.pdf"}
+        rel="noopener noreferrer"
+        className={pageStyles.btnLink}
+        target="_blank"
+      >
+        <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>
+          View 1-pager Outcomes
+        </Button>
+      </a>
+    </Row>*/}
+      <Row className={outcomesStyles.outcomesCardRow}>
+        {/* La'Tonia Card */}
+        <CardDeck>
+
+        <Col sm="3">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Larry Goodman
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={larry}
+                alt="Larry"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>Software Developer Apprentice</p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>Terakeet</p>
+                </CardText>
+                <a
+                    href="https://hackupstate.medium.com/careers-in-code-student-success-stories-larry-goodman-8a68fa2c0d54"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={pageStyles.btnLink}
+                  >
+                <Button size="sm" color="info">
+                  Read Larry's story 
+                </Button>
+                </a>
+              </CardBody>
+            </Card>
+          </Col>
+          
+           <Col sm="3">
+            <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+              <CardHeader tag="h3">
+              Danielle Floyd
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={daniellefloyd}
+                alt="daniellefloyd"
+                className={outcomesStyles.imgSize}
+              />
+              <CardBody>
+                <CardTitle>
+                  <p className={outcomesStyles.cardTitle}>Software Component Apprentice</p>
+                </CardTitle>
+                <CardText>
+                  <p className={outcomesStyles.cardText}>Thales</p>
+                </CardText>
+                {/*<a
+                    href="https://hackupstate.medium.com/student-spotlight-latonia-mertica-d0ad92c94209"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={pageStyles.btnLink}
+                  >
+                <Button size="sm" color="info">
+                  Read La'Tonia's story 
+                </Button>
+                </a>*/}
+              </CardBody>
+            </Card>
+            </Col>
+        </CardDeck>
+      </Row>
+    </Container>
     <Container
       fluid
       className={
@@ -277,8 +384,7 @@ const OutcomesPage = () => (
 
         </CardDeck>
       </Row>
-    </Container>
-
+ </Container>
     <Container
       fluid
       className={
