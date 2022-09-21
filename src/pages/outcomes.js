@@ -112,7 +112,9 @@ const OutcomesPage = () => (
         {/* La'Tonia Card */}
         <CardDeck>
 
-        <Col sm="3">
+
+        {/*change col back to 3 when adding more cards!!!!!!!!!!!*/}
+        <Col sm="6">
             <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
               <CardHeader tag="h3">
               Larry Goodman
@@ -145,7 +147,7 @@ const OutcomesPage = () => (
             </Card>
           </Col>
           
-           <Col sm="3">
+           <Col sm="6">
             <Card body className={("shadow-sm", outcomesStyles.cardSize)}>
               <CardHeader tag="h3">
               Danielle Floyd
