@@ -284,7 +284,7 @@ const InstructorsPage = () => (
     </Container>
        {/* INSTRUCTOR CARDS - COHORT 3 */}
        <Row className={pageStyles.pageHeadings}>
-      <h2> Cohort 3 Instructors</h2>
+      <h2> Cohort 3 and Cohort 4 Instructors</h2>
     </Row>
 
     <Container
