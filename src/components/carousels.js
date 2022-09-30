@@ -14,7 +14,7 @@ import Kelly from "../images/students/kellycorey.jpg";
 import Doug from "../images/team/dougcrescenzi.png";
 
 import content from "../content/content.json";
-import carouselStyles from "./carousel.module.css";
+import * as carouselStyles from "./carousel.module.css";
 
 // code for testimonial carousel taken and adapted from https://reactstrap.github.io/components/carousel/
 

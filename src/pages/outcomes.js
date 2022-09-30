@@ -49,10 +49,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
-import outcomesStyles from "./outcomes.module.css";
-import bannerStyles from "../components/banner.module.css";
-import testimonialStyles from "./testimonials.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as outcomesStyles from "./outcomes.module.css";
+import * as bannerStyles from "../components/banner.module.css";
+import * as testimonialStyles from "./testimonials.module.css";
 
 import cirrLogo from "../images/partners/cirr_50.png";
 import Density from "../images/partners/density.png";

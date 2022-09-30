@@ -1,6 +1,6 @@
 import React from "react";
 import { Table } from "reactstrap";
-import tableStyles from "./table.module.css";
+import * as tableStyles from "./table.module.css";
 
 const TableComponent = (props) => {
   return (

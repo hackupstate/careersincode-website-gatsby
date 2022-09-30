@@ -12,8 +12,8 @@ import Dana from "../images/team/dana.jpg";
 import Laura from "../images/team/laura.jpg";
 import maxgerlach from "../images/team/maxgerlach.png";
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
-import teamStyles from "./team.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as teamStyles from "./team.module.css";
 
 const TeamPage = () => (
   <Layout>

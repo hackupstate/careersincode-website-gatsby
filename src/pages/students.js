@@ -38,13 +38,13 @@ import {
   faListAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
-import prospectiveStyles from "./students.module.css";
-import alumniStyles from "./alumni.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as prospectiveStyles from "./students.module.css";
+import * as alumniStyles from "./alumni.module.css";
 
 import Banner from "../components/banner";
 
-import bannerStyles from "../components/banner.module.css";
+import * as bannerStyles from "../components/banner.module.css";
 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 

@@ -6,7 +6,7 @@ import JumbotronComponent from "../components/jumbotron";
 import SEO from "../components/seo";
 import { Container, Row, Col } from "reactstrap";
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
+import * as pageStyles from "./pages.module.css";
 
 const MissionPage = () => (
   <Layout>

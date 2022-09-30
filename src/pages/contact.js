@@ -5,7 +5,7 @@ import NavComponent from "../components/nav";
 import JumbotronComponent from "../components/jumbotron";
 import SEO from "../components/seo";
 import { Container, Row, Col, Button } from "reactstrap";
-import contactStyles from "./contact.module.css";
+import * as contactStyles from "./contact.module.css";
 import content from "../content/content.json";
 
 const ContactPage = () => (

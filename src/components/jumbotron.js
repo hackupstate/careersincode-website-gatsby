@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Jumbotron, Row } from "reactstrap";
 // import "bootstrap/dist/css/bootstrap.min.css"
 
-import jumboStyles from "./jumbotron.module.css";
+import * as jumboStyles from "./jumbotron.module.css";
 
 const JumbotronComponent = (props) => (
   <div>
