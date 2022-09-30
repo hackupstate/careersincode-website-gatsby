@@ -355,7 +355,7 @@ const InstructorsPage = () => (
         </a>
       </Row>
     </Container>
-    {/* TA CARDS - COHORT 3 */}
+    {/* TA CARDS - COHORT 3 AND 4 */}
     <Row className={pageStyles.pageHeadings}>
       <h2> Cohort 3 Teaching Assistants</h2>
     </Row>
@@ -433,6 +433,71 @@ const InstructorsPage = () => (
                 top
                 width="100%"
                 src={Kaitlyn}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+            <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Shantina Perez
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={shantina}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+            <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Doug Roussin
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={dougroussin}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+            <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Christi Harlow
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={christie}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+            <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Stephanie Nunez
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={stephanienunez}
+                alt="#"
+                className={instructorStyles.imgSize}
+              />
+            </Card>
+            <Col sm="4">
+            <Card body className={("shadow-sm", instructorStyles.cardSize)}>
+              <CardHeader tag="h3">
+                Zachary Hafner
+              </CardHeader>
+              <CardImg
+                top
+                width="100%"
+                src={zackhafner}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
