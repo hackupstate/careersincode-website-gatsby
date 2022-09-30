@@ -24,7 +24,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Joey from "../images/instructors/joeybuczek.jpg";
 import Kelly from "../images/students/kellycorey.jpg";
-import Kaitlyn from "../images/students/kaitlyn.jpg";
+import dougroussin from "../images/students/cohort-3/DougRoussin.jpg";
 import content from "../content/content.json";
 import cardStyles from "../components/card.module.css";
 import blogStyles from "../components/blog.module.css";
@@ -121,18 +121,18 @@ const IndexPage = (props) => (
               <CardImg
                 top
                 width="100%"
-                src={Kaitlyn}
+                src={dougroussin}
                 alt="#"
                 className={testimonialStyles.cardImg}
               />
               <CardText>
                 <p className={testimonialStyles.cardText}>
-                "Careers in Code has been a game changer for my career, and has opened up so many amazing opportunities. I feel prepared and ready to grow my presence and career in the tech community in Syracuse."
+                "Careers in Code has opened up possibilities for my future.  It has given me a solid foundation of full-stack coding skills, as well as an introduction to people in the Syracuse tech community.  I’m excited to continue growing those skills and connections to the community.""
                 </p>
               </CardText>
               <CardTitle>
                 <p className={testimonialStyles.cardTitle}>
-                  KAITLYN WARBOY, Cohort I Graduate
+                  DOUG ROUSSIN, Cohort 3 Graduate
                 </p>
               </CardTitle>
             </Card>
