@@ -13,8 +13,8 @@ import {
   CardHeader,
   CardBody,
 } from "reactstrap";
-import pageStyles from "./pages.module.css";
-import objectivesStyles from "./objectives.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as objectivesStyles from "./objectives.module.css";
 import content from "../content/content.json";
 
 const Objectives2019 = () => (

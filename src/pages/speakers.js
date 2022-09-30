@@ -61,8 +61,8 @@ import {
   FaGlobe,
 } from "react-icons/fa";
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
-import speakerStyles from "./speakers.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as speakerStyles from "./speakers.module.css";
 
 import JumboButton from "../components/jumbobutton";
 

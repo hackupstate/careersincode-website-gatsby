@@ -15,7 +15,7 @@ import {
 } from "reactstrap";
 // import "bootstrap/dist/css/bootstrap.min.css"
 import ComboLogo from "../images/combo-logo-white.png";
-import navStyles from "./nav.module.css";
+import * as navStyles from "./nav.module.css";
 
 const NavComponent = () => {
   const [collapsed, setCollapsed] = useState(true);

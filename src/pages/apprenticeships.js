@@ -20,10 +20,10 @@ import {
 } from "reactstrap";
 import classnames from "classnames";
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
-import instructorStyles from "./instructors.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as instructorStyles from "./instructors.module.css";
 
-import faqStyles from "./faq.module.css";
+import * as faqStyles from "./faq.module.css";
 import Timeline from "../images/misc/apprenticeship-timeline.png";
 
 const ApprenticeshipPage = (props) => {

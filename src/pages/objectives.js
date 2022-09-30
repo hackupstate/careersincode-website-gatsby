@@ -6,7 +6,7 @@ import JumbotronComponent from "../components/jumbotron";
 import JumboButton from "../components/jumbobutton";
 import SEO from "../components/seo";
 import { Container, Row, Button, Col } from "reactstrap";
-import pageStyles from "./pages.module.css";
+import * as pageStyles from "./pages.module.css";
 import content from "../content/content.json";
 
 const Objectives = () => (

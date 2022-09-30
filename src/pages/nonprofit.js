@@ -10,7 +10,7 @@ import Project from "../images/undrawImgs/project-green.svg";
 import Collab from "../images/undrawImgs/collab-blue.svg";
 import Growth from "../images/undrawImgs/growth-green.svg";
 import content from "../content/content.json";
-import nonprofitStyles from "./nonprofit.module.css";
+import * as nonprofitStyles from "./nonprofit.module.css";
 
 const NonProfit = (props) => (
   <Layout>

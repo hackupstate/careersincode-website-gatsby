@@ -9,7 +9,7 @@ import content from "../content/content.json";
 import { Container, Row, Col } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-import pageStyles from "./pages.module.css";
+import * as pageStyles from "./pages.module.css";
 
 const NotFoundPage = (props) => (
   <Layout>

@@ -28,8 +28,8 @@ import {
 } from "react-icons/fa";
 
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
-import instructorStyles from "./mentors.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as instructorStyles from "./mentors.module.css";
 
 import Gus from "../images/instructors/gus.jpg";
 import Max from "../images/instructors/max.jpg";

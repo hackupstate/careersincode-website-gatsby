@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Button } from "reactstrap";
 import content from "../content/content.json";
-import bottomRowStyles from "./bottomrow.module.css";
+import * as bottomRowStyles from "./bottomrow.module.css";
 
 const BottomRowContainer = (props) => {
   return (

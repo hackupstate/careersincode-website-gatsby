@@ -6,8 +6,8 @@ import JumbotronComponent from "../components/jumbotron";
 import SEO from "../components/seo";
 import { Container, Row, Table } from "reactstrap";
 import content from "../content/content.json";
-import scheduleStyles from "./schedule.module.css";
-// import pageStyles from "./pages.module.css";
+import * as scheduleStyles from "./schedule.module.css";
+// import * as pageStyles from "./pages.module.css";
 
 const SchedulePage = () => (
   <Layout>

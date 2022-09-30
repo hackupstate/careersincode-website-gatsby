@@ -7,8 +7,8 @@ import SEO from "../components/seo";
 import { Container, Row, Col, Button } from "reactstrap";
 
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
-import pressStyles from "./press.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as pressStyles from "./press.module.css";
 
 const PressPage = () => (
   <Layout>
