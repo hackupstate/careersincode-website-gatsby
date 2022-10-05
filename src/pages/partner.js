@@ -14,8 +14,8 @@ import Commonspace from "../images/partners/commonspace.png";
 import Metis from "../images/partners/metis.jpg";
 import TechGarden from "../images/partners/ttg.jpg";
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
-import partnerStyles from "./partner.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as partnerStyles from "./partner.module.css";
 
 const PartnerPage = () => (
   <Layout>

@@ -55,8 +55,8 @@ import latonia from "../images/students/cohort-2/latonia.png";
 import mel from "../images/students/cohort-2/mel.jpg";
 import Placeholder from "../images/tas/profile-placeholder.png";
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
-import instructorStyles from "./instructors.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as instructorStyles from "./instructors.module.css";
 
 const InstructorsPage = () => (
   <Layout>

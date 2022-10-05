@@ -29,8 +29,8 @@ import {
   FaColumns,
 } from "react-icons/fa";
 
-import pageStyles from "./pages.module.css";
-import alumniStyles from "./alumni.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as alumniStyles from "./alumni.module.css";
 import content from "../content/content.json";
 
 import Ana from "../images/students/ana.jpg";
@@ -76,7 +76,7 @@ import christi from "../images/students/cohort-3/christiharlow.png";
 import larry from "../images/students/cohort-3/larrygoodman.jpeg";
 import chazdickerson from "../images/students/cohort-3/chazdickerson.png";
 import strangemaeweather from "../images/students/cohort-3/strangemaeweather.png";
-import pressStyles from "./press.module.css";
+import * as pressStyles from "./press.module.css";
 
 
 const AlumniPage = () => (

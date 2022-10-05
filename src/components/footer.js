@@ -9,7 +9,7 @@ import Slack from "../images/social/slack-green.png";
 import TW from "../images/social/tw.png";
 import YT from "../images/social/yt-blue.png";
 import content from "../content/content.json";
-import footerStyles from "./footer.module.css";
+import * as footerStyles from "./footer.module.css";
 
 const Footer = (props) => {
   return (

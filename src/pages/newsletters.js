@@ -9,7 +9,7 @@ import SEO from "../components/seo";
 import { Container, Row, Table } from "reactstrap";
 import content from "../content/content.json";
 
-import newsletterStyles from "./newsletters.module.css";
+import * as newsletterStyles from "./newsletters.module.css";
 
 const NewslettersPage = () => (
   <Layout>

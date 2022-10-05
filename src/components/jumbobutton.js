@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Row } from "reactstrap";
 // import "bootstrap/dist/css/bootstrap.min.css"
-import buttonStyles from "./jumbobutton.module.css";
+import * as buttonStyles from "./jumbobutton.module.css";
 
 const JumboButton = (props) => {
   return (

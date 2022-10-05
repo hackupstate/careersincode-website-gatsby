@@ -17,8 +17,8 @@ import {
 import CEO from "../images/partners/cceo.jpg";
 import Lemoyne from "../images/partners/lemoyne.jpg";
 import content from "../content/content.json";
-import pageStyles from "./pages.module.css";
-import alignmentStyles from "./partner-alignment.module.css";
+import * as pageStyles from "./pages.module.css";
+import * as alignmentStyles from "./partner-alignment.module.css";
 
 const Alignment = (props) => (
   <Layout>

@@ -7,8 +7,8 @@ import SEO from "../components/seo";
 import { Container } from "reactstrap";
 import TableComponent from "../components/table";
 import content from "../content/content.json";
-// import pageStyles from "../pages/pages.module.css";
-import jobStyles from "./jobs.module.css";
+// import * as pageStyles from "../pages/pages.module.css";
+import * as jobStyles from "./jobs.module.css";
 
 const JobsPage = () => (
   <Layout>
