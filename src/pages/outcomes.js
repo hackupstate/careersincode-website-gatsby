@@ -84,6 +84,9 @@ const OutcomesPage = () => (
     <Row className={pageStyles.pageHeadings}>
       <h3>Cohort 3 (March, 28 2022 - September 8, 2022)</h3>
     </Row>
+    <Row className={pageStyles.pageHeadings}>
+      <h4>2 out of 13 of our graduates have obtained employment opportunities</h4>
+    </Row>
 
     {/*<Row className={outcomesStyles.outcomesCardRow}>
       <a
@@ -190,6 +193,10 @@ const OutcomesPage = () => (
     >
     <Row className={pageStyles.pageHeadings}>
       <h3>Cohort 2 (March, 15 2021 - August 26, 2021)</h3>
+    </Row>
+
+    <Row className={pageStyles.pageHeadings}>
+      <h4>5 out of 11 of our graduates have obtained employment opportunities</h4>
     </Row>
 
     <Row className={outcomesStyles.outcomesCardRow}>
@@ -396,6 +403,11 @@ const OutcomesPage = () => (
     <Row className={pageStyles.pageHeadings}>
       <h3>Cohort 1 (March, 11 2019 - August 22, 2019)</h3>
     </Row>
+
+    <Row className={pageStyles.pageHeadings}>
+      <h4>8 out of 11 of our graduates have obtained employment opportunities</h4>
+    </Row>
+
     <Row className={outcomesStyles.outcomesCardRow}>
       <a
         href={"/outcomes/cohort-1/Careers-In-Code-Student-Outcomes-Report-FINAL.pdf"}
