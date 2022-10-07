@@ -431,12 +431,13 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                src={Kaitlyn}
+                // src={Kaitlyn}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
             </Card>
-            <Col sm="4">
+          </Col>
+          <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
                 Shantina Perez
@@ -444,11 +445,12 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                src={shantina}
+                // src={shantina}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
             </Card>
+          </Col>
             <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -457,11 +459,12 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                src={dougroussin}
+                // src={dougroussin}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
             </Card>
+            </Col>
             <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -470,11 +473,12 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                src={christie}
+                // src={christie}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
             </Card>
+            </Col>
             <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -483,11 +487,12 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                src={stephanienunez}
+                // src={stephanienunez}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
             </Card>
+            </Col>
             <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
               <CardHeader tag="h3">
@@ -496,7 +501,7 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                src={zackhafner}
+                // src={zackhafner}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
