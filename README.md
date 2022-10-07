@@ -4,10 +4,14 @@ A wesbite for Hack Upstate's Careers in Code
 
 Careers in Code is Hack Upstate’s new initiative to help advance Central New York’s tech community by offering computer programming education to help fight poverty. It is a 24-week program aimed at women and minorities from distressed areas of central New York — poverty in these neighborhoods means residents don’t have equal opportunities to access education and employment opportunities, and our bootcamp was created to help close this gap and increase our region’s economic potential.
 
+## Running the repo
+1. `npm install` 
+2. `npm run start`
+
 ## Contributing
 
 1. Clone down the code: `git clone https://github.com/hackupstate/careersincode-dynamic.git`
-2. When you are creating your remote origin, remember that you should NOT be using the master branch. Instead, contact Will or Jesse to has set up an individual branch. This repo utilizes pull requests for content management.
+2. When you are creating your remote origin, remember that you should NOT be using the master branch. Instead, create a branch. This repo utilizes pull requests for content management.
 3. Once cloned and initialized properly, try pushing a commit to your branch. In some cases, you may need to push to the HEAD, which would change your push message (ie. git push origin HEAD:dev).
 
 ## Use of PR's in this Repo
