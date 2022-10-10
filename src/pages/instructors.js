@@ -162,59 +162,62 @@ const InstructorsPage = () => (
             }
           </p>
           <a
-              href="https://forms.gle/uN24Pd2dECgqvrad9"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={instructorStyles.greenBtnLink}
-            >
-          <Button className={instructorStyles.greenButton}>
+            href="https://forms.gle/uN24Pd2dECgqvrad9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={instructorStyles.greenBtnLink}
+          >
+            <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons
                   .instructor.apply.text
               }
-          </Button>
+            </Button>
           </a>
           <a
-              href={
-                content.ui.instructors.instructor_main_content.buttons
-                  .instructor.responsibilities.link
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-              className={instructorStyles.greenBtnLink}
-            >
-          <Button className={instructorStyles.greenButton}>
+            href={
+              content.ui.instructors.instructor_main_content.buttons.instructor
+                .responsibilities.link
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={instructorStyles.greenBtnLink}
+          >
+            <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons
                   .instructor.responsibilities.text
               }
-          </Button>
+            </Button>
           </a>
           <a
-              href={
-                content.ui.instructors.instructor_main_content.buttons
-                  .instructor.admissions.link
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-              className={instructorStyles.greenBtnLink}
-            >
-          <Button className={instructorStyles.greenButton}>
+            href={
+              content.ui.instructors.instructor_main_content.buttons.instructor
+                .admissions.link
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={instructorStyles.greenBtnLink}
+          >
+            <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons
                   .instructor.admissions.text
               }
-          </Button>
+            </Button>
           </a>
           <a
-              href={content.ui.jobs_main_content.jobs_table.descriptions.description_instructor}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={instructorStyles.greenBtnLink}
-            >
-          <Button className={instructorStyles.greenButton}>
+            href={
+              content.ui.jobs_main_content.jobs_table.descriptions
+                .description_instructor
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={instructorStyles.greenBtnLink}
+          >
+            <Button className={instructorStyles.greenButton}>
               View Job Description
-          </Button>
+            </Button>
           </a>
         </Col>
 
@@ -233,57 +236,57 @@ const InstructorsPage = () => (
           </p>
 
           <a
-              href="https://forms.gle/TFWNj9GgKabReUVp8"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={instructorStyles.greenBtnLink}
-            >
-          <Button className={instructorStyles.greenButton}>
+            href="https://forms.gle/TFWNj9GgKabReUVp8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={instructorStyles.greenBtnLink}
+          >
+            <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons.ta.apply
                   .text
               }
-          </Button>
+            </Button>
           </a>
 
           <a
-              href={
-                content.ui.instructors.instructor_main_content.buttons.ta
-                  .responsibilities.link
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-              className={instructorStyles.greenBtnLink}
-            >
-          <Button className={instructorStyles.greenButton}>
+            href={
+              content.ui.instructors.instructor_main_content.buttons.ta
+                .responsibilities.link
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={instructorStyles.greenBtnLink}
+          >
+            <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons.ta
                   .responsibilities.text
               }
-          </Button>
+            </Button>
           </a>
 
           <a
-              href={
-                content.ui.instructors.instructor_main_content.buttons.ta
-                  .admissions.link
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-              className={instructorStyles.greenBtnLink}
-            >
-          <Button className={instructorStyles.greenButton}>
+            href={
+              content.ui.instructors.instructor_main_content.buttons.ta
+                .admissions.link
+            }
+            target="_blank"
+            rel="noopener noreferrer"
+            className={instructorStyles.greenBtnLink}
+          >
+            <Button className={instructorStyles.greenButton}>
               {
                 content.ui.instructors.instructor_main_content.buttons.ta
                   .admissions.text
               }
-          </Button>
+            </Button>
           </a>
         </Col>
       </Row>
     </Container>
-       {/* INSTRUCTOR CARDS - COHORT 3 */}
-       <Row className={pageStyles.pageHeadings}>
+    {/* INSTRUCTOR CARDS - COHORT 3 */}
+    <Row className={pageStyles.pageHeadings}>
       <h2> Cohort 3 and Cohort 4 Instructors</h2>
     </Row>
 
@@ -297,9 +300,7 @@ const InstructorsPage = () => (
           {/* instructor */}
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Max Matthews
-              </CardHeader>
+              <CardHeader tag="h3">Max Matthews</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -311,9 +312,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Ryan Gaus
-              </CardHeader>
+              <CardHeader tag="h3">Ryan Gaus</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -325,9 +324,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Nathan Evans
-              </CardHeader>
+              <CardHeader tag="h3">Nathan Evans</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -335,7 +332,7 @@ const InstructorsPage = () => (
                 alt="#"
                 className={instructorStyles.imgSize}
               />
-             </Card>
+            </Card>
           </Col>
         </CardDeck>
       </Row>
@@ -369,9 +366,7 @@ const InstructorsPage = () => (
           {/* instructor */}
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                La'Tonia Mertica Sheppard Walker
-              </CardHeader>
+              <CardHeader tag="h3">La'Tonia Mertica Sheppard Walker</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -383,9 +378,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Karin Thorne
-              </CardHeader>
+              <CardHeader tag="h3">Karin Thorne</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -397,9 +390,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Melaquan Saffold
-              </CardHeader>
+              <CardHeader tag="h3">Melaquan Saffold</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -411,9 +402,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Ariel Murphy
-              </CardHeader>
+              <CardHeader tag="h3">Ariel Murphy</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -425,9 +414,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Kaitlyn Warboy
-              </CardHeader>
+              <CardHeader tag="h3">Kaitlyn Warboy</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -439,9 +426,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Shantina Perez
-              </CardHeader>
+              <CardHeader tag="h3">Shantina Perez</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -451,11 +436,9 @@ const InstructorsPage = () => (
               />
             </Card>
           </Col>
-            <Col sm="4">
+          <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Doug Roussin
-              </CardHeader>
+              <CardHeader tag="h3">Doug Roussin</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -464,12 +447,10 @@ const InstructorsPage = () => (
                 className={instructorStyles.imgSize}
               />
             </Card>
-            </Col>
-            <Col sm="4">
+          </Col>
+          <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Christi Harlow
-              </CardHeader>
+              <CardHeader tag="h3">Christi Harlow</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -478,12 +459,10 @@ const InstructorsPage = () => (
                 className={instructorStyles.imgSize}
               />
             </Card>
-            </Col>
-            <Col sm="4">
+          </Col>
+          <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Stephanie Nunez
-              </CardHeader>
+              <CardHeader tag="h3">Stephanie Nunez</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -492,12 +471,10 @@ const InstructorsPage = () => (
                 className={instructorStyles.imgSize}
               />
             </Card>
-            </Col>
-            <Col sm="4">
+          </Col>
+          <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Zachary Hafner
-              </CardHeader>
+              <CardHeader tag="h3">Zachary Hafner</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -525,9 +502,7 @@ const InstructorsPage = () => (
           {/* instructor */}
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Max Matthews
-              </CardHeader>
+              <CardHeader tag="h3">Max Matthews</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -539,9 +514,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Karin Thorne
-              </CardHeader>
+              <CardHeader tag="h3">Karin Thorne</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -553,9 +526,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Christy Prensler
-              </CardHeader>
+              <CardHeader tag="h3">Christy Prensler</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -567,9 +538,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Kaitlyn Warboy
-              </CardHeader>
+              <CardHeader tag="h3">Kaitlyn Warboy</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -581,9 +550,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Dana McMullen
-              </CardHeader>
+              <CardHeader tag="h3">Dana McMullen</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -595,9 +562,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Gus Cost
-              </CardHeader>
+              <CardHeader tag="h3">Gus Cost</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -609,9 +574,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Ryan Gaus
-              </CardHeader>
+              <CardHeader tag="h3">Ryan Gaus</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -623,9 +586,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Joey Buczek
-              </CardHeader>
+              <CardHeader tag="h3">Joey Buczek</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -637,9 +598,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Nathan Evans
-              </CardHeader>
+              <CardHeader tag="h3">Nathan Evans</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -651,9 +610,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Aneesa Hussain
-              </CardHeader>
+              <CardHeader tag="h3">Aneesa Hussain</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -696,9 +653,7 @@ const InstructorsPage = () => (
           {/* instructor */}
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Dana McMullen
-              </CardHeader>
+              <CardHeader tag="h3">Dana McMullen</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -710,9 +665,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Karin Thorne
-              </CardHeader>
+              <CardHeader tag="h3">Karin Thorne</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -724,9 +677,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Kelley Corey
-              </CardHeader>
+              <CardHeader tag="h3">Kelley Corey</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -738,9 +689,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Drew Knab
-              </CardHeader>
+              <CardHeader tag="h3">Drew Knab</CardHeader>
               <CardImg
                 top
                 width="100%"
@@ -752,9 +701,7 @@ const InstructorsPage = () => (
           </Col>
           <Col sm="4">
             <Card body className={("shadow-sm", instructorStyles.cardSize)}>
-              <CardHeader tag="h3">
-                Kaitlyn Warboy
-              </CardHeader>
+              <CardHeader tag="h3">Kaitlyn Warboy</CardHeader>
               <CardImg
                 top
                 width="100%"
