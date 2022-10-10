@@ -53,6 +53,11 @@ import Wesam from "../images/tas/wesamshanaa.png";
 import Ariel from "../images/students/cohort-2/ariel.png";
 import latonia from "../images/students/cohort-2/latonia.png";
 import mel from "../images/students/cohort-2/mel.jpg";
+import dougroussin from "../images/students/cohort-3/DougRoussin.jpg";
+import shantina from "../images/students/cohort-3/shantina.png";
+import christi from "../images/students/cohort-3/christiharlow.png";
+import stephanienunez from "../images/students/cohort-3/stephanienunez.jpg";
+import zachhafner from "../images/students/cohort-3/zachhafner.jpeg";
 import Placeholder from "../images/tas/profile-placeholder.png";
 import content from "../content/content.json";
 import * as pageStyles from "./pages.module.css";
@@ -285,7 +290,7 @@ const InstructorsPage = () => (
         </Col>
       </Row>
     </Container>
-    {/* INSTRUCTOR CARDS - COHORT 3 */}
+    {/* INSTRUCTOR CARDS - COHORT 3 and 4 */}
     <Row className={pageStyles.pageHeadings}>
       <h2> Cohort 3 and Cohort 4 Instructors</h2>
     </Row>
@@ -418,7 +423,7 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                // src={Kaitlyn}
+                src={Kaitlyn}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
@@ -430,7 +435,7 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                // src={shantina}
+                src={shantina}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
@@ -442,7 +447,7 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                // src={dougroussin}
+                src={dougroussin}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
@@ -454,7 +459,7 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                // src={christie}
+                src={christi}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
@@ -466,7 +471,7 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                // src={stephanienunez}
+                src={stephanienunez}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
@@ -478,7 +483,7 @@ const InstructorsPage = () => (
               <CardImg
                 top
                 width="100%"
-                // src={zackhafner}
+                src={zachhafner}
                 alt="#"
                 className={instructorStyles.imgSize}
               />
