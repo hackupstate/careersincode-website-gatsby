@@ -196,7 +196,7 @@ const OutcomesPage = () => (
     </Row>
 
     <Row className={pageStyles.pageHeadings}>
-      <h4>5 out of 11 of our graduates have obtained employment opportunities</h4>
+      <h4>6 out of 11 of our graduates have obtained employment opportunities</h4>
     </Row>
 
     <Row className={outcomesStyles.outcomesCardRow}>
