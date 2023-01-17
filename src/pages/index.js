@@ -53,7 +53,7 @@ const IndexPage = (props) => (
         />
         <JumboButton
           btnLink={"https://forms.gle/tkwrqV9VVnLbaTPTA"}
-          btnText={"Join our Spring, 2023 waitlist"}
+          btnText={"Our applications are live!, 2023 waitlist"}
         />
         <JumboButton
           btnLink={"/Why-Careers-in-Code.png"}
