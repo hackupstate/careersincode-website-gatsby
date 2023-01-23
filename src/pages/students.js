@@ -81,17 +81,17 @@ const ProspectivePage = () => (
         /> */}
 
         <JumboButton
-          btnLink={"https://forms.gle/tkwrqV9VVnLbaTPTA"}
-          btnText={"Join our Spring, 2023 Waitlist"}
+          btnLink={"https://docs.google.com/forms/d/e/1FAIpQLSev-oMZ2-dqEfSCOYwfGbmr_WsIqdPB2gJhGmKF4TQd-ilTaw/viewform"}
+          btnText={"Apply to our Spring, 2023 cohort"}
           />
 
         <JumboButton
-          btnLink={"/admissions/Careers in Code - Student Admissions Process - Cohort 4.pdf"}
-          btnText={"View Admissions Process"}
+          btnLink={"https://docs.google.com/document/d/11c45MxZgj3UylTrd7CapBS33BKjxCqeG6KQLd8pi-DE/edit?usp=sharing"}
+          btnText={"View Admissions Process (Spring, 2023)"}
         />
         <JumboButton
-          btnLink={"/admissions/Careers in Code - Student Responsibilities and Expectations - Cohort 4.pdf"}
-          btnText={"View Responsibilites and Expectations"}
+          btnLink={"https://docs.google.com/document/d/1I0E3E6Y7LYSacdF_i9riQG_hyeATGzd4t4inu1gAQmU/edit?usp=sharing"}
+          btnText={"View Responsibilites and Expectations (Spring, 2023)"}
         />
 
         {/* <JumboButton
