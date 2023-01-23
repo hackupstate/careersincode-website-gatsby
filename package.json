@@ -14,7 +14,7 @@
     "babel-plugin-styled-components": "^1.10.7",
     "bootstrap": "^4.4.1",
     "bufferutil": "^4.0.1",
-    "gatsby": "^4.20.0",
+    "gatsby": "^4.25.4",
     "gatsby-background-image": "^1.6.0",
     "gatsby-plugin-image": "^2.24.0",
     "gatsby-plugin-manifest": "^4.24.0",
