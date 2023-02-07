@@ -36,6 +36,7 @@ import brandy from "../images/students/cohort-2/brandy.jpg";
 
 import larry from "../images/students/cohort-3/larrygoodman.jpeg";
 import daniellefloyd from "../images/students/cohort-3/daniellefloyd.jpg";
+import shantina from "../images/students/cohort-3/shantina.png";
 
 import UI from "../images/companies/ui.jpg";
 import NID from "../images/companies/nid.jpg";
@@ -116,7 +117,7 @@ const OutcomesPage = () => (
 				{/* La'Tonia Card */}
 				<CardDeck>
 					{/*change col back to 3 when adding more cards!!!!!!!!!!!*/}
-					<Col sm="6">
+					<Col sm="4">
 						<Card body className={("shadow-sm", outcomesStyles.cardSize)}>
 							<CardHeader tag="h3">Larry Goodman</CardHeader>
 							<CardImg
@@ -149,7 +150,7 @@ const OutcomesPage = () => (
 						</Card>
 					</Col>
 
-					<Col sm="6">
+					<Col sm="4">
 						<Card body className={("shadow-sm", outcomesStyles.cardSize)}>
 							<CardHeader tag="h3">Danielle Floyd</CardHeader>
 							<CardImg
@@ -178,6 +179,29 @@ const OutcomesPage = () => (
                   Read La'Tonia's story 
                 </Button>
                 </a>*/}
+							</CardBody>
+						</Card>
+					</Col>
+
+					<Col sm="4">
+						<Card body className={("shadow-sm", outcomesStyles.cardSize)}>
+							<CardHeader tag="h3">Shantina Perez</CardHeader>
+							<CardImg
+								top
+								width="100%"
+								src={shantina}
+								alt="Shantina"
+								className={outcomesStyles.imgSize}
+							/>
+							<CardBody>
+								<CardTitle>
+									<p className={outcomesStyles.cardTitle}>
+										Software Technician
+									</p>
+								</CardTitle>
+								<CardText>
+									<p className={outcomesStyles.cardText}>Lockheed Martin</p>
+								</CardText>
 							</CardBody>
 						</Card>
 					</Col>
