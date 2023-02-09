@@ -2,7 +2,7 @@
 	"ui": {
 		"index_jumbotron": {
 			"heading": "Transform your career with Hack Upstate.",
-			"subheading": "Careers in Code is a coding bootcamp that teaches computer programming to women and minorities to help combat poverty in Central NY. We provide students with the technical skills they need to obtain internships and entry level software development jobs with local employers after 24 weeks of instruction.",
+			"subheading": "Careers in Code is a coding bootcamp that teaches computer programming to women and people of color to help combat poverty in Central NY. We provide students with the technical skills they need to obtain internships and entry level software development jobs with local employers after 24 weeks of instruction.",
 			"button1": {
 				"text": "Apply Now",
 				"link": "https://forms.gle/azCgVJuKz4inQ8ty7"
@@ -22,7 +22,7 @@
 		},
 		"index_main_content_top_text": {
 			"copy": "Poverty throughout Central NY is rising at an accelerated rate and stifling our region's economic potential.",
-			"description": "There are few opportunities for women and minorities to advance in concentrated areas of extreme poverty.",
+			"description": "There are few opportunities for women and people of color to advance in concentrated areas of extreme poverty.",
 			"link": "/students",
 			"button": "Apply now"
 		},
@@ -81,12 +81,12 @@
 			"mission_main_content": {
 				"header1": {
 					"title": "The Problem",
-					"text1": "Poverty throughout Central New York is rising at an accelerated rate and stifling our region’s economic potential. In 2018, Syracuse, NY was named one of the top ten most impoverished cities across all of U.S. To put that into perspective, roughly 1 in every 3 people in Syracuse live in poverty. In particular, there are few opportunities for women and minorities to advance in concentrated areas of extreme poverty. Equal access to educational and employment opportunities are simply not available to them.",
+					"text1": "Poverty throughout Central New York is rising at an accelerated rate and stifling our region’s economic potential. In 2018, Syracuse, NY was named one of the top ten most impoverished cities across all of U.S. To put that into perspective, roughly 1 in every 3 people in Syracuse live in poverty. In particular, there are few opportunities for women and people of color to advance in concentrated areas of extreme poverty. Equal access to educational and employment opportunities are simply not available to them.",
 					"text2": "At the same time, many Central New York employers are struggling to hire local software developers. Software developers are critical to their growth, but at this time our regional talent pool isn’t large enough to support their needs. Consequently, employers that want to hire locally are often left with no choice but to outsource their work to 3rd party consultants and contractors that operate outside of Central New York."
 				},
 				"header2": {
 					"title": "Our Solution",
-					"text": "Careers in Code is Hack Upstate’s new initiative to help advance Central New York’s tech community by offering computer programming education to help fight poverty. It is a 24-week program aimed at women and minorities from distressed areas of central New York — poverty in these neighborhoods means residents don’t have equal opportunities to access education and employment opportunities, and our bootcamp was created to help close this gap and increase our region’s economic potential."
+					"text": "Careers in Code is Hack Upstate’s new initiative to help advance Central New York’s tech community by offering computer programming education to help fight poverty. It is a 24-week program aimed at women and people of color from distressed areas of central New York — poverty in these neighborhoods means residents don’t have equal opportunities to access education and employment opportunities, and our bootcamp was created to help close this gap and increase our region’s economic potential."
 				},
 				"header3": "Thank you to Onondaga County for the opportunity to make this possible!",
 				"header4": {
@@ -95,7 +95,7 @@
 					"text": "Coding bootcamps have popped up all over the country. They are widely needed and are proven effective, but they’re not always affordable. The average tuition for these opportunities is upwards of $12,000, and that cost can go up depending on what devices or services fees aren’t included with tuition. While you get a great education, it’s hardly accessible or inclusive to all. We are committed to making opportunities as equal as possible for our students. Careers in Code offers that same vocational training for free via a scholarship, and we will cover the cost of student laptops as well as additional third-party expenses like web services, API hosting, data storage, etc. This will allow our students to develop the technical skills they need to move on to internships and entry-level positions in software development without financial worries impeding their learning progress.",
 					"subheader2": {
 						"title": "Relevant Curriculum Makes Graduates In-Demand",
-						"text": "Our curriculum is dictated by the current market demands and software-development trends, which makes graduates of Careers in Code appealing to employers thanks to their relevant knowledge of the present development landscape. These skills are in high demand and directly translate to higher employment rates and salary increases. In fact, according to the Course Report’s Coding Bootcamp Alumni Outcomes and Demographics Study, 3 out of 4 program graduates were hired into full-time positions in which they used the skills learned in their bootcamp. Graduates also enjoyed significant salary increases, especially low-income students from distressed communities, who saw an average increase of nearly $40,000 compared to their previous salary."
+						"text": "Our curriculum is dictated by the current market demands and software-development trends, which makes graduates of Careers in Code appealing to employers thanks to their relevant knowledge of the present development landscape. These skills are in high demand and directly translate to higher employment rates and salary increases. In fact, according to the Course Report’s Coding Bootcamp Alumni Outcomes and Demographics Study, 3 out of 4 program graduates were hired into full-time positions in which they used the skills learned in their bootcamp. Graduates also enjoyed significant salary increases, especially students from low-income backgrounds and distressed communities, who saw an average increase of nearly $40,000 compared to their previous salary."
 					},
 					"subheader3": {
 						"title": "Access to Our Partners Looking for People Like YOU",
@@ -154,7 +154,7 @@
 					"header": "In the News",
 					"south_side": {
 						"text": "The South Side Stand | ",
-						"link": "Hack Upstate launches coding bootcamp for Syracuse women and minorities",
+						"link": "Hack Upstate launches coding bootcamp for Syracuse women and people of color",
 						"address": "https://mysouthsidestand.com/more-news/careers-in-code/"
 					},
 					"waer": {
@@ -168,7 +168,7 @@
 					},
 					"spectrum": {
 						"text": "Spectrum Local | ",
-						"link": "Hack Upstate launches coding bootcamp for Syracuse women and minorities",
+						"link": "Hack Upstate launches coding bootcamp for Syracuse women and people of color",
 						"address": "https://spectrumlocalnews.com/nys/central-ny/news/2019/03/08/coding-bootcamp-to-fight-syracuse-poverty-?fbclid=IwAR2kIL7wcG-GN6lJfTQf0d9omy152cGpjMjvWfqcrWUzQziK1ncRM7VeqGM"
 					},
 					"syracuse": {
@@ -499,7 +499,7 @@
 						"question": "What are the guidelines for applying?",
 						"answer": "Students must meet the following criteria:",
 						"ul1": "18 and older",
-						"ul2": "A woman and/or minority",
+						"ul2": "A woman and/or person of color",
 						"ul3": "Currently from a distressed community",
 						"ul4": "Residing in Cayuga, Cortland, Madison, Oswego or Onondaga County"
 					},
@@ -1064,7 +1064,7 @@
 			"alumni": {
 				"alumni_jumbotron": {
 					"heading": "A career in code can change everything.",
-					"subheading": "Our mission is to create career pathways in software development for women and minorities to help combat poverty in Central NY. We will provide you with the technical skills you need to obtain internships and entry level software development positions with local employers after 24 weeks of instruction.",
+					"subheading": "Our mission is to create career pathways in software development for women and people of color to help combat poverty in Central NY. We will provide you with the technical skills you need to obtain internships and entry level software development positions with local employers after 24 weeks of instruction.",
 					"button": {
 						"link": "https://forms.gle/azCgVJuKz4inQ8ty7",
 						"text": "Apply Now"
@@ -1346,7 +1346,7 @@
 		"classroom": {
 			"prospective_jumbotron": {
 				"heading": "A career in code can change everything.",
-				"subheading": "Our mission is to create career pathways in software development for women and minorities to help combat poverty in Central NY. We will provide you with the technical skills you need to obtain internships and entry level software development positions with local employers after 24 weeks of instruction.",
+				"subheading": "Our mission is to create career pathways in software development for women and people of color to help combat poverty in Central NY. We will provide you with the technical skills you need to obtain internships and entry level software development positions with local employers after 24 weeks of instruction.",
 				"button": {
 					"text": "Apply Now",
 					"link": "https://forms.gle/azCgVJuKz4inQ8ty7"
@@ -1732,7 +1732,7 @@
 							"presentation": {
 								"text": "August 12, 2019 | ",
 								"link": "https://www.youtube.com/watch?v=g42_U-2DfY0",
-								"topic": "Bridging the Gap Between Technology and Minorities"
+								"topic": "Bridging the Gap Between Technology and People of Color"
 							},
 							"social": {
 								"email": "mailto:hi@thelikeminded.net",
@@ -1770,7 +1770,7 @@
 			"partner_info": {
 				"title": "Partner With Us",
 				"paragraph1": "Hiring capable software engineers that are local is really, really hard, but we've got you covered. We're a tech talent pipeline for local organizations just like you. We're here to help you grow.",
-				"paragraph2": "Coding bootcamps are a proven model. We provide software education and training opportunities to women and minorities from Central NY’s distressed communities and help them get hired with companies like yours.",
+				"paragraph2": "Coding bootcamps are a proven model. We provide software education and training opportunities to women and people of color from Central NY’s distressed communities and help them get hired with companies like yours.",
 				"button": {
 					"text": "View the Coursework",
 					"link": "https://docs.google.com/document/d/1uBlca51T_DGnpfGnPiBtXfmuOz1iNzPZtYNzPbXFL3g/edit#"
@@ -1989,7 +1989,7 @@
 		"objectives2019": {
 			"objectives2019_jumbotron": {
 				"heading": "2019 Objectives",
-				"subheading": "Hack Upstate’s vision is to grow and scale Careers in Code in order to provide free computer programming education to help place hundreds of women and minorities fighting poverty that are unemployed, underemployed, or underprivileged individuals, with local employers across Central and Upstate NY."
+				"subheading": "Hack Upstate’s vision is to grow and scale Careers in Code in order to provide free computer programming education to help place hundreds of women and people of color fighting poverty that are unemployed, underemployed, or underprivileged individuals, with local employers across Central and Upstate NY."
 			},
 			"objectives2019_main_content": {
 				"button_2020": {
@@ -2134,7 +2134,7 @@
 					},
 					"partnerships": {
 						"heading": "Objective: Explore and develop strategic partnerships",
-						"text": "Creating and operating a coding bootcamp that will teach computer programming to women and minorities from distressed communities can’t be done alone. It requires long-term, strategic partners who will support the program and benefit from its sustained success. Strategic partners have been instrumental to Hack Upstate over the years. We’re extremely fortunate to have so many partners involved in our first cohort of Careers in Code that were critical to our success.",
+						"text": "Creating and operating a coding bootcamp that will teach computer programming to women and people of color from distressed communities can’t be done alone. It requires long-term, strategic partners who will support the program and benefit from its sustained success. Strategic partners have been instrumental to Hack Upstate over the years. We’re extremely fortunate to have so many partners involved in our first cohort of Careers in Code that were critical to our success.",
 						"cards": {
 							"partnerships": {
 								"textTop": "Identify and explore 3 strategic partnerships",
@@ -2193,7 +2193,7 @@
 		"objectives": {
 			"objectives_jumbotron": {
 				"heading": "2020 Objectives",
-				"subheading": "Hack Upstate’s vision is to grow and scale Careers in Code in order to provide free computer programming education to help place hundreds of women and minorities fighting poverty that are unemployed, underemployed, or underprivileged individuals, with local employers across Central and Upstate NY."
+				"subheading": "Hack Upstate’s vision is to grow and scale Careers in Code in order to provide free computer programming education to help place hundreds of women and people of color fighting poverty that are unemployed, underemployed, or underprivileged individuals, with local employers across Central and Upstate NY."
 			},
 			"objectives_main_content": {
 				"button_2019": {
@@ -2264,7 +2264,7 @@
 					"objective": {
 						"heading": "Objective: Facilitate training and education strategies that empower residents to access New Economy careers, while infusing tech fluency into training for traditional industries that are experiencing New Economy disruption.",
 						"p1": "In addition, Develop workforce innovations to link hundreds of LMI individuals to New Economy careers, establishing a long-term workforce blueprint. Efforts will leverage local best practices (Work Train, Erie 21) and will be informed by local industry needs, poverty research, and community engagement.",
-						"p2": "Coding and Software program partnerships: Work Train will work with employers and partners to link low-income job seekers to career pathways in coding and software engineering. This will be achieved by a partnership with Hack Upstate, who has launched a successful Careers in Code program.",
+						"p2": "Coding and Software program partnerships: Work Train will work with employers and partners to link job seekers from low-income backgrounds to career pathways in coding and software engineering. This will be achieved by a partnership with Hack Upstate, who has launched a successful Careers in Code program.",
 						"cards": {
 							"participants": {
 								"textTop": "Total number of program participants enrolled during grant term",
