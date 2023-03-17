@@ -137,16 +137,7 @@ const AlumniPage = () => (
         </Row>
         <Row className={pageStyles.pageHeadings}>
           <h3 className="mt-0">Graduated on September 8th, 2022</h3>
-        </Row>
-        <a
-              href="/Demographics/Cohort-3-Student-Demographic.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={pressStyles.btnLink}
-            >
-          <Button className={pressStyles.pageButtons} color="info">Student Demographic Data</Button>
-          </a>
-        
+        </Row>        
       </Container>
 
       <Row className={alumniStyles.alumniCardRow}>
