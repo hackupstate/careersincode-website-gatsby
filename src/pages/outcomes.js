@@ -90,6 +90,12 @@ const OutcomesPage = () => (
 				</h4>
 			</Row>
 
+      <Row className={outcomesStyles.outcomesCardRow}>
+        <a href="/Demographics/Cohort-3-Student-Demographic.pdf" target="_blank" rel="noopener noreferrer" className={pageStyles.btnLink}>
+          <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>Student Demographic Data</Button>
+        </a>
+      </Row>
+
 			{/*<Row className={outcomesStyles.outcomesCardRow}>
       <a
         href={"/outcomes/cohort-2/Careers-In-Code-Student-Outcomes-Report-Cohort-2.pdf"}
@@ -260,6 +266,11 @@ const OutcomesPage = () => (
 						View 1-pager Outcomes
 					</Button>
 				</a>
+
+        <a href="/Demographics/Cohort-2-Student-Demographic.pdf" target="_blank" rel="noopener noreferrer" className={pageStyles.btnLink}>
+          <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>Student Demographic Data</Button>
+        </a>
+
 			</Row>
 			<Row className={outcomesStyles.outcomesCardRow}>
 				{/* La'Tonia Card */}
