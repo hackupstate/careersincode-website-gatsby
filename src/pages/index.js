@@ -55,7 +55,7 @@ const IndexPage = (props) => (
 					btnLink={
 						"https://docs.google.com/forms/d/e/1FAIpQLSdePaq9cZHr-SZ9tgTVu09bRRZ_OCrChSgXjZBTfZ54EYV7CQ/viewform"
 					}
-					btnText={"Join our Fall, 2023 waitlist"}
+					btnText={"Join our waitlist"}
 				/>
 				<JumboButton
 					btnLink={"/Why-Careers-in-Code.png"}
