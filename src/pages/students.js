@@ -6,36 +6,36 @@ import JumbotronComponent from "../components/jumbotron";
 import JumboButton from "../components/jumbobutton";
 import SEO from "../components/seo";
 import {
-  Container,
-  Row,
-  Col,
-  Card,
-  CardHeader,
-  CardImg,
-  CardTitle,
-  CardText,
-  CardDeck,
-  CardBody,
-  CardFooter,
-  Button,
+	Container,
+	Row,
+	Col,
+	Card,
+	CardHeader,
+	CardImg,
+	CardTitle,
+	CardText,
+	CardDeck,
+	CardBody,
+	CardFooter,
+	Button,
 } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  FaEnvelopeSquare,
-  FaTwitterSquare,
-  FaLinkedin,
-  FaGithubSquare,
-  FaGlobe,
-  FaIdCard,
-  FaColumns,
+	FaEnvelopeSquare,
+	FaTwitterSquare,
+	FaLinkedin,
+	FaGithubSquare,
+	FaGlobe,
+	FaIdCard,
+	FaColumns,
 } from "react-icons/fa";
 import {
-  faGraduationCap,
-  faUserCheck,
-  faPencilRuler,
-  faMountain,
-  faToolbox,
-  faListAlt,
+	faGraduationCap,
+	faUserCheck,
+	faPencilRuler,
+	faMountain,
+	faToolbox,
+	faListAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import content from "../content/content.json";
 import * as pageStyles from "./pages.module.css";
@@ -66,104 +66,107 @@ import larry from "../images/students/cohort-3/larrygoodman.jpeg";
 import chazdickerson from "../images/students/cohort-3/chazdickerson.png";
 import strangemaeweather from "../images/students/cohort-3/strangemaeweather.png";
 
-
 const ProspectivePage = () => (
-  <Layout>
-    <Header>
-      <NavComponent />
-      <JumbotronComponent
-        heading={content.ui.classroom.prospective_jumbotron.heading}
-        subheading={content.ui.students.alumni.alumni_jumbotron.subheading}
-      >
-        {/* <JumboButton
+	<Layout>
+		<Header>
+			<NavComponent />
+			<JumbotronComponent
+				heading={content.ui.classroom.prospective_jumbotron.heading}
+				subheading={content.ui.students.alumni.alumni_jumbotron.subheading}
+			>
+				{/* <JumboButton
           btnLink={content.ui.classroom.prospective_jumbotron.button.link}
           btnText={content.ui.classroom.prospective_jumbotron.button.text}
         /> */}
 
-        <JumboButton
-          btnLink={"https://docs.google.com/forms/d/e/1FAIpQLSev-oMZ2-dqEfSCOYwfGbmr_WsIqdPB2gJhGmKF4TQd-ilTaw/viewform"}
-          btnText={"Apply to our Spring, 2023 cohort"}
-          />
+				<JumboButton
+					btnLink={
+						"https://docs.google.com/forms/d/e/1FAIpQLSdePaq9cZHr-SZ9tgTVu09bRRZ_OCrChSgXjZBTfZ54EYV7CQ/viewform"
+					}
+					btnText={"Join our Fall, 2023 waitlist"}
+				/>
 
-        <JumboButton
-          btnLink={"https://docs.google.com/document/d/11c45MxZgj3UylTrd7CapBS33BKjxCqeG6KQLd8pi-DE/edit?usp=sharing"}
-          btnText={"View Admissions Process (Spring, 2023)"}
-        />
-        <JumboButton
-          btnLink={"https://docs.google.com/document/d/1I0E3E6Y7LYSacdF_i9riQG_hyeATGzd4t4inu1gAQmU/edit?usp=sharing"}
-          btnText={"View Responsibilites and Expectations (Spring, 2023)"}
-        />
+				<JumboButton
+					btnLink={
+						"https://docs.google.com/document/d/11c45MxZgj3UylTrd7CapBS33BKjxCqeG6KQLd8pi-DE/edit?usp=sharing"
+					}
+					btnText={"View Admissions Process (Spring, 2023)"}
+				/>
+				<JumboButton
+					btnLink={
+						"https://docs.google.com/document/d/1I0E3E6Y7LYSacdF_i9riQG_hyeATGzd4t4inu1gAQmU/edit?usp=sharing"
+					}
+					btnText={"View Responsibilites and Expectations (Spring, 2023)"}
+				/>
 
-        {/* <JumboButton
+				{/* <JumboButton
           btnLink={"/admissions/arpa/Careers in Code - Student Admissions Process - ARPA.pdf"}
           btnText={"View student admissions process"}
         /> */}
+			</JumbotronComponent>
+		</Header>
+		<SEO title="Students" />
+		<Container fluid className={prospectiveStyles.blueStatContainer}>
+			<Row className={prospectiveStyles.statRows}>
+				<Col className={prospectiveStyles.statColumns}>
+					<h3 className={prospectiveStyles.prospectiveStats}>
+						{content.ui.classroom.students_stats.stats_days}
+					</h3>
+					<p className={prospectiveStyles.blueParaStats}>
+						{content.ui.classroom.students_stats.stats_days_text}
+						<sup>{content.ui.classroom.students_stats.footnote_1_super}</sup>
+					</p>
+				</Col>
+				<Col className={prospectiveStyles.statColumns}>
+					<h3 className={prospectiveStyles.prospectiveStats}>
+						{content.ui.classroom.students_stats.stats_salary}
+					</h3>
+					<p className={prospectiveStyles.greenParaStats}>
+						{content.ui.classroom.students_stats.stats_salary_text}
+						<sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
+					</p>
+				</Col>
+			</Row>
+			<Row className={prospectiveStyles.statRows}>
+				<Col className={prospectiveStyles.statColumns}>
+					<h3 className={prospectiveStyles.prospectiveStats}>
+						{content.ui.classroom.students_stats.stats_jobs}
+					</h3>
+					<p className={prospectiveStyles.blueParaStats}>
+						{content.ui.classroom.students_stats.stats_jobs_text}
+						<sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
+					</p>
+				</Col>
+				<Col className={prospectiveStyles.statColumns}>
+					<h3 className={prospectiveStyles.prospectiveStats}>
+						{content.ui.classroom.students_stats.stats_increase}
+					</h3>
+					<p className={prospectiveStyles.greenParaStats}>
+						{content.ui.classroom.students_stats.stats_increase_text}
+						<sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
+					</p>
+				</Col>
+			</Row>
+		</Container>
+		<Container fluid className={pageStyles.whiteContainer}>
+			<Row>
+				<Col>
+					<sup>{content.ui.classroom.students_stats.footnote_1_super}</sup>
+					<a href={content.ui.classroom.students_stats.footnote_1_link}>
+						{content.ui.classroom.students_stats.footnote_1_name}
+					</a>
+					<br />
+					<br />
+					<sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
+					<a href={content.ui.classroom.students_stats.footnote_2_link}>
+						{content.ui.classroom.students_stats.footnote_2_name}
+					</a>
+				</Col>
+			</Row>
+		</Container>
 
-      </JumbotronComponent>
-    </Header>
-    <SEO title="Students" />
-    <Container fluid className={prospectiveStyles.blueStatContainer}>
-      <Row className={prospectiveStyles.statRows}>
-        <Col className={prospectiveStyles.statColumns}>
-          <h3 className={prospectiveStyles.prospectiveStats}>
-            {content.ui.classroom.students_stats.stats_days}
-          </h3>
-          <p className={prospectiveStyles.blueParaStats}>
-            {content.ui.classroom.students_stats.stats_days_text}
-            <sup>{content.ui.classroom.students_stats.footnote_1_super}</sup>
-          </p>
-        </Col>
-        <Col className={prospectiveStyles.statColumns}>
-          <h3 className={prospectiveStyles.prospectiveStats}>
-            {content.ui.classroom.students_stats.stats_salary}
-          </h3>
-          <p className={prospectiveStyles.greenParaStats}>
-            {content.ui.classroom.students_stats.stats_salary_text}
-            <sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
-          </p>
-        </Col>
-      </Row>
-      <Row className={prospectiveStyles.statRows}>
-        <Col className={prospectiveStyles.statColumns}>
-          <h3 className={prospectiveStyles.prospectiveStats}>
-            {content.ui.classroom.students_stats.stats_jobs}
-          </h3>
-          <p className={prospectiveStyles.blueParaStats}>
-            {content.ui.classroom.students_stats.stats_jobs_text}
-            <sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
-          </p>
-        </Col>
-        <Col className={prospectiveStyles.statColumns}>
-          <h3 className={prospectiveStyles.prospectiveStats}>
-            {content.ui.classroom.students_stats.stats_increase}
-          </h3>
-          <p className={prospectiveStyles.greenParaStats}>
-            {content.ui.classroom.students_stats.stats_increase_text}
-            <sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
-          </p>
-        </Col>
-      </Row>
-    </Container>
-    <Container fluid className={pageStyles.whiteContainer}>
-      <Row>
-        <Col>
-          <sup>{content.ui.classroom.students_stats.footnote_1_super}</sup>
-          <a href={content.ui.classroom.students_stats.footnote_1_link}>
-            {content.ui.classroom.students_stats.footnote_1_name}
-          </a>
-          <br />
-          <br />
-          <sup>{content.ui.classroom.students_stats.footnote_2_super}</sup>
-          <a href={content.ui.classroom.students_stats.footnote_2_link}>
-            {content.ui.classroom.students_stats.footnote_2_name}
-          </a>
-        </Col>
-      </Row>
-    </Container>
-
-
-    {/* ADD STUDENT HEADSHOTS HERE */}
-    {/*<Container className={pageStyles.whiteContainer}>
+		{/* ADD STUDENT HEADSHOTS HERE */}
+		{/*<Container className={pageStyles.whiteContainer}>
       <Row className={pageStyles.pageHeadings}>
         <h2>Cohort 3 Students (Spring 2022)</h2>
       </Row>
@@ -407,29 +410,29 @@ const ProspectivePage = () => (
       </Row>
     </Container>
       */}
-    {/* END STUDENT HEADSHOTS */}
+		{/* END STUDENT HEADSHOTS */}
 
-    <Container fluid className={pageStyles.marginBottom}>
-      <Row>
-        <Col className={pageStyles.centerText}>
-          <h3>{content.ui.classroom.students_congrats}</h3>
-        </Col>
-      </Row>
-      <Row>
-        <Col className={pageStyles.centerItems}>
-          <iframe
-            title="Congrats"
-            width="560"
-            height="315"
-            src={content.ui.classroom.students_congrats_video}
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </Col>
-      </Row>
-    </Container>
-  </Layout>
+		<Container fluid className={pageStyles.marginBottom}>
+			<Row>
+				<Col className={pageStyles.centerText}>
+					<h3>{content.ui.classroom.students_congrats}</h3>
+				</Col>
+			</Row>
+			<Row>
+				<Col className={pageStyles.centerItems}>
+					<iframe
+						title="Congrats"
+						width="560"
+						height="315"
+						src={content.ui.classroom.students_congrats_video}
+						frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</Col>
+			</Row>
+		</Container>
+	</Layout>
 );
 
 export default ProspectivePage;

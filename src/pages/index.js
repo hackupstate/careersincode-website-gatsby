@@ -53,9 +53,9 @@ const IndexPage = (props) => (
 				/>
 				<JumboButton
 					btnLink={
-						"https://docs.google.com/forms/d/e/1FAIpQLSev-oMZ2-dqEfSCOYwfGbmr_WsIqdPB2gJhGmKF4TQd-ilTaw/viewform"
+						"https://docs.google.com/forms/d/e/1FAIpQLSdePaq9cZHr-SZ9tgTVu09bRRZ_OCrChSgXjZBTfZ54EYV7CQ/viewform"
 					}
-					btnText={"Apply to our Spring, 2023 cohort"}
+					btnText={"Join our Fall, 2023 waitlist"}
 				/>
 				<JumboButton
 					btnLink={"/Why-Careers-in-Code.png"}
