@@ -86,7 +86,7 @@ const ProspectivePage = () => (
 					btnText={"Join our waitlist"}
 				/>
 
-				<JumboButton
+				{/* <JumboButton
 					btnLink={
 						"https://docs.google.com/document/d/11c45MxZgj3UylTrd7CapBS33BKjxCqeG6KQLd8pi-DE/edit?usp=sharing"
 					}
@@ -97,7 +97,7 @@ const ProspectivePage = () => (
 						"https://docs.google.com/document/d/1I0E3E6Y7LYSacdF_i9riQG_hyeATGzd4t4inu1gAQmU/edit?usp=sharing"
 					}
 					btnText={"View Responsibilites and Expectations (Spring, 2023)"}
-				/>
+				/> */}
 
 				{/* <JumboButton
           btnLink={"/admissions/arpa/Careers in Code - Student Admissions Process - ARPA.pdf"}
