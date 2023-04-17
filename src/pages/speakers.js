@@ -48,10 +48,10 @@ import Natasha from "../images/speakers/cohort-2/natasha.jpg";
 import Will from "../images/speakers/cohort-2/will.png";
 
 //cohort 3
-import amandadarcangelo from "../images/speakers/cohort-3/amandadarcangelo.jpeg"
-import annwillmott from "../images/speakers/cohort-3/annwillmott.jpeg"
-import brandonlanthrip from "../images/speakers/cohort-3/brandonlanthrip.jpeg"
-import Jason from "../images/team/jason.png"
+import amandadarcangelo from "../images/speakers/cohort-3/amandadarcangelo.jpeg";
+import annwillmott from "../images/speakers/cohort-3/annwillmott.jpeg";
+import brandonlanthrip from "../images/speakers/cohort-3/brandonlanthrip.jpeg";
+import Jason from "../images/team/jason.png";
 
 import {
   FaEnvelopeSquare,
@@ -73,10 +73,12 @@ const Speakers = () => (
       <JumbotronComponent
         heading={content.ui.classroom.guest_speakers.jumbotron.heading}
       >
-      <JumboButton
-        btnLink={"https://calendly.com/hucareersincode/guest-speaker"}
-        btnText={"Speak to our students"}
-      />
+        <JumboButton
+          btnLink={
+            "https://docs.google.com/forms/d/e/1FAIpQLSctG0QtYfsMf3CzQC7azb0_mcmJLMwk0b-fwZZ6zOnCDuja5w/viewform"
+          }
+          btnText={"Speak to our students"}
+        />
       </JumbotronComponent>
     </Header>
     <SEO title="Speakers" />
@@ -99,8 +101,8 @@ const Speakers = () => (
         </Col>
       </Row>
     </Container>
-     {/* guest speaker cards */}
-     <Row className={pageStyles.pageHeadings}>
+    {/* guest speaker cards */}
+    <Row className={pageStyles.pageHeadings}>
       <h2>Cohort 3 Speakers</h2>
     </Row>
     <Container
@@ -122,21 +124,21 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>June 13, 2022 </p>
+                    <p>June 13, 2022 </p>
                     <a
                       href="https://www.youtube.com/watch?v=jZXM7tTJ1K4&t=2001s"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       The Power of Storytelling
+                      The Power of Storytelling
                     </a>
                   </p>
                 </CardText>
               </CardBody>
             </Card>
           </Col>
-                    {/* Glenn Allen */}
-                    <Col sm="4">
+          {/* Glenn Allen */}
+          <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">Glenn Allen</CardHeader>
               <CardImg
@@ -149,13 +151,13 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>June 6, 2022 </p>
-                  <a
+                    <p>June 6, 2022 </p>
+                    <a
                       href="youtube.com/watch?v=2NplJTIasoo"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       Life as a Freelance IT Consultant
+                      Life as a Freelance IT Consultant
                     </a>
                   </p>
                 </CardText>
@@ -163,7 +165,7 @@ const Speakers = () => (
             </Card>
           </Col>
           {/* Amanda Darcangelo */}
-         <Col sm="4">
+          <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">Amanda Darcangelo</CardHeader>
               <CardImg
@@ -174,25 +176,24 @@ const Speakers = () => (
                 className={speakerStyles.imgSize}
               />
               <CardBody>
-
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>May 16, 2022 </p>
+                    <p>May 16, 2022 </p>
                     <a
                       href="https://www.youtube.com/watch?v=U2EpPNPasBI"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       Welcome to the Data Industry
+                      Welcome to the Data Industry
                     </a>
                   </p>
                 </CardText>
               </CardBody>
             </Card>
           </Col>
-          </CardDeck>
-        </Row>
-        <Row className={speakerStyles.speakerCardRow}>
+        </CardDeck>
+      </Row>
+      <Row className={speakerStyles.speakerCardRow}>
         <CardDeck>
           {/*Ann Willmott */}
           <Col sm="4">
@@ -208,21 +209,21 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>May 9, 2022 </p>
+                    <p>May 9, 2022 </p>
                     <a
                       href="https://www.youtube.com/watch?v=RjHRBFBtERc&t=321s"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       The Parachute Opened: My Web3 Story
+                      The Parachute Opened: My Web3 Story
                     </a>
                   </p>
                 </CardText>
               </CardBody>
             </Card>
           </Col>
-           {/*Jason Scharf*/}
-           <Col sm="4">
+          {/*Jason Scharf*/}
+          <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">Jason Scharf</CardHeader>
               <CardImg
@@ -235,21 +236,21 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>April 25, 2022 </p>
+                    <p>April 25, 2022 </p>
                     <a
                       href="https://www.youtube.com/watch?v=XdjODk_elx0&t=523s"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       Accessing Syracuse's Open Data
+                      Accessing Syracuse's Open Data
                     </a>
                   </p>
                 </CardText>
               </CardBody>
             </Card>
           </Col>
-       {/*Brandon Lanthrip*/}
-             <Col sm="4">
+          {/*Brandon Lanthrip*/}
+          <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">Brandon Lanthrip</CardHeader>
               <CardImg
@@ -262,26 +263,25 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>April 11, 2022 </p>
+                    <p>April 11, 2022 </p>
                     <a
                       href="https://www.youtube.com/watch?v=uY7miuOHYQM&t=2137s"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       Poverty and How I Broke Through the Concrete Ceiling
+                      Poverty and How I Broke Through the Concrete Ceiling
                     </a>
                   </p>
                 </CardText>
               </CardBody>
             </Card>
           </Col>
-          </CardDeck>
-      </Row>
-      <Row className={speakerStyles.speakerCardRow}>
-        <CardDeck>
         </CardDeck>
       </Row>
-      </Container>
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck></CardDeck>
+      </Row>
+    </Container>
     <Row className={pageStyles.pageHeadings}>
       <h2>Cohort 2 Speakers</h2>
     </Row>
@@ -304,21 +304,21 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>March 29, 2021 </p>
+                    <p>March 29, 2021 </p>
                     <a
                       href="https://youtu.be/f2RLP4vf2ro?t=20"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       Why We're All Business Owners
+                      Why We're All Business Owners
                     </a>
                   </p>
                 </CardText>
               </CardBody>
             </Card>
           </Col>
-       {/*David Vorhees */}
-       <Col sm="4">
+          {/*David Vorhees */}
+          <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">David Vorhees</CardHeader>
               <CardImg
@@ -331,25 +331,25 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>June 21, 2021 </p>
+                    <p>June 21, 2021 </p>
                     <a
                       href="https://youtu.be/Cxz5Fi3Fzng?t=114"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       Creating beautiful code
+                      Creating beautiful code
                     </a>
                   </p>
                 </CardText>
               </CardBody>
             </Card>
           </Col>
-          </CardDeck>
+        </CardDeck>
       </Row>
       <Row className={speakerStyles.speakerCardRow}>
         <CardDeck>
-       {/*Erin Smith*/}
-       <Col sm="4">
+          {/*Erin Smith*/}
+          <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">Erin Smith</CardHeader>
               <CardImg
@@ -362,21 +362,21 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>July 12, 2021 </p>
+                    <p>July 12, 2021 </p>
                     <a
                       href="https://youtu.be/IqXUUQinhTA?t=221"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       The power of connections
+                      The power of connections
                     </a>
                   </p>
                 </CardText>
               </CardBody>
             </Card>
           </Col>
-       {/*Betania Allo*/}
-       <Col sm="4">
+          {/*Betania Allo*/}
+          <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">Betania Allo</CardHeader>
               <CardImg
@@ -389,7 +389,7 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>July 19, 2021 </p> 
+                    <p>July 19, 2021 </p>
                     <a
                       href="https://youtu.be/bpj1NN_kRlU?t=2"
                       target="_blank"
@@ -402,8 +402,8 @@ const Speakers = () => (
               </CardBody>
             </Card>
           </Col>
-       {/*Glenn Allen*/}
-       <Col sm="4">
+          {/*Glenn Allen*/}
+          <Col sm="4">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">Glenn Allen</CardHeader>
               <CardImg
@@ -416,25 +416,25 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>August 2, 2021 </p>
+                    <p>August 2, 2021 </p>
                     <a
                       href="https://youtu.be/mbQwtDKv6r8?t=215"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                     Life as a freelance IT consultant
+                      Life as a freelance IT consultant
                     </a>
                   </p>
                 </CardText>
               </CardBody>
             </Card>
           </Col>
-          </CardDeck>
+        </CardDeck>
       </Row>
       <Row className={speakerStyles.speakerCardRow}>
         <CardDeck>
-  {/*Linda Kovacs*/}
-    <Col sm="6">
+          {/*Linda Kovacs*/}
+          <Col sm="6">
             <Card body className={("shadow-sm", speakerStyles.cardSize)}>
               <CardHeader tag="h3">Linda Kovacs</CardHeader>
               <CardImg
@@ -447,13 +447,13 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>August 16, 2021 </p>
+                    <p>August 16, 2021 </p>
                     <a
                       href="https://youtu.be/ld37Z9nMKLs?t=484"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       View Talk
+                      View Talk
                     </a>
                   </p>
                 </CardText>
@@ -474,26 +474,25 @@ const Speakers = () => (
               <CardBody>
                 <CardText>
                   <p className={speakerStyles.cardText}>
-                  <p>August 18, 2021 </p>
+                    <p>August 18, 2021 </p>
                     <a
                       href="https://youtu.be/uqHTHjt86xU?t=194"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                       HR and The Tech Industry
+                      HR and The Tech Industry
                     </a>
                   </p>
                 </CardText>
               </CardBody>
             </Card>
           </Col>
-          </CardDeck>
-      </Row>
-      <Row className={speakerStyles.speakerCardRow}>
-        <CardDeck>
         </CardDeck>
       </Row>
-      </Container>
+      <Row className={speakerStyles.speakerCardRow}>
+        <CardDeck></CardDeck>
+      </Row>
+    </Container>
     <Row className={pageStyles.pageHeadings}>
       <h2>Cohort 1 Speakers</h2>
     </Row>
