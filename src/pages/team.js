@@ -16,71 +16,71 @@ import * as pageStyles from "./pages.module.css";
 import * as teamStyles from "./team.module.css";
 
 const TeamPage = () => (
-  <Layout>
-    <Header>
-      <NavComponent />
-      <JumbotronComponent
-        heading={content.ui.about.team_jumbotron.heading}
-      ></JumbotronComponent>
-    </Header>
-    <SEO title="Team" />
-    <Container className={pageStyles.whiteContainer}>
-      <Row className={pageStyles.pageHeadings}>
-        <Col>
-          <h3> {content.ui.about.team_main_content.text} </h3>
-         
-          <p mb="3">
-            <Button className={pageStyles.blueButton}>
-              {content.ui.about.team_main_content.button}
-            </Button>
-          </p>
-        </Col>
-      </Row>
-      <Row >
-        <Col lg="6">
-          <img
-            className={teamStyles.imgCircle}
-            src={Jesse}
-            alt="Jesse Peplinski"
-          />
-          <h4> {content.ui.about.team_main_content.members.jesse} </h4>
-          <p> {content.ui.about.team_main_content.members.partner} </p>
-          <img
-            className={teamStyles.imgCircle}
-            src={Laura}
-            alt="Laura Thorne"
-          />
-          <h4> Laura Thorne </h4>
-          <p> Career Coach </p>
-        </Col>
-        <Col lg="6">
-          <img
-            className={teamStyles.imgCircle}
-            src={Doug}
-            alt="Doug Crescenzi"
-          />
-          <h4> {content.ui.about.team_main_content.members.doug} </h4>
-          <p> {content.ui.about.team_main_content.members.partner} </p>
-          <img
-            className={teamStyles.imgCircle}
-            src={Jason}
-            alt="Jason Scharf"
-          />
-          <h4> {content.ui.about.team_main_content.members.jason} </h4>
-          <p> {content.ui.about.team_main_content.members.ssr} </p>
-        </Col>
-        <Col lg="6">
-          <img
-            className={teamStyles.imgCircle}
-            src={maxgerlach}
-            alt="Max Gerlach"
-          />
-          <h4> Max Gerlach </h4>
-          <p> Program Manager </p>
-        </Col>
-      </Row>
-    </Container>
-  </Layout>
+	<Layout>
+		<Header>
+			<NavComponent />
+			<JumbotronComponent
+				heading={content.ui.about.team_jumbotron.heading}
+			></JumbotronComponent>
+		</Header>
+		<SEO title="Team" />
+		<Container className={pageStyles.whiteContainer}>
+			<Row className={pageStyles.pageHeadings}>
+				<Col>
+					<h3> {content.ui.about.team_main_content.text} </h3>
+
+					<p mb="3">
+						<Button className={pageStyles.blueButton}>
+							{content.ui.about.team_main_content.button}
+						</Button>
+					</p>
+				</Col>
+			</Row>
+			<Row>
+				<Col lg="6">
+					<img
+						className={teamStyles.imgCircle}
+						src={Jesse}
+						alt="Jesse Peplinski"
+					/>
+					<h4> {content.ui.about.team_main_content.members.jesse} </h4>
+					<p> {content.ui.about.team_main_content.members.partner} </p>
+					<img
+						className={teamStyles.imgCircle}
+						src={Laura}
+						alt="Laura Thorne"
+					/>
+					<h4> Laura Thorne </h4>
+					<p> Career Coach </p>
+				</Col>
+				<Col lg="6">
+					<img
+						className={teamStyles.imgCircle}
+						src={Doug}
+						alt="Doug Crescenzi"
+					/>
+					<h4> {content.ui.about.team_main_content.members.doug} </h4>
+					<p> {content.ui.about.team_main_content.members.partner} </p>
+					<img
+						className={teamStyles.imgCircle}
+						src={Jason}
+						alt="Jason Scharf"
+					/>
+					<h4> {content.ui.about.team_main_content.members.jason} </h4>
+					<p> {content.ui.about.team_main_content.members.ssr} </p>
+				</Col>
+				<Col lg="6">
+					<img
+						className={teamStyles.imgCircle}
+						src={maxgerlach}
+						alt="Max Gerlach"
+					/>
+					<h4> Max Gerlach </h4>
+					<p> Program Manager </p>
+				</Col>
+			</Row>
+		</Container>
+	</Layout>
 );
 
 export default TeamPage;

@@ -1,103 +1,103 @@
 @media only screen and (max-width: 900px) {
-  .infoCardRow {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0;
-  }
-  .infoCard {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    align-self: center;
-  }
-  .whiteContainer {
-    margin: 0;
-  }
-  .columnStyle {
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-  }
+	.infoCardRow {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin: 0;
+	}
+	.infoCard {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+		align-self: center;
+	}
+	.whiteContainer {
+		margin: 0;
+	}
+	.columnStyle {
+		margin-top: 15px;
+		display: flex;
+		justify-content: center;
+	}
 }
 
 .cardStatusGreen {
-  background-color: #28a745;
-  font-weight: 800;
-  font-size: 16px;
+	background-color: #28a745;
+	font-weight: 800;
+	font-size: 16px;
 }
 
 .cardStatusYellow {
-  background-color: #ffc106;
-  font-weight: 800;
-  font-size: 16px;
+	background-color: #ffc106;
+	font-weight: 800;
+	font-size: 16px;
 }
 
 .cardStatusRed {
-  background-color: red;
-  font-weight: 800;
-  font-size: 16px;
+	background-color: red;
+	font-weight: 800;
+	font-size: 16px;
 }
 
 .infoCard {
-  margin: 0;
+	margin: 0;
 }
 
 .infoCardText {
-  /* font-size: 16px;
+	/* font-size: 16px;
   min-height: 6rem; */
 }
 
 .infoCardBottomText {
-  /* font-size: 16px;
+	/* font-size: 16px;
   min-height: 3rem; */
 }
 
 .infoCardNumberGreen {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #33d5c3;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #33d5c3;
 }
 
 .infoCardNumberBlue {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #2299dd;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #2299dd;
 }
 
 .infoCardRow {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: 50px 0;
-  text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin: 50px 0;
+	text-align: center;
 }
 
 .infoCardContainer {
-  max-width: 90%;
+	max-width: 90%;
 }
 
 .logoImg {
-  max-width: 300px;
-  height: auto;
-  margin-top: 20px;
+	max-width: 300px;
+	height: auto;
+	margin-top: 20px;
 }
 
 .whiteContainer {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-  padding: 20px 70px;
-  text-align: left;
-  width: 100%;
-  background-color: #ffffff;
-  color: #000000;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+	padding: 20px 70px;
+	text-align: left;
+	width: 100%;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 .objectives {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .description {
-  font-size: 16px;
+	font-size: 16px;
 }

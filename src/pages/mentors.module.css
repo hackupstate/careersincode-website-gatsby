@@ -1,139 +1,139 @@
 @media only screen and (max-width: 900px) {
-  .blueStatContainer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    min-width: 100%;
-    height: 1100px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-  }
-  .statRows {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-width: 100%;
-    margin: 0;
-    height: 50%;
-    padding: 0;
-  }
+	.blueStatContainer {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		min-width: 100%;
+		height: 1100px;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+	}
+	.statRows {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-width: 100%;
+		margin: 0;
+		height: 50%;
+		padding: 0;
+	}
 
-  .statColumns {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    min-width: 100%;
-    margin-top: 30px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-  }
+	.statColumns {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		min-width: 100%;
+		margin-top: 30px;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+	}
 
-  .whiteContainer {
-    margin: 0 !important;
-    padding: 30px 40px !important;
-  }
-  .actionRows {
-    display: flex;
-    flex-direction: column;
-    min-width: 100%;
-  }
-  .instructorCardRow {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .cardSize {
-    display: flex;
-    flex-direction: column;
-    min-width: 100%;
-    align-self: center;
-  }
+	.whiteContainer {
+		margin: 0 !important;
+		padding: 30px 40px !important;
+	}
+	.actionRows {
+		display: flex;
+		flex-direction: column;
+		min-width: 100%;
+	}
+	.instructorCardRow {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.cardSize {
+		display: flex;
+		flex-direction: column;
+		min-width: 100%;
+		align-self: center;
+	}
 }
 
 /* ACTIONS */
 
 .whiteContainer {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-  padding: 30px 100px;
-  text-align: center;
-  width: 100%;
-  background-color: #ffffff;
-  color: #000000;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+	padding: 30px 100px;
+	text-align: center;
+	width: 100%;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 .actionRows {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
+	display: flex;
+	justify-content: center;
+	margin: 20px;
 }
 
 .actionColumns {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .greenButton {
-  margin: 15px 20px;
-  width: fit-content;
-  background-color: #33d5c3;
-  border: 0px;
+	margin: 15px 20px;
+	width: fit-content;
+	background-color: #33d5c3;
+	border: 0px;
 }
 
 .greenButton:hover {
-  background: rgba(51, 213, 195, 0.7);
+	background: rgba(51, 213, 195, 0.7);
 }
 
 .greenBtnLink {
-  color: #ffffff;
-  text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .greenBtnLink:hover {
-  color: #ffffff;
+	color: #ffffff;
 }
 
 /* STATS */
 
 .statRows {
-  display: flex;
-  flex-direction: column;
-  width: 40%;
+	display: flex;
+	flex-direction: column;
+	width: 40%;
 }
 
 .statColumns {
-  min-height: 200px;
+	min-height: 200px;
 }
 
 .instructorStats {
-  color: #c8c9e2;
-  font-size: 36px;
+	color: #c8c9e2;
+	font-size: 36px;
 }
 
 .blueParaStats {
-  color: #2299dd;
-  font-size: 18px;
+	color: #2299dd;
+	font-size: 18px;
 }
 
 .greenParaStats {
-  color: #2de187;
-  font-size: 18px;
+	color: #2de187;
+	font-size: 18px;
 }
 
 .blueStatContainer {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 0;
-  padding: 20px 50px;
-  text-align: center;
-  width: 100%;
-  background-color: #002333;
-  color: #c8c9e2;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 0;
+	padding: 20px 50px;
+	text-align: center;
+	width: 100%;
+	background-color: #002333;
+	color: #c8c9e2;
 }
 
 /*
@@ -141,68 +141,68 @@
 */
 
 .cardTitle {
-  font-size: 16px;
-  font-weight: bold;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .longNameStyles {
-  font-size: 19px;
-  font-weight: bold;
-  padding: 0.9rem 0;
+	font-size: 19px;
+	font-weight: bold;
+	padding: 0.9rem 0;
 }
 
 .cardText {
-  font-size: 15px;
-  margin: 5px;
-  width: 100%;
-  min-height: 3rem;
+	font-size: 15px;
+	margin: 5px;
+	width: 100%;
+	min-height: 3rem;
 }
 
 .imgSize {
-  object-fit: cover;
-  width: auto;
-  min-height: 300px;
+	object-fit: cover;
+	width: auto;
+	min-height: 300px;
 }
 
 .instructorCardRow {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: 20px 0;
-  text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin: 20px 0;
+	text-align: center;
 }
 
 .instructorCardContainer {
-  max-width: 90%;
-  margin-bottom: 100px;
+	max-width: 90%;
+	margin-bottom: 100px;
 }
 
 .cardSize {
-  width: 300px;
-  height: auto;
-  padding: 15px;
-  margin: 0;
+	width: 300px;
+	height: auto;
+	padding: 15px;
+	margin: 0;
 }
 
 .centerContentColumns {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .cardFooter {
-  min-height: 6.5rem;
+	min-height: 6.5rem;
 }
 
 .cardButton {
-  margin: 0;
-  background-color: #2299dd;
-  border: 0px;
-  width: 100%;
-  border-radius: 0.25rem;
+	margin: 0;
+	background-color: #2299dd;
+	border: 0px;
+	width: 100%;
+	border-radius: 0.25rem;
 }
 
 .cardButton:hover {
-  background: rgba(34, 153, 221, 0.7);
+	background: rgba(34, 153, 221, 0.7);
 }
