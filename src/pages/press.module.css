@@ -1,102 +1,102 @@
 @media only screen and (max-width: 600px) {
-  .blueContainer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+	.blueContainer {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
 
-    height: auto;
-  }
-  .blueRow {
-    display: flex;
-    justify-content: center;
-    min-width: 100%;
-    margin: 0;
-  }
-  .infoText {
-    height: auto;
-  }
+		height: auto;
+	}
+	.blueRow {
+		display: flex;
+		justify-content: center;
+		min-width: 100%;
+		margin: 0;
+	}
+	.infoText {
+		height: auto;
+	}
 }
 
 .blueContainer {
-  display: flex;
-  justify-content: center;
-  /* margin-bottom: 30px; */
-  padding: 30px 100px;
-  text-align: center;
-  width: 100%;
-  background-color: #002333;
-  color: #c8c9e2;
+	display: flex;
+	justify-content: center;
+	/* margin-bottom: 30px; */
+	padding: 30px 100px;
+	text-align: center;
+	width: 100%;
+	background-color: #002333;
+	color: #c8c9e2;
 }
 
 .whiteContainer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 30px;
-  padding: 30px 100px;
-  text-align: center;
-  width: 100%;
-  background-color: #ffffff;
-  color: #000000;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 30px;
+	padding: 30px 100px;
+	text-align: center;
+	width: 100%;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 .blueRow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
 }
 
 .infoText {
-  min-height: 10rem;
+	min-height: 10rem;
 }
 
 .blueInfoColumns {
-  min-height: 250px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+	min-height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 }
 
 .pageButtons {
-  margin: 10px;
+	margin: 10px;
 }
 
 .blueButton {
-  margin: 0;
-  background-color: #2299dd;
-  border: 0px;
-  border-radius: 0.25rem;
+	margin: 0;
+	background-color: #2299dd;
+	border: 0px;
+	border-radius: 0.25rem;
 }
 
 .blueButton:hover {
-  background: rgba(34, 153, 221, 0.7);
+	background: rgba(34, 153, 221, 0.7);
 }
 
 .btnLink {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 .btnLink:hover {
-  color: white;
-  text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 .greenButton {
-  margin: 15px 20px;
-  background-color: #33d5c3;
-  border: 0px;
+	margin: 15px 20px;
+	background-color: #33d5c3;
+	border: 0px;
 }
 
 .greenButton:hover {
-  background: rgba(51, 213, 195, 0.7);
+	background: rgba(51, 213, 195, 0.7);
 }
 
 .greenBtnLink {
-  color: #ffffff;
-  text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .greenBtnLink:hover {
-  color: #ffffff;
+	color: #ffffff;
 }

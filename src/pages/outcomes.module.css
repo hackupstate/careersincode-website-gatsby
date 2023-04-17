@@ -1,108 +1,108 @@
 @media only screen and (max-width: 900px) {
-  .outcomesCardRow {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .cardSize {
-    display: flex;
-    flex-direction: column;
-    min-width: 100%;
-    align-self: center;
-  }
+	.outcomesCardRow {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.cardSize {
+		display: flex;
+		flex-direction: column;
+		min-width: 100%;
+		align-self: center;
+	}
 }
 
 .cardTitle {
-  font-size: 16px;
-  font-weight: bold;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .cardText {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 .whiteSpace {
-  white-space: nowrap;
+	white-space: nowrap;
 }
 
 .imgSize {
-  object-fit: cover;
-  width: auto;
-  max-height: 300px;
+	object-fit: cover;
+	width: auto;
+	max-height: 300px;
 }
 
 .outcomesCardRow {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: 50px 0;
-  text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin: 50px 0;
+	text-align: center;
 }
 
 .outcomesCardContainer {
-  max-width: 90%;
+	max-width: 90%;
 }
 
 .cardSize {
-  width: 300px;
-  height: auto;
-  padding: 15px;
-  margin: 0;
+	width: 300px;
+	height: auto;
+	padding: 15px;
+	margin: 0;
 }
 
 .outcomesStatImgContainer {
-  background-color: #002333;
-  /* background: linear-gradient(
+	background-color: #002333;
+	/* background: linear-gradient(
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
     ),
     url("https://syracusecoe.syr.edu/wp-content/uploads/2016/08/syracuse_tech_garden.jpg");
   background-position: center; */
-  z-index: 2;
-  min-height: 500px;
-  padding-top: 5%;
-  width: 100%;
-  color: #c8c9e2;
+	z-index: 2;
+	min-height: 500px;
+	padding-top: 5%;
+	width: 100%;
+	color: #c8c9e2;
 }
 
 .statColumns {
-  width: 50%;
-  margin: 0 10%;
-  text-align: center;
-  padding-top: 50px;
+	width: 50%;
+	margin: 0 10%;
+	text-align: center;
+	padding-top: 50px;
 }
 
 .paraTextBlue {
-  text-transform: uppercase;
-  color: #2299dd;
-  font-weight: bold;
-  font-size: 18px;
+	text-transform: uppercase;
+	color: #2299dd;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .paraTextGreen {
-  text-transform: uppercase;
-  color: #53fe99;
-  font-weight: bold;
+	text-transform: uppercase;
+	color: #53fe99;
+	font-weight: bold;
 }
 
 .logoContainer {
-  width: 100%;
-  margin: 50px 0;
+	width: 100%;
+	margin: 50px 0;
 }
 
 .centerContentColumns {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .bannerLink {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 .bannerLink:hover {
-  text-decoration: none;
-  color: white;
+	text-decoration: none;
+	color: white;
 }

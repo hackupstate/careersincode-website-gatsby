@@ -8,21 +8,21 @@ import SEO from "../components/seo";
 import content from "../content/content.json";
 
 const Unsubscribe = (props) => (
-  <Layout>
-    <Header>
-      <NavComponent />
-      <JumbotronComponent
-        heading={content.ui.unsubscribe.unsubscribe_jumbotron.heading}
-        subheading={content.ui.unsubscribe.unsubscribe_jumbotron.subheading}
-      >
-        <JumboButton
-          btnLink={content.ui.unsubscribe.unsubscribe_jumbotron.button.link}
-          btnText={content.ui.unsubscribe.unsubscribe_jumbotron.button.text}
-        />
-      </JumbotronComponent>
-    </Header>
-    <SEO title="Unsubscribe" />
-  </Layout>
+	<Layout>
+		<Header>
+			<NavComponent />
+			<JumbotronComponent
+				heading={content.ui.unsubscribe.unsubscribe_jumbotron.heading}
+				subheading={content.ui.unsubscribe.unsubscribe_jumbotron.subheading}
+			>
+				<JumboButton
+					btnLink={content.ui.unsubscribe.unsubscribe_jumbotron.button.link}
+					btnText={content.ui.unsubscribe.unsubscribe_jumbotron.button.text}
+				/>
+			</JumbotronComponent>
+		</Header>
+		<SEO title="Unsubscribe" />
+	</Layout>
 );
 
 export default Unsubscribe;

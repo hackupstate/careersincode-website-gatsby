@@ -1,46 +1,46 @@
 @media only screen and (max-width: 600px) {
-  .whiteContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-  }
+	.whiteContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0;
+	}
 }
 
 .faqNav {
-  background-color: rgba(0,0,0,.03);;
-  padding: 10px;
-  border-radius: 1%;
-  outline: 0.25px solid rgba(0,0,0,.125);
+	background-color: rgba(0, 0, 0, 0.03);
+	padding: 10px;
+	border-radius: 1%;
+	outline: 0.25px solid rgba(0, 0, 0, 0.125);
 }
 
 .whiteContainer {
-  margin-bottom: 30px;
-  margin-top: 30px;
-  text-align: center;
-  width: 100%;
-  background-color: #ffffff;
-  color: #000000;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	text-align: center;
+	width: 100%;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 .tabLink {
-  color: black;
+	color: black;
 }
 
 .tabLink:visited {
-  background-color: #2299dd !important;
-  color: black;
+	background-color: #2299dd !important;
+	color: black;
 }
 
 .infoCard {
-  margin-top: 15px;
+	margin-top: 15px;
 }
 
 .listMenu {
-  margin: 0;
-  padding-top: 15px;
+	margin: 0;
+	padding-top: 15px;
 }
 
 .answerCards {
-  width: 100%;
+	width: 100%;
 }

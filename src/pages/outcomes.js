@@ -90,11 +90,23 @@ const OutcomesPage = () => (
 				</h4>
 			</Row>
 
-      <Row className={outcomesStyles.outcomesCardRow}>
-        <a href="/Demographics/Cohort-3-Student-Demographic.pdf" target="_blank" rel="noopener noreferrer" className={pageStyles.btnLink}>
-          <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>Student Demographic Data</Button>
-        </a>
-      </Row>
+			<Row className={outcomesStyles.outcomesCardRow}>
+				<a
+					href="/Demographics/Cohort-3-Student-Demographic.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+					className={pageStyles.btnLink}
+				>
+					<Button
+						className={classnames(
+							pageStyles.blueButton,
+							pageStyles.blueButtonMargin
+						)}
+					>
+						Student Demographic Data
+					</Button>
+				</a>
+			</Row>
 
 			{/*<Row className={outcomesStyles.outcomesCardRow}>
       <a
@@ -267,10 +279,21 @@ const OutcomesPage = () => (
 					</Button>
 				</a>
 
-        <a href="/Demographics/Cohort-2-Student-Demographic.pdf" target="_blank" rel="noopener noreferrer" className={pageStyles.btnLink}>
-          <Button className={classnames(pageStyles.blueButton, pageStyles.blueButtonMargin)}>Student Demographic Data</Button>
-        </a>
-
+				<a
+					href="/Demographics/Cohort-2-Student-Demographic.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+					className={pageStyles.btnLink}
+				>
+					<Button
+						className={classnames(
+							pageStyles.blueButton,
+							pageStyles.blueButtonMargin
+						)}
+					>
+						Student Demographic Data
+					</Button>
+				</a>
 			</Row>
 			<Row className={outcomesStyles.outcomesCardRow}>
 				{/* La'Tonia Card */}
