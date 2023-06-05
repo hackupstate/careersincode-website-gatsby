@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Footer from "./footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./layout.css";
-import DriftChat from "./driftchat";
+// import DriftChat from "./driftchat";
 
 const Layout = ({ children }) => {
   return (
@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
       </div>
-      <DriftChat />
+      {/* <DriftChat /> */}
       <Footer />
     </>
   );
