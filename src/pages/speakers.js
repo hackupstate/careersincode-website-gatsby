@@ -53,6 +53,11 @@ import annwillmott from "../images/speakers/cohort-3/annwillmott.jpeg";
 import brandonlanthrip from "../images/speakers/cohort-3/brandonlanthrip.jpeg";
 import Jason from "../images/team/jason.png";
 
+// cohort 4
+import Jay from "../images/speakers/cohort-4/JayBalunas.png";
+// cohort 5
+import Robin from "../images/speakers/cohort-5/Robin.png";
+
 import {
 	FaEnvelopeSquare,
 	FaTwitterSquare,
@@ -99,6 +104,230 @@ const Speakers = () => (
 						}{" "}
 					</p>
 				</Col>
+			</Row>
+		</Container>
+		{/* guest speaker cards */}
+		<Row className={pageStyles.pageHeadings}>
+			<h2>Cohort 5 Speakers</h2>
+		</Row>
+		<Container
+			className={(pageStyles.marginBottom, speakerStyles.speakerCardContainer)}
+		>
+			<Row className={speakerStyles.speakerCardRow}>
+				<CardDeck>
+					{/* Jason Scharf*/}
+					<Col sm="4">
+						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
+							<CardHeader tag="h3">Jason Scharf</CardHeader>
+							<CardImg
+								top
+								width="100%"
+								src={Jason}
+								alt="Jason Scharf"
+								className={speakerStyles.imgSize}
+							/>
+							<CardBody>
+								<CardText>
+									<p className={speakerStyles.cardText}>
+										<p>May 1, 2023</p>
+										<a
+											href="https://youtu.be/ImUi0pCx2v4"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Open Data Syracuse and Syracuse GIS
+										</a>
+									</p>
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+					{/* Robin Bista */}
+					<Col sm="4">
+						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
+							<CardHeader tag="h3">Robin Bista</CardHeader>
+							<CardImg
+								top
+								width="100%"
+								src={Robin}
+								alt="Robin Bista"
+								className={speakerStyles.imgSize}
+							/>
+							<CardBody>
+								<CardText>
+									<p className={speakerStyles.cardText}>
+										<p>May 1, 2023</p>
+										<a
+											href="https://youtu.be/ImUi0pCx2v4"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Open Data Syracuse and Syracuse GIS
+										</a>
+									</p>
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+					{/* Jay Balunas */}
+					<Col sm="4">
+						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
+							<CardHeader tag="h3">Jay Balunas</CardHeader>
+							<CardImg
+								top
+								width="100%"
+								src={Jay}
+								alt="Jay Balunas"
+								className={speakerStyles.imgSize}
+							/>
+							<CardBody>
+								<CardText>
+									<p className={speakerStyles.cardText}>
+										<p>June 13, 2023</p>
+										<a
+											href="https://youtu.be/mVQJfWAA890?t=17"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Introduction to Open Source Software
+										</a>
+									</p>
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+				</CardDeck>
+			</Row>
+			<Row className={speakerStyles.speakerCardRow}>
+				<CardDeck>
+					{/* Glenn Allen
+					<Col sm="4">
+						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
+							<CardHeader tag="h3">Glenn Allen</CardHeader>
+							<CardImg
+								top
+								width="100%"
+								src={Glenn}
+								alt="Glenn Allen"
+								className={speakerStyles.imgSize}
+							/>
+							<CardBody>
+								<CardText>
+									<p className={speakerStyles.cardText}>
+										<p>DATE </p>
+										<a
+											href="YOUTUBE LINK"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											PRESENTATION TITLE
+										</a>
+									</p>
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col> */}
+				</CardDeck>
+			</Row>
+
+			<Row className={speakerStyles.speakerCardRow}>
+				<CardDeck></CardDeck>
+			</Row>
+		</Container>
+		<Row className={pageStyles.pageHeadings}>
+			<h2>Cohort 4 Speakers</h2>
+		</Row>
+		<Container
+			className={(pageStyles.marginBottom, speakerStyles.speakerCardContainer)}
+		>
+			<Row className={speakerStyles.speakerCardRow}>
+				<CardDeck>
+					{/* Jason Scharf */}
+					<Col sm="4">
+						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
+							<CardHeader tag="h3">Jason Scharf</CardHeader>
+							<CardImg
+								top
+								width="100%"
+								src={Jason}
+								alt="Jason Scharf"
+								className={speakerStyles.imgSize}
+							/>
+							<CardBody>
+								<CardText>
+									<p className={speakerStyles.cardText}>
+										<p>November 14, 2022 </p>
+										<a
+											href="https://youtu.be/acfD6OZjVDc?t=1217"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Open Data
+										</a>
+									</p>
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+					{/* Jay Balunas */}
+					<Col sm="4">
+						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
+							<CardHeader tag="h3">Jay Balunas</CardHeader>
+							<CardImg
+								top
+								width="100%"
+								src={Jay}
+								alt="Jay Balunas"
+								className={speakerStyles.imgSize}
+							/>
+							<CardBody>
+								<CardText>
+									<p className={speakerStyles.cardText}>
+										<p>January 9, 2023 </p>
+										<a
+											href="https://youtu.be/2eZsjiuxLsk?t=2"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Introduction to Open Source Software
+										</a>
+									</p>
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+					{/* Glenn Allen */}
+					<Col sm="4">
+						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
+							<CardHeader tag="h3">Glenn Allen</CardHeader>
+							<CardImg
+								top
+								width="100%"
+								src={Glenn}
+								alt="Glenn Allen"
+								className={speakerStyles.imgSize}
+							/>
+							<CardBody>
+								<CardText>
+									<p className={speakerStyles.cardText}>
+										<p>January 30, 2023 </p>
+										<a
+											href="https://youtu.be/UHIo10psUOo"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Life as a Freelance IT Consultant
+										</a>
+									</p>
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+				</CardDeck>
+			</Row>
+
+			<Row className={speakerStyles.speakerCardRow}>
+				<CardDeck></CardDeck>
 			</Row>
 		</Container>
 		{/* guest speaker cards */}
@@ -167,7 +396,7 @@ const Speakers = () => (
 					{/* Amanda Darcangelo */}
 					<Col sm="4">
 						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
-							<CardHeader tag="h3">Amanda Darcangelo</CardHeader>
+							<CardHeader tag="h3" style={{fontSize: 24}}>Amanda Darcangelo</CardHeader>
 							<CardImg
 								top
 								width="100%"
@@ -291,7 +520,7 @@ const Speakers = () => (
 			<Row className={speakerStyles.speakerCardRow}>
 				<CardDeck>
 					{/* Will Guisbond */}
-					<Col sm="4">
+					<Col sm="6">
 						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
 							<CardHeader tag="h3">Will Guisbond</CardHeader>
 							<CardImg
