@@ -200,7 +200,7 @@ const Speakers = () => (
 			</Row>
 			<Row className={speakerStyles.speakerCardRow}>
 				<CardDeck>
-					{/* Glenn Allen
+					{/* Glenn Allen */}
 					<Col sm="4">
 						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
 							<CardHeader tag="h3">Glenn Allen</CardHeader>
@@ -214,13 +214,40 @@ const Speakers = () => (
 							<CardBody>
 								<CardText>
 									<p className={speakerStyles.cardText}>
-										<p>DATE </p>
+										<p>July 17, 2023</p>
 										<a
-											href="YOUTUBE LINK"
+											href="https://www.youtube.com/watch?v=wcvhdiaTABQ&list=PLZSUVOvwuYVpSD6RkUc_qq4rIZBQc-Fo7&index=49"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											PRESENTATION TITLE
+											Life as a Freelance IT Consultant
+										</a>
+									</p>
+								</CardText>
+							</CardBody>
+						</Card>
+					</Col>
+					{/* Amanda Darcangelo */}
+					{/* <Col sm="4">
+						<Card body className={("shadow-sm", speakerStyles.cardSize)}>
+							<CardHeader tag="h3" style={{fontSize: 24}}>Amanda Darcangelo</CardHeader>
+							<CardImg
+								top
+								width="100%"
+								src={amandadarcangelo}
+								alt="Amanda Darcangelo"
+								className={speakerStyles.imgSize}
+							/>
+							<CardBody>
+								<CardText>
+									<p className={speakerStyles.cardText}>
+										<p>DATE </p>
+										<a
+											href="LINK"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											TALK TITLE
 										</a>
 									</p>
 								</CardText>
