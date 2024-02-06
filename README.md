@@ -1,3 +1,6 @@
+# Archived Repo
+NOTE: This repo has been archived. Please view our new website here: https://github.com/hackupstate/careersincode-website-nextjs-sanity
+
 # Careers in Code
 
 A wesbite for Hack Upstate's Careers in Code
